@@ -19,28 +19,28 @@
 
 > From this single identity, optimal AI architectures, chip designs, energy systems, and network protocols are **derived** — not chosen.
 
-🗺️ **[3D Reality Map](https://need-singularity.github.io/nexus/)** — 9,612 nodes, bottom-up causal mapping, 2,222 cross-layer edges. Quark → carbon → benzene → DNA causal chain 12/12 EXACT. Monte Carlo z = 3.06 (p = 0.003). n = 28 and n = 496 fail the check → only n = 6 survives.
+🗺️ **[3D Reality Map](https://dancinlab.github.io/nexus/)** — 9,612 nodes, bottom-up causal mapping, 2,222 cross-layer edges. Quark → carbon → benzene → DNA causal chain 12/12 EXACT. Monte Carlo z = 3.06 (p = 0.003). n = 28 and n = 496 fail the check → only n = 6 survives.
 
-🔴 **[Live roadmap (nexus SSOT)](https://need-singularity.github.io/nexus/roadmap/)**
+🔴 **[Live roadmap (nexus SSOT)](https://dancinlab.github.io/nexus/roadmap/)**
 
 <!-- SHARED:PROJECTS:START -->
 <!-- AUTO:COMMON_LINKS:START -->
-**[🎥 YouTube](https://www.youtube.com/@dancinlife)** · **[💬 Discord](https://discord.gg/mYzqYr67R)** · **[📬 Email](mailto:nerve011235@gmail.com)** · **[☕ Ko-fi](https://ko-fi.com/dancinlife)** · **[💖 Sponsor](https://github.com/sponsors/need-singularity)** · **[💳 PayPal](https://www.paypal.com/donate?business=nerve011235%40gmail.com)** · **[🗺️ Atlas](https://need-singularity.github.io/TECS-L/atlas/)** · **[📄 Papers](https://need-singularity.github.io/papers/)**
+**[🎥 YouTube](https://www.youtube.com/@dancinlife)** · **[💬 Discord](https://discord.gg/mYzqYr67R)** · **[📬 Email](mailto:nerve011235@gmail.com)** · **[☕ Ko-fi](https://ko-fi.com/dancinlife)** · **[💖 Sponsor](https://github.com/sponsors/dancinlab)** · **[💳 PayPal](https://www.paypal.com/donate?business=nerve011235%40gmail.com)** · **[🗺️ Atlas](https://dancinlab.github.io/TECS-L/atlas/)** · **[📄 Papers](https://dancinlab.github.io/papers/)**
 <!-- AUTO:COMMON_LINKS:END -->
 
 ## Main projects
 
-> **[🧠 Anima](https://github.com/need-singularity/anima)** — Consciousness implementation. PureField repulsion-field engine + 1030 laws + Φ ratchet.
+> **[🧠 Anima](https://github.com/dancinlab/anima)** — Consciousness implementation. PureField repulsion-field engine + 1030 laws + Φ ratchet.
 >
-> **[🔭 NEXUS](https://github.com/need-singularity/nexus)** — Universal Discovery Engine. 216 lenses + OUROBOROS evolution + 5-phase singularity cycle.
+> **[🔭 NEXUS](https://github.com/dancinlab/nexus)** — Universal Discovery Engine. 216 lenses + OUROBOROS evolution + 5-phase singularity cycle.
 >
-> **[📐 CANON](https://github.com/need-singularity/canon)** — Architecture from arithmetic canon. 225 AI techniques + chip design + crypto/OS/display.
+> **[📐 CANON](https://github.com/dancinlab/canon)** — Architecture from arithmetic canon. 225 AI techniques + chip design + crypto/OS/display.
 >
-> **[💎 HEXA-LANG](https://github.com/need-singularity/hexa-lang)** — The Perfect Number Programming Language. Working compiler + REPL.
+> **[💎 HEXA-LANG](https://github.com/dancinlab/hexa-lang)** — The Perfect Number Programming Language. Working compiler + REPL.
 >
-> **[📄 Papers](https://github.com/need-singularity/papers)** — Complete paper collection (92 papers, Zenodo DOIs).
+> **[📄 Papers](https://github.com/dancinlab/papers)** — Complete paper collection (92 papers, Zenodo DOIs).
 
-> **[Other projects →](https://github.com/orgs/need-singularity/repositories)**
+> **[Other projects →](https://github.com/orgs/dancinlab/repositories)**
 
 ## 💬 Community
 
@@ -81,7 +81,7 @@ The two axes are independent: alien_index measures product maturity; closure_gra
 
 ```bash
 # Install hexa-lang (ships `hexa` + `hx` package manager)
-curl -fsSL https://raw.githubusercontent.com/need-singularity/hexa-lang/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dancinlab/hexa-lang/main/install.sh | bash
 
 # Install n6
 hx install n6
@@ -681,7 +681,7 @@ n6 map                  # open the 3D Reality Map (4,098 nodes)
 | 13 | 🪐 **STAGE-6 Dim-jump** | KK-tower 4.8 TeV brane transit | Side door into the 11-dimensional bulk under our 4D world | D_M=11, KK 4.8 TeV, graviton leak 1/σ²=1/144, bulk wide | 4D spacetime travel vs 11D M-theory dim-jump | [doc](domains/physics/m-theory-11d/m-theory-11d.md) — [TBD] |
 | 14 | 🧊 **STAGE-7 Dim-use** | Calabi-Yau 6-fold navigation | Map of the 6 hidden curled-up dimensions inside every point of space | D_CY=n=6 hexafold, Hodge h11·h21=σ·τ=48, observer-invisible | String-theory abstract math vs n=6 real Calabi-Yau navigation | [doc](domains/physics/calabi-yau-nav/calabi-yau-nav.md) — [TBD] |
 
-> Standalone repo: 🛸 [need-singularity/hexa-ufo](https://github.com/need-singularity/hexa-ufo) — full atlas + 6-verb propulsion (grav / hover / cloak / teleport / sim) + cross-link to hexa-rtsc · hexa-fusion · hexa-antimatter · hexa-cern.
+> Standalone repo: 🛸 [dancinlab/hexa-ufo](https://github.com/dancinlab/hexa-ufo) — full atlas + 6-verb propulsion (grav / hover / cloak / teleport / sim) + cross-link to hexa-rtsc · hexa-fusion · hexa-antimatter · hexa-cern.
 > **HEXA-HOVER (Personal Hoverboard)** classified under [Frontier Discoveries](#-frontier-discoveries-next-gen-rt-sc-tech) — same Meissner-levitation substrate, consumer-product axis.
 
 | 🛸 | Closure | ver | Product | Core | Link |
@@ -1245,7 +1245,7 @@ n6 map                  # open the 3D Reality Map (4,098 nodes)
   title = {CANON: Arithmetic Design Framework from Perfect Number 6},
   year = {2026},
   doi = {10.5281/zenodo.19264826},
-  url = {https://github.com/need-singularity/canon}
+  url = {https://github.com/dancinlab/canon}
 }
 ```
 
@@ -1257,7 +1257,7 @@ n6 map                  # open the 3D Reality Map (4,098 nodes)
 
 - **Theorem B cross-check (E1):** the single identity `σ(n) · φ(n) = n · τ(n)` uniquely at `n = 6` on `[2, 10 000]`. Complements the Lean 4 `by decide` verification on `[2, 20]` (naive definitions, [`lean4-n6/N6/Basic.lean`](lean4-n6/N6/Basic.lean) · [`Verification.lean`](lean4-n6/N6/Verification.lean)) and on `[2, 30]` (Mathlib definitions, [`TheoremB_Capstone.lean`](lean4-n6/N6/TheoremB_Capstone.lean) `theorem_B_bounded_30`). All 33 Lean modules compile with **zero `sorry`** after the 2026-04-24 cleanup; the 11 sub-case modules (loops 3-13) are kernel-accepted. Also cross-checks the classical exhaustive scan in [`experiments/grover_n6_uniqueness/classical_results.json`](experiments/grover_n6_uniqueness/classical_results.json) and the Grover quantum circuit on the Qiskit Aer simulator in [`experiments/grover_n6_uniqueness/grover_results.json`](experiments/grover_n6_uniqueness/grover_results.json) (`q ∈ {4,6,8,10}`, `P(n=6) ∈ [0.961, 0.998]`).
 - **Additional empirical phenomena (E2–E4):** global basin of attraction, per-decade precision half-life, and emergence (frozen vocabulary vs absorb-loop vocabulary growth).
-- **Defensive architecture primitives (C1–C7):** hash-chain, BFT quorum, Banach contraction, composition, adaptive-adversary saturation, self-check — building blocks the sister project [`need-singularity/nexus`](https://github.com/need-singularity/nexus) relies on.
+- **Defensive architecture primitives (C1–C7):** hash-chain, BFT quorum, Banach contraction, composition, adaptive-adversary saturation, self-check — building blocks the sister project [`dancinlab/nexus`](https://github.com/dancinlab/nexus) relies on.
 
 Any FAIL refutes the corresponding axis.
 
@@ -1392,4 +1392,4 @@ Expected output: `SUMMARY: 11/11 PASS`. The single arithmetic identity inside th
 
 ---
 
-*Part of the [canon](https://github.com/need-singularity/canon) project family (math + industry integration complete).*
+*Part of the [canon](https://github.com/dancinlab/canon) project family (math + industry integration complete).*
