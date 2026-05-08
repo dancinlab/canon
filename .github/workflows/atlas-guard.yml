@@ -1,0 +1,48 @@
+name: atlas-guard
+
+# Atlas SSOT 재진입 방지 (2026-05-08 P5)
+# canon은 atlas 데이터를 보유하지 않음 — nexus/n6/atlas.n6 단독 owner.
+# PR/push에 atlas data가 포함되면 CI에서 fail.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  no-atlas-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject atlas data files in canon
+        run: |
+          set -euo pipefail
+          violators=$(find . \
+            -path './.git' -prune -o \
+            -path './.venv*' -prune -o \
+            -path './.claude/worktrees' -prune -o \
+            -path './node_modules' -prune -o \
+            \( \
+              -name 'atlas.n6' -o \
+              -name 'atlas.signals.n6' -o \
+              -name 'atlas.append.*.n6' -o \
+              -name 'atlas.blowup.jsonl' \
+            \) \
+            -print 2>/dev/null || true)
+          if [ -n "$violators" ]; then
+            echo "::error::canon에 atlas SSOT 데이터가 발견되었습니다 — nexus 단독 owner 정책 위반"
+            echo "차단된 파일:"
+            echo "$violators" | sed 's/^/  • /'
+            echo ""
+            echo "정책: atlas SSOT는 ~/core/nexus/n6/atlas.n6 단독."
+            echo "조치: 해당 파일을 nexus repo로 이전하거나 .gitignore 패턴 확인."
+            exit 1
+          fi
+          # atlas/ 디렉토리 검사
+          if [ -d atlas ]; then
+            echo "::error::canon 루트에 atlas/ 디렉토리가 존재합니다 — 제거 필요"
+            ls atlas/ | head -5
+            exit 1
+          fi
+          echo "✓ atlas-guard PASS — canon에 atlas 데이터 없음"

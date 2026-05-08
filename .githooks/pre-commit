@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# canon/.githooks/pre-commit
+# ────────────────────────────────────────────────────────────────────
+# Atlas SSOT 재진입 방지 가드 (2026-05-08 P5)
+#
+# Atlas (atlas.n6 / atlas.signals.n6 / atlas.append.*.n6 / atlas/ dir)는
+# nexus/n6/ 단독 owner. canon은 atlas 데이터 절대 보유 X.
+#
+# 이 hook은 staged 파일 중 atlas data 패턴이 있으면 commit을 거부한다.
+# 우회 (정책 변경 + 명시적 의도): COMMIT_ALLOW_ATLAS=1 git commit ...
+#
+# 활성화: git config core.hooksPath .githooks
+# (canon repo clone 후 1회 실행 — README/CONTRIBUTING 참조)
+# ────────────────────────────────────────────────────────────────────
+set -euo pipefail
+
+if [ "${COMMIT_ALLOW_ATLAS:-0}" = "1" ]; then
+    echo "[atlas-guard] COMMIT_ALLOW_ATLAS=1 — bypass active. atlas data를 canon에 의도적으로 등록 중." >&2
+    exit 0
+fi
+
+# Detect any staged atlas data file
+violators=$(git diff --cached --name-only --diff-filter=AM | grep -E '(^atlas/|(^|/)atlas\.n6$|(^|/)atlas\.signals\.n6$|(^|/)atlas\.append\..*\.n6$|(^|/)atlas\.blowup\.jsonl$|^canonshared/atlas\.n6$|^canonshared/atlas\.signals\.n6$|state/markers/atlas_.*\.marker$|^state/atlas_)' || true)
+
+if [ -n "$violators" ]; then
+    echo "" >&2
+    echo "✗ atlas-guard: canon에 atlas SSOT 데이터를 다시 등록하려고 시도합니다." >&2
+    echo "" >&2
+    echo "차단된 파일:" >&2
+    echo "$violators" | sed 's/^/  • /' >&2
+    echo "" >&2
+    echo "정책 (2026-05-08 P5 atlas SSOT consolidation):" >&2
+    echo "  - atlas.n6 / atlas.signals.n6 / atlas.append.*.n6 / atlas/ 는 nexus 단독 owner" >&2
+    echo "  - canon에는 atlas 데이터 보관 금지" >&2
+    echo "  - atlas 등록은 ~/core/nexus/n6/atlas.n6 에서만" >&2
+    echo "" >&2
+    echo "조치:" >&2
+    echo "  1. 해당 파일을 unstage: git restore --staged <path>" >&2
+    echo "  2. nexus repo로 옮기기: mv <path> /Users/ghost/core/nexus/n6/" >&2
+    echo "  3. 의도적 우회 (정책 변경 commit 선행): COMMIT_ALLOW_ATLAS=1 git commit ..." >&2
+    echo "" >&2
+    exit 1
+fi
+
+exit 0

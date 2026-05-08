@@ -85,7 +85,8 @@ Pull requests that violate these principles will be held by a maintainer until t
 1. **Fork** the repository and create a feature branch (`feat/<description>`).
 2. **Commit message** in English, with `Co-Authored-By` trailer when relevant.
 3. **PR template**: follow `.github/PULL_REQUEST_TEMPLATE.md`.
-4. **Review**: merge is gated on maintainer review plus a green OUROBOROS CI run.
+4. **Review**: merge is gated on maintainer review plus green CI (`atlas-guard` + other workflows).
+5. **Atlas data must NOT be added to canon**: `atlas.n6`, `atlas.signals.n6`, `atlas.append.*.n6`, and the `atlas/` directory belong to the upstream nexus SSOT (`~/core/nexus/n6/atlas.n6`). The pre-commit hook (`.githooks/pre-commit`) and CI (`atlas-guard.yml`) reject any PR that re-introduces them. Setup: `git config core.hooksPath .githooks`.
 
 ### PR approval checklist
 

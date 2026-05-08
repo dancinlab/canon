@@ -59,3 +59,30 @@ lean4-n6/state/
 
 # Lean4 compile output
 *.olean
+
+# ════════════════════════════════════════════════════════════════════
+# Atlas SSOT 재진입 방지 (2026-05-08 P5 가드)
+# ════════════════════════════════════════════════════════════════════
+# atlas SSOT는 nexus/n6/atlas.n6 단독 owner — canon은 atlas 데이터 절대 보유 X.
+# 실수로 atlas.n6 / atlas.signals.n6 / atlas.append.*.n6 / atlas/ 디렉토리가
+# canon에 다시 생기면 commit 되지 않도록 차단.
+# 우회 필요 시: `git add -f <path>` + 사용자 승인 + 정책 변경 commit 선행.
+# (또한 .githooks/pre-commit이 실제 차단 — .gitignore는 1차 방어선)
+atlas/
+canonshared/atlas.n6
+canonshared/atlas.signals.n6
+canonshared/staging/atlas.signals.staging.mill.n6
+**/atlas.n6
+**/atlas.signals.n6
+**/atlas.append.*.n6
+**/atlas.blowup.jsonl
+state/markers/atlas_*.marker
+state/atlas_*/
+state/atlas_convergence_witness.jsonl
+state/hxc/atlas_convergence_witness.jsonl.hxc
+reports/atlas*
+reports/audits/atlas-*
+reports/breakthroughs/ouroboros-atlas-*
+reports/ouroboros_v2_report.json
+reports/n6_atlas_integrity.json
+papers/n6-atlas-promotion-*
