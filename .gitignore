@@ -2,11 +2,6 @@ __pycache__/
 *.pyc
 .env
 data/
-# atlas canonical symlinks — tracked exception (SSOT, raw#10 proof-carrying, anima 패턴)
-# 실제 symlink 는 n6shared/atlas.n6, n6shared/atlas.signals.n6 (data/ 미사용)
-# → ../../data/n6/atlas{.signals,}.n6 (canonical target: ~/core/data/n6/)
-!/data/n6/atlas.n6
-!/data/n6/atlas.signals.n6
 models/
 .claude/*
 !.claude/settings.json
@@ -49,10 +44,8 @@ venv/
 infra_state.json
 
 # Working-tree noise (2026-04-29 cycle 29 closure)
-# state/markers/*.marker — accumulated test/probe markers (60+ prefixes observed
-#   2026-04-29: _*, alien_grade_audit_*, anon_*, probe*_*, debug_*, dump_*, etc.)
-#   Tracked atlas_absorb_*.marker files (SSOT) remain tracked — gitignore does
-#   NOT untrack files already in the index. Future untracked markers ignored.
+# state/markers/*.marker — accumulated test/probe markers
+#   atlas_absorb_*.marker no longer SSOT (atlas relocated to nexus 2026-05-08)
 # scratch/ — local exploratory workspace, never tracked
 # lean4-n6/state/ — lean4 transient state (lake build derivative)
 state/markers/*.marker

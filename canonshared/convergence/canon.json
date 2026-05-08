@@ -120,8 +120,8 @@
     },
     "REALITY_MAP_V8_SYNC": {
       "status": "PASS",
-      "value": "atlas.n6 단독 소스 전환 완료 (reality_map JSON 폐기), 342노드 동기화, 엣지 정합성 정리",
-      "threshold": "3D 지도 정상 렌더, atlas.n6 파서 기반",
+      "value": "nexus/n6/atlas.n6 단독 소스 전환 완료 (reality_map JSON 폐기), 342노드 동기화, 엣지 정합성 정리",
+      "threshold": "3D 지도 정상 렌더, nexus atlas SSOT 파서 기반",
       "note": "2026-04-08 수동 동기화, hexa 자동화는 HEXA_LOCAL_IO 해소 후",
       "ossified_at": "2026-04-10",
       "promoted_from": "go_loop_auto"
@@ -515,7 +515,7 @@
       "status": "PASS",
       "value": "N6-SPEAK SoC 통합 벤치 56/56 PASS (6섹션 전수)",
       "threshold": "산술 6/6 + selforg 10/10 + top 7/7 + tapeout 15/15 + HW타이밍 6/6 + 크로스 12/12",
-      "note": "2026-04-14 CHIP-P5-2 — n6_speak_integration_bench.hexa 실행 결과, atlas.n6 [10*] 14항목 등록, sign-off hash=133616",
+      "note": "2026-04-14 CHIP-P5-2 — n6_speak_integration_bench.hexa 실행 결과, nexus atlas SSOT [10*] 14항목 등록, sign-off hash=133616",
       "ossified_at": "2026-04-14",
       "promoted_from": "stable"
     }

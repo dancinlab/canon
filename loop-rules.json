@@ -13,8 +13,8 @@
       "type": "inline_number",
       "doc": "README.md",
       "pattern": "(\\d+)\\s*nodes",
-      "actual_cmd": "grep -cE '^@[A-Z]' atlas/atlas.n6 | head -1",
-      "label": "Atlas 노드 수 (@P/@C/... 라인 — Phase 3.3 과 연동)"
+      "actual_cmd": "grep -cE '^@[A-Z]' ${HOME}/core/nexus/n6/atlas.n6 | head -1",
+      "label": "Atlas 노드 수 (nexus SSOT @P/@C/... 라인 — Phase 3.3 과 연동)"
     }
   ]
 }

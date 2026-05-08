@@ -6,11 +6,11 @@
 
 ## Threat model
 
-canon is a knowledge corpus + theory repo. Unlike nexus (registry +
-defense tools) or anima (ALM substrate runtime), canon's threat surface
-is primarily about **theorem integrity** + **atlas SSOT immutability**:
+canon is a knowledge corpus + theory repo. Unlike nexus (atlas SSOT +
+registry + defense tools) or anima (ALM substrate runtime), canon's threat
+surface is primarily about **theorem integrity** (atlas SSOT itself moved
+to nexus 2026-05-08):
 
-- atlas/atlas.n6: canonical SSOT for n=6 framework derivations (12000+ lines)
 - domains/physics/simulation-theory/: deep-universe-simulation reference
 - theory/, papers/: theorem statements + proof drafts
 - proposals/, techniques/: paradigm shift proposals
@@ -19,17 +19,16 @@ is primarily about **theorem integrity** + **atlas SSOT immutability**:
 
 | Layer | Mechanism | Status |
 |-------|-----------|--------|
-| **Source-of-truth integrity** | git-tracked atlas.n6 with byte-equality seal at hash level | live (any git history rewrite detectable) |
-| **Cross-repo mirror** | nexus/n6/atlas.n6 = symlink to this atlas (single SSOT, no drift) | live (verified by atlas_health.sh) |
-| **Theorem-level review** | papers/, theory/ subjected to peer-review prior to atlas anchor | manual (no automated lint yet) |
-| **Proposal gate** | proposals/ as staging area; promotion to atlas requires manual review | manual |
+| **Atlas SSOT** | hosted in nexus (`~/core/nexus/n6/atlas.n6`); canon imports via reference | upstream — see nexus/SECURITY |
+| **Theorem-level review** | papers/, theory/ subjected to peer-review prior to nexus atlas anchor | manual (no automated lint yet) |
+| **Proposal gate** | proposals/ as staging area; promotion to nexus atlas requires manual review | manual |
 | **Build attestation** | Makefile + lean4-n6/ for formal proof verification | partial (lean4 subset only) |
 
 ## Defense gaps (acknowledged, raw 73 admissibility)
 
-1. **No automated atlas drift detection inside this repo** — defense delegated to
-   nexus's `tool/atlas_health.sh` + `state/atlas_sha256.tsv` (cross-repo defense
-   via symlink to nexus's tracked SHA).
+1. **Atlas drift detection lives in nexus** — canon does not host atlas data
+   anymore (relocated 2026-05-08). Drift defense delegated to nexus's
+   `tool/atlas_health.sh` + `state/atlas_sha256.tsv`.
 2. **No SECURITY_AUDIT.md detail** — this doc is a declaration, not an audit;
    audit lives in nexus's `design/hexa_sim/SECURITY_AUDIT.md` covering the full
    5-layer defense system.
@@ -49,7 +48,7 @@ Together with nexus 6/6, anima 6/6, hexa-lang 5/6 (ceiling at (d)):
 - Audit decision: `~/core/nexus/design/hexa_sim/2026-04-26_honesty_triad_refresh_omega_cycle.json`
 - Defense system audit (full): `~/core/nexus/design/hexa_sim/SECURITY_AUDIT.md`
 - Cross-repo dashboard: `~/core/nexus/design/hexa_sim/cross_repo_dashboard.md`
-- atlas SSOT mirror: `~/core/nexus/n6/atlas.n6` → `~/core/canon/atlas/atlas.n6`
+- atlas SSOT: `~/core/nexus/n6/atlas.n6` (single owner since 2026-05-08; canon no longer holds atlas data)
 
 ## Authorization
 

@@ -9,7 +9,7 @@ Every contribution must adhere to the following four principles:
 1. **No BT "solution" claims.** Pull requests that claim to "solve" any of the seven Clay Millennium Problems (BT-541 RH, BT-542 P vs NP, BT-543 Yang-Mills, BT-545 Hodge, BT-546 BSD, BT-547 Navier-Stokes) will be rejected. Partial progress, surveys, and conditional proofs are welcome — describe them as candidate or draft patterns rather than complete proofs.
 2. **Declare external dependencies.** If your contribution depends on Sage, Pari/GP, arXiv references, LMFDB, or similar external tools, state so explicitly.
 3. **Declare MISS criteria in advance.** Each experimental or computational task must document its failure (MISS) criterion before any data is collected.
-4. **Audit the OUROBOROS cycle.** When adding a new entry to `atlas.n6`, confirm that `scripts/monotone/ouroboros_detector_v2.py` remains at CRITICAL 0.
+4. **Audit the OUROBOROS cycle.** When adding a new entry to the atlas (`nexus/n6/atlas.n6` SSOT — see Contribution types §A), confirm that the upstream OUROBOROS detector remains at CRITICAL 0.
 
 Pull requests that violate these principles will be held by a maintainer until the Honesty Charter is satisfied.
 
@@ -26,7 +26,7 @@ Pull requests that violate these principles will be held by a maintainer until t
 **Procedure**:
 1. Add reproducible code and data under `data/` or `scripts/empirical/`.
 2. Record results, MISS criteria, and known limitations in `theory/breakthroughs/<feature>-YYYY-MM-DD.md`.
-3. Register an entry in `shared/n6/atlas.n6` with an appropriate grade (7..10*).
+3. Register an entry in the upstream atlas (`~/core/nexus/n6/atlas.n6` — atlas SSOT lives in the nexus repo, not canon) with an appropriate grade (7..10*).
 
 ### B. Theoretical (proofs and analysis)
 
@@ -70,7 +70,7 @@ Pull requests that violate these principles will be held by a maintainer until t
 
 - **English primary**: documents, comments, and commit messages inside this project should be written in English. Other languages may appear as secondary annotations.
 - **Filenames**: lowercase with hyphens plus a date suffix (`<feature>-YYYY-MM-DD.md`) for dated snapshots.
-- **atlas entry**: `@R <ID> = <statement> :: n6atlas [<grade>]` followed by a short description and `<- <source>`.
+- **atlas entry** (registered in the nexus atlas SSOT): `@R <ID> = <statement> :: n6atlas [<grade>]` followed by a short description and `<- <source>`.
 
 ### Testing
 
@@ -93,13 +93,13 @@ Pull requests that violate these principles will be held by a maintainer until t
 - [ ] OUROBOROS v2 CLEAN (CRITICAL 0)
 - [ ] MISS criterion declared (empirical / theoretical)
 - [ ] References cited (external dependencies declared)
-- [ ] atlas entry attached (for any new result)
+- [ ] atlas entry registered in nexus atlas SSOT (for any new result)
 
 ---
 
 ## Contact
 
-- GitHub Issues: https://github.com/need-singularity/canon/issues
+- GitHub Issues: https://github.com/dancinlab/canon/issues
 - GitHub Discussions: (TBA)
 - Maintainer: `@dancinlife` (commit author)
 

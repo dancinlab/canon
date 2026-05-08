@@ -52,16 +52,20 @@ jobs:
 
   # ── Job 3b: Stage A preflight — shared constants generator-clean + flatten ──
   # Stage A consolidation (proposals/dup_derivation_consolidation_phase2_2026_04_24.md).
-  # Fails if canonshared/_shared_constants.hexa drifts from atlas/n6_core_constants.hexa,
-  # or if any of the Stage-A-migrated verify files fail `flatten_imports` preflight.
+  # SSOT relocated 2026-05-08: n6_core_constants.hexa now lives in the nexus
+  # sister repo (~/core/nexus/n6/n6_core_constants.hexa). Drift check is skipped
+  # in canon CI because the upstream SSOT is not checked out here. nexus CI
+  # owns the regen check; canon only consumes the auto-generated derivative.
   n6-shared-constants:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generator-clean check (atlas SSOT vs canonshared/_shared_constants.hexa)
+      - name: Stage-A SSOT relocation note
         run: |
-          bash scripts/gen_shared_constants.sh --check
+          echo "Stage A SSOT (n6_core_constants.hexa) relocated to nexus 2026-05-08."
+          echo "canonshared/_shared_constants.hexa is now hand-maintained until a"
+          echo "cross-repo sync workflow lands. Skipping --check."
 
       - name: Flatten-preflight — Stage A migrated verify files
         # hexa-lang toolchain is not provisioned on the runner; we use the pure-python
@@ -159,7 +163,7 @@ jobs:
         id: checkout-hexa
         uses: actions/checkout@v4
         with:
-          repository: need-singularity/hexa-lang
+          repository: dancinlab/hexa-lang
           path: hexa-lang
         continue-on-error: true
 
@@ -176,21 +180,21 @@ jobs:
       - name: Checkout nexus (audit target)
         uses: actions/checkout@v4
         with:
-          repository: need-singularity/nexus
+          repository: dancinlab/nexus
           path: nexus
         continue-on-error: true
 
       - name: Checkout anima (audit target)
         uses: actions/checkout@v4
         with:
-          repository: need-singularity/anima
+          repository: dancinlab/anima
           path: anima
         continue-on-error: true
 
       - name: Checkout papers (audit target)
         uses: actions/checkout@v4
         with:
-          repository: need-singularity/papers
+          repository: dancinlab/papers
           path: papers
         continue-on-error: true
 
@@ -277,7 +281,7 @@ jobs:
         id: checkout-hexa
         uses: actions/checkout@v4
         with:
-          repository: need-singularity/hexa-lang
+          repository: dancinlab/hexa-lang
           path: hexa-lang
         continue-on-error: true
 

@@ -2,7 +2,7 @@
   "_doc": "canon 리포 9축 매니페스트 SSOT — 모든 에이전트 진입점",
   "_version": "1.0.0",
   "_generated": "2026-04-10",
-  "_root": "$N6_ARCH",
+  "_root": "$CANON",
 
   "axes": {
     "theory": {

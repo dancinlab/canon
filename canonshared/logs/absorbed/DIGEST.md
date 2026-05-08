@@ -2,7 +2,7 @@
 
 > Generated: 2026-04-04
 > Source: ~/Dev/ready/canon/ (backup/corrupted version)
-> Target: $N6_ARCH/ (main)
+> Target: $CANON/ (main)
 > Scanner: ready-absorber NEXUS-6
 
 ---
