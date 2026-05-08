@@ -1188,27 +1188,6 @@ n6 map                  # open the 3D Reality Map (4,098 nodes)
 
 ---
 
-# 🐉 Fantasy
-
-<!-- AUTO:SUMMARY_fantasy:START -->
-> [!WARNING]
-> Mythology/fantasy exploration — not an engineering target · 2 domains · 60 hypotheses · 16 EXACT (26.7%) · BT cross 16
-<!-- AUTO:SUMMARY_fantasy:END -->
-
-## 🐉 Fantasy Toolkit (HEXA-Myth family)
-
-> Friendly entry point — Mythology / fantasy exploration tools as a compact toolkit (NOT an engineering target — see WARNING above). Same n=6 invariant lattice (σ(6)=12 / τ(6)=4 / φ(6)=2 / J₂=24), three orthogonal sf-ufo-axis verbs (dragon / vampire / snowflake).
-
-| 🛸 | Tool | One-liner | Everyday analogy | What it does | Mainstream contrast | Doc |
-|:--:|:----:|-----------|------------------|--------------|---------------------|:---:|
-| 5 | 🐉 **HEXA-DRAGON** | Mythical Wing | Folklore dragon decomposed onto the n=6 anatomical lattice | Dragon mythology n=6 anatomical decomposition (head/body/wings/tail/scales/fire) | Single-tradition dragon study vs n=6 6-mythology comparative lattice | [doc](domains/sf-ufo/dragon/dragon.md) |
-| 5 | 🧛 **HEXA-VAMPIRE** | Mythical Lifecycle | Vampire folklore mapped onto a 6-stage transformation cycle | Vampire mythology n=6 transformation stages (mortal → bitten → ... → ash) | Single-novel vampire arc vs n=6 6-stage cross-folklore lattice | [doc](domains/sf-ufo/vampire/vampire.md) |
-| 5 | ❄️ **HEXA-SNOWFLAKE** | Hex Symmetry | Real snowflake's 6-fold symmetry shared with mythical hex-shapes | Snowflake n=6 hexagonal lattice — physics-myth bridge to hexagonal aesthetics | Single-photograph snowflake vs n=6 hexagonal-symmetry myth-physics lattice | [doc](domains/sf-ufo/snowflake-ice/snowflake-ice.md) |
-
-> details: [Fantasy README](domains/sf-ufo/fantasy/fantasy.md) · SSOT: [`config/fantasy.json`](config/fantasy.json)
-
----
-
 ## Reference
 
 <!-- AUTO:REFERENCE:START -->

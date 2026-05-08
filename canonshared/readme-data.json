@@ -624,16 +624,6 @@
       "footer_literal": "> domains: [mens-intimate-cleanser/](docs/mens-intimate-cleanser/) · [womens-intimate-cleanser/](docs/womens-intimate-cleanser/)",
       "_n6_invariant": "Men's Cleanser glans pH=n=6, lauryl C12=sigma; Women's Cleanser Lactobacillus 6 types, vaginal pH=tau=4, CST 5 types",
       "_source": "README.md hand-curated content replicated verbatim (raw 91 C3 honest: not fabricated novelty)"
-    },
-    {
-      "id": "fantasy",
-      "emoji": "🐉",
-      "name": "Fantasy",
-      "name_en": "Fantasy",
-      "anchor": "-fantasy",
-      "summary_literal": "> [!WARNING]\n> Mythology/fantasy exploration — not an engineering target · 2 domains · 60 hypotheses · 16 EXACT (26.7%) · BT cross 16",
-      "_n6_invariant": "Mythology/fantasy exploration — not an engineering target; 2 domains, 60 hypotheses, 16 EXACT (26.7%)",
-      "_source": "README.md hand-curated [!WARNING] callout replicated verbatim (raw 91 C3 honest)"
     }
   ],
   "roadmap": [
@@ -643,7 +633,7 @@
       "name": "Ultimate AGI",
       "impact": 6,
       "tier": "🔄",
-      "dse": "→ [Anima](https://github.com/need-singularity/anima)"
+      "dse": "→ [Anima](https://github.com/dancinlab/anima)"
     },
     {
       "rank": 0,
@@ -651,7 +641,7 @@
       "name": "Ultimate 의식",
       "impact": 6,
       "tier": "🔄",
-      "dse": "→ [Anima](https://github.com/need-singularity/anima)"
+      "dse": "→ [Anima](https://github.com/dancinlab/anima)"
     },
     {
       "rank": 0,
@@ -659,7 +649,7 @@
       "name": "Ultimate fire멸",
       "impact": 6,
       "tier": "🔄",
-      "dse": "→ [Anima](https://github.com/need-singularity/anima) + cognitive/brain-computer-interface"
+      "dse": "→ [Anima](https://github.com/dancinlab/anima) + cognitive/brain-computer-interface"
     },
     {
       "rank": 0,

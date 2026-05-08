@@ -74,7 +74,7 @@ own 14 live "readme-sealed-required — root README.md sealed hash mandatory (HA
 own 17 live "public-readme-english-only — no CJK in public org root READMEs (HARD)"
   slug public-readme-english-only
   decl ~/core/hexa-lang/tool/readme_english_audit.hexa .own.readme
-  scope need-singularity org 5 repos (canon / nexus / hexa-lang / anima / papers) root README.md MUST contain no Hangul (AC00..D7AF / Jamo / Compat Jamo) / Kana (Hiragana / Katakana) / CJK Unified (4E00..9FFF). Greek (σ φ τ λ μ ρ Ω) / math (J₂ σ² × ≤ ≥ → · ∞ √ ∑) / common punct (✅ ❌ — – ‒ … 「」『』) / units (° ℃ μm Å) PASS.
+  scope dancinlab org 5 repos (canon / nexus / hexa-lang / anima / papers) root README.md MUST contain no Hangul (AC00..D7AF / Jamo / Compat Jamo) / Kana (Hiragana / Katakana) / CJK Unified (4E00..9FFF). Greek (σ φ τ λ μ ρ Ω) / math (J₂ σ² × ≤ ≥ → · ∞ √ ∑) / common punct (✅ ❌ — – ‒ … 「」『』) / units (° ℃ μm Å) PASS.
   status live
   since 2026-05-04
   why Enforcement path for own#1 doc-english-required at the org-public surface. Manual review missed 158+ long-tail fragments at mk1 baseline. arXiv compatibility + international contribution + org landing consistency. Promoted to raw#33 ai-native-english-only (2026-04-21) per mk1 lineage.
@@ -164,7 +164,6 @@ own 29 live "readme-friendly-toolkit-required — README friendly toolkit table 
   mandatory-sections crypto=## 🔐 Crypto Toolkit (HEXA-Cipher family)|min_rows=3|axis=compute|contrast=Mainstream
   mandatory-sections astronomy=## 🔭 Astronomy Toolkit (HEXA-Cosmos family)|min_rows=3|axis=space|contrast=Mainstream
   mandatory-sections hygiene=## 🧴 Hygiene Toolkit (HEXA-Cleanse family)|min_rows=2|axis=life|contrast=Mainstream
-  mandatory-sections fantasy=## 🐉 Fantasy Toolkit (HEXA-Myth family)|min_rows=3|axis=sf-ufo|contrast=Mainstream
   mandatory-sections pets=## 🐾 Pets Toolkit (HEXA-Companion family)|min_rows=2|axis=pets|contrast=Commodity
   mandatory-sections apps=## 📱 Apps Toolkit (HEXA-Mobile family)|min_rows=3|axis=apps|contrast=Mainstream
   expected-header-row | 🛸 | Tool | One-liner | Everyday analogy | What it does | <Mainstream> contrast | Doc |

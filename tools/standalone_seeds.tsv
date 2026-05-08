@@ -45,11 +45,7 @@ hexa-space	🚀	Space 통합 — cosmic + starship + aerospace + astronomy + med
 hexa-space	🚀	Space 통합 — cosmic + starship + aerospace + astronomy + medicine 11-verb.	domains/space/observational-astronomy/observational-astronomy.md	obs_astronomy/observational-astronomy.md
 hexa-space	🚀	Space 통합 — cosmic + starship + aerospace + astronomy + medicine 11-verb.	domains/space/astrobiology/astrobiology.md	astrobiology/astrobiology.md
 hexa-space	🚀	Space 통합 — cosmic + starship + aerospace + astronomy + medicine 11-verb.	domains/space/space-medicine/space-medicine.md	medicine/space-medicine.md
-hexa-fantasy	🐉	Fantasy substrate — dragon + vampire + fantasy + sf + snowflake-ice.	domains/sf-ufo/dragon/dragon.md	dragon/dragon.md
-hexa-fantasy	🐉	Fantasy substrate — dragon + vampire + fantasy + sf + snowflake-ice.	domains/sf-ufo/vampire/vampire.md	vampire/vampire.md
-hexa-fantasy	🐉	Fantasy substrate — dragon + vampire + fantasy + sf + snowflake-ice.	domains/sf-ufo/fantasy/fantasy.md	fantasy/fantasy.md
-hexa-fantasy	🐉	Fantasy substrate — dragon + vampire + fantasy + sf + snowflake-ice.	domains/sf-ufo/sf/sf.md	sf/sf.md
-hexa-fantasy	🐉	Fantasy substrate — dragon + vampire + fantasy + sf + snowflake-ice.	domains/sf-ufo/snowflake-ice/snowflake-ice.md	snowflake_ice/snowflake-ice.md
+hexa-fantasy	🐉	Fantasy substrate — sf seed only (dragon/vampire/fantasy/snowflake-ice migrated to private hexa-fantasy repo).	domains/sf-ufo/sf/sf.md	sf/sf.md
 hexa-energy	⚡	Energy 통합 — battery + nuclear + grid + fuel-cell + HVAC + mineshaft 14-verb.	domains/energy/battery-architecture/battery-architecture.md	battery_arch/battery-architecture.md
 hexa-energy	⚡	Energy 통합 — battery + nuclear + grid + fuel-cell + HVAC + mineshaft 14-verb.	domains/energy/battery-energy/battery-energy.md	battery_energy/battery-energy.md
 hexa-energy	⚡	Energy 통합 — battery + nuclear + grid + fuel-cell + HVAC + mineshaft 14-verb.	domains/energy/nuclear-reactor/nuclear-reactor.md	nuclear/nuclear-reactor.md
