@@ -56,7 +56,7 @@ fn main() {
     println("CV 하한 E=8 (1/sqrt) = " + cv_e8)
     println("CV 하한 E=6 (1/sqrt) = " + cv_e6)
 
-    // ── 5. n=6 정합성 점수 (atlas.n6 참조 EXACT 매칭) ──────
+    // ── 5. n=6 정합성 점수 (~/core/nexus/n6/atlas.n6 참조 EXACT 매칭) ──────
     println("")
     println("── n=6 정합성 (atlas.n6 참조) ──")
     println("top_k=2 == phi        [EXACT]")

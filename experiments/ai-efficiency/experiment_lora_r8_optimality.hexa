@@ -48,7 +48,7 @@ fn main() {
             // r<4 이면 음수 → 0 clamp
         }
 
-        // n=6 정합성 태그 (atlas.n6 참조)
+        // n=6 정합성 태그 (~/core/nexus/n6/atlas.n6 참조)
         let mut tag = "[?]"
         if r == 6  { tag = "[n EXACT]" }
         if r == 8  { tag = "[sigma-tau EXACT]" }

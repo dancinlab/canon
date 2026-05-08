@@ -2,7 +2,7 @@
 // checkpoint mathematical constants (Catalan G, ζ(3), Euler-Mascheroni γ).
 //
 // Purpose: optional true-RNG validation path for [7] EMPIRICAL → [10*] EXACT
-// promotion inside atlas.n6. PRNG bias is a known concern for long MC chains;
+// promotion inside ~/core/nexus/n6/atlas.n6. PRNG bias is a known concern for long MC chains;
 // ANU seed bootstraps a deterministic linear-congruential stream so the full
 // run is reproducible while the initial state is entropy-rich.
 //

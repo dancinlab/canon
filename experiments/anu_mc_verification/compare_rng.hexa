@@ -6,7 +6,7 @@
 //
 // Goal: detect whether the ANU-seeded path shows measurable reduction in
 // sampling bias at fixed N vs the urandom-seeded path. A null result (p > 0.05)
-// is the expected outcome — it confirms both paths are equivalent for atlas.n6
+// is the expected outcome — it confirms both paths are equivalent for ~/core/nexus/n6/atlas.n6
 // promotion purposes, which is the whole point of offering ANU as an *option*
 // rather than a requirement.
 //

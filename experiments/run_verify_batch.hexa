@@ -1,14 +1,14 @@
 // run_verify_batch.hexa — CHIP-P0-4 verify 배치 러너 + mtime 캐시
 // 캐시: experiments/.cache/verify_mtime.json
 // 모드: (기본)batch | --dry | --full | --status
-// 규칙: HEXA-FIRST, 한글 주석, atlas.n6 직접 편집 금지
+// 규칙: HEXA-FIRST, 한글 주석, ~/core/nexus/n6/atlas.n6 직접 편집 금지
 
 let REPO = env("HOME") + "/Dev/canon"
 let NEXUS = env("HOME") + "/Dev/nexus"
 let EXPER = REPO + "/experiments"
 let CACHE_DIR = EXPER + "/.cache"
 let CACHE = CACHE_DIR + "/verify_mtime.json"
-let ATLAS = NEXUS + "/shared/n6/atlas.n6"
+let ATLAS = NEXUS + "/n6/atlas.n6"
 
 fn _str(x) -> string {
     let t = type_of(x)
@@ -43,7 +43,7 @@ fn collect_verify_files() -> string {
     return sh("find '" + EXPER + "' -type f -name 'verify_*.hexa' -not -path '*/.cache/*' | sort")
 }
 
-// deps_hash = sha1(atlas.n6 mtime + self mtime) 8자
+// deps_hash = sha1(~/core/nexus/n6/atlas.n6 mtime + self mtime) 8자
 fn compute_deps_hash(path: string) -> string {
     return sha1_8(file_mtime_unix(ATLAS) + ":" + file_mtime_unix(path))
 }

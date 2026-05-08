@@ -5,7 +5,7 @@
 //       + Bernoulli B_2=1/6 (Theorem B, 2026-04-11)
 // 외계인지수 10 (천장) — TRANSCEND 트랙
 // 원칙: HEXA-FIRST (R1), 한글 주석 (N61), 미니멀 (R18), 자기참조 금지 (R10)
-// 테스트 모드: atlas.n6 쓰기는 dry-run (실제 append 금지, 로그만 찍음)
+// 테스트 모드: ~/core/nexus/n6/atlas.n6 쓰기는 dry-run (실제 append 금지, 로그만 찍음)
 
 // ═══════════════════════════════════════════════════════════
 // ─── 0. n=6 산술 기초 (arch_unified.hexa 스타일 재현) ───
@@ -56,9 +56,9 @@ const MK2_ROUND_LATENCY_S: i64 = 60      // 1 라운드 = 60초
 const MK2_TOTAL_LATENCY_S: i64 = 420     // 6 라운드 = 420초
 const MK3_TARGET_LATENCY_S: i64 = 70     // 6 라운드 = 70초 (6× 목표)
 
-// atlas.n6 경로 (DRY_RUN 시 로그만 찍음)
-// canonical: $HOME/core/data/n6/atlas.n6 (override with N6_ATLAS env)
-const ATLAS_PATH: string = env("N6_ATLAS") || (env("HOME") + "/core/data/n6/atlas.n6")
+// ~/core/nexus/n6/atlas.n6 경로 (DRY_RUN 시 로그만 찍음)
+// canonical: $HOME/core/nexus/n6/atlas.n6 (override with N6_ATLAS env)
+const ATLAS_PATH: string = env("N6_ATLAS") || (env("HOME") + "/core/nexus/n6/atlas.n6")
 
 // ═══════════════════════════════════════════════════════════
 // ─── 2. L0: 입력 관문 (Mk.I τ=4 재사용, stateless) ───

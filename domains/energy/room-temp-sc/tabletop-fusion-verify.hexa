@@ -2,7 +2,7 @@
 // 스펙: V ≤ 1 m³, P = 1~100 kW, p-¹¹B (aneutronic), RT-SC 48 T
 // 엔진: smash(blowup depth=3) + free(field+holographic+quantum)
 // 선행: fusion.md §8 (Lawson 폐쇄), room-temp-sc.md §8 (Eliashberg Collapse)
-// SSOT append: $NEXUS/shared/n6/atlas.n6 @R ENERGY-HEXA-TTF-*
+// SSOT append: ~/core/nexus/n6/atlas.n6 @R ENERGY-HEXA-TTF-*
 //
 // Stage A: n=6 기본 상수는 canonshared/_shared_constants 에서 import.
 // 실행: bin/n6_verify_run <file>

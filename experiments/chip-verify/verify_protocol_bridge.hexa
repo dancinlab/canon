@@ -15,7 +15,7 @@
 //   4. 전환 후 매트릭스 통계 검증
 // 지표: 20건 전환 판정 + 5건 설계 정합 PASS → 전체 PASS
 // 의존: _cross_matrix.md 판정 결과
-// 피드백: atlas.n6 [chip-verify.protocol-bridge]
+// 피드백: ~/core/nexus/n6/atlas.n6 [chip-verify.protocol-bridge]
 
 // ── n=6 기본 상수 ──
 fn sigma() -> i64 { return 12 }

@@ -8,7 +8,7 @@
 //   1) git log (커밋 수, 저자, 파일 변경, 9축 분포)
 //   2) canonshared/growth_bus.jsonl 신규 엔트리
 //   3) canonshared/discovery_graph.json 노드/엣지 변화량 (스냅샷 대비)
-//   4) $NEXUS/shared/n6/atlas.n6 승격 건수 ([7]→[10*])
+//   4) ~/core/nexus/n6/atlas.n6 승격 건수 ([7]→[10*])
 //   5) cargo test 결과 (nexus 워크스페이스, 옵션)
 //   6) canonshared/convergence/canon.json 상태 변화
 //
@@ -283,7 +283,7 @@ if file_exists_simple(STATE_JSON) {
 let dg_nodes_delta = dg_nodes_now - dg_nodes_prev
 let dg_edges_delta = dg_edges_now - dg_edges_prev
 
-// ─── 4. atlas.n6 등급 집계 ───
+// ─── 4. ~/core/nexus/n6/atlas.n6 등급 집계 ───
 log_err("[phase 4/6] atlas.n6 등급 집계")
 
 let mut atlas_exact = 0

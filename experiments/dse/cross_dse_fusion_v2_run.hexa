@@ -3,7 +3,7 @@
 // ------------------------------------------------------------
 // 축      : experiments/dse
 // 규칙    : R1 HEXA-FIRST, R2 하드코딩 금지(경로 동적), R12 AI-NATIVE FIRST,
-//           R18 미니멀, R28 atlas.n6 자동 흡수, R19 SILENT EXIT 금지,
+//           R18 미니멀, R28 ~/core/nexus/n6/atlas.n6 자동 흡수, R19 SILENT EXIT 금지,
 //           N63 DSE 전수
 // 배경    : experiments/dse/cross_dse_fusion_v2.hexa 는 설계 초안 (pseudocode,
 //           HashSet<String> 등 현 hexa 파서 미지원). 이 파일은 실제 executable.
@@ -17,7 +17,7 @@
 //             - pareto_pts: 후보별 (n6, perf, power, cost) 평균·max 5-벡터
 // 입력    : nexus/origins/universal-dse/domains/*.toml  (380)
 // 출력    : canonshared/dse/dse_cross_results_v2_4.json  (R28 예외: 기존 JSON 갱신 허용)
-//           canonshared/n6/atlas.n6  (상위 100 pair append)
+//           ~/core/nexus/n6/atlas.n6  (상위 100 pair append)
 //           reports/discovery/dse-v2-results-<date>.md (본 실행은 보고서만 기록)
 // ============================================================
 
@@ -71,7 +71,7 @@ if len(OUT_PATH) == 0 {
 }
 let mut ATLAS_PATH = env("N6_ATLAS")
 if len(ATLAS_PATH) == 0 {
-  ATLAS_PATH = NEXUS_ROOT + "/shared/n6/atlas.n6"
+  ATLAS_PATH = NEXUS_ROOT + "/n6/atlas.n6"
 }
 let mut REPORT_PATH = env("N6_REPORT_PATH")
 if len(REPORT_PATH) == 0 {
@@ -932,7 +932,7 @@ fn run() {
   write_file(OUT_PATH, js)
   println("  wrote " + OUT_PATH + " (" + to_string(len(js)) + " bytes)")
 
-  // ── 9. atlas.n6 자동 흡수 (R28) ──
+  // ── 9. ~/core/nexus/n6/atlas.n6 자동 흡수 (R28) ──
   println("[step 8] appending atlas.n6 (R28)")
   let atlas_header = "# == cross_dse_v2 (" + to_string(PAIR_HIGH) + " pairs, 2026-04-11) =="
   let mut atlas_lines = atlas_header + "\n"

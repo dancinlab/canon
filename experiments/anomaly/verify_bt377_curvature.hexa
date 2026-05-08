@@ -4,7 +4,7 @@
 // 근거: 일반상대론 Ricci R_μν 대칭 (d*(d+1)/2 = 10, d=4)
 // 가설: 주 기여 성분 수 = 6 (대각 4 + 비대각 독립 적어도 6?)
 // 지표: 산술 + Schwarzschild 해 0-성분 카운트
-// 데이터: atlas.n6 BT-377 + EHT 파라미터
+// 데이터: ~/core/nexus/n6/atlas.n6 BT-377 + EHT 파라미터
 
 fn main() {
     println("[BT-377 곡률] 4D Ricci 6 성분 — 산술 검증")

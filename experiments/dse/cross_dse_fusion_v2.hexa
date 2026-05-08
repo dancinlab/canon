@@ -33,7 +33,7 @@ const PARETO_PATH     = env("N6_PARETO_PATH")
 const OUT_PATH        = env("N6_CROSS_OUT")
                      || (NEXUS_ROOT + "/shared/dse/dse_cross_results.json")
 const ATLAS_PATH      = env("N6_ATLAS")
-                     || (NEXUS_ROOT + "/shared/n6/atlas.n6")
+                     || (NEXUS_ROOT + "/n6/atlas.n6")
 
 // 공명 가중치 — canonshared/config 로 외부화 대상이나, 초안에서는 기본값만 명시
 const W_KW      = 0.35
@@ -339,14 +339,14 @@ fn compute_clusters(pairs: Vec<Pair>, k: Int) -> Vec<(Int, Vec<String>)> {
 }
 
 // ------------------------------------------------------------
-// 8. 결과 쓰기 + atlas.n6 자동 흡수 (R28)
+// 8. 결과 쓰기 + ~/core/nexus/n6/atlas.n6 자동 흡수 (R28)
 // ------------------------------------------------------------
 fn write_report(report: Report) {
     let json = to_json(report)
     write_json(OUT_PATH, json)
     println("wrote: " + OUT_PATH)
 
-    // atlas.n6 자동 흡수: top_pairs 의 상위 100개를 evidence [7] 로 기록
+    // ~/core/nexus/n6/atlas.n6 자동 흡수: top_pairs 의 상위 100개를 evidence [7] 로 기록
     let date = now_date_iso()
     let lines = []
     lines.push("# ══ cross_dse_v2 (" + report.pair_count.to_s() + " pairs, " + date + ") ══")
@@ -436,5 +436,5 @@ fn main() {
 // [-]  shared_constants 8개 하드코드       → [+] n6_formula 태그 동적 집계
 // [-]  top_pairs[30]                       → [+] top_pairs[400] + hubs + bridges + clusters
 // [-]  없음                                → [+] pareto_frontier_400.json 기반 proximity 지표
-// [-]  없음                                → [+] atlas.n6 자동 흡수(R28)
+// [-]  없음                                → [+] ~/core/nexus/n6/atlas.n6 자동 흡수(R28)
 // ============================================================

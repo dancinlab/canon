@@ -1,11 +1,11 @@
 // monte-carlo-v9.hexa
 //
-// Reality Map Monte Carlo v9 — n=6 유일성 재검증 (atlas.n6 단일소스)
+// Reality Map Monte Carlo v9 — n=6 유일성 재검증 (~/core/nexus/n6/atlas.n6 단일소스)
 //
 // 목적:
 //   1. v8 한계 돌파 — 큰수 그룹 N=10 → N≈120 확장
 //   2. 대조군 5종 확장 (π/e/φ/γ/ζ(3) + 무작위/유리수)
-//   3. atlas.n6 단일 진실 (R14/R28)
+//   3. ~/core/nexus/n6/atlas.n6 단일 진실 (R14/R28)
 //
 // 실행:
 //   nexus hexa run experiments/monte-carlo-v9.hexa
@@ -30,7 +30,7 @@
 //   초거대.logunif N=16  hits=7    z= 12.96
 //   대조-π       z=6.28  대조-γ  z=3.81 (신규)
 //   대조-ζ(3)    z=4.62 (신규)
-// 결과 → atlas.n6 # ══ MC_V9_RESULTS ══ 섹션 흡수 (R28)
+// 결과 → ~/core/nexus/n6/atlas.n6 # ══ MC_V9_RESULTS ══ 섹션 흡수 (R28)
 // 보고 → reports/discovery/mc-v9-results-2026-04-11.md
 // ═══════════════════════════════════════════════════════════════════
 
@@ -38,8 +38,8 @@
 // 상수 (하드코딩 최소화 — atlas 경로는 R8 에 의해 고정)
 // ────────────────────────────────────────────────────────────
 
-// ATLAS_PATH: $HOME/core/data/n6/atlas.n6 (override with N6_ATLAS env)
-const ATLAS_PATH: str = env("N6_ATLAS") || (env("HOME") + "/core/data/n6/atlas.n6")
+// ATLAS_PATH: $HOME/core/nexus/n6/atlas.n6 (override with N6_ATLAS env)
+const ATLAS_PATH: str = env("N6_ATLAS") || (env("HOME") + "/core/nexus/n6/atlas.n6")
 const SEED_V9: i64 = 20260411
 const SEED_V8: i64 = 20260408
 const TRIALS: i64 = 3000
@@ -136,7 +136,7 @@ fn structure_hit(v: i64) -> i64 {
 }
 
 // ────────────────────────────────────────────────────────────
-// atlas.n6 파서 — measured 정수값 + origin 추출
+// ~/core/nexus/n6/atlas.n6 파서 — measured 정수값 + origin 추출
 // ────────────────────────────────────────────────────────────
 
 struct Node {
@@ -148,7 +148,7 @@ struct Node {
 }
 
 fn parse_atlas(path: str) -> [Node] {
-    // atlas.n6 형식:
+    // ~/core/nexus/n6/atlas.n6 형식:
     //   @R {id} = {value} {unit} :: n6atlas [grade]
     //   @P {id} = {value} :: foundation [grade]
     //   @C {id} = {value} :: ... [grade]
@@ -438,7 +438,7 @@ fn make_rational_group() -> Group {
 }
 
 // ────────────────────────────────────────────────────────────
-// 결과 atlas.n6 흡수 (R28)
+// 결과 ~/core/nexus/n6/atlas.n6 흡수 (R28)
 // ────────────────────────────────────────────────────────────
 
 fn append_to_atlas(results: [MCResult], mode_label: str, seed: i64) {
@@ -485,7 +485,7 @@ fn main(args: [str]) {
     println("  atlas=" + ATLAS_PATH)
     println("═══════════════════════════════════════════════════════════")
 
-    // 1. atlas.n6 로드
+    // 1. ~/core/nexus/n6/atlas.n6 로드
     println("[1/7] atlas.n6 파싱 중...")
     let nodes = parse_atlas(ATLAS_PATH)
     println("      노드 " + to_string(len(nodes)) + "개 추출")
@@ -560,7 +560,7 @@ fn main(args: [str]) {
         ri = ri + 1
     }
 
-    // 7. atlas.n6 흡수 (R28 — 단일 진실)
+    // 7. ~/core/nexus/n6/atlas.n6 흡수 (R28 — 단일 진실)
     println("[7/7] atlas.n6 결과 흡수...")
     append_to_atlas(results, mode_label, seed)
     println("      완료 — " + ATLAS_PATH + " 에 MC_V9_RESULTS 섹션 추가")

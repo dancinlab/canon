@@ -6,7 +6,7 @@
 //   - 각 세대 설계안은 이전 최고안에서 ±δ 변이 (mutation)
 //   - 적응도(fitness) = n=6 상수 정렬 + 환경 추종
 //   - G 세대 후 최고안을 선발 (selection)
-//   - atlas.n6 승격 훅: fitness >= 900 시 [7] -> [10*] 플래그 반환
+//   - ~/core/nexus/n6/atlas.n6 승격 훅: fitness >= 900 시 [7] -> [10*] 플래그 반환
 //
 // 적응 원리 (GA 경량판):
 //   - gene = (heads, depth, dim) 3-튜플
@@ -14,7 +14,7 @@
 //   - env_drift[cat] = (세대 g 에 따른 목표 이동)
 //   - 세대 진화: 최고점 유전자 + ±variation -> 다음 세대
 //
-// atlas.n6 승격 파이프라인 (hook_atlas_promote):
+// ~/core/nexus/n6/atlas.n6 승격 파이프라인 (hook_atlas_promote):
 //   - [7]empirical 등급 항목이 fitness >= 900 도달 시
 //   - 승격 신호 반환 (실제 edit 은 외부 스크립트가 수행)
 //   - 자기참조 금지: fitness 는 외부 n=6 상수와의 거리로만 측정
@@ -151,10 +151,10 @@ fn select_best(cat: i64, g: i64) -> i64 {
     return best
 }
 
-// ── atlas.n6 승격 훅 ──────────────────────────────────────
+// ── ~/core/nexus/n6/atlas.n6 승격 훅 ──────────────────────────────────────
 // [7]empirical -> [10*] 승격 조건: 최종 세대 fitness >= 900
 // 반환: 1 = 승격 플래그 ON, 0 = OFF
-// 실제 atlas.n6 편집은 외부 파이프라인 (N65 규칙 준수)
+// 실제 ~/core/nexus/n6/atlas.n6 편집은 외부 파이프라인 (N65 규칙 준수)
 
 fn hook_atlas_promote(final_fitness: i64) -> i64 {
     if final_fitness >= 900 { return 1 }
