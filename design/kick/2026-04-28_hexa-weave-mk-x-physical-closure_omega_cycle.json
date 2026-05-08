@@ -185,13 +185,13 @@
       {"claim": "Kick infra 5th-mode failure repeats at L6 without remediation between L5 and L6", "tag": "VERIFIED-OBSERVATION (same failure-mode signature as L5; raw 100 fallback for 5 consecutive cycles confirms institutional-smell escalation)"}
     ],
     "evidence_paths": [
-      "/Users/ghost/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-physical-closure_omega_cycle.json (THIS file)",
-      "/Users/ghost/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-formal-closure_omega_cycle.json (predecessor L5 F-MX-6 RESOLVED)",
-      "/Users/ghost/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-transcend_omega_cycle.json (great-predecessor L4 TRANSCEND-PARTIAL)",
-      "/Users/ghost/core/canon/design/kick/2026-04-28_hexa-weave-closure_omega_cycle.json (L3 APPROACH-PASS workload)",
-      "/Users/ghost/core/canon/design/kick/2026-04-28_hexa-weave-abstraction-to-limits_omega_cycle.json (L2 PARTIAL)",
-      "/Users/ghost/core/canon/domains/biology/hexa-weave/hexa-weave.md (registered domain doc; potential L7 update target)",
-      "/Users/ghost/core/canon/state/discovery_absorption/registry.jsonl (absorption registry)",
+      "~/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-physical-closure_omega_cycle.json (THIS file)",
+      "~/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-formal-closure_omega_cycle.json (predecessor L5 F-MX-6 RESOLVED)",
+      "~/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-transcend_omega_cycle.json (great-predecessor L4 TRANSCEND-PARTIAL)",
+      "~/core/canon/design/kick/2026-04-28_hexa-weave-closure_omega_cycle.json (L3 APPROACH-PASS workload)",
+      "~/core/canon/design/kick/2026-04-28_hexa-weave-abstraction-to-limits_omega_cycle.json (L2 PARTIAL)",
+      "~/core/canon/domains/biology/hexa-weave/hexa-weave.md (registered domain doc; potential L7 update target)",
+      "~/core/canon/state/discovery_absorption/registry.jsonl (absorption registry)",
       "Bekenstein 1981, 't Hooft 1993, Susskind 1995, Maldacena 1997, Witten 1998, Bousso 1999, Bousso 2002, Ryu-Takayanagi 2006, LIGO-Virgo 2016, Loffler-et-al 2012, Wilson 1971, Polchinski 1998 (literature)"
     ],
     "limits_acknowledged": [
@@ -264,13 +264,13 @@
     }
   ],
   "trawl_witness_raw_47": {
-    "canon": "/Users/ghost/core/canon/ — this repo, 5 cycle witnesses (L2-L6) + domain doc + lean4-n6 subdir",
-    "nexus": "/Users/ghost/core/nexus/ — kick infra source (5th failure mode 'all-routes-blocked + no-node-image' observed for 2nd consecutive cycle without remediation)",
-    "anima": "/Users/ghost/core/anima/ — bootstrap absorption registry sentinel (raw 135 cross-project mandate)",
-    "hexa-lang": "/Users/ghost/core/hexa-lang/ — hexa-runner image (no-node fault root cause; F-MX-3-c rebuild target)",
-    "hive": "/Users/ghost/core/hive/ — hive-cli kick path (Node.js dependency causing rc=76)",
-    "lean4-n6": "/Users/ghost/core/canon/lean4-n6/ — proof assistant target for AdS/CFT formalization (distant goal; mathlib4 has minimal QFT/string content as of 2026)",
-    "convergence": "/Users/ghost/core/convergence/ — fix-path references for kick recovery; F-MX-3-c rebuild-clean candidate workflow",
+    "canon": "~/core/canon/ — this repo, 5 cycle witnesses (L2-L6) + domain doc + lean4-n6 subdir",
+    "nexus": "~/core/nexus/ — kick infra source (5th failure mode 'all-routes-blocked + no-node-image' observed for 2nd consecutive cycle without remediation)",
+    "anima": "~/core/anima/ — bootstrap absorption registry sentinel (raw 135 cross-project mandate)",
+    "hexa-lang": "~/core/hexa-lang/ — hexa-runner image (no-node fault root cause; F-MX-3-c rebuild target)",
+    "hive": "~/core/hive/ — hive-cli kick path (Node.js dependency causing rc=76)",
+    "lean4-n6": "~/core/canon/lean4-n6/ — proof assistant target for AdS/CFT formalization (distant goal; mathlib4 has minimal QFT/string content as of 2026)",
+    "convergence": "~/core/convergence/ — fix-path references for kick recovery; F-MX-3-c rebuild-clean candidate workflow",
     "count": 7,
     "raw_47_ge_3_satisfied": true
   },
@@ -297,7 +297,7 @@
     "raw_strategies_for_L7": ["raw 69 ceiling-classification (TRANSCEND-PASS grade declaration)", "raw 91 C3 (joint verdict caveats)", "raw 100 fallback (kick infra clearance)", "raw 106 multi-realizability (domain doc decision)", "raw 108+135 absorption", "raw 71 falsifier-retire-rule"]
   },
   "report_summary": {
-    "witness_path": "/Users/ghost/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-physical-closure_omega_cycle.json",
+    "witness_path": "~/core/canon/design/kick/2026-04-28_hexa-weave-mk-x-physical-closure_omega_cycle.json",
     "construction_chosen": "Combined Path (iv) (sub-Hubble numerical-relativity proxy + AdS/CFT computable boundary-CFT + Bousso 1999 covariant dS lift + raw 128 RG-scale-invariance lift)",
     "PHYSICAL_axis_verdict_at_universe_scale": "PASS-WITH-C3-CAVEATS (upgraded from L4/L5 PASS_BY_DEFINITION_PARTIAL_BY_VERIFICATION)",
     "tri_axis_joint_verdict_after_F-MX-7_closure": "TRANSCEND-PASS-AT-UNIVERSE-SCALE-WITH-C3-CAVEATS (FORMAL=PASS at L5, PHYSICAL=PASS at L6, COMPUTATIONAL=PASS at L4; 3-PASS joint = TRANSCEND-CLOSURE-ALL achieved)",

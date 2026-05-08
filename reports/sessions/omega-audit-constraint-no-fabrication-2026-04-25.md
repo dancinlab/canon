@@ -165,7 +165,7 @@ direct `ls` / `grep` against the filesystem.
 | # | report | claim | verification | result |
 |---|---|---|---|---|
 | 1 | omega-probe-nxs002-predict-er §2.1 line 117-120 | composite_after = 0.83221... ; n_nodes = 21320 ; n_components = 24 | grounded in tool output paste in §2.1 (multi-line JSON block) | claim self-evidences as tool output, not invented |
-| 2 | omega-probe-nxs002-predict-er §1.1 line 39-41 | tool exists at `~/core/nexus/tool/nxs_002_composite.py` | `ls /Users/ghost/core/nexus/tool/nxs_002_composite.py` → file present | **VERIFIED** |
+| 2 | omega-probe-nxs002-predict-er §1.1 line 39-41 | tool exists at `~/core/nexus/tool/nxs_002_composite.py` | `ls ~/core/nexus/tool/nxs_002_composite.py` → file present | **VERIFIED** |
 | 3 | omega-probe-dfs24-batch-execution line 169 | `data/cremona/allbsd/` is 169 MB, 27 shards | `du -sh` → 169M; `ls \| wc -l` → 27 | **VERIFIED** (exact match) |
 | 4 | omega-probe-dfs24-batch-execution line 100 | `theory/predictions/verify_bernoulli17_*.hexa` covers Bernoulli structure (8 files) | `ls theory/predictions/ \| grep bernoulli` → 7 `verify_bernoulli17_*` files + 1 `verify_bernoulli_17_enumeration` (also a bernoulli17 file with underscore variant), totalling 8 | **VERIFIED** (count exact) |
 | 5 | omega-cycle-bt545-hodge line 93 | `papers/moonshine-barrier-honest-report-2026-04-15.md` exists | `ls` → file present | **VERIFIED** |

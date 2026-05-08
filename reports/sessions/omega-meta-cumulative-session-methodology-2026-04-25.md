@@ -22,7 +22,7 @@ grade: methodology synthesis, no claim
 
 This is a **methodology synthesis**: a single-pass, retrospective
 consolidation of the session-wide patterns produced on 2026-04-25 in
-`/Users/ghost/core/canon`. It does **not**:
+`~/core/canon`. It does **not**:
 
 - claim 3D Navier-Stokes regularity, RH, P vs NP, Hodge, BSD, YM mass
   gap, or any other Millennium resolution;
@@ -910,6 +910,6 @@ nxs_promotion_count: **unchanged this session** (no inventory writes).
 NO atlas/state/inventory edits in n6 or nexus. NO CLAUDE.md changes.
 NO `.claude/agents/*` changes. The single output file is this report
 under
-`/Users/ghost/core/canon/reports/sessions/omega-meta-cumulative-session-methodology-2026-04-25.md`.
+`~/core/canon/reports/sessions/omega-meta-cumulative-session-methodology-2026-04-25.md`.
 
 — end cumulative methodology synthesis —

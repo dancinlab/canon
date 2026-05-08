@@ -21,7 +21,7 @@ can we get without waiting for the lang-side fix?
 
 ## 1. Finding — include mechanism DOES already exist in `$HEXA_LANG`
 
-Investigation of `/Users/ghost/core/hexa-lang/self/` on 2026-04-24 shows:
+Investigation of `~/core/hexa-lang/self/` on 2026-04-24 shows:
 
 | Artifact | Kind | Status |
 | -------- | ---- | ------ |
@@ -172,7 +172,7 @@ submit --to hexa-lang --category lang_gap --kind cluster ...`):
    `atlas/n6_core_constants` and asserts `SIGMA * PHI == N * TAU`.
 
 **Forwarding.** Per `config/lang_gap_forward_convention.json`, file this as a
-`cluster` kind lang_gap through `hexa /Users/ghost/core/hexa-lang/bin/proposal_inbox
+`cluster` kind lang_gap through `hexa ~/core/hexa-lang/bin/proposal_inbox
 submit --to hexa-lang --category lang_gap --kind cluster --title 'typed const
 import across translation units' --from canon`. Attach this proposal
 and the upstream `module_loader.hexa` reference so the reviewer sees the

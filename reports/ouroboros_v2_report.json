@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-04-29T13:21:52Z",
+  "timestamp": "2026-05-08T10:09:56Z",
   "version": "v2_namespace_aware",
-  "atlas_path": "/Users/ghost/core/canon/canonshared/atlas.n6",
+  "atlas_path": "~/core/canon/canonshared/atlas.n6",
   "n_entries": 5154,
   "total_cycles": 20,
   "total_self_loops": 0,
@@ -23,11 +23,11 @@
     {
       "size": 19,
       "nodes": [
-        "L8-laniakea-diameter-mly",
         "L8-mw-solar-velocity-kms",
         "L8-mw-gc-distance-kly",
-        "L8-mw-bulge-mass-Msun",
-        "L8-mw-disk-mass-Msun"
+        "L8-m31-diameter-kly",
+        "L8-m31-mass-Msun",
+        "L8-virgo-cluster-mass-Msun"
       ]
     },
     {
@@ -43,11 +43,11 @@
     {
       "size": 7,
       "nodes": [
-        "L8-m33-mass-Msun",
-        "L8-m33-distance-mly",
         "L8-m31-merger-time-gyr",
         "L8-m31-approach-velocity-kms",
-        "L8-m31-distance-mly"
+        "L8-m31-distance-mly",
+        "L8-lg-diameter-mpc",
+        "L8-m33-mass-Msun"
       ]
     },
     {
@@ -67,11 +67,11 @@
     {
       "size": 10,
       "nodes": [
+        "L8-m87-jet-length-kly",
         "L8-type-Sc-example",
         "L8-type-Sb-example",
         "L8-type-Sa-example",
-        "L8-type-S0-example",
-        "L8-type-E7-example"
+        "L8-type-S0-example"
       ]
     },
     {

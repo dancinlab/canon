@@ -104,7 +104,7 @@
   },
 
   "cascade_blocked_events_snapshot": {
-    "path": "/Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl",
+    "path": "~/core/nexus/state/audit/cascade_blocked_events.jsonl",
     "rows_now": 39,
     "rows_cycle10": 35,
     "delta": 4,

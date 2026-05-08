@@ -7,7 +7,7 @@
     "rc": 0,
     "outer_status": "FAIL",
     "cause": "claude-auth-failure-401-from-child-log on remote=hetzner (OAuth in ~/.claude-claudeN/ expired ~Apr 21; subagent_dispatch returned 401)",
-    "evidence": "nexus stderr: __KICK_RESULT__ FAIL witness=/Users/ghost/core/nexus/design/kick/2026-04-28_hexa-weave-abstraction-to-limits_omega_cycle.json tier1=0 falsifier_pass=0",
+    "evidence": "nexus stderr: __KICK_RESULT__ FAIL witness=~/core/nexus/design/kick/2026-04-28_hexa-weave-abstraction-to-limits_omega_cycle.json tier1=0 falsifier_pass=0",
     "fix_path": "1) refresh OAuth in ~/.claude-claudeN/ on hetzner; 2) on Mac: claude /login then rsync to hetzner; 3) ssh hetzner ls -la ~/.claude-claude*/auth_state*; 4) ref convergence/r4_kick_auth_fail_detection_2026_04_27 + closed-loop iter-2 child-log-scan honesty patch 2026-04-28",
     "raw_100_fallback_invoked": true,
     "raw_91_c3_disclosure": "kick attempt logged, RC=0 from outer wrapper but inner __KICK_RESULT__=FAIL; in-context Ω-cycle synthesis substituted to deliver witness JSON manually"
@@ -230,7 +230,7 @@
       "kick infra FAIL → raw 100 fallback synthesis delivered witness"
     ],
     "evidence_paths": [
-      "/Users/ghost/core/canon/design/kick/2026-04-28_hexa-weave-abstraction-to-limits_omega_cycle.json (this file)",
+      "~/core/canon/design/kick/2026-04-28_hexa-weave-abstraction-to-limits_omega_cycle.json (this file)",
       "session transcript (HEXA-WEAVE definition agreement)",
       "nexus stderr (kick FAIL diagnosis)",
       "Bekenstein 1981 PRD; Rathjen 1991; Berger-Leighton 1998; Turing 1936 (cited above)"

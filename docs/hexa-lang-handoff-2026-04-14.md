@@ -44,7 +44,7 @@ hexa-lang 측 요청: `examples/regressions/n6/` 심볼릭 디렉토리 생성 �
 
 canon 원본 변경이 자동으로 hexa-lang regression set 에 반영됨 (심볼릭).
 
-README: `/Users/ghost/core/hexa-lang/examples/regressions/n6/README.md`
+README: `~/core/hexa-lang/examples/regressions/n6/README.md`
 
 ## ARENA=1 bench 수락 조건
 
@@ -84,7 +84,7 @@ README: `/Users/ghost/core/hexa-lang/examples/regressions/n6/README.md`
 ## 8. stage0 실전 재검증 결과
 
 - 일자: 2026-04-14 (추가 세션)
-- 바이너리: `/Users/ghost/core/hexa-lang/build/hexa_stage0` (arm64, 1.8 MB, 21:52 mtime)
+- 바이너리: `~/core/hexa-lang/build/hexa_stage0` (arm64, 1.8 MB, 21:52 mtime)
 - 리포트: `experiments/chip-verify/stage0_rerun_report.md`
 - 결과: 13 / 13 파일 stage0 실전 실행 rc=0 성공, stderr 0 건
   - A류 5 파일 (파일 하단 `main()` 호출 포함): 원본 그대로 실행 -> 풍부한 출력 + 검증 통과

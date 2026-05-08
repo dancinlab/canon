@@ -1,8 +1,8 @@
 == Rust → HEXA 렌즈 포팅 청크 7 로그 ==
 날짜: 2026-04-11
 범위: q~r 시작 (18 파일)
-입력: /Users/ghost/Dev/n6-architecture/nexus/src/telescope/lenses/<filename>.rs
-출력: /Users/ghost/Dev/nexus/shared/lenses/<filename>.hexa
+입력: ~/core/canon/nexus/src/telescope/lenses/<filename>.rs
+출력: ~/core/nexus/shared/lenses/<filename>.hexa
 템플릿: beekeeping_colony_division.hexa
 규칙: 한글 / HEXA v0.1.0 / 원본 보존 / R1/R18/R19
 

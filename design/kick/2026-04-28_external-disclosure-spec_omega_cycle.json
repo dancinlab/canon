@@ -153,7 +153,7 @@
   "future_cycles_migration_plan": {
     "2026-07-28": "F-TP5-b 90-day MVP gate — if PASS, queue Option-A Zenodo DOI deposit for the paper + L4-L7 closure witnesses bundle",
     "2026-10-28": "post-Zenodo external review window — gate Option-B arXiv decision",
-    "2027-04-28": "1-year mark — re-evaluate Option-C public GitHub repo (need-singularity org or personal); requires explicit user approval"
+    "2027-04-28": "1-year mark — re-evaluate Option-C public GitHub repo (dancinlab org or personal); requires explicit user approval"
   },
   "verdict": "PASS — Option-E adopted; paper produced, lint-clean, 21-section canonical, verify-embedded reproducible.",
   "delivery_timestamp_utc": "2026-04-28T15:40:00Z"

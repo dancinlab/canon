@@ -9,7 +9,7 @@ status: draft
 
 Author: Park Minwoo (independent researcher, canon project lead)
 Recipient: Kolon Industries Central R&D Center / Materials Research Institute / Future Technology Institute
-Project: canon (https://github.com/need-singularity/canon)
+Project: canon (https://github.com/dancinlab/canon)
 Related domain: `domains/compute/chip-materials/chip-materials.md`
 Related BT: BT-85 Carbon Z=6 universality
 
@@ -146,7 +146,7 @@ Conditions under which this proposal would be judged wrong:
 ## §8. Contact
 
 - Park Minwoo (mk911tb@proton.me)
-- GitHub: need-singularity/canon
+- GitHub: dancinlab/canon
 - Preferred meeting: once during 2026 Q2 ~ Q3, Kolon's schedule prioritized
 
 ---

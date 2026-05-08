@@ -76,7 +76,7 @@
   },
 
   "sync_readme_pipeline_result": {
-    "command": "/Users/ghost/core/hexa-lang/hexa run canonshared/sync-readme.hexa",
+    "command": "~/core/hexa-lang/hexa run canonshared/sync-readme.hexa",
     "exit_status": 0,
     "markers_total": 64,
     "markers_changed": 1,

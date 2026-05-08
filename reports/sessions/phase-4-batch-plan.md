@@ -455,7 +455,7 @@ Each block below is a paste-ready prompt for a single agent. Do not edit; copy-p
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-1-breakthroughs-a
 Batch number: 1 of 14
@@ -531,7 +531,7 @@ Batch number: 1 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-2-breakthroughs-b
 Batch number: 2 of 14
@@ -607,7 +607,7 @@ Batch number: 2 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-3-breakthroughs-c
 Batch number: 3 of 14
@@ -683,7 +683,7 @@ Batch number: 3 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-4-breakthroughs-d
 Batch number: 4 of 14
@@ -759,7 +759,7 @@ Batch number: 4 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-5-breakthroughs-e
 Batch number: 5 of 14
@@ -835,7 +835,7 @@ Batch number: 5 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-6-breakthroughs-tail-audits-a
 Batch number: 6 of 14
@@ -911,7 +911,7 @@ Batch number: 6 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-7-audits-b
 Batch number: 7 of 14
@@ -987,7 +987,7 @@ Batch number: 7 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-8-audits-c
 Batch number: 8 of 14
@@ -1063,7 +1063,7 @@ Batch number: 8 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-9-audits-tail-sessions-a
 Batch number: 9 of 14
@@ -1139,7 +1139,7 @@ Batch number: 9 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-10-sessions-b
 Batch number: 10 of 14
@@ -1215,7 +1215,7 @@ Batch number: 10 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-11-sessions-tail-discovery-a
 Batch number: 11 of 14
@@ -1291,7 +1291,7 @@ Batch number: 11 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-12-discovery-b
 Batch number: 12 of 14
@@ -1367,7 +1367,7 @@ Batch number: 12 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-13-discovery-tail-reports-top-a
 Batch number: 13 of 14
@@ -1443,7 +1443,7 @@ Batch number: 13 of 14
 ```
 You are a Phase 4 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-4-14-reports-top-b-misc
 Batch number: 14 of 14

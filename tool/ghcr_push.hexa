@@ -30,7 +30,7 @@ set -uo pipefail
 
 LEDGER="${LEDGER:-state/audit/docker_registry_push_events.jsonl}"
 IMAGE_LOCAL="${IMAGE_LOCAL:-hexa-runner:latest}"
-GHCR_NAMESPACE="${GHCR_NAMESPACE:-ghcr.io/need-singularity/hexa-runner}"
+GHCR_NAMESPACE="${GHCR_NAMESPACE:-ghcr.io/dancinlab/hexa-runner}"
 CYCLE_TAG="${CYCLE_TAG:-cycle-14}"
 DATE_TAG="${DATE_TAG:-2026-04-28}"
 HOSTS=("${HOSTS:-ubu1 ubu2 hetzner}")

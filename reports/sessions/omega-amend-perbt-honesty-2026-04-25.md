@@ -73,7 +73,7 @@ section (after the last narrative paragraph, before the `---` separator
 preceding the next `## §4` header). Character count includes the leading
 "> " blockquote marker but excludes the trailing newline.
 
-| # | File path (absolute under `/Users/ghost/core/canon/`) | Target section | Insertion line | Char count |
+| # | File path (absolute under `~/core/canon/`) | Target section | Insertion line | Char count |
 |---|----------------------------------------------------------------|----------------|----------------|------------|
 | 1 | `reports/sessions/omega-cycle-bt541-riemann-2026-04-25.md` | §3 Axis B -- Omega-saturation estimate | line 128 | 794 |
 | 2 | `reports/sessions/omega-cycle-bt543-ym-2026-04-25.md`      | §3 Ω-saturation estimate (composite vs 0.835) | line 111 | 794 |

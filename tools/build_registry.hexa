@@ -110,7 +110,7 @@ fn main() {
             buf = buf + "\n[[standalone]]\n"
             buf = buf + "slug      = " + quote(slug) + "\n"
             buf = buf + "emoji     = " + quote(emoji) + "\n"
-            buf = buf + "repo      = " + quote("https://github.com/need-singularity/" + slug) + "\n"
+            buf = buf + "repo      = " + quote("https://github.com/dancinlab/" + slug) + "\n"
             buf = buf + "oneliner  = " + quote(oneliner) + "\n"
             buf = buf + "license   = " + quote("MIT") + "\n"
             buf = buf + "extracted = " + quote("2026-05-06") + "\n"

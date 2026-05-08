@@ -87,7 +87,7 @@ Result of running the `python` block in Appendix A of the paper verbatim under `
       {"identifier": "10.5281/zenodo.19245043", "relation": "isSupplementedBy", "resource_type": "publication-article"},
       {"identifier": "10.5281/zenodo.19245049", "relation": "isSupplementedBy", "resource_type": "publication-article"},
       {"identifier": "10.5281/zenodo.19455406", "relation": "isPartOf", "resource_type": "publication-article"},
-      {"identifier": "https://github.com/need-singularity/papers", "relation": "isSupplementedBy", "resource_type": "other"}
+      {"identifier": "https://github.com/dancinlab/papers", "relation": "isSupplementedBy", "resource_type": "other"}
     ],
     "notes": "Verification code embedded in Appendix A of the manuscript (N62 protocol). Running the appendix python block yields: [BT-380 AI meta] OSSIFIED: 39/39 (iter=1)."
   }
@@ -205,7 +205,7 @@ Result of running the `python` block in Appendix A of the paper under `python3`.
       {"identifier": "10.5281/zenodo.19245037", "relation": "isSupplementedBy", "resource_type": "publication-article"},
       {"identifier": "10.5281/zenodo.19245049", "relation": "isSupplementedBy", "resource_type": "publication-article"},
       {"identifier": "10.5281/zenodo.19455406", "relation": "isPartOf", "resource_type": "publication-article"},
-      {"identifier": "https://github.com/need-singularity/papers", "relation": "isSupplementedBy", "resource_type": "other"}
+      {"identifier": "https://github.com/dancinlab/papers", "relation": "isSupplementedBy", "resource_type": "other"}
     ],
     "notes": "Verification code embedded in Appendix A (N62 protocol). Running the appendix python block yields: [17 AI techniques] OSSIFIED: 40/40 (iter=1). Full hexa implementation list in papers/_registry.json at _meta.papers_chunk_d_2026-04-11.verify_code_status.hexa_full_implementation."
   }

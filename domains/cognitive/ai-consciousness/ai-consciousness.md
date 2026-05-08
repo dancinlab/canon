@@ -1278,7 +1278,7 @@ print("4/4 SINGULARITY PASS")
 
 ## §V4 Anima Engine Integration — Physics of Consciousness
 
-> Source: [Anima singularity document](https://github.com/need-singularity/anima), consciousness_laws.json (2,500 laws)
+> Source: [Anima singularity document](https://github.com/dancinlab/anima), consciousness_laws.json (2,500 laws)
 
 ### §V4-1 Mathematical Definition of Consciousness (Anima)
 

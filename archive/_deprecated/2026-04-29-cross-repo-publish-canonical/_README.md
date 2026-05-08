@@ -20,7 +20,7 @@ papers publish <paper-id> --target zenodo --sandbox --dry-run
 papers publish <paper-id> --target all
 ```
 
-`/Users/ghost/core/papers/bin/papers` (12-verb dispatch). secret 통합으로 `secret get zenodo.token`
+`~/core/papers/bin/papers` (12-verb dispatch). secret 통합으로 `secret get zenodo.token`
 자동 inject (hard-coded 토큰 금지).
 
 ## raw compliance
@@ -41,4 +41,4 @@ papers cross-repo-lint --selftest    # 3 fixtures
 - papers/.own own 9: `papers-cross-repo-publish-canonical`
 - papers commit 6b670f9: own 9 등재
 - papers commit a3f73a3: tool/papers_cross_repo_lint.hexa land
-- /Users/ghost/core/.workspace: papers.cli + papers.manifest resource canonical
+- ~/core/.workspace: papers.cli + papers.manifest resource canonical

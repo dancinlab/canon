@@ -16,9 +16,9 @@
   "investigation": {
     "step_1_dispatcher_location": {
       "finding": "dispatcher lives in sister nexus repo, not canon",
-      "path": "/Users/ghost/core/nexus/scripts/bin/hexa_remote",
+      "path": "~/core/nexus/scripts/bin/hexa_remote",
       "size_lines": 1983,
-      "guard_script_in_n6_arch": "/Users/ghost/core/canon/bin/check_remote_dispatch.sh",
+      "guard_script_in_n6_arch": "~/core/canon/bin/check_remote_dispatch.sh",
       "cross_repo_contract": "canon invokes hexa_remote via PATH; check_remote_dispatch.sh enforces ≥3 'core/canon' refs in hexa_remote (cwd-mapping recurrence guard, 2026-04-24)"
     },
 

@@ -69,7 +69,7 @@
   "push_target": {
     "remote": "origin",
     "branch": "main",
-    "url": "https://github.com/need-singularity/canon.git"
+    "url": "https://github.com/dancinlab/canon.git"
   },
   "other_repos_note": "Other repos (hive, etc.) inspected post-commit; cycle-7 fan-out 1/5 scope is canon only.",
   "ts_kick": "2026-04-28T07:55:00Z",

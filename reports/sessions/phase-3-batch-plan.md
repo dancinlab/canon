@@ -338,7 +338,7 @@ Each block below is a paste-ready prompt for a single agent. Do not edit; copy-p
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-1-infra-a
 Batch number: 1 of 10
@@ -413,7 +413,7 @@ Batch number: 1 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-2-infra-b
 Batch number: 2 of 10
@@ -488,7 +488,7 @@ Batch number: 2 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-3-infra-c-life-tail
 Batch number: 3 of 10
@@ -563,7 +563,7 @@ Batch number: 3 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-4-life-a
 Batch number: 4 of 10
@@ -638,7 +638,7 @@ Batch number: 4 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-5-life-b-culture-a
 Batch number: 5 of 10
@@ -713,7 +713,7 @@ Batch number: 5 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-6-culture-b-physics-top
 Batch number: 6 of 10
@@ -788,7 +788,7 @@ Batch number: 6 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-7-physics-tail-compute-a
 Batch number: 7 of 10
@@ -863,7 +863,7 @@ Batch number: 7 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-8-compute-b
 Batch number: 8 of 10
@@ -938,7 +938,7 @@ Batch number: 8 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-9-materials-cognitive-a
 Batch number: 9 of 10
@@ -1013,7 +1013,7 @@ Batch number: 9 of 10
 ```
 You are a Phase 3 translation agent for the canon own#1 HARD English-only campaign.
 
-Repo: /Users/ghost/core/canon
+Repo: ~/core/canon
 Branch: main (rebase against origin/main as needed)
 Batch label: phase-3-10-cognitive-tail-energy-sf-space
 Batch number: 10 of 10

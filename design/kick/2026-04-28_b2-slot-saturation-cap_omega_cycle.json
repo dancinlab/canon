@@ -10,14 +10,14 @@
     "before": "cli/run.hexa _kick_run preflight invoked kick_slot_gate --max 6, then on DEFER (rc=1) hard-aborted with exit(64). Sub-BV intent was to throttle BEFORE the cron-burst → docker-fallback → Sub-BO refusal cascade, but the implementation only pushed the failure surface earlier — caller still saw rc=64 and there was NO fallback chain (no docker hard-landing, no queue). The 6th concurrent kick died loudly instead of being routed.",
     "trigger_observation": "F-MX-3-c falsifier shows rc=64 propagating to caller during cron-burst windows; user mission requires 6 concurrent → 5 PASS + 6th queued/landed.",
     "diagnosis_files": [
-      "/Users/ghost/core/hive/tool/kick_slot_gate.hexa (chflags uchg, untouched — diagnostic SSOT)",
-      "/Users/ghost/core/nexus/cli/run.hexa _kick_run lines 6292-6308 (legacy preflight)"
+      "~/core/hive/tool/kick_slot_gate.hexa (chflags uchg, untouched — diagnostic SSOT)",
+      "~/core/nexus/cli/run.hexa _kick_run lines 6292-6308 (legacy preflight)"
     ]
   },
 
   "fix": {
     "verdict": "FIXED",
-    "patch_target": "/Users/ghost/core/nexus/cli/run.hexa  fn _kick_run",
+    "patch_target": "~/core/nexus/cli/run.hexa  fn _kick_run",
     "cross_repo_impact": "nexus only (cli/run.hexa). hive/tool/kick_slot_gate.hexa is uchg-locked AND already correct as a diagnostic SSOT — its job is to count + verdict, not to route. Routing belongs to the caller. raw 85 escalation-audit: NOT triggered (no chflags unlock needed).",
     "threshold_change": "--max 6 → --max 5. Semantic: kick_slot_gate.DEFER iff current >= max, so max=5 means the 6th process arriving at preflight (mac_current already 5) trips DEFER. This matches the user spec (5 PASS + 6th queued/landed).",
     "fallback_chain": [
@@ -30,13 +30,13 @@
       },
       {
         "step": 2,
-        "action": "enqueue to /Users/ghost/core/nexus/state/dispatch_queue/kick_<ts>_<pid>.jsonl",
+        "action": "enqueue to ~/core/nexus/state/dispatch_queue/kick_<ts>_<pid>.jsonl",
         "rationale": "if docker is unavailable AND Mac is saturated, the only remaining option that does NOT cascade to rc=64 is to defer execution to a queue drain. The line records full argv as JSON for replay.",
-        "drain_hint": "hexa run /Users/ghost/core/nexus/tool/queue_drain.hexa (drain tool itself is out-of-scope for B.2 — caller responsibility per mission §수정 방향 4)"
+        "drain_hint": "hexa run ~/core/nexus/tool/queue_drain.hexa (drain tool itself is out-of-scope for B.2 — caller responsibility per mission §수정 방향 4)"
       }
     ],
     "rc64_reachability": "ONLY via NEXUS_KICK_NO_FALLBACK=1 env var (negative-control path for F-B2-1 falsifier). Default behaviour: rc=64 is unreachable.",
-    "audit_ledger": "/Users/ghost/core/nexus/state/audit/kick_b2_fallback.jsonl  (one JSON line per fallback invocation; pairs with Sub-CP audit pattern from raw 77.)"
+    "audit_ledger": "~/core/nexus/state/audit/kick_b2_fallback.jsonl  (one JSON line per fallback invocation; pairs with Sub-CP audit pattern from raw 77.)"
   },
 
   "test_evidence": {
@@ -51,10 +51,10 @@
     {
       "id": "F-B2-1",
       "claim": "no rc=64 propagation from `nexus kick` to caller within 24h window (default mode)",
-      "predicate": "tail -n 1000 /Users/ghost/core/nexus/state/audit/kick_b2_fallback.jsonl | grep -c '\"path\":\"docker-hard-landing\"' >= 1 AND no rc=64 logged in dispatch_failure ledger for kick origin",
+      "predicate": "tail -n 1000 ~/core/nexus/state/audit/kick_b2_fallback.jsonl | grep -c '\"path\":\"docker-hard-landing\"' >= 1 AND no rc=64 logged in dispatch_failure ledger for kick origin",
       "negative_control_env": "NEXUS_KICK_NO_FALLBACK=1 must STILL produce rc=64 (legacy path preserved)",
       "trip_window": "24h",
-      "evidence_path": "/Users/ghost/core/nexus/state/audit/kick_b2_fallback.jsonl",
+      "evidence_path": "~/core/nexus/state/audit/kick_b2_fallback.jsonl",
       "verified_now": true
     },
     {
@@ -63,7 +63,7 @@
       "predicate": "(ps -eo command | grep -Ec '(cli/run\\.hexa kick|kick_dispatch|subagent_dispatch)') - $(hive-exec kick_slot_gate --json | jq .current) within ±1",
       "rationale": "if gate over-reports, every invocation routes to docker even when Mac has slot — pseudo-saturation (Sub-BV-style false positive). If gate under-reports, the cap leaks and Mac jetsam SIGKILL re-emerges (F-B2-3).",
       "trip_window": "continuous (every kick_slot_gate invocation logs count to ~/core/nexus/state/audit/kick_slot_gate.jsonl)",
-      "evidence_path": "/Users/ghost/core/nexus/state/audit/kick_slot_gate.jsonl"
+      "evidence_path": "~/core/nexus/state/audit/kick_slot_gate.jsonl"
     },
     {
       "id": "F-B2-3",
@@ -85,11 +85,11 @@
   ],
 
   "outputs": {
-    "patch_files": ["/Users/ghost/core/nexus/cli/run.hexa"],
-    "witness_json": "/Users/ghost/core/canon/design/kick/2026-04-28_b2-slot-saturation-cap_omega_cycle.json",
-    "audit_ledger": "/Users/ghost/core/nexus/state/audit/kick_b2_fallback.jsonl",
-    "queue_dir_convention": "/Users/ghost/core/nexus/state/dispatch_queue/  (created on demand by step 2 of fallback chain)"
+    "patch_files": ["~/core/nexus/cli/run.hexa"],
+    "witness_json": "~/core/canon/design/kick/2026-04-28_b2-slot-saturation-cap_omega_cycle.json",
+    "audit_ledger": "~/core/nexus/state/audit/kick_b2_fallback.jsonl",
+    "queue_dir_convention": "~/core/nexus/state/dispatch_queue/  (created on demand by step 2 of fallback chain)"
   },
 
-  "sentinel": "__KICK_RESULT__ PASS witness=/Users/ghost/core/canon/design/kick/2026-04-28_b2-slot-saturation-cap_omega_cycle.json tier1=3 falsifier_pass=1"
+  "sentinel": "__KICK_RESULT__ PASS witness=~/core/canon/design/kick/2026-04-28_b2-slot-saturation-cap_omega_cycle.json tier1=3 falsifier_pass=1"
 }

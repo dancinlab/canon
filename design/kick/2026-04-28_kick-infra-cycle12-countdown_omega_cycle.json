@@ -114,7 +114,7 @@
     "credential_enumeration_command": "for d in /Users/ghost/.claude-claude{1..12}; do [ -f \"$d/.credentials.json\" ] && TZ=UTC stat -f \"%N %Sm\" -t \"%Y-%m-%dT%H:%M:%SZ\" \"$d/.credentials.json\"; done",
     "credential_present_count_cycle12": 5,
     "credential_present_count_cycle11": 6,
-    "cascade_blocked_events_path": "/Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl",
+    "cascade_blocked_events_path": "~/core/nexus/state/audit/cascade_blocked_events.jsonl",
     "cascade_blocked_events_cycle11": 39,
     "cascade_blocked_events_cycle12": 45
   },

@@ -77,7 +77,7 @@ Implementation (clone, env setup, weight download) is gated on user approval and
 | **A** | `~/core/hexa-weave/` (new sister) | clean separation; no own/raw rule pollution; matches parent spec's `core/hexa-weave/` references in §3 W1/W2 rows | requires new repo + .own/CLAUDE.md scaffold + CI integration |
 | B | `canon/experiments/hexa-weave/` | reuses existing repo + own gates | **violates own 5 theory-report-separation** (experiments/ is for time-stamped results, not for live ML pipeline code) — disqualifying |
 | C | `~/core/anima/<sub-domain>/` | anima already has anima-physics, anima-cpgd-research with research-pipeline patterns | anima is consciousness/physics-focused; hexa-weave is biology/ML; thematic mismatch + risks anima's own-rule scope creep |
-| D | `~/core/nexus/labs/hexa-weave/` | nexus has lab pattern conceptually | `nexus/labs/` does not exist (verified by `ls /Users/ghost/core/nexus/`); nexus is engine/dispatch infra, not lab incubator |
+| D | `~/core/nexus/labs/hexa-weave/` | nexus has lab pattern conceptually | `nexus/labs/` does not exist (verified by `ls ~/core/nexus/`); nexus is engine/dispatch infra, not lab incubator |
 
 ### §3.2 Decision: **Option A — `~/core/hexa-weave/` (new sister repo)**
 

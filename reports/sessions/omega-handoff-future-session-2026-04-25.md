@@ -562,6 +562,6 @@ nxs_promotion_count: **unchanged this session**.
 NO atlas/state/inventory edits in n6 or nexus. NO `CLAUDE.md`
 changes. NO `.claude/agents/*` changes. The single output file is
 this report under
-`/Users/ghost/core/canon/reports/sessions/omega-handoff-future-session-2026-04-25.md`.
+`~/core/canon/reports/sessions/omega-handoff-future-session-2026-04-25.md`.
 
 — end future-session handoff —

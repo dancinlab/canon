@@ -3,7 +3,7 @@
   "ts": "2026-04-28T15:55:00Z",
   "title": "F-SLOT-PICKER-LIVE-PROBE: live-API health gate for claude_slot_pick.hexa (cycle 2 / fan-out 1/5)",
   "task_label": "F-SLOT-PICKER-LIVE-PROBE",
-  "scope": "Add a live-API health gate to /Users/ghost/core/hive/tool/claude_slot_pick.hexa so that --pick refuses to return profiles whose OAuth refreshToken has been revoked Anthropic-side (currently 11/12 of the pool). The gate round-trips `claude -p ping --model claude-haiku-4-5` per candidate (5s timeout, 30s cache) and walks LRU order until a healthy candidate is found, or aborts with raw 66 trailer when all 12 are unhealthy.",
+  "scope": "Add a live-API health gate to ~/core/hive/tool/claude_slot_pick.hexa so that --pick refuses to return profiles whose OAuth refreshToken has been revoked Anthropic-side (currently 11/12 of the pool). The gate round-trips `claude -p ping --model claude-haiku-4-5` per candidate (5s timeout, 30s cache) and walks LRU order until a healthy candidate is found, or aborts with raw 66 trailer when all 12 are unhealthy.",
 
   "background_b1_residue": {
     "observed_state": "B.1 left the 12-profile pool with 11 revoked refreshTokens. _pick_lru's gate (file existence + cooldown windows) considered them all available; dispatch then 401'd ~91% of the time. Kick infra is institutionalizing raw 100 fallback (docker hard-landing) for this reason — 7 cycles of degraded operation.",
@@ -12,7 +12,7 @@
   },
 
   "patch": {
-    "file": "/Users/ghost/core/hive/tool/claude_slot_pick.hexa",
+    "file": "~/core/hive/tool/claude_slot_pick.hexa",
     "size_before_bytes": 39275,
     "size_after_bytes": 47350,
     "insertions_summary": [
@@ -37,7 +37,7 @@
   },
 
   "selftest": {
-    "script": "/Users/ghost/core/canon/design/kick/selftest/f_slot_picker_live_probe_selftest.sh",
+    "script": "~/core/canon/design/kick/selftest/f_slot_picker_live_probe_selftest.sh",
     "harness_strategy": "CLAUDE_SLOT_TEST_HOME redirects slot discovery to a tempdir with 3 mock slots; CLAUDE_SLOT_PICK_PROBE_CMD injects a deterministic shell script in place of `claude -p`. No real Anthropic traffic.",
     "cases": [
       {"id": "C1", "name": "all-3-revoked-401", "mock": "all 3 slots return exit 1 + '401 authentication_error' on stderr", "expect": "exit 76, stderr contains 'all-slots-unhealthy-live-probe' + 'reason=auth-401'", "result": "PASS"},
@@ -67,7 +67,7 @@
   },
 
   "tests_run": [
-    {"id": "T-FSPLP-1", "cmd": "stat -f %Sf /Users/ghost/core/hive/tool/claude_slot_pick.hexa", "result": "PASS — flags='-' (not chflags-locked); raw 85 procedure NOT required"},
+    {"id": "T-FSPLP-1", "cmd": "stat -f %Sf ~/core/hive/tool/claude_slot_pick.hexa", "result": "PASS — flags='-' (not chflags-locked); raw 85 procedure NOT required"},
     {"id": "T-FSPLP-2", "cmd": "Edit tool: 4 patches applied to claude_slot_pick.hexa", "result": "PASS — all Edits succeeded, file size went 39275 → 47350 bytes"},
     {"id": "T-FSPLP-3", "cmd": "selftest C1 (all 3 revoked)", "result": "PASS — exit 76, sentinel 'all-slots-unhealthy-live-probe' present, all 3 probes classified reason=auth-401"},
     {"id": "T-FSPLP-4", "cmd": "selftest C2 (one healthy)", "result": "PASS — exit 0, picked claude2, sentinel 'lru-available-live-gated'"},
@@ -123,7 +123,7 @@
   },
 
   "registry_sync": {
-    "registry_path": "/Users/ghost/core/canon/state/discovery_absorption/registry.jsonl",
+    "registry_path": "~/core/canon/state/discovery_absorption/registry.jsonl",
     "to_be_absorbed": true,
     "marker_required": true
   },

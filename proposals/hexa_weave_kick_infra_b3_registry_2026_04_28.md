@@ -32,7 +32,7 @@ any of the options are run.
 |----|----------|-----------------|----------------|-------------|---------------|
 | 1  | Self-hosted local docker registry (`registry:2` on a public host) | medium (~30min) | low | none external | YES — opens registry port |
 | 2  | Per-host build (rsync Dockerfile + build-args, then `docker build` on each host) | medium-high | high (drift risk) | none | YES — needs ssh + 200MB+ build per host |
-| 3  | GitHub Container Registry (`ghcr.io/<org>/hexa-runner`) | low | very low | needs `need-singularity` org permissions + PAT with `write:packages` | YES — public/private namespace decision + token issuance |
+| 3  | GitHub Container Registry (`ghcr.io/<org>/hexa-runner`) | low | very low | needs `dancinlab` org permissions + PAT with `write:packages` | YES — public/private namespace decision + token issuance |
 | 4  | Direct image transfer (`docker save | ssh host docker load`) | low (~3min/host) | medium (manual on each rebuild) | none beyond ssh | YES — produces ~234MB transfer per host |
 
 ### Recommendation
@@ -103,7 +103,7 @@ done
 ## §3 Option 3 — ghcr.io durable channel plan
 
 Pre-conditions for execution:
-1. User confirms `need-singularity` org has packages enabled
+1. User confirms `dancinlab` org has packages enabled
 2. User issues a fine-grained PAT with `write:packages` + `read:packages` on
    that org's namespace ONLY (not personal account)
 3. User decides public vs private package visibility (private requires every
@@ -111,22 +111,22 @@ Pre-conditions for execution:
 4. Image rebuild adds the ghcr.io tag in addition to `:latest`:
 
 ```sh
-docker tag hexa-runner:latest ghcr.io/need-singularity/hexa-runner:v1-node20
-docker tag hexa-runner:latest ghcr.io/need-singularity/hexa-runner:latest
+docker tag hexa-runner:latest ghcr.io/dancinlab/hexa-runner:v1-node20
+docker tag hexa-runner:latest ghcr.io/dancinlab/hexa-runner:latest
 echo $GHCR_PAT | docker login ghcr.io -u <user> --password-stdin
-docker push ghcr.io/need-singularity/hexa-runner:v1-node20
-docker push ghcr.io/need-singularity/hexa-runner:latest
+docker push ghcr.io/dancinlab/hexa-runner:v1-node20
+docker push ghcr.io/dancinlab/hexa-runner:latest
 ```
 
 Once published, host pulls become:
 ```sh
 echo $GHCR_PAT | ssh $HOST 'docker login ghcr.io -u <user> --password-stdin'
-ssh $HOST 'docker pull ghcr.io/need-singularity/hexa-runner:latest'
+ssh $HOST 'docker pull ghcr.io/dancinlab/hexa-runner:latest'
 ```
 
 Required follow-up patch (out of this proposal scope, in nexus repo):
 `scripts/bin/hexa_remote` and `~/core/hive/tool/subagent_dispatch.hexa` should
-be updated to fall back to `ghcr.io/need-singularity/hexa-runner:latest` when
+be updated to fall back to `ghcr.io/dancinlab/hexa-runner:latest` when
 the local `hexa-runner:latest` tag is missing.
 
 ---
@@ -164,7 +164,7 @@ Estimated effort to harden: 2-3 cycles — deferred unless ghcr.io is blocked.
 Rejected because:
 - Each host's `docker build` adds ~80 s + 200 MB+ pull of debian:12-slim base
 - Three independent builds increases drift surface (cf raw 71 F-RUNTIME-DRIFT-1)
-- Dockerfile rsync requires keeping `/Users/ghost/core/hexa-lang/docker/runner/`
+- Dockerfile rsync requires keeping `~/core/hexa-lang/docker/runner/`
   in sync across four trees — currently only the Mac copy is patched (ω-runner-8)
 
 Use only if Options 3+4 are simultaneously unavailable.
@@ -196,7 +196,7 @@ NO option in this proposal is to be executed without ALL of:
 | F-B3-REG-1 | save→load arch-mismatch on any target host | 2026-05-05 | yes (uname -m vs `Mac arm64`) |
 | F-B3-REG-2 | partial image state remains after interrupted ssh stream | 2026-05-05 | yes (image inspect digest mismatch) |
 | F-B3-REG-3 | remote disk fills below 200MB free post-load | 2026-05-05 | yes (df parse) |
-| F-B3-REG-4 | ghcr.io option chosen but `need-singularity` org refuses package publish | n/a until executed | no (manual confirm from publish error) |
+| F-B3-REG-4 | ghcr.io option chosen but `dancinlab` org refuses package publish | n/a until executed | no (manual confirm from publish error) |
 | F-B3-REG-5 | self-hosted registry on hetzner reachable from any non-allowlisted IP within 24h of bring-up | 24h post-bring-up | partial (firewall log audit) |
 
 ---

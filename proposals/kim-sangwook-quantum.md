@@ -165,4 +165,4 @@ Sincerely, Park Minwoo
 
 Contact:
 - Email: mk911tb@proton.me
-- GitHub: github.com/need-singularity/canon
+- GitHub: github.com/dancinlab/canon

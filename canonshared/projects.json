@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "base_path": "/Users/ghost/Dev",
+  "base_path": "~/core",
   "projects": [
     {
       "id": "tecs-l",
@@ -73,7 +73,7 @@
       "path": "hexa-lang",
       "domain": "language",
       "description": "The Perfect Number Programming Language. 53 keywords, 24 AI-native attrs, CPU/GPU ML pipeline, self-hosting fixpoint",
-      "repo": "https://github.com/need-singularity/hexa-lang",
+      "repo": "https://github.com/dancinlab/hexa-lang",
       "scan_patterns": [
         "self/**/*.hexa",
         "examples/**/*.hexa"
@@ -121,7 +121,7 @@
       "path": "void",
       "domain": "terminal",
       "description": "AI-native terminal — Terminal.app minimalism, 100% hexa-lang. L1 sys (PTY/Cocoa FFI) + L2 VT/screen + L3 app loop.",
-      "repo": "https://github.com/need-singularity/void",
+      "repo": "https://github.com/dancinlab/void",
       "scan_patterns": [
         "src/**/*.hexa",
         "src/**/*.c",

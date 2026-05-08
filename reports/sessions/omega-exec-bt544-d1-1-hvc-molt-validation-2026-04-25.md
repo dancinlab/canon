@@ -63,13 +63,13 @@ Each citation re-verified by direct file read:
 | anchor | path | status | evidence |
 |---|---|---|---|
 | HVC R1 attack | `~/core/nexus/bt/BT-544_round_1.json` | **PRESENT** | full 276-line JSON read; HVC formal_statement_attempted lines 62-68; F-A/F-B/F-C definitions lines 92-122 |
-| Φ_holo T2 theorem | `~/core/nexus/training/phi_holographic_measure.hexa` | **NOT AT QUOTED PATH** -- found at `/Users/ghost/core/anima/training/phi_holographic_measure.hexa` line 23 | path-shift: nexus copy absent; anima copy intact; T2 statement at line 23 verbatim: "T2 (entropy bound): Φ_holo <= H(boundary) — Bekenstein-like info cap" |
+| Φ_holo T2 theorem | `~/core/nexus/training/phi_holographic_measure.hexa` | **NOT AT QUOTED PATH** -- found at `~/core/anima/training/phi_holographic_measure.hexa` line 23 | path-shift: nexus copy absent; anima copy intact; T2 statement at line 23 verbatim: "T2 (entropy bound): Φ_holo <= H(boundary) — Bekenstein-like info cap" |
 | MILL-PX-A4 / A6 / V4-T5 | `atlas.millennium.n6` lines 106989/106992/107183 | not re-verified this session (cited in JSON cross_refs lines 250-256; trusted as JSON SSOT) | partial — direct atlas line check skipped |
 | BKM numerical receipts | `~/core/nexus/bt/attacks/bt544_results.jsonl` | **PRESENT** | 2 entries: bkm_A_tg2d (TG 2D BKM int 11.32 vs 11.31, err 0.01) + bkm_B_lamboseen (Lamb-Oseen 115.48 vs 41.18 — UNBOUNDED-as-expected) |
 
 **Path drift**: the seed (and round1 JSON line 37) cites
 `training/phi_holographic_measure.hexa` as if relative to nexus, but the
-file lives in `/Users/ghost/core/anima/training/`. Module content
+file lives in `~/core/anima/training/`. Module content
 matches expectation; only the path label is stale. Logged as anomaly
 (§8); does not block validation since the actual T2 theorem text +
 Φ_holo definition are intact.
@@ -308,7 +308,7 @@ a follow-on if future sessions revisit HVC.
 
 - **A8.1 Path drift**: Round1 JSON cites `training/phi_holographic_
   measure.hexa` as nexus-relative; actual file lives in
-  `/Users/ghost/core/anima/training/`. Module content matches; only
+  `~/core/anima/training/`. Module content matches; only
   path label is stale. Suggest noting in the round1 JSON
   `framework_link` field on the next nexus-side update.
 - **A8.2 Estimator scale-invariance**: 8-bin histogram MI on

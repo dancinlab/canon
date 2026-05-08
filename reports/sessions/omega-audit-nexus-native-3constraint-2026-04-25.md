@@ -202,7 +202,7 @@ which is *post-hoc*, mirroring the n6 case where Y9 is the post-hoc fallback.
 
 ### §2.5 Note on atlas-agent existence
 
-Per `ls /Users/ghost/core/nexus/.claude/agents/`: only `safe-commit.md` exists. The
+Per `ls ~/core/nexus/.claude/agents/`: only `safe-commit.md` exists. The
 porting audit (§2.1 row "atlas-agent / growth-agent / NodeBlocker") flagged this as
 *partial confirmation*: searches for atlas-agent / growth-agent / NodeBlocker in
 `design/`, `tool/`, `config/` returned zero matches. This nexus-native re-audit confirms

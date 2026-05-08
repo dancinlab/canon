@@ -22,7 +22,7 @@
   },
 
   "patch_applied": {
-    "file": "/Users/ghost/core/hive/tool/oauth_refresh_detector.body",
+    "file": "~/core/hive/tool/oauth_refresh_detector.body",
     "lock_state_pre": "chflags uchg (locked)",
     "lock_state_post": "chflags uchg (re-locked after edit)",
     "size_pre_bytes": 2025,
@@ -101,12 +101,12 @@
 
   "cross_repo_impact": {
     "files_modified": [
-      "/Users/ghost/core/hive/tool/oauth_refresh_detector.body (size 2025 → 4886 bytes; locked uchg)"
+      "~/core/hive/tool/oauth_refresh_detector.body (size 2025 → 4886 bytes; locked uchg)"
     ],
     "files_unchanged": [
-      "/Users/ghost/core/hive/tool/oauth_refresh_detector.hexa (still calls /bin/sh body — wrapper unaffected)",
-      "/Users/ghost/core/hive/launchd/dev.hexa-lang.oauth-refresh-detector.plist (no env/args change)",
-      "/Users/ghost/core/nexus/scripts/bin/hexa_remote (still consumes REFRESH_HEALTHY via /Users/ghost/.hx/state/oauth_blacklisted_hosts.jsonl clearing — unchanged)"
+      "~/core/hive/tool/oauth_refresh_detector.hexa (still calls /bin/sh body — wrapper unaffected)",
+      "~/core/hive/launchd/dev.hexa-lang.oauth-refresh-detector.plist (no env/args change)",
+      "~/core/nexus/scripts/bin/hexa_remote (still consumes REFRESH_HEALTHY via /Users/ghost/.hx/state/oauth_blacklisted_hosts.jsonl clearing — unchanged)"
     ],
     "consumers_affected": [
       "pending_kick_replay_daemon (downstream of REFRESH_HEALTHY events) — should now actually fire on Mac side",

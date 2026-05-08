@@ -74,7 +74,7 @@
     ".own (own 29 environment entry: optional-sections → mandatory-sections promotion; user-edited in same session)",
     "lean4-n6/N6/MechVerif/AX1.lean (10 new windows 3100..4000 + AX1_forward_bounded_4000 chain helper + main uniqueness dispatch update + AX1_forward_tail axiom hypothesis update)",
     "lean4-n6/N6/MechVerif/Foundation/Axioms.lean (axiom_robin_hardy_wright_ax1_tail hypothesis 3000 < n → 4000 < n + cycle 27 docstring update)",
-    "/Users/ghost/core/nexus/sim_bridge/weave/cage_assembly_simulation.py (--preset {hbv,ccmv,stnv,default} flag added; literature DOI references in inline docs)"
+    "~/core/nexus/sim_bridge/weave/cage_assembly_simulation.py (--preset {hbv,ccmv,stnv,default} flag added; literature DOI references in inline docs)"
   ],
   "files_created": [
     "design/kick/2026-04-29_cycle27-fan-out-env-w13-stage3b-partial-cage-calib_omega_cycle.json (this witness)"

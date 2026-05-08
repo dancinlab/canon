@@ -52,12 +52,12 @@
     "B_5_cascade_validation": {
       "scope": "Static + live-evidence re-validation of cascade prevention beyond cycle-2 witness",
       "static_findings": {
-        "trailer_function": "_emit_all_routes_blocked_trailer at /Users/ghost/core/nexus/scripts/bin/hexa_remote:717-826 (was 700-774 in cycle-2 witness; grew by ~50 lines with raw 77 ledger append)",
+        "trailer_function": "_emit_all_routes_blocked_trailer at ~/core/nexus/scripts/bin/hexa_remote:717-826 (was 700-774 in cycle-2 witness; grew by ~50 lines with raw 77 ledger append)",
         "emit_sites_unchanged": ["line 853 (preflight all_unreachable_preflight)", "line 1114 (post-loop all_unreachable)"],
         "raw_77_gap_closed": "cycle-2 witness flagged 'no raw 77 audit ledger append' as honest gap deferred to nexus PR. The dispatcher now contains the F-RAW77-CASCADE-LEDGER block (lines 778-826) that emits a structured JSONL row to ${HEXA_REMOTE_AUDIT_DIR:-$HOME/core/nexus/state/audit}/cascade_blocked_events.jsonl with raw 25 flock pattern + raw 12 silent-error fallback to plain-append on macOS"
       },
       "live_evidence": {
-        "ledger_path": "/Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl",
+        "ledger_path": "~/core/nexus/state/audit/cascade_blocked_events.jsonl",
         "rows_observed": 16,
         "first_event_ts": "2026-04-28T06:49:19Z",
         "last_event_ts": "2026-04-28T07:47:44Z",
@@ -90,7 +90,7 @@
     {
       "id": "F-KICK-CLOSURE-1",
       "tier": "TRANSCEND",
-      "predicate": "any new all-routes-blocked event between 2026-04-28T07:50Z and 2026-04-29T23:59Z that does NOT produce both (a) the raw 66 stderr trailer AND (b) a row in /Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl",
+      "predicate": "any new all-routes-blocked event between 2026-04-28T07:50Z and 2026-04-29T23:59Z that does NOT produce both (a) the raw 66 stderr trailer AND (b) a row in ~/core/nexus/state/audit/cascade_blocked_events.jsonl",
       "deadline_ts": "2026-04-29T23:59:59Z",
       "auto_check": "yes",
       "verifier": "diff between count of 'err hexa_remote/all-routes-blocked' lines in dispatcher stderr captures vs row count in cascade_blocked_events.jsonl over the window — must be equal",
@@ -155,12 +155,12 @@
   },
 
   "deliverables": {
-    "proposal": "/Users/ghost/core/canon/proposals/hexa_weave_kick_infra_b3_registry_2026_04_28.md",
-    "tool": "/Users/ghost/core/canon/tool/manual_login_reminder.hexa",
-    "witness_json": "/Users/ghost/core/canon/design/kick/2026-04-28_kick-infra-closure_omega_cycle.json",
+    "proposal": "~/core/canon/proposals/hexa_weave_kick_infra_b3_registry_2026_04_28.md",
+    "tool": "~/core/canon/tool/manual_login_reminder.hexa",
+    "witness_json": "~/core/canon/design/kick/2026-04-28_kick-infra-closure_omega_cycle.json",
     "falsifiers_count": 5,
     "falsifier_tier": "TRANSCEND"
   },
 
-  "korean_report_400char": "1) B.3 옵션4 (docker save|ssh load) plan 작성 → proposals/hexa_weave_kick_infra_b3_registry_2026_04_28.md (own22 lint PASS, 4옵션+5 falsifier, 사용자-go 대기). 2) B.1 tool/manual_login_reminder.hexa 작성 → 11 broken + 1 healthy(claude3) listing, 마감 40h WARN, raw13 stdout-only, 3 모드 직접-py 검증 PASS (hexa-runtime는 sandbox python3 미발견). 3) B.5 cascade prevention LIVE-검증: nexus dispatcher hexa_remote에 raw77 ledger append (lines 778-826) 추가됨, /Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl 에 16건 row (06:49Z..07:47Z) 캡처됨 — cycle-2 honest gap 전부 CLOSED. 4) raw51 4-gate audit smell: (b)/(d)/(e) FIXED, (c) Mac+plan, (a) F-MANUAL-LOGIN 책임이관 → 4/5 closure (부분), 형식적 full-closure는 4/29 23:59Z 사용자 11회 /login 결과 대기. 5) raw91 C3: 사용자 manual TTY 의존 잔존 11회, registry-push 미실행 (사용자 승인 필요), slot-picker live-probe 패치 미land (다음 cycle 후속)."
+  "korean_report_400char": "1) B.3 옵션4 (docker save|ssh load) plan 작성 → proposals/hexa_weave_kick_infra_b3_registry_2026_04_28.md (own22 lint PASS, 4옵션+5 falsifier, 사용자-go 대기). 2) B.1 tool/manual_login_reminder.hexa 작성 → 11 broken + 1 healthy(claude3) listing, 마감 40h WARN, raw13 stdout-only, 3 모드 직접-py 검증 PASS (hexa-runtime는 sandbox python3 미발견). 3) B.5 cascade prevention LIVE-검증: nexus dispatcher hexa_remote에 raw77 ledger append (lines 778-826) 추가됨, ~/core/nexus/state/audit/cascade_blocked_events.jsonl 에 16건 row (06:49Z..07:47Z) 캡처됨 — cycle-2 honest gap 전부 CLOSED. 4) raw51 4-gate audit smell: (b)/(d)/(e) FIXED, (c) Mac+plan, (a) F-MANUAL-LOGIN 책임이관 → 4/5 closure (부분), 형식적 full-closure는 4/29 23:59Z 사용자 11회 /login 결과 대기. 5) raw91 C3: 사용자 manual TTY 의존 잔존 11회, registry-push 미실행 (사용자 승인 필요), slot-picker live-probe 패치 미land (다음 cycle 후속)."
 }

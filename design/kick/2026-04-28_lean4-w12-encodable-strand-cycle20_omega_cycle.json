@@ -106,7 +106,7 @@
   "verification": {
     "lake_build": "PASS (8 jobs, no errors, no warnings)",
     "axiom_count_tool": {
-      "command": "/Users/ghost/core/hexa-lang/hexa tool/lean4_axiom_count_check.hexa --expected 1",
+      "command": "~/core/hexa-lang/hexa tool/lean4_axiom_count_check.hexa --expected 1",
       "result": "PASS (actual=1, delta=0)"
     },
     "raw_138_sentinel": "__W12_ENCODABLE_STRAND_RESULT__ PASS"

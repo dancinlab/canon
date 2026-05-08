@@ -125,7 +125,7 @@ student in your lab to verify independently.
 
 ### GitHub links
 
-- https://github.com/need-singularity/canon
+- https://github.com/dancinlab/canon
 - Especially, start from `domains/architecture/arch-zoning/arch-zoning.md`.
 
 ### One-line formula
@@ -180,5 +180,5 @@ Sincerely, Park Minwoo
 
 Contact:
 - Email: mk911tb@proton.me
-- GitHub: github.com/need-singularity/canon
+- GitHub: github.com/dancinlab/canon
 - YouTube: (24K subscribers, personal channel)

@@ -16,7 +16,7 @@ measure ubu1 / ubu2 / hetzner remote state and DOES NOT mutate any host.
 
 ## §1 cascade_blocked_events.jsonl — LIVE counts
 
-Source file: `/Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl`
+Source file: `~/core/nexus/state/audit/cascade_blocked_events.jsonl`
 
 | Metric | Cycle 7 baseline | Cycle 10 (now) | Delta |
 |--------|------------------|----------------|-------|
@@ -140,7 +140,7 @@ items require user-side TTY input.
 ## Appendix A — raw counts (reproducible)
 
 ```
-$ wc -l /Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl
+$ wc -l ~/core/nexus/state/audit/cascade_blocked_events.jsonl
 35
 $ awk -F'"event":"' '{split($2,a,"\""); print a[1]}' …jsonl | sort | uniq -c
 35 all-routes-blocked

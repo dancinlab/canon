@@ -31,15 +31,15 @@ Key observation: 70%+ of ICT R&D is concentrated on AI, and the four elite Korea
 
 | Asset | Location | Role |
 |---|---|---|
-| `atlas/atlas.n6` | `/Users/ghost/core/canon/atlas/` | math & physics reality map, 21,800 lines, 5928 @R / 326 @P / 357 @C / 255 @L |
-| breakthroughs index | `/Users/ghost/core/canon/theory/breakthroughs/` | `_hypotheses_index.json`, `breakthrough-theorems.md`, BT-361~408 family |
-| nexus blowup 9-phase | `/Users/ghost/core/nexus/cli/blowup/` (sibling repo) | ouroboros convergence loop + 9-stage phase control |
-| sim_bridge / godel_q | `/Users/ghost/core/nexus/sim_bridge/godel_q/` | ANU-QRNG-based quantum-random bridge, 64-tick falsification data |
+| `atlas/atlas.n6` | `~/core/canon/atlas/` | math & physics reality map, 21,800 lines, 5928 @R / 326 @P / 357 @C / 255 @L |
+| breakthroughs index | `~/core/canon/theory/breakthroughs/` | `_hypotheses_index.json`, `breakthrough-theorems.md`, BT-361~408 family |
+| nexus blowup 9-phase | `~/core/nexus/cli/blowup/` (sibling repo) | ouroboros convergence loop + 9-stage phase control |
+| sim_bridge / godel_q | `~/core/nexus/sim_bridge/godel_q/` | ANU-QRNG-based quantum-random bridge, 64-tick falsification data |
 | Stochastic Resonance evidence | nexus monte carlo | σ≈0.1 PEAK 25% — first-order evidence of noise-band optimisation |
-| anima 6-phase | `/Users/ghost/core/anima/anima-agent-core/` | consciousness reflection, `dod_gate.hexa`, `verifier.hexa`, 6 rules H-CONFESS / CLAIM-LEX / SCOPE / BLIND-GT (introduced 2026-04-16) |
+| anima 6-phase | `~/core/anima/anima-agent-core/` | consciousness reflection, `dod_gate.hexa`, `verifier.hexa`, 6 rules H-CONFESS / CLAIM-LEX / SCOPE / BLIND-GT (introduced 2026-04-16) |
 | BT engine | `theory/breakthroughs/` + `domains/` | BT-542 (P vs NP) `draft`, BT-544 (Navier-Stokes Φ-irreducibility) `pattern`, STAR identity n=6, 5 OEIS-unregistered sequences |
 | bisociation engine | across `domains/` | pattern that directly addresses Alethia (Google)'s 13 questions |
-| hexa-lang | `/Users/ghost/core/hexa-lang/` | self-hosted interpreter, GPU-efficiency PoC candidate |
+| hexa-lang | `~/core/hexa-lang/` | self-hosted interpreter, GPU-efficiency PoC candidate |
 
 Note (own#11): BT-542/544 are nowhere in this document described as "solved/resolved". Their current states are **draft / pattern / Φ-irreducibility candidate pattern**.
 
@@ -61,8 +61,8 @@ Note (own#11): BT-542/544 are nowhere in this document described as "solved/reso
 
 - **Solicitation window**: 2026-03 ~ 2026-07, 5 hubs designated during 2026-08.
 - **PoC assets**:
-  - `/Users/ghost/core/nexus/sim_bridge/godel_q/` — ANU QRNG bridge
-  - `/Users/ghost/core/nexus/cli/blowup/` — 9-phase blowup / ouroboros convergence
+  - `~/core/nexus/sim_bridge/godel_q/` — ANU QRNG bridge
+  - `~/core/nexus/cli/blowup/` — 9-phase blowup / ouroboros convergence
   - 64-tick falsification data (nexus monte carlo family)
 - **Differentiator in one line**: NEXUS Stochastic Resonance @ σ≈0.1 PEAK 25% — **first-order evidence** of quantum noise-band optimisation already in hand. Directly addresses the "prior empirical demonstration" clause in hub-designation review.
 - **Consortium assumption**: a match with one of KIST / KAIST / IBS enables a jump. Solo application is scoring-disadvantaged.

@@ -69,7 +69,7 @@ grep -c 'core/canon' ~/core/nexus/scripts/bin/hexa_remote
 # re-apply (the Python block is idempotent — refuses to double-patch)
 chflags nouchg ~/core/nexus/scripts/bin/hexa_remote
 python3 <<'PY'
-p = "/Users/ghost/core/nexus/scripts/bin/hexa_remote"
+p = "~/core/nexus/scripts/bin/hexa_remote"
 txt = open(p).read()
 if '"$HOME_LC/core/canon"' in txt:
     print("already_patched"); exit(0)

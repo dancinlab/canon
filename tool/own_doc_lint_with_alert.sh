@@ -18,7 +18,7 @@
 
 set -uo pipefail
 
-REPO="${N6_ARCHITECTURE:-/Users/ghost/core/n6-architecture}"
+REPO="${N6_ARCHITECTURE:-~/core/n6-architecture}"
 TS="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 LEDGER="$REPO/state/audit/own_doc_lint_events.jsonl"
 

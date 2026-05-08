@@ -117,7 +117,7 @@ the script is sharded into batches. Aggregate mode (`--quiet`) is
 
 ## 4. Implementation summary
 
-- **File**: `/Users/ghost/core/canon/scripts/quality/honesty_triad_linter.hexa`
+- **File**: `~/core/canon/scripts/quality/honesty_triad_linter.hexa`
 - **Lines**: 666 LOC (vs Python 196 LOC; the 3.4x expansion is driven
   by the regex emulation -- explicit verb/path/banner/journal/verdict
   enumerations + manual char-class loops).

@@ -2,7 +2,7 @@
 # F-SLOT-PICKER-LIVE-PROBE selftest (2026-04-28)
 #
 # Exercises the live-API health gate added to
-# /Users/ghost/core/hive/tool/claude_slot_pick.hexa.  Uses
+# ~/core/hive/tool/claude_slot_pick.hexa.  Uses
 # CLAUDE_SLOT_TEST_HOME to redirect slot discovery to an isolated tempdir
 # and CLAUDE_SLOT_PICK_PROBE_CMD to inject a deterministic mock probe so
 # we can simulate revoked OAuth (401) without touching real Anthropic.
@@ -20,8 +20,8 @@
 
 set -euo pipefail
 
-HEXA="${HEXA:-/Users/ghost/core/hexa-lang/hexa}"
-TOOL="/Users/ghost/core/hive/tool/claude_slot_pick.hexa"
+HEXA="${HEXA:-~/core/hexa-lang/hexa}"
+TOOL="~/core/hive/tool/claude_slot_pick.hexa"
 TMP="$(mktemp -d /tmp/f-splp-selftest.XXXXXX)"
 trap 'rm -rf "$TMP" /tmp/claude_slot_health' EXIT
 

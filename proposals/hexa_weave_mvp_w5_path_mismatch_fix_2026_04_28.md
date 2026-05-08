@@ -71,7 +71,7 @@ After:
 HW_SCRIPTS_DIR="${HW_SCRIPTS_DIR:-$HOME/core/canon/scripts}"
 test -f "$HW_SCRIPTS_DIR/rcsb_cluster_split_fetch.py" || {
   echo "ERROR: rcsb_cluster_split_fetch.py not found at $HW_SCRIPTS_DIR" >&2
-  echo "       set HW_SCRIPTS_DIR or run from /Users/ghost/core/canon/" >&2
+  echo "       set HW_SCRIPTS_DIR or run from ~/core/canon/" >&2
   exit 127
 }
 python "$HW_SCRIPTS_DIR/rcsb_cluster_split_fetch.py" \
@@ -86,7 +86,7 @@ Two enhancements bundled:
 1. `--resume` added: idempotent re-dispatch on partial failure (raw 65
    idempotent + raw 142 D2 single-retry friendly).
 2. `test -f` guard with explicit error message: fail-fast with actionable
-   "set HW_SCRIPTS_DIR or run from /Users/ghost/core/canon/"
+   "set HW_SCRIPTS_DIR or run from ~/core/canon/"
    guidance (raw 66 ai-native trailer-friendly because exit 127 → step 6
    failed → trailer.suggested_fallback can prompt user to clone).
 
@@ -107,7 +107,7 @@ After:
 HW_SCRIPTS_DIR="${HW_SCRIPTS_DIR:-$HOME/core/canon/scripts}"
 test -f "$HW_SCRIPTS_DIR/w5_verdict.py" || {
   echo "ERROR: w5_verdict.py not found at $HW_SCRIPTS_DIR" >&2
-  echo "       set HW_SCRIPTS_DIR or run from /Users/ghost/core/canon/" >&2
+  echo "       set HW_SCRIPTS_DIR or run from ~/core/canon/" >&2
   exit 127
 }
 python "$HW_SCRIPTS_DIR/w5_verdict.py" \
@@ -162,7 +162,7 @@ rc=0   # syntax PASS
 ```
 $ HW_SCRIPTS_DIR="${HW_SCRIPTS_DIR:-$HOME/core/canon/scripts}"
 $ echo "Resolved HW_SCRIPTS_DIR=$HW_SCRIPTS_DIR"
-Resolved HW_SCRIPTS_DIR=/Users/ghost/core/canon/scripts
+Resolved HW_SCRIPTS_DIR=~/core/canon/scripts
 $ test -f "$HW_SCRIPTS_DIR/rcsb_cluster_split_fetch.py" && echo PASS
 PASS
 $ test -f "$HW_SCRIPTS_DIR/w5_verdict.py" && echo PASS
@@ -188,7 +188,7 @@ All script-side argparse signatures match the Step 6/8 cmd invocations.
 
 ### 4.5 hexa parse caveat
 
-`/Users/ghost/core/hexa-lang/hexa parse tool/hexa_weave_w5_setup.hexa`
+`~/core/hexa-lang/hexa parse tool/hexa_weave_w5_setup.hexa`
 emits 60+ parse errors — **but this is pre-existing**, identical to the
 cycle-14 baseline. The .hexa-suffixed runbook files in this repo are
 authored as YAML specs (per cycle-14 schema declaration `schema:
@@ -264,8 +264,8 @@ contract is preserved.
 ## 9. Falsifiers preregistered
 
 - **F-W5-PATH-1** (deadline 2026-04-30): User runs `hexa run --dry-run
-  tool/hexa_weave_w5_setup.hexa --only 6,8` from `/Users/ghost/core/canon/`
-  and Step 6/8 cmd echoes resolve `HW_SCRIPTS_DIR=/Users/ghost/core/canon/scripts`
+  tool/hexa_weave_w5_setup.hexa --only 6,8` from `~/core/canon/`
+  and Step 6/8 cmd echoes resolve `HW_SCRIPTS_DIR=~/core/canon/scripts`
   and pass the `test -f` probe. **Falsified if** `HW_SCRIPTS_DIR`
   resolves to wrong path or `test -f` fails.
 

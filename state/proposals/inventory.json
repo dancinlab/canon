@@ -31,7 +31,7 @@
     {
       "id": "n6a-20260422-003",
       "kind": "advisory",
-      "title": "CONVENTION lang_gap: 모든 repo 세션이 hexa 언어/runtime 제약 (미구현 method, reserved keyword 충돌, AOT bug, primitive 누락 등) 발견 시 → hexa /Users/ghost/core/hexa-lang/bin/proposal_inbox submit --to hexa-lang --category lang_gap --kind cluster --title '...' 로 등록. 자기 repo 에 혼자 쌓지 말고 hexa-lang 에 모일 것. (근거: 2026-04-23 session, rfind/guard/hx_prefix/write_file 등 5건 누적)",
+      "title": "CONVENTION lang_gap: 모든 repo 세션이 hexa 언어/runtime 제약 (미구현 method, reserved keyword 충돌, AOT bug, primitive 누락 등) 발견 시 → hexa ~/core/hexa-lang/bin/proposal_inbox submit --to hexa-lang --category lang_gap --kind cluster --title '...' 로 등록. 자기 repo 에 혼자 쌓지 말고 hexa-lang 에 모일 것. (근거: 2026-04-23 session, rfind/guard/hx_prefix/write_file 등 5건 누적)",
       "from_repo": "hexa-lang",
       "user_status": "done",
       "score_priority": 80,
@@ -90,39 +90,39 @@
     "sister_repos": {
       "anima": {
         "prefix": "anima",
-        "inventory_path": "/Users/ghost/core/anima/state/proposals/inventory.json"
+        "inventory_path": "~/core/anima/state/proposals/inventory.json"
       },
       "nexus": {
         "prefix": "nxs",
-        "inventory_path": "/Users/ghost/core/nexus/state/proposals/inventory.json"
+        "inventory_path": "~/core/nexus/state/proposals/inventory.json"
       },
       "hexa-lang": {
         "prefix": "hxa",
-        "inventory_path": "/Users/ghost/core/hexa-lang/state/proposals/inventory.json"
+        "inventory_path": "~/core/hexa-lang/state/proposals/inventory.json"
       },
       "airgenome": {
         "prefix": "agm",
-        "inventory_path": "/Users/ghost/core/airgenome/state/proposals/inventory.json"
+        "inventory_path": "~/core/airgenome/state/proposals/inventory.json"
       },
       "void": {
         "prefix": "vd",
-        "inventory_path": "/Users/ghost/core/void/state/proposals/inventory.json"
+        "inventory_path": "~/core/void/state/proposals/inventory.json"
       },
       "hexa-os": {
         "prefix": "hxo",
-        "inventory_path": "/Users/ghost/core/hexa-os/state/proposals/inventory.json"
+        "inventory_path": "~/core/hexa-os/state/proposals/inventory.json"
       },
       "papers": {
         "prefix": "ppr",
-        "inventory_path": "/Users/ghost/core/papers/state/proposals/inventory.json"
+        "inventory_path": "~/core/papers/state/proposals/inventory.json"
       },
       "secret": {
         "prefix": "sec",
-        "inventory_path": "/Users/ghost/core/secret/state/proposals/inventory.json"
+        "inventory_path": "~/core/secret/state/proposals/inventory.json"
       },
       "contact": {
         "prefix": "cnt",
-        "inventory_path": "/Users/ghost/core/contact/state/proposals/inventory.json"
+        "inventory_path": "~/core/contact/state/proposals/inventory.json"
       }
     },
     "convention_loss_free_roi": "All ROI-category proposals must use 무손실 (loss-free) semantics — no regression, no user-visible break. Category tag: `loss_free_roi`.",

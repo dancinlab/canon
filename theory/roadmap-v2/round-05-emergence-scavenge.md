@@ -62,19 +62,19 @@ Round 5's three conditions:
 R4 organized 10 anima subrepos; but **within canon itself** there are still unorganized submodules.
 
 **D201 — n6-arch Bridge Rust Workspace Field**
-- Path: `/Users/ghost/core/canon/bridge/` (CLAUDE.md: "Rust integration workspace (nexus hub repo bridge)").
+- Path: `~/core/canon/bridge/` (CLAUDE.md: "Rust integration workspace (nexus hub repo bridge)").
 - BT: 542 (workspace build NP), 545.
 - n=6: nexus hub + 7 repos = bridge dimension.
 - Self-evolution: YES (Rust compile caching, self-evolving build).
 
 **D202 — n6-arch Engine Runtime Field**
-- Path: `/Users/ghost/core/canon/engine/` (CLAUDE.md: "training/math runtime (.hexa)").
+- Path: `~/core/canon/engine/` (CLAUDE.md: "training/math runtime (.hexa)").
 - BT: 542 + 544.
 - n=6: hexa runtime = SELF-EVO main engine file.
 - Self-evolution: YES.
 
 **D203 — canonshared Harness Meta-Field**
-- Path: `/Users/ghost/core/canon/canonshared/` (absent — only noted in CLAUDE.md) + `/Users/ghost/core/nexus/shared/harness/` (exists, CLAUDE.md link). **Honesty note**: canon/canonshared is physically linked to nexus/shared. Evidence resides in nexus/shared/harness/.
+- Path: `~/core/canon/canonshared/` (absent — only noted in CLAUDE.md) + `~/core/nexus/shared/harness/` (exists, CLAUDE.md link). **Honesty note**: canon/canonshared is physically linked to nexus/shared. Evidence resides in nexus/shared/harness/.
 - BT: 542 + 547.
 - n=6: 50+ harness files (breakthrough/blowup/ouroboros/growth_tick etc.).
 - Self-evolution: YES.
@@ -96,21 +96,21 @@ R4 §1.1 + §2 used 4 3-hops (D159, D160, D176, D177). R5 adds 4 more chains.
 
 **D205 — 3-hop CLM→D7→Skill Loading→Dynamic Type Evolution**
 - Path: CLM → D7 Skill Dynamic Loading → 3-hop: hexa-lang dynamic type extension.
-- Evidence: `/Users/ghost/core/hexa-lang/self/bootstrap.hexa` + generic/trait extension (MEMORY `project_hexa_ir_mk1.md`).
+- Evidence: `~/core/hexa-lang/self/bootstrap.hexa` + generic/trait extension (MEMORY `project_hexa_ir_mk1.md`).
 - BT: 542.
 - n=6: Mk.I/II/III 3 tiers + type extension = 6.
 - Self-evolution: YES.
 
 **D206 — 3-hop physics→D11→Memristor→Chua Circuit Universe**
 - Path: physics → D11 Memristor → 3-hop: Chua's 4 basic elements + memristor as the 5th element.
-- Evidence: `/Users/ghost/core/anima/anima-physics/memristor/` + Chua 1971 theory.
+- Evidence: `~/core/anima/anima-physics/memristor/` + Chua 1971 theory.
 - BT: 544.
 - n=6: 4 basics (R/L/C/independent source) + memristor = 5 = sopfr; including observer = 6.
 - Self-evolution: PART (learning resistance).
 
 **D207 — 3-hop SELF-EVO→D29→Banach→Contraction Mapping Zoo**
 - Path: SELF-EVO → D29 Banach Fixed-Point Certification → 3-hop: contraction-mapping classification.
-- Evidence: `/Users/ghost/core/nexus/shared/bisociation/unified/ouroboros_unified.hexa` (NEXUS_EPSILON=0.001).
+- Evidence: `~/core/nexus/shared/bisociation/unified/ouroboros_unified.hexa` (NEXUS_EPSILON=0.001).
 - BT: 544 (contraction PDE).
 - n=6: contraction ratio < 1, ANIMA_FLOOR 0.8 = 4/5 = tau/sopfr.
 - Self-evolution: YES.
@@ -156,7 +156,7 @@ R4 §4 organized only 3 BT-541/542/546 microphases. R5 introduces microphases fo
 R4 D167 aggregated the R0~R27 28 rules as a single domain. R5 individually promotes only the 5 rules with strongest structural resonance.
 
 **D212 — Rule R0 HEXA-FIRST Field**
-- Evidence: `/Users/ghost/core/nexus/shared/rules/common.json` R0 "hexa language default" (estimated; common.json content).
+- Evidence: `~/core/nexus/shared/rules/common.json` R0 "hexa language default" (estimated; common.json content).
 - BT: 542 (language-choice NP).
 - n=6: hexa = SELF-EVO main language.
 - Self-evolution: YES.
@@ -168,13 +168,13 @@ R4 D167 aggregated the R0~R27 28 rules as a single domain. R5 individually promo
 - Self-evolution: NO (static rule).
 
 **D214 — Rule Lockdown L0 Core Field**
-- Evidence: `/Users/ghost/core/nexus/shared/rules/` + MEMORY `feedback_lockdown_keyword.md` "'nail-it-in' = L0 core lockdown registration".
+- Evidence: `~/core/nexus/shared/rules/` + MEMORY `feedback_lockdown_keyword.md` "'nail-it-in' = L0 core lockdown registration".
 - BT: 542.
 - n=6: L0 = top of 3 layers.
 - Self-evolution: YES (L0 file addition procedure).
 
 **D215 — Rule N61 Atlas Promotion Field**
-- Evidence: `/Users/ghost/core/nexus/shared/rules/canon.json` (atlas promotion within N61~N65 range).
+- Evidence: `~/core/nexus/shared/rules/canon.json` (atlas promotion within N61~N65 range).
 - BT: 545 + 541.
 - n=6: [7]→[10\*] promotion = atlas grading.
 - Self-evolution: YES.
@@ -194,19 +194,19 @@ R4 D167 aggregated the R0~R27 28 rules as a single domain. R5 individually promo
 R4 D170/D171/D172 covered only attention/moe/sparse·compress·optim groupings. R5 individually addresses the remaining arch/graph/sota + 3 items among sparse/compress/optim.
 
 **D217 — Techniques Arch Category Field**
-- Evidence: `/Users/ghost/core/canon/techniques/arch/`.
+- Evidence: `~/core/canon/techniques/arch/`.
 - BT: 542 + 547.
 - n=6: architecture category.
 - Self-evolution: YES.
 
 **D218 — Techniques Graph Category Field**
-- Evidence: `/Users/ghost/core/canon/techniques/graph/`.
+- Evidence: `~/core/canon/techniques/graph/`.
 - BT: 547 (graph topology) + 542.
 - n=6: graph theory n=6 nodes minimum complete graph K_6.
 - Self-evolution: YES.
 
 **D219 — Techniques SOTA Baseline Field**
-- Evidence: `/Users/ghost/core/canon/techniques/sota/`.
+- Evidence: `~/core/canon/techniques/sota/`.
 - BT: 542 (SOTA distribution).
 - n=6: SOTA competition ratchet.
 - Self-evolution: YES.
@@ -220,25 +220,25 @@ R4 D170/D171/D172 covered only attention/moe/sparse·compress·optim groupings. 
 R4 D173/D174 covered only MC + BT audit. R5 takes **4 meaningful items** from the remaining blowup/cross/dse/lens-verify/meta/paper/structural/anomaly/chip-verify/ai-efficiency (preventing over-count in some supporting categories).
 
 **D220 — Experiments Blowup Field**
-- Evidence: `/Users/ghost/core/canon/experiments/blowup/` + MEMORY `project_blowup_mk2.md`.
+- Evidence: `~/core/canon/experiments/blowup/` + MEMORY `project_blowup_mk2.md`.
 - BT: 542 + 543.
 - n=6: 6 blowups stage.
 - Self-evolution: YES.
 
 **D221 — Experiments Cross-DSE Field**
-- Evidence: `/Users/ghost/core/canon/experiments/cross/` + MEMORY `project_millennium_dfs_complete.md` "DFS 5th-cycle loop cross-DSE".
+- Evidence: `~/core/canon/experiments/cross/` + MEMORY `project_millennium_dfs_complete.md` "DFS 5th-cycle loop cross-DSE".
 - BT: 542 + 545.
 - n=6: cross-DSE 7 BT × 12 buckets = 84 cells.
 - Self-evolution: YES.
 
 **D222 — Experiments Lens-Verify Field**
-- Evidence: `/Users/ghost/core/canon/experiments/lens-verify/` (distinct from D142: D142 is nexus lenses, D222 is n6-arch experiments/lens-verify).
+- Evidence: `~/core/canon/experiments/lens-verify/` (distinct from D142: D142 is nexus lenses, D222 is n6-arch experiments/lens-verify).
 - BT: 542 + 545.
 - n=6: lens verification pipeline.
 - Self-evolution: YES.
 
 **D223 — Experiments Structural/Anomaly Field**
-- Evidence: `/Users/ghost/core/canon/experiments/structural/` + `anomaly/`.
+- Evidence: `~/core/canon/experiments/structural/` + `anomaly/`.
 - BT: 542 + 547.
 - n=6: structural anomaly detection.
 - Self-evolution: YES.

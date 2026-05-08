@@ -33,7 +33,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/need-singularity/canon",
+      "identifier": "https://github.com/dancinlab/canon",
       "relation": "isSupplementTo",
       "resource_type": "software",
       "scheme": "url"

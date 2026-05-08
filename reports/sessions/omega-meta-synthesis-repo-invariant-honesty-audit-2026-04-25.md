@@ -51,10 +51,10 @@ files:
 
 | # | Repo | Constraint | Audit file (absolute path) | Verdict |
 |---|---|---|---|---|
-| 1 | canon | Honesty counter (`millennium_resolved: 0/7 unchanged`) | `/Users/ghost/core/canon/reports/sessions/omega-audit-constraint-honesty-counter-2026-04-25.md` | **KEEP_AS_IS** (§8 line 236: "**KEEP_AS_IS**") |
-| 2 | canon | Write-barrier (atlas/, state/, inventory.json, breakthrough-theorems.md) | `/Users/ghost/core/canon/reports/sessions/omega-audit-constraint-write-barrier-2026-04-25.md` | **KEEP_AS_IS** (sec 10 line 478: "Verdict: `KEEP_AS_IS`") |
-| 3 | canon | No-fabrication guard (UNKNOWN > invented) | `/Users/ghost/core/canon/reports/sessions/omega-audit-constraint-no-fabrication-2026-04-25.md` | **KEEP_AS_IS** (§9 line 284: "**KEEP_AS_IS**") |
-| 4 | nexus (native) | nxs_promotion_count banner | `/Users/ghost/core/canon/reports/sessions/omega-audit-nexus-native-3constraint-2026-04-25.md` (Audit 1) | **KEEP_AS_IS** (function) / **KEEP_BUT_ADAPT** (literal) — §2.8 |
+| 1 | canon | Honesty counter (`millennium_resolved: 0/7 unchanged`) | `~/core/canon/reports/sessions/omega-audit-constraint-honesty-counter-2026-04-25.md` | **KEEP_AS_IS** (§8 line 236: "**KEEP_AS_IS**") |
+| 2 | canon | Write-barrier (atlas/, state/, inventory.json, breakthrough-theorems.md) | `~/core/canon/reports/sessions/omega-audit-constraint-write-barrier-2026-04-25.md` | **KEEP_AS_IS** (sec 10 line 478: "Verdict: `KEEP_AS_IS`") |
+| 3 | canon | No-fabrication guard (UNKNOWN > invented) | `~/core/canon/reports/sessions/omega-audit-constraint-no-fabrication-2026-04-25.md` | **KEEP_AS_IS** (§9 line 284: "**KEEP_AS_IS**") |
+| 4 | nexus (native) | nxs_promotion_count banner | `~/core/canon/reports/sessions/omega-audit-nexus-native-3constraint-2026-04-25.md` (Audit 1) | **KEEP_AS_IS** (function) / **KEEP_BUT_ADAPT** (literal) — §2.8 |
 | 5 | nexus (native) | nexus write-barrier (extended path list) | same file (Audit 2) | **KEEP_AS_IS** — §3.9 |
 | 6 | nexus (native) | nexus no-fabrication guard | same file (Audit 3) | **KEEP_AS_IS** — §4.8 |
 
@@ -576,7 +576,7 @@ listed as future-trigger conditions only.
 0/7 unchanged. nxs promotion count unchanged. **No atlas/state/inventory edits in
 either repo.** No CLAUDE.md changes. No `.claude/agents/*` changes. The single output
 file is this report under
-`/Users/ghost/core/canon/reports/sessions/omega-meta-synthesis-repo-invariant-honesty-audit-2026-04-25.md`.
+`~/core/canon/reports/sessions/omega-meta-synthesis-repo-invariant-honesty-audit-2026-04-25.md`.
 
 Synthesis result:
 

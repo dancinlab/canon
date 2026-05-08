@@ -37,7 +37,7 @@ numbers in the audits should be revised on the basis of this report alone.**
 
 ```
 $ ls -la ~/core/nexus/tool/nxs_002_composite.py
--rwxr-xr-x@ 1 ghost  staff  9289 Apr 25 14:45 /Users/ghost/core/nexus/tool/nxs_002_composite.py
+-rwxr-xr-x@ 1 ghost  staff  9289 Apr 25 14:45 ~/core/nexus/tool/nxs_002_composite.py
 ```
 
 Tool present at canonical SSOT path declared in `~/.claude/CLAUDE.md`.

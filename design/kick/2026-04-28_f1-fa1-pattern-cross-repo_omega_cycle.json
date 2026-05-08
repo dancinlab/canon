@@ -43,7 +43,7 @@
     "parse_check_all_11_files": "PASS (./hexa parse on all 11 modified files produces no Parse error / unexpected token / codegen ERROR; config_test.hexa and growth_tick_test.hexa emit unrelated 'unknown shim command' shell warnings which appear in stderr from a hexa parse hint mechanism but the files themselves parse cleanly — confirmed by 'OK: <file> parses cleanly' line in output)",
     "smoke_test_runtime": {
       "command": "HOME=/Users/ghost ./hexa run example/verify_pages_test.hexa",
-      "result": "PASS — printed '=== Pages Deploy Verify ===' header, atlas.n6 path resolved correctly to /Users/ghost/core/nexus/.. → atlas.n6 v1 10043 nodes detected, GitHub URLs returned 200. End-to-end home resolution works."
+      "result": "PASS — printed '=== Pages Deploy Verify ===' header, atlas.n6 path resolved correctly to ~/core/nexus/.. → atlas.n6 v1 10043 nodes detected, GitHub URLs returned 200. End-to-end home resolution works."
     },
     "raw_18_self_host_fixpoint": {
       "command": "./hexa test self/main.hexa --selftest-only",
@@ -55,7 +55,7 @@
   },
 
   "cross_repo_absorption": {
-    "registry": "/Users/ghost/core/hexa-lang/state/discovery_absorption/registry.jsonl",
+    "registry": "~/core/hexa-lang/state/discovery_absorption/registry.jsonl",
     "registry_status_before": "bootstrap-only sentinel entry (no kick witnesses absorbed yet)",
     "this_witness_absorption": "first real witness landed via cross-repo bootstrap → registry transitions from bootstrap-only to active",
     "raw_47_status": "DISCHARGED — cross-repo trawl complete: 12/12 sites swept, 0 residual exec(\"printenv\" calls remain in hexa-lang/."
@@ -92,17 +92,17 @@
   "deliverables": {
     "patches": "12 sites across 11 files (1 file has 2 sites: growth_tick_test.hexa)",
     "files_modified": [
-      "/Users/ghost/core/hexa-lang/example/auto_record_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/check_project_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/bridge_ensure_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/pattern_rules_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/verify_pages_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/guard_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/seed_engine_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/config_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/forge_test.hexa",
-      "/Users/ghost/core/hexa-lang/example/growth_tick_test.hexa",
-      "/Users/ghost/core/hexa-lang/self/grammar_autofix.hexa"
+      "~/core/hexa-lang/example/auto_record_test.hexa",
+      "~/core/hexa-lang/example/check_project_test.hexa",
+      "~/core/hexa-lang/example/bridge_ensure_test.hexa",
+      "~/core/hexa-lang/example/pattern_rules_test.hexa",
+      "~/core/hexa-lang/example/verify_pages_test.hexa",
+      "~/core/hexa-lang/example/guard_test.hexa",
+      "~/core/hexa-lang/example/seed_engine_test.hexa",
+      "~/core/hexa-lang/example/config_test.hexa",
+      "~/core/hexa-lang/example/forge_test.hexa",
+      "~/core/hexa-lang/example/growth_tick_test.hexa",
+      "~/core/hexa-lang/self/grammar_autofix.hexa"
     ],
     "residual_printenv_calls": 0
   }

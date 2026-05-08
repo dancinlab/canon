@@ -107,7 +107,7 @@ sessions depends on the barrier being present in the prompt.
 
 ## sec 2 — Privileged-agent map
 
-### 2.1 Local agent definitions (`/Users/ghost/core/canon/.claude/agents/`)
+### 2.1 Local agent definitions (`~/core/canon/.claude/agents/`)
 
 | Agent | File | Tool privilege | SSOT write privilege |
 |-------|------|----------------|----------------------|

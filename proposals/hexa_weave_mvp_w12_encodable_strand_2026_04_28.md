@@ -130,7 +130,7 @@ Build completed successfully (8 jobs).
 $ grep -c '^axiom ' lean4-n6/N6/MechVerif/Foundation/Axioms.lean
 1
 
-$ /Users/ghost/core/hexa-lang/hexa tool/lean4_axiom_count_check.hexa --expected 1 --severity warn
+$ ~/core/hexa-lang/hexa tool/lean4_axiom_count_check.hexa --expected 1 --severity warn
 {"file":"...Foundation/Axioms.lean","expected":1,"actual":1,"delta":0,"status":"PASS"}
 __LEAN4_AXIOM_COUNT_CHECK_RESULT__ PASS
 

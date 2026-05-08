@@ -33,7 +33,7 @@ Dear Professor [NAME],
 
 I am Minwoo Park (independent researcher, contact: loveiu99@proton.me),
 working on an independent mathematical framework called canon (MIT/CC-BY-SA licensed,
-available at https://github.com/need-singularity/canon).
+available at https://github.com/dancinlab/canon).
 
 I recently conducted an empirical study of N = 964,118 elliptic curves from the Cremona
 database (ecdata), computing first-order approximations of |Sel_n(E)| for n = 2, 3, 6.

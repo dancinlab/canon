@@ -597,7 +597,7 @@ strong support: >= 10/17 VERIFIED.
   Verification:   git log --follow docs/pre-registered-predictions.md
   Companion:      predictions-unmeasured.md, falsification-experiments.md
   Framework:      sigma(n)*phi(n) = n*tau(n), unique solution n=6
-  Repository:     canon (github.com/need-singularity)
+  Repository:     canon (github.com/dancinlab)
 ```
 
 ---

@@ -8,16 +8,16 @@
   "investigation_summary": {
     "B_3_root_cause": {
       "stated_problem": "docker run --rm hexa-runner:latest which node returned empty; hive coding-agent / nexus kick TS dispatcher refused with ai_err_exit('subagent-dispatch','container-no-node') rc=76 for 6 consecutive cycles",
-      "actual_root_cause": "hexa-runner:latest is built from /Users/ghost/core/hexa-lang/docker/runner/Dockerfile which uses gcr.io/distroless/cc-debian12 as the runtime base. Distroless intentionally ships no shell, no apt, no package manager — only libc / libgcc / libstdc++ / libssl. The active Dockerfile (ω-runner-7, 2026-04-26) staged tini/curl/wget/busybox-static + native_gate.so via a debian:12-slim builder stage, but had no node entry. The user-supplied snippet `RUN curl ... | bash - && apt-get install -y nodejs` cannot run in the runtime stage because distroless has no shell or apt; it must run in the builder stage and the resulting binary must be COPY'd across.",
-      "fix_applied": "Two-stage patch to /Users/ghost/core/hexa-lang/docker/runner/Dockerfile (ω-runner-8, 2026-04-28). Builder stage: install nodejs 20 via NodeSource setup_20.x apt repo (curl | bash | apt-get install nodejs). Runtime stage: COPY /usr/bin/node + /usr/lib/node_modules from builder. npm/npx wrappers: distroless lacks `ln`, AND docker buildkit COPY --from dereferences cross-stage symlinks (turning them into 54-byte regular files at /usr/bin/npm, breaking the relative `require('../lib/cli.js')` resolution in npm-cli.js). Workaround: write 2-line sh wrapper scripts in the builder at /opt/npm-bin/{npm,npx} that invoke `/usr/bin/node /usr/lib/node_modules/npm/bin/{npm,npx}-cli.js \"$@\"`; the canonical absolute path argv[1] makes node's __dirname resolve correctly. /bin/sh in runtime is busybox (already staged in ω-runner-5), so the wrapper runs.",
+      "actual_root_cause": "hexa-runner:latest is built from ~/core/hexa-lang/docker/runner/Dockerfile which uses gcr.io/distroless/cc-debian12 as the runtime base. Distroless intentionally ships no shell, no apt, no package manager — only libc / libgcc / libstdc++ / libssl. The active Dockerfile (ω-runner-7, 2026-04-26) staged tini/curl/wget/busybox-static + native_gate.so via a debian:12-slim builder stage, but had no node entry. The user-supplied snippet `RUN curl ... | bash - && apt-get install -y nodejs` cannot run in the runtime stage because distroless has no shell or apt; it must run in the builder stage and the resulting binary must be COPY'd across.",
+      "fix_applied": "Two-stage patch to ~/core/hexa-lang/docker/runner/Dockerfile (ω-runner-8, 2026-04-28). Builder stage: install nodejs 20 via NodeSource setup_20.x apt repo (curl | bash | apt-get install nodejs). Runtime stage: COPY /usr/bin/node + /usr/lib/node_modules from builder. npm/npx wrappers: distroless lacks `ln`, AND docker buildkit COPY --from dereferences cross-stage symlinks (turning them into 54-byte regular files at /usr/bin/npm, breaking the relative `require('../lib/cli.js')` resolution in npm-cli.js). Workaround: write 2-line sh wrapper scripts in the builder at /opt/npm-bin/{npm,npx} that invoke `/usr/bin/node /usr/lib/node_modules/npm/bin/{npm,npx}-cli.js \"$@\"`; the canonical absolute path argv[1] makes node's __dirname resolve correctly. /bin/sh in runtime is busybox (already staged in ω-runner-5), so the wrapper runs.",
       "files_patched": [
-        "/Users/ghost/core/hexa-lang/docker/runner/Dockerfile (3 hunks: builder apt-add, builder symlink-stage, runtime COPY)"
+        "~/core/hexa-lang/docker/runner/Dockerfile (3 hunks: builder apt-add, builder symlink-stage, runtime COPY)"
       ]
     }
   },
 
   "build_log_summary": {
-    "build_command": "cd /Users/ghost/core/hexa-lang && docker build -t hexa-runner:latest -f docker/runner/Dockerfile --build-arg TARGETARCH=arm64 .",
+    "build_command": "cd ~/core/hexa-lang && docker build -t hexa-runner:latest -f docker/runner/Dockerfile --build-arg TARGETARCH=arm64 .",
     "iterations": 4,
     "iteration_history": [
       "iter-1: PASS at apt-install, FAIL at COPY /usr/share/nodejs (path doesn't exist — nodesource deb only ships /usr/bin/node + /usr/lib/node_modules, no /usr/share/nodejs)",
@@ -53,7 +53,7 @@
       "expected": "y",
       "actual": "y",
       "exit_code": 0,
-      "verdict": "PASS — exact predicate from /Users/ghost/core/hive/tool/subagent_dispatch.hexa:1536 (node_avail check that triggers rc=76) now returns 'y'; container-no-node fault is resolved"
+      "verdict": "PASS — exact predicate from ~/core/hive/tool/subagent_dispatch.hexa:1536 (node_avail check that triggers rc=76) now returns 'y'; container-no-node fault is resolved"
     },
     "T_B3_4_npx": {
       "cmd": "docker run --rm --entrypoint /bin/sh hexa-runner:latest -c 'npx --version'",
@@ -119,7 +119,7 @@
       "predicate": "docker build -t hexa-runner:latest -f docker/runner/Dockerfile . fails on a clean rebuild (no cache) at any layer",
       "expected_count": 0,
       "observed_at_witness_time": 0,
-      "verifier": "docker buildx build --no-cache -t hexa-runner:test -f /Users/ghost/core/hexa-lang/docker/runner/Dockerfile --build-arg TARGETARCH=arm64 /Users/ghost/core/hexa-lang/ — should complete with 'naming to docker.io/library/hexa-runner:test done'",
+      "verifier": "docker buildx build --no-cache -t hexa-runner:test -f ~/core/hexa-lang/docker/runner/Dockerfile --build-arg TARGETARCH=arm64 ~/core/hexa-lang/ — should complete with 'naming to docker.io/library/hexa-runner:test done'",
       "anchor_ts": "2026-04-28T15:25:00Z"
     },
     {
@@ -135,7 +135,7 @@
 
   "deliverables": {
     "dockerfile_patch": {
-      "path": "/Users/ghost/core/hexa-lang/docker/runner/Dockerfile",
+      "path": "~/core/hexa-lang/docker/runner/Dockerfile",
       "committed": false,
       "note": "Patch applied to working tree. Commit deferred — user instructions require explicit commit request, and B.3 mission text did not include 'commit' verb. Patch persists in working tree ready for follow-up commit cycle."
     },
@@ -148,11 +148,11 @@
       "registry_pushed": false,
       "registry_push_error": "insufficient_scope (no docker.io/library auth)"
     },
-    "witness_json": "/Users/ghost/core/canon/design/kick/2026-04-28_b3-docker-hexa-runner-rebuild_omega_cycle.json (this file)"
+    "witness_json": "~/core/canon/design/kick/2026-04-28_b3-docker-hexa-runner-rebuild_omega_cycle.json (this file)"
   },
 
   "follow_up_recommendations": [
-    "Create /Users/ghost/core/hexa-lang/scripts/build-hexa-runner-image.sh (referenced by subagent_dispatch.hexa:1543 as remedy text but does not exist) wrapping `cd $HEXA_LANG && docker build -t hexa-runner:latest -f docker/runner/Dockerfile --build-arg TARGETARCH=arm64 .` so future operators have a one-shot rebuild path.",
+    "Create ~/core/hexa-lang/scripts/build-hexa-runner-image.sh (referenced by subagent_dispatch.hexa:1543 as remedy text but does not exist) wrapping `cd $HEXA_LANG && docker build -t hexa-runner:latest -f docker/runner/Dockerfile --build-arg TARGETARCH=arm64 .` so future operators have a one-shot rebuild path.",
     "Provision private registry (or use ghcr.io / ECR) for cross-host image distribution; docker.io/library namespace push is permanently blocked.",
     "Per F-MX-3-c follow-up: rebuild image on ubu1/ubu2/hetzner independently OR establish registry-push pipeline before the next cross-host kick attempt.",
     "Commit Dockerfile patch (held back per user-instruction commit gating)."

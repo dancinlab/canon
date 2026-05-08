@@ -39,7 +39,7 @@ The user is asked to approve or defer each item. Approval form: please reply wit
 ### Item 1 — `~/core/hexa-weave/` directory creation
 
 - **What**: `mkdir -p ~/core/hexa-weave/{models,data,checkpoints,logs,configs,scripts,tests,docs}` (8-subdir per W4 spec)
-- **Where**: local Mac (this host), `/Users/ghost/core/hexa-weave/`
+- **Where**: local Mac (this host), `~/core/hexa-weave/`
 - **Disk**: ~0 bytes (empty dirs); will grow to ~10-20 GB over W6+ as code/data lands
 - **Reversible**: yes — `rm -rf ~/core/hexa-weave/`
 - **Estimated cost**: $0 (local disk), 1 minute

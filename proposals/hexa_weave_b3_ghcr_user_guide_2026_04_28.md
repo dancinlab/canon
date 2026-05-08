@@ -39,7 +39,7 @@ user PAT issuance all until  actual push 0 (raw 91 C3 — TTY dependency).
    - [x] `read:packages`
    - [ ] `delete:packages` (cycle 16+ image GC requiredwill only-when)
 6. **Generate token** →  one  number only  table on become  PAT string copy
-7. **org access**: `need-singularity` org use  on  SSO authorize addition click
+7. **org access**: `dancinlab` org use  on  SSO authorize addition click
    - org permission absent  on  fallback: `ghcr.io/<github-username>/hexa-runner` user namespace use
 
 ### §1.2 Step 2 — PAT preservenot store (3  maintain recommend method  among  choice 1)
@@ -122,7 +122,7 @@ ledger_append    (state/audit/docker_registry_push_events.jsonl each step)
  "event":"<preflight|login_local|tag|push|remote_login|remote_pull|remote_retag|remote_verify>",
  "host":"<mac|ubu1|ubu2|hetzner>",
  "image_local":"hexa-runner:latest",
- "ghcr_namespace":"ghcr.io/need-singularity/hexa-runner",
+ "ghcr_namespace":"ghcr.io/dancinlab/hexa-runner",
  "cycle_tag":"cycle-14",
  "exit_code":<int>,
  "note":"<freeform>",
@@ -204,7 +204,7 @@ hetzner  above  `registry:2` + TLS enforce. 2-3 cycle addition task required. gh
 ## §9 concern (raw 91 C3 / raw 71 / raw 100)
 
 1. **PAT absent cumulative**: cycle 14  also  fallback mode cumulative. raw 100 DEEP+ +4 (over max +4)
-2. **need-singularity org permission unverify**: user personal account namespace fallback standardnon- required
+2. **dancinlab org permission unverify**: user personal account namespace fallback standardnon- required
 3. **Mac arm64 ↔ ubu/hetzner amd64**: buildx multi-arch build not-performed  on  platform mismatch recurrence risk (F-B3-REG-1 / F-B3-GHCR-PREP-5 identical)
 4. **PAT leak surface**: bash history / docker config.json base64 storage — `~/.docker/config.json` commit absolute forbidden
 5. **transport cost**: 234MB × 3 host = 702MB (user raw 86 estimate 150MB than ~4.7× large; compression assumption difference)

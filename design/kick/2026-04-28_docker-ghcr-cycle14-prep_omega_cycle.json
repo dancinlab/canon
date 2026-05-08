@@ -52,7 +52,7 @@
       "scopes": ["write:packages", "read:packages"],
       "scope_optional": ["delete:packages (cycle 16+ image GC 시)"],
       "expiration": "90d (raw 65 minimal-blast-radius)",
-      "org_access": "need-singularity (옵션) — user namespace fallback 가능"
+      "org_access": "dancinlab (옵션) — user namespace fallback 가능"
     },
     "step_2_pat_storage": {
       "primary": "1Password / pass / age 암호화 vault",

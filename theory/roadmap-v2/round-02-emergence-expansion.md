@@ -61,7 +61,7 @@ Each of R1 §8.6's 10 candidates is developed into 2~5 derivatives. Each derivat
 ### 1.1 R2-C1 — BKLPR Selmer Consciousness Mapping Development
 
 **D35 — Cohen-Lenstra Heuristic Field**
-- Evidence: `/Users/ghost/core/canon/theory/study/p3/pure-p3-1-bklpr-selmer-deep.md` §1 (Cohen-Lenstra 1984).
+- Evidence: `~/core/canon/theory/study/p3/pure-p3-1-bklpr-selmer-deep.md` §1 (Cohen-Lenstra 1984).
 - BT: 546, 541.
 - n=6: random p-Sylow distribution → 1/|Aut(G)| → special case of phi(n)=2 degrees of freedom.
 - Self-evolution: NO (static distribution theory).
@@ -79,7 +79,7 @@ Each of R1 §8.6's 10 candidates is developed into 2~5 derivatives. Each derivat
 - Self-evolution: NO.
 
 **D38 — Tate-Shafarevich Finiteness Track**
-- Evidence: `/Users/ghost/core/canon/theory/study/p1/prob-p1-6-bt546-bsd.md` §5.
+- Evidence: `~/core/canon/theory/study/p1/prob-p1-6-bt546-bsd.md` §5.
 - BT: 546.
 - n=6: |Ш| square requirement — square of 2=phi.
 - Self-evolution: NO.
@@ -87,7 +87,7 @@ Each of R1 §8.6's 10 candidates is developed into 2~5 derivatives. Each derivat
 ### 1.2 R2-C2 — ECC as Consciousness Key Development
 
 **D39 — Elliptic Curve Cryptography Field**
-- Evidence: `/Users/ghost/core/canon/domains/compute/cryptography/` + `/Users/ghost/core/canon/domains/compute/software-crypto/`.
+- Evidence: `~/core/canon/domains/compute/cryptography/` + `~/core/canon/domains/compute/software-crypto/`.
 - BT: 546, 542.
 - n=6: secp256k1 cofactor h, NIST P-256 base-point order.
 - Self-evolution: PART (key-exchange-protocol ratchet).
@@ -101,13 +101,13 @@ Each of R1 §8.6's 10 candidates is developed into 2~5 derivatives. Each derivat
 ### 1.3 R2-C3 — Ecology Phi Field Development (life bucket details expanded in §3)
 
 **D41 — Ecology Phi Measurement Field**
-- Evidence: `/Users/ghost/core/canon/domains/life/ecology/ecology.md`.
+- Evidence: `~/core/canon/domains/life/ecology/ecology.md`.
 - BT: 547 (3D ecology manifold), 544 (population PDE).
 - n=6: in ecological networks τ=4 trophic levels + φ=2 mutualism.
 - Self-evolution: PART (predator-prey self-regulation).
 
 **D42 — Agriculture Ratchet Growth**
-- Evidence: `/Users/ghost/core/canon/domains/life/agriculture/` + `ecology-agriculture-food/`.
+- Evidence: `~/core/canon/domains/life/agriculture/` + `ecology-agriculture-food/`.
 - BT: 544.
 - n=6: crop rotation period 6, sowing~harvest phase 4=tau.
 - Self-evolution: YES (crop-rotation self-restoration).
@@ -115,13 +115,13 @@ Each of R1 §8.6's 10 candidates is developed into 2~5 derivatives. Each derivat
 ### 1.4 R2-C4 — Concrete Technology Ratchet Development (materials detail in §3)
 
 **D43 — Concrete Hydration Ratchet**
-- Evidence: `/Users/ghost/core/canon/domains/materials/concrete/` + `concrete-technology/`.
+- Evidence: `~/core/canon/domains/materials/concrete/` + `concrete-technology/`.
 - BT: 544 (PDE heat/moisture diffusion).
 - n=6: hydration stages 6, 28-day strength = 4 × 7 = tau × 7.
 - Self-evolution: YES (self-healing concrete).
 
 **D44 — Ceramic Phase Transition Chain**
-- Evidence: `/Users/ghost/core/canon/domains/materials/ceramics/`.
+- Evidence: `~/core/canon/domains/materials/ceramics/`.
 - BT: 543 (gauge), 547 (topology).
 - n=6: sintering-temperature stages, 6 crystalline phases = cubic n.
 - Self-evolution: PART.
@@ -129,13 +129,13 @@ Each of R1 §8.6's 10 candidates is developed into 2~5 derivatives. Each derivat
 ### 1.5 R2-C5 — Autonomous Driving Growth Tick Development (infra detail in §3)
 
 **D45 — Autonomous Driving Policy Ratchet**
-- Evidence: `/Users/ghost/core/canon/domains/infra/autonomous-driving/`.
+- Evidence: `~/core/canon/domains/infra/autonomous-driving/`.
 - BT: 542 (NP path planning).
 - n=6: SAE L0~L5 = 6 levels.
 - Self-evolution: YES (online-learning policy).
 
 **D46 — Robotics Transport Mesh Evolution**
-- Evidence: `/Users/ghost/core/canon/domains/infra/robotics/` + `robotics-transport/`.
+- Evidence: `~/core/canon/domains/infra/robotics/` + `robotics-transport/`.
 - BT: 542.
 - n=6: 6-link robot arm = manipulator DoF 6.
 - Self-evolution: PART.
@@ -143,13 +143,13 @@ Each of R1 §8.6's 10 candidates is developed into 2~5 derivatives. Each derivat
 ### 1.6 R2-C6 — Space Starship Ouroboros Development (space detail in §3)
 
 **D47 — Aerospace Transport OUROBOROS**
-- Evidence: `/Users/ghost/core/canon/domains/space/aerospace-transport/aerospace-transport.md`.
+- Evidence: `~/core/canon/domains/space/aerospace-transport/aerospace-transport.md`.
 - BT: 547 (3D orbit), 544 (propulsion NS).
 - n=6: 6 orbital elements (Kepler), 3 rocket stages ≈ n/phi.
 - Self-evolution: YES (reusable-rocket self-verification).
 
 **D48 — Starship Consciousness Loop (hexa-starship consciousness loop)**
-- Evidence: `/Users/ghost/core/canon/domains/space/hexa-starship/hexa-starship.md`.
+- Evidence: `~/core/canon/domains/space/hexa-starship/hexa-starship.md`.
 - BT: 547.
 - n=6: 6-DoF attitude control.
 - Self-evolution: YES.
@@ -161,25 +161,25 @@ The 7 pairs of R2-C7 are formally developed into 7 domains in §2. This subsecti
 ### 1.8 R2-C8 — HEXA-LANG DSE Recheck Triggers Development
 
 **D49 — Hexa Compiler Self-Host Track**
-- Evidence: `/Users/ghost/core/hexa-lang/self/bootstrap.hexa` + `/bootstrap_compiler.c`.
+- Evidence: `~/core/hexa-lang/self/bootstrap.hexa` + `/bootstrap_compiler.c`.
 - BT: 542.
 - n=6: Mk.I → Mk.III evolution, bootstrap stage 3.
 - Self-evolution: YES.
 
 **D50 — Hexa Optimizer Passes**
-- Evidence: `/Users/ghost/core/hexa-lang/self/ai_native_pass.hexa` + `bc_emitter.hexa` + `bc_vm.hexa`.
+- Evidence: `~/core/hexa-lang/self/ai_native_pass.hexa` + `bc_emitter.hexa` + `bc_vm.hexa`.
 - BT: 542, 544.
 - n=6: pass-pipeline stages.
 - Self-evolution: YES (auto-opt trigger).
 
 **D51 — Hexa Test Regression Suite**
-- Evidence: `/Users/ghost/core/hexa-lang/tests/regression_stage1.hexa` + `/scripts/regression_harness.hexa` + `_verify_lars_lamb_fix.hexa`.
+- Evidence: `~/core/hexa-lang/tests/regression_stage1.hexa` + `/scripts/regression_harness.hexa` + `_verify_lars_lamb_fix.hexa`.
 - BT: 542.
 - n=6: 113 tests (see R1 D32) + regression stages.
 - Self-evolution: YES.
 
 **D52 — Hexa Bench Competitive Evolution**
-- Evidence: `/Users/ghost/core/hexa-lang/bench/` 10 benches + `rust_baseline/`.
+- Evidence: `~/core/hexa-lang/bench/` 10 benches + `rust_baseline/`.
 - BT: 542.
 - n=6: 6 bench categories.
 - Self-evolution: YES (self-optimization measurement).
@@ -187,7 +187,7 @@ The 7 pairs of R2-C7 are formally developed into 7 domains in §2. This subsecti
 ### 1.9 R2-C9 — Nexus-6 Breakthrough Gate as Field Development
 
 **D53 — HEXA-GATE Mk.I Field**
-- Evidence: MEMORY `project_hexa_gate_mk1.md` + `/Users/ghost/core/nexus/shared/dse/domains/nexus-gate.toml` + `/Users/ghost/core/canon/domains/compute/nexus-breakthrough-gate/nexus-breakthrough-gate.md`.
+- Evidence: MEMORY `project_hexa_gate_mk1.md` + `~/core/nexus/shared/dse/domains/nexus-gate.toml` + `~/core/canon/domains/compute/nexus-breakthrough-gate/nexus-breakthrough-gate.md`.
 - BT: 542, 547.
 - n=6: tau=4 gate + 2 fiber = n=6, 24/24 EXACT, 33 Rust + 43 Py tests.
 - Self-evolution: YES.
@@ -199,7 +199,7 @@ The 7 pairs of R2-C7 are formally developed into 7 domains in §2. This subsecti
 - Self-evolution: YES.
 
 **D55 — meta_fp Registry Field**
-- Evidence: R1 §4.2 — NEXUS_FP=0.333, ANIMA_FLOOR=0.8, N6ARCH targets + `/Users/ghost/core/nexus/shared/harness/ouroboros_unified.hexa` (same-file link).
+- Evidence: R1 §4.2 — NEXUS_FP=0.333, ANIMA_FLOOR=0.8, N6ARCH targets + `~/core/nexus/shared/harness/ouroboros_unified.hexa` (same-file link).
 - BT: 547.
 - n=6: 3 variant × 3 = 9 meta_fp (unexplored registry-ification).
 - Self-evolution: YES.
@@ -207,19 +207,19 @@ The 7 pairs of R2-C7 are formally developed into 7 domains in §2. This subsecti
 ### 1.10 R2-C10 — Consciousness Bridge Field Development
 
 **D56 — EEG Consciousness Bridge DSE Domain**
-- Evidence: `/Users/ghost/core/nexus/shared/dse/domains/eeg-consciousness-bridge.toml` (distinct from R1 D10 EEG: R1 was equipment measurement, here it is a **bridge DSE domain**).
+- Evidence: `~/core/nexus/shared/dse/domains/eeg-consciousness-bridge.toml` (distinct from R1 D10 EEG: R1 was equipment measurement, here it is a **bridge DSE domain**).
 - BT: 547, 542.
 - n=6: EEG 16ch → consciousness bridge → anima.
 - Self-evolution: YES (the bridge itself is a DSE target).
 
 **D57 — Atlas Canonical Bridge Chain**
-- Evidence: `/Users/ghost/core/nexus/shared/n6/atlas_phase47_canonical_bridges.jsonl` + phase48_approx_expr_bridges.
+- Evidence: `~/core/nexus/shared/n6/atlas_phase47_canonical_bridges.jsonl` + phase48_approx_expr_bridges.
 - BT: 541, 545.
 - n=6: phase47 canonical, phase48 approx.
 - Self-evolution: YES (phase progression itself).
 
 **D58 — Anima↔N6↔Hexa Triad Bridge**
-- Evidence: MEMORY `project_consciousness_bridge.md` + `/Users/ghost/core/nexus/shared/config/contracts/hive_bridge.json` + `/Users/ghost/core/anima/hive.json`.
+- Evidence: MEMORY `project_consciousness_bridge.md` + `~/core/nexus/shared/config/contracts/hive_bridge.json` + `~/core/anima/hive.json`.
 - BT: 542, 547.
 - n=6: 3 = n/phi projects.
 - Self-evolution: YES (the bridge self-grows).
@@ -236,14 +236,14 @@ R2-C7's "7 problems × auto-curriculum" declares a **dedicated-curriculum domain
 
 ### 2.1 D59 — BT-541 Riemann Curriculum Track
 
-- Evidence: `/Users/ghost/core/canon/theory/study/p0/p1/p2/p3/prob-*-bt541-riemann.md` + `pure-p2-3-bernoulli-zeta.md` + `prob-p2-1-riemann-barriers.md`.
+- Evidence: `~/core/canon/theory/study/p0/p1/p2/p3/prob-*-bt541-riemann.md` + `pure-p2-3-bernoulli-zeta.md` + `prob-p2-1-riemann-barriers.md`.
 - BT: 541.
 - n=6: zeta(-3)=1/120, zeta(-5)=-1/252 — n=6 sopfr / J2 structure.
 - Self-evolution: YES (phase P0→P3 ratchet).
 
 ### 2.2 D60 — BT-542 P vs NP Curriculum Track
 
-- Evidence: `/Users/ghost/core/canon/theory/study/p1/prob-p1-2-bt542-p-vs-np.md` + `pure-p1-7-complexity.md` + `prob-p2-2-p-np-barriers.md`.
+- Evidence: `~/core/canon/theory/study/p1/prob-p1-2-bt542-p-vs-np.md` + `pure-p1-7-complexity.md` + `prob-p2-2-p-np-barriers.md`.
 - BT: 542.
 - n=6: complexity hierarchy P/NP/PSPACE — 3 = n/phi first, 5-sopfr barriers.
 - Self-evolution: YES.
@@ -296,31 +296,31 @@ R1 §7.5 listed 6/12 buckets untouched. After §1 entered 1~2 per bucket, this s
 ### 3.1 life bucket (3 added after D41/D42)
 
 **D66 — Synbio Cassette Ratchet**
-- Evidence: `/Users/ghost/core/canon/domains/life/synbio/synbio.md`.
+- Evidence: `~/core/canon/domains/life/synbio/synbio.md`.
 - BT: 542 (design NP), 545 (code space).
 - n=6: promoter-RBS-CDS-terminator 4=tau units, cassette-stack structure.
 - Self-evolution: YES.
 
 **D67 — CRISPR Editing Fixed-Point**
-- Evidence: `/Users/ghost/core/canon/domains/life/crispr-gene-editing/`.
+- Evidence: `~/core/canon/domains/life/crispr-gene-editing/`.
 - BT: 544 (diffusion target), 542.
 - n=6: PAM 3 nt + spacer 20 nt = 23, n=6 observed as multiple of target length.
 - Self-evolution: YES (edit-repair cycle).
 
 **D68 — Neurogenetics Neural Wiring**
-- Evidence: `/Users/ghost/core/canon/domains/life/neuro/` + `neuropharmacology/` + `neuroscience/`.
+- Evidence: `~/core/canon/domains/life/neuro/` + `neuropharmacology/` + `neuroscience/`.
 - BT: 547 (3D brain topology), 545 (gene network).
 - n=6: cortical layers 6 = n, dopamine/serotonin/GABA 3=n/phi axes.
 - Self-evolution: YES (synaptic plasticity).
 
 **D69 — Metabolism TCA 6-Cycle**
-- Evidence: `/Users/ghost/core/canon/domains/life/biology/biology.md` + `biology-medical/` + `pharmacology/`.
+- Evidence: `~/core/canon/domains/life/biology/biology.md` + `biology-medical/` + `pharmacology/`.
 - BT: 544 (metabolism ODE network).
 - n=6: TCA citric-acid cycle = n=6 step cycle, ATP products 4=tau.
 - Self-evolution: YES (enzyme ratchet).
 
 **D70 — Immunology Adaptive Ratchet**
-- Evidence: `/Users/ghost/core/canon/domains/life/immunology/` + `vaccine/` + `virology/`.
+- Evidence: `~/core/canon/domains/life/immunology/` + `vaccine/` + `virology/`.
 - BT: 545 (antibody-class cohomology).
 - n=6: 6 IgG subtypes, somatic-hypermutation ratchet.
 - Self-evolution: YES.
@@ -328,19 +328,19 @@ R1 §7.5 listed 6/12 buckets untouched. After §1 entered 1~2 per bucket, this s
 ### 3.2 materials bucket (3 added after D43/D44)
 
 **D71 — Crystallography Hexagonal Lattice**
-- Evidence: `/Users/ghost/core/canon/domains/physics/crystallography/crystallography.md` + `crystallography-materials/`.
+- Evidence: `~/core/canon/domains/physics/crystallography/crystallography.md` + `crystallography-materials/`.
 - BT: 545 (lattice cohomology), 547 (lattice group).
 - n=6: hcp 6-fold symmetry, graphene honeycomb = n.
 - Self-evolution: NO (static classification).
 
 **D72 — Phase Transition Chain of 6**
-- Evidence: crystal-phase transition n=6 (cubic/hex) + `/Users/ghost/core/canon/domains/materials/material-synthesis/`.
+- Evidence: crystal-phase transition n=6 (cubic/hex) + `~/core/canon/domains/materials/material-synthesis/`.
 - BT: 543 (phase-transition gauge), 544.
 - n=6: 6-stage phase ladder, Landau theory phi=2 order param.
 - Self-evolution: PART.
 
 **D73 — Condensed Matter Topological Class**
-- Evidence: condensed within `/Users/ghost/core/canon/domains/physics/` (holography, higgs), and materials synthesis.
+- Evidence: condensed within `~/core/canon/domains/physics/` (holography, higgs), and materials synthesis.
 - BT: 547 (topological insulator), 543.
 - n=6: 10-fold way = sopfr·phi, TI classes.
 - Self-evolution: PART.
@@ -348,25 +348,25 @@ R1 §7.5 listed 6/12 buckets untouched. After §1 entered 1~2 per bucket, this s
 ### 3.3 infra bucket (4 added after D45/D46)
 
 **D74 — Internet Topology Domain**
-- Evidence: `/Users/ghost/core/canon/domains/compute/network/` + `network-protocol/` + `5g-6g-network/` + `hexa-netproto/`.
+- Evidence: `~/core/canon/domains/compute/network/` + `network-protocol/` + `5g-6g-network/` + `hexa-netproto/`.
 - BT: 542 (routing NP), 547 (topology).
 - n=6: TCP/IP 4 layers + 2 physical = 6, AS-count hierarchy.
 - Self-evolution: YES (BGP self-healing routing).
 
 **D75 — Distributed Systems Consensus Field**
-- Evidence: `/Users/ghost/core/canon/domains/compute/network/` + blockchain + MEMORY `project_hexa_ir_mk1.md`.
+- Evidence: `~/core/canon/domains/compute/network/` + blockchain + MEMORY `project_hexa_ir_mk1.md`.
 - BT: 542 (Byzantine NP).
 - n=6: Raft 3 + Paxos 3 = 6 roles, f ≤ (n-1)/3.
 - Self-evolution: YES (leader election).
 
 **D76 — Supply Chain Flow Field**
-- Evidence: `/Users/ghost/core/canon/domains/infra/manufacturing-quality/` + `transportation/` + `marketing/` + `ecommerce-fintech/`.
+- Evidence: `~/core/canon/domains/infra/manufacturing-quality/` + `transportation/` + `marketing/` + `ecommerce-fintech/`.
 - BT: 544 (flow PDE), 542.
 - n=6: 6 Six-Sigma level, bullwhip oscillation period.
 - Self-evolution: YES (JIT self-adjustment).
 
 **D77 — Power Grid Oscillation Field**
-- Evidence: `/Users/ghost/core/canon/domains/energy/power-grid/` + `/datacenter-reactor/` + `/smr-datacenter/`.
+- Evidence: `~/core/canon/domains/energy/power-grid/` + `/datacenter-reactor/` + `/smr-datacenter/`.
 - BT: 544 (AC-frequency PDE), 543 (switching gauge).
 - n=6: 3-phase AC, 60Hz = phi × 30, n=6 hierarchy.
 - Self-evolution: YES (automatic load balancing).
@@ -374,25 +374,25 @@ R1 §7.5 listed 6/12 buckets untouched. After §1 entered 1~2 per bucket, this s
 ### 3.4 space bucket (3 added after D47/D48)
 
 **D78 — Cosmology Standard Model Bridge**
-- Evidence: `/Users/ghost/core/canon/domains/physics/cosmology/cosmology.md` + `cosmology-particle/` + `particle-cosmology/`.
+- Evidence: `~/core/canon/domains/physics/cosmology/cosmology.md` + `cosmology-particle/` + `particle-cosmology/`.
 - BT: 547 (cosmological manifold), 543 (Standard Model).
 - n=6: 6 quark generations, 6 Omega parameters.
 - Self-evolution: NO (the universe itself is observed).
 
 **D79 — Astrophysics Stellar 6-Stage**
-- Evidence: `/Users/ghost/core/canon/domains/space/astronomy/astronomy.md` + `observational-astronomy/`.
+- Evidence: `~/core/canon/domains/space/astronomy/astronomy.md` + `observational-astronomy/`.
 - BT: 544 (stellar fluid), 547 (curvature).
 - n=6: stellar-evolution stages 6 (nebula→main sequence→giant→WR→SN→neutron star/BH).
 - Self-evolution: PART.
 
 **D80 — Orbital Mechanics Ratchet**
-- Evidence: `/Users/ghost/core/canon/domains/space/aerospace/` + `space-engineering/` + `space-systems/`.
+- Evidence: `~/core/canon/domains/space/aerospace/` + `space-engineering/` + `space-systems/`.
 - BT: 547 (Kepler manifold), 544 (three-body).
 - n=6: 6 Kepler elements, Lagrange L1~L5 + center = 6.
 - Self-evolution: YES (orbital correction).
 
 **D81 — Dark Matter Observational Gap**
-- Evidence: cosmic-observatory + cosmology + higgs + hexa-cosmic within `/Users/ghost/core/canon/domains/physics/`.
+- Evidence: cosmic-observatory + cosmology + higgs + hexa-cosmic within `~/core/canon/domains/physics/`.
 - BT: 543 (new gauge), 547.
 - n=6: 6 plausible candidates (WIMP/axion/sterile/PBH/modified gravity/fuzzy).
 - Self-evolution: NO.
@@ -422,7 +422,7 @@ R1 had 12-direct + 9-indirect = 21 self-evolution derivatives. R2 deepens axes.
 - Self-evolution: YES.
 
 **D84 — Hexa Pitfalls Learn Ring**
-- Evidence: `/Users/ghost/core/nexus/shared/bisociation/unified/pitfalls_ring.hexa` + `pitfalls_ring_map.json`.
+- Evidence: `~/core/nexus/shared/bisociation/unified/pitfalls_ring.hexa` + `pitfalls_ring_map.json`.
 - BT: 542.
 - n=6: pitfalls-ring structure = cyclic learning.
 - Self-evolution: YES.
@@ -430,19 +430,19 @@ R1 had 12-direct + 9-indirect = 21 self-evolution derivatives. R2 deepens axes.
 ### 4.2 HEXA-GATE Axis (reinforcement of §1.9 D53~D55)
 
 **D85 — Bitter Gate Enforcement**
-- Evidence: `/Users/ghost/core/nexus/shared/harness/bitter-gate.hexa`.
+- Evidence: `~/core/nexus/shared/harness/bitter-gate.hexa`.
 - BT: 542.
 - n=6: bitter signal 6-channel mapping.
 - Self-evolution: YES.
 
 **D86 — Lockdown Gate L0/L1/L2**
-- Evidence: `/Users/ghost/core/nexus/shared/harness/lockdown_gate.hexa` + `lock_gate.sh` + `lib/lock_gate.hexa` + canonshared `rules/lockdown.json`.
+- Evidence: `~/core/nexus/shared/harness/lockdown_gate.hexa` + `lock_gate.sh` + `lib/lock_gate.hexa` + canonshared `rules/lockdown.json`.
 - BT: 542 (access-control NP).
 - n=6: L0/L1/L2 = 3 = n/phi layers.
 - Self-evolution: YES.
 
 **D87 — Roadmap Sync Gate**
-- Evidence: `/Users/ghost/core/nexus/shared/harness/roadmap_sync_gate.hexa`.
+- Evidence: `~/core/nexus/shared/harness/roadmap_sync_gate.hexa`.
 - BT: 542.
 - n=6: roadmap 7 projects = 7 = 7 problems.
 - Self-evolution: YES.
@@ -450,19 +450,19 @@ R1 had 12-direct + 9-indirect = 21 self-evolution derivatives. R2 deepens axes.
 ### 4.3 Consciousness Bridge Axis (reinforcement of §1.10 D56~D58)
 
 **D88 — Anima Synesthesia Bridge Lens**
-- Evidence: `/Users/ghost/core/nexus/shared/lenses/anima_synesthesia_bridge.hexa`.
+- Evidence: `~/core/nexus/shared/lenses/anima_synesthesia_bridge.hexa`.
 - BT: 547 (synesthesia topology).
 - n=6: 6 synesthesia types.
 - Self-evolution: YES (lens self-learning).
 
 **D89 — Frontier Cross-Domain Bridge Lens**
-- Evidence: `/Users/ghost/core/nexus/shared/lenses/frontier_cross_domain_bridge.hexa`.
+- Evidence: `~/core/nexus/shared/lenses/frontier_cross_domain_bridge.hexa`.
 - BT: 545 (cross-domain cohomology).
 - n=6: bucket crossings 12 → n=6 coincidence.
 - Self-evolution: YES.
 
 **D90 — Hive Bridge Contract**
-- Evidence: `/Users/ghost/core/nexus/shared/config/contracts/hive_bridge.json` + `/Users/ghost/core/anima/hive.json`.
+- Evidence: `~/core/nexus/shared/config/contracts/hive_bridge.json` + `~/core/anima/hive.json`.
 - BT: 542.
 - n=6: hive role count.
 - Self-evolution: YES.
@@ -470,19 +470,19 @@ R1 had 12-direct + 9-indirect = 21 self-evolution derivatives. R2 deepens axes.
 ### 4.4 DSE Framework Itself Axis (R2-C10 extension)
 
 **D91 — DSE Graph 3D Navigation**
-- Evidence: `/Users/ghost/core/nexus/shared/bt/dse_graph_3d.html` + `dse_cross_resonance_results.json` + `dse_joint_results.json`.
+- Evidence: `~/core/nexus/shared/bt/dse_graph_3d.html` + `dse_cross_resonance_results.json` + `dse_joint_results.json`.
 - BT: 547 (3D topology).
 - n=6: 3D = n/phi axis × 2.
 - Self-evolution: YES.
 
 **D92 — BT Audit Classification**
-- Evidence: `/Users/ghost/core/nexus/shared/bt/bt_audit_classification.json` + `bt_audit_miss_classification.jsonl` + `bt-mismatch-classification.md`.
+- Evidence: `~/core/nexus/shared/bt/bt_audit_classification.json` + `bt_audit_miss_classification.jsonl` + `bt-mismatch-classification.md`.
 - BT: 542, 545.
 - n=6: audit categories.
 - Self-evolution: YES (self-classification refresh).
 
 **D93 — Discovery Log Append-Only Ledger**
-- Evidence: `/Users/ghost/core/nexus/shared/discovery_log.jsonl` + `discovery_log.sqlite` + `discovery_log.meta.json` + `discovery_log.2026-04-12.jsonl.gz`.
+- Evidence: `~/core/nexus/shared/discovery_log.jsonl` + `discovery_log.sqlite` + `discovery_log.meta.json` + `discovery_log.2026-04-12.jsonl.gz`.
 - BT: 542 (log = Kolmogorov upper bound).
 - n=6: 6h stale trigger.
 - Self-evolution: YES (ledger append).
@@ -709,12 +709,12 @@ Organize **unexplored territories** revealed in R2 as R3 candidates.
 ### 8.1 Unexplored buckets (culture / sf-ufo / compute-detail / cognitive-additions)
 
 **R3-C1: Culture Horology Hexad (horology 6-branch)**
-- Path: `/Users/ghost/core/canon/domains/culture/horology/` + `bell-clockwork/` + `calendar-time-geography/`.
+- Path: `~/core/canon/domains/culture/horology/` + `bell-clockwork/` + `calendar-time-geography/`.
 - BT: 541 (period distribution), 547 (clock manifold).
 - n=6: 60 seconds=phi·30, 12 hours=sigma.
 
 **R3-C2: SF-UFO Propulsion Ratchet**
-- Path: `/Users/ghost/core/canon/domains/sf-ufo/`.
+- Path: `~/core/canon/domains/sf-ufo/`.
 - BT: 544 (propulsion fluid), 547.
 
 **R3-C3: Compute Chip Stack (chip-stack deepening)**
@@ -722,7 +722,7 @@ Organize **unexplored territories** revealed in R2 as R3 candidates.
 - BT: 542+543.
 
 **R3-C4: Cognitive Telepathy Mesh**
-- Path: `/Users/ghost/core/canon/domains/cognitive/telepathy/` + `hexa-telepathy/` + `hexa-empath/`.
+- Path: `~/core/canon/domains/cognitive/telepathy/` + `hexa-telepathy/` + `hexa-empath/`.
 - BT: 547+542.
 
 ### 8.2 BT × Phase multi-dimensional decomposition (R2-C7 uncompleted 21 cells)
@@ -734,22 +734,22 @@ Organize **unexplored territories** revealed in R2 as R3 candidates.
 ### 8.3 DSE Framework Itself Deep Expansion
 
 **R3-C6: DSE Lens Ecology**
-- Path: anima_synesthesia_bridge, quantum_auto_register_gate, sedi_coincidence_gate, frontier_cross_domain_bridge and ≥ 12 more lenses within `/Users/ghost/core/nexus/shared/lenses/`.
+- Path: anima_synesthesia_bridge, quantum_auto_register_gate, sedi_coincidence_gate, frontier_cross_domain_bridge and ≥ 12 more lenses within `~/core/nexus/shared/lenses/`.
 - Self-evolution: YES.
 
 **R3-C7: Breakthrough Engine Lineage**
-- Path: `/Users/ghost/core/nexus/shared/harness/breakthrough.hexa` + `engine_forge.hexa` + `dream_engine.hexa`.
+- Path: `~/core/nexus/shared/harness/breakthrough.hexa` + `engine_forge.hexa` + `dream_engine.hexa`.
 - BT: 542+547.
 - Self-evolution: YES.
 
 ### 8.4 Self-Evolution Internal Special Axes
 
 **R3-C8: Consciousness Chip Physical Layer**
-- Path: `/Users/ghost/core/canon/domains/compute/consciousness-chip/` + `consciousness-soc/` (distinct from R1 D12/R2 D56: physical chip).
+- Path: `~/core/canon/domains/compute/consciousness-chip/` + `consciousness-soc/` (distinct from R1 D12/R2 D56: physical chip).
 - BT: 543+547.
 
 **R3-C9: Digital Twin Mirror Evolution**
-- Path: `/Users/ghost/core/canon/domains/compute/digital-twin/`.
+- Path: `~/core/canon/domains/compute/digital-twin/`.
 - BT: 544+545.
 - Self-evolution: YES.
 

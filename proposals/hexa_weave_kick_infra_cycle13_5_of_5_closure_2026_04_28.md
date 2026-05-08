@@ -196,7 +196,7 @@ $ for d in /Users/ghost/.claude-claude{1..12}; do
   done | wc -l
 5   # claude2,8,9,11,12 — unchanged from cycle 12
 
-$ wc -l /Users/ghost/core/nexus/state/audit/cascade_blocked_events.jsonl
+$ wc -l ~/core/nexus/state/audit/cascade_blocked_events.jsonl
 47   # cycle 12 was 45 → +2 in ~10 min
 ```
 

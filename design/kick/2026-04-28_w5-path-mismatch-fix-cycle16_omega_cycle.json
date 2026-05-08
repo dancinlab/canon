@@ -32,8 +32,8 @@
         "test -f probe with actionable error message (raw 66 ai-native)",
         "raw 47 cross-repo edge declaration in caveats"
       ],
-      "selftest_evidence": "YAML parse PASS (schema=hexa/runbook/v1 version=1.0.1 total_steps=8); bash -n PASS (rc=0); HW_SCRIPTS_DIR resolves to /Users/ghost/core/canon/scripts; rcsb_cluster_split_fetch.py + w5_verdict.py both --help-able; CLI flag conformance 100% (--out --train --val --test --seed --resume for Step 6; --pred --ref --vram-csv --rmsd-max --tm-min --vram-max-mb --out for Step 8)",
-      "user_dispatch_readiness": "READY (1-command dispatch from /Users/ghost/core/canon/ on ubu1; HW_SCRIPTS_DIR env override available for arbitrary script locations)",
+      "selftest_evidence": "YAML parse PASS (schema=hexa/runbook/v1 version=1.0.1 total_steps=8); bash -n PASS (rc=0); HW_SCRIPTS_DIR resolves to ~/core/canon/scripts; rcsb_cluster_split_fetch.py + w5_verdict.py both --help-able; CLI flag conformance 100% (--out --train --val --test --seed --resume for Step 6; --pred --ref --vram-csv --rmsd-max --tm-min --vram-max-mb --out for Step 8)",
+      "user_dispatch_readiness": "READY (1-command dispatch from ~/core/canon/ on ubu1; HW_SCRIPTS_DIR env override available for arbitrary script locations)",
       "sister_repo_separation_preserved": true,
       "raw_142_d2_revertible": true,
       "raw_47_cross_repo_declared": true,
@@ -64,7 +64,7 @@
     "user_decision_3: Defer cycle 17+ sister-repo README HW_SCRIPTS_DIR mention OR fold into cycle 16 (mention only — README spec already authored cycle 15 as proposal, not committed to disk yet)."
   ],
   "next_cycle_handoff": {
-    "cycle_17_plus_dispatch": "user runs hexa_weave_w5_setup.hexa 1.0.1 from /Users/ghost/core/canon/ on ubu1; cycle 17 writes post-dispatch verdict + alien-grade bump",
+    "cycle_17_plus_dispatch": "user runs hexa_weave_w5_setup.hexa 1.0.1 from ~/core/canon/ on ubu1; cycle 17 writes post-dispatch verdict + alien-grade bump",
     "cycle_17_plus_README_HW_SCRIPTS_DIR_mention": "fold HW_SCRIPTS_DIR setup prerequisite into the cycle-15 README spec proposal before user manual sister-repo .git init"
   },
   "alien_grade_baseline": 4.09,

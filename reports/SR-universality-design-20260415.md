@@ -92,7 +92,7 @@ All metrics must be **normalized to [0, 1]** — enabling 3-repo comparison.
 ### 4.1 nexus (NX)
 
 ```
-path: /Users/ghost/core/nexus/sim_bridge/ouroboros_qrng/variance_sweep/
+path: ~/core/nexus/sim_bridge/ouroboros_qrng/variance_sweep/
 run: hexa shared/bin/sr_universal_sweep.hexa --sigma <sigma> --trials 20 --seeds 3
 output: runs/20260415_srunivN/ouroboros_sigma<sigma>.jsonl
 ```
@@ -104,7 +104,7 @@ output: runs/20260415_srunivN/ouroboros_sigma<sigma>.jsonl
 ### 4.2 anima (AN)
 
 ```
-path: /Users/ghost/core/anima/anima-engines/free_will_experiment/
+path: ~/core/anima/anima-engines/free_will_experiment/
 run: hexa bin/sr_free_will_sweep.hexa --sigma <sigma> --trials 20 --seeds 3
 output: data/sr_universal/free_will_sigma<sigma>.jsonl
 ```
@@ -116,7 +116,7 @@ output: data/sr_universal/free_will_sigma<sigma>.jsonl
 ### 4.3 n6 (N6)
 
 ```
-path: /Users/ghost/core/canon/engine/sr_entropy_sweep/
+path: ~/core/canon/engine/sr_entropy_sweep/
 run: hexa theory/predictions/sr_entropy_sweep.hexa --sigma <sigma> --trials 20
 output: reports/sr_universal/n6_sigma<sigma>.jsonl
 ```

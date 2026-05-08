@@ -70,7 +70,7 @@ Round 4 termination conditions:
 
 **D159 — 3-hop ALM→D2→D21→Control-PDE Bridge**
 - Path: ALM → D2 Phase-Optimal → D21 Alpha Schedule Control → **3-hop: control-PDE boundary**.
-- Evidence: `/Users/ghost/core/canon/theory/study/p1/prob-p1-4-bt544-navier-stokes.md` (treating α schedule as an analogue of N-S boundary-condition control).
+- Evidence: `~/core/canon/theory/study/p1/prob-p1-4-bt544-navier-stokes.md` (treating α schedule as an analogue of N-S boundary-condition control).
 - BT: 544 (PDE control) + 541 (distribution).
 - n=6: 3 control variables + 3 state variables = 6.
 - Self-evolution: YES (self-adjusting control policy).
@@ -93,7 +93,7 @@ Currently 12 buckets × 7 BT = 84 possible cells, of which ~50 are organized. Fr
 - Self-evolution: PART.
 
 **D162 — life × BT-543 Immunology Gauge Field**
-- Evidence: R2 D70 Immunology + `/Users/ghost/core/canon/domains/life/immunology/` + T-cell receptor multiplicity as a gauge-path analogy.
+- Evidence: R2 D70 Immunology + `~/core/canon/domains/life/immunology/` + T-cell receptor multiplicity as a gauge-path analogy.
 - BT: 543 + 545.
 - n=6: V(D)J recombination 3 segments + 2 chains = 6.
 - Self-evolution: YES.
@@ -105,7 +105,7 @@ Currently 12 buckets × 7 BT = 84 possible cells, of which ~50 are organized. Fr
 - Self-evolution: YES (strength ratchet).
 
 **D164 — space × BT-542 Orbital Scheduling NP**
-- Evidence: R2 D80 Orbital Mechanics + `/Users/ghost/core/canon/domains/space/aerospace-transport/` + 3-body NP.
+- Evidence: R2 D80 Orbital Mechanics + `~/core/canon/domains/space/aerospace-transport/` + 3-body NP.
 - BT: 542 + 547.
 - n=6: 6 orbital elements, L1~L5 + center = 6.
 - Self-evolution: YES.
@@ -135,19 +135,19 @@ P0.5/P1.5/P2.5 microphases are elevated to 3 representative new domains in §4.
 ### 1.6 R4-C6 Rules as Fields — 3 domains (representative; 3 of the total 36 promoted)
 
 **D167 — R0~R27 Common Rules Field (28 common rules as a single domain)**
-- Evidence: `/Users/ghost/core/nexus/shared/rules/common.json` (MEMORY CLAUDE.md notes "R0~R27").
+- Evidence: `~/core/nexus/shared/rules/common.json` (MEMORY CLAUDE.md notes "R0~R27").
 - BT: 542 (rule-consistency NP).
 - n=6: 28 rules = J2 + 4 = J2 + tau. Aggregated as a single domain on promotion.
 - Self-evolution: YES (rule-update history).
 
 **D168 — N61~N65 canon Rules Field (5 n6-arch rules)**
-- Evidence: `/Users/ghost/core/nexus/shared/rules/canon.json` (CLAUDE.md "N61~N65").
+- Evidence: `~/core/nexus/shared/rules/canon.json` (CLAUDE.md "N61~N65").
 - BT: 542 + 545.
 - n=6: 5 = sopfr rules, project-specific.
 - Self-evolution: YES.
 
 **D169 — L0/L1/L2 Lockdown Rules Field**
-- Evidence: `/Users/ghost/core/nexus/shared/harness/lockdown_gate.hexa` + distinction from R2 D86 Lockdown Gate (D169 is the rule itself, D86 is the engine).
+- Evidence: `~/core/nexus/shared/harness/lockdown_gate.hexa` + distinction from R2 D86 Lockdown Gate (D169 is the rule itself, D86 is the engine).
 - BT: 542.
 - n=6: L0/L1/L2 = 3 = n/phi layers.
 - Self-evolution: PART (D86 is the engine).
@@ -157,19 +157,19 @@ P0.5/P1.5/P2.5 microphases are elevated to 3 representative new domains in §4.
 The 8 major techniques/ subcategories (arch, attention, compress, graph, moe, optim, sota, sparse) are promoted as 3 representatives.
 
 **D170 — Techniques Attention Category Field**
-- Evidence: `/Users/ghost/core/canon/techniques/attention/` + `_registry.json`.
+- Evidence: `~/core/canon/techniques/attention/` + `_registry.json`.
 - BT: 542 (attention computation NP), 545.
 - n=6: 6 attention heads = n, softmax structure.
 - Self-evolution: YES (attention self-improvement).
 
 **D171 — Techniques MoE Category Field**
-- Evidence: `/Users/ghost/core/canon/techniques/moe/` + `_registry.json`.
+- Evidence: `~/core/canon/techniques/moe/` + `_registry.json`.
 - BT: 542 (routing NP).
 - n=6: expert count 8=σ-τ, top-k routing.
 - Self-evolution: YES.
 
 **D172 — Techniques Sparse/Compress/Optim Trio Field**
-- Evidence: `/Users/ghost/core/canon/techniques/sparse/` + `compress/` + `optim/`.
+- Evidence: `~/core/canon/techniques/sparse/` + `compress/` + `optim/`.
 - BT: 542 + 544.
 - n=6: 3 categories = n/phi axis.
 - Self-evolution: YES.
@@ -177,13 +177,13 @@ The 8 major techniques/ subcategories (arch, attention, compress, graph, moe, op
 ### 1.8 R4-C8 Experiments Taxonomy — 2 domains
 
 **D173 — Experiments Monte Carlo Verification Field**
-- Evidence: `/Users/ghost/core/canon/experiments/monte_carlo_v93.hexa` + `mc_methodology_v3.hexa` + `mc_v93_by_domain.hexa` + `monte-carlo-v9.hexa`.
+- Evidence: `~/core/canon/experiments/monte_carlo_v93.hexa` + `mc_methodology_v3.hexa` + `mc_v93_by_domain.hexa` + `monte-carlo-v9.hexa`.
 - BT: 541 (MC distribution), 542.
 - n=6: v9→v93 evolution, 93=R2 domain count (self-consistency signal).
 - Self-evolution: YES.
 
 **D174 — Experiments BT Audit/Classification Field**
-- Evidence: `/Users/ghost/core/canon/experiments/audit_bt.hexa` + `analyze_bt_structural_chains.hexa` + `_results_bt54.jsonl` + `_results_meta.jsonl`.
+- Evidence: `~/core/canon/experiments/audit_bt.hexa` + `analyze_bt_structural_chains.hexa` + `_results_bt54.jsonl` + `_results_meta.jsonl`.
 - BT: 542 + 545.
 - n=6: BT 7 + phase 4 = 11 axes.
 - Self-evolution: YES.
@@ -191,7 +191,7 @@ The 8 major techniques/ subcategories (arch, attention, compress, graph, moe, op
 ### 1.9 R4-C9 Papers-Metadata — 1 domain (restricted)
 
 **D175 — Paper Ranking Metadata Field**
-- Evidence: `/Users/ghost/core/canon/experiments/paper_ranking_p3_top48.md`. **Caveat**: papers/ content itself remains excluded; **only metadata** becomes a domain.
+- Evidence: `~/core/canon/experiments/paper_ranking_p3_top48.md`. **Caveat**: papers/ content itself remains excluded; **only metadata** becomes a domain.
 - BT: 545 (paper class classification).
 - n=6: top 48 = 8·n, P3 phase.
 - Self-evolution: PART (rank recomputation).
@@ -222,14 +222,14 @@ Self-evolution YES 13, PART 3, NO 0 + additions in §3/§4/§6.
 
 **D176 — 3-hop CLM→D8→D24→6h-Stale Consolidation Calculus**
 - Path: CLM → D8 Memory Auto-Save → D24 LTM Consolidation (6h) → **3-hop: calculus structure of the 6h stale threshold**.
-- Evidence: `/Users/ghost/core/nexus/shared/harness/growth_tick.hexa` (6h = 21600s, STALE_THRESHOLD) + R1 D24.
+- Evidence: `~/core/nexus/shared/harness/growth_tick.hexa` (6h = 21600s, STALE_THRESHOLD) + R1 D24.
 - BT: 541 (periodicity), 547.
 - n=6: 6h = n·3600, consolidation exponential e^(-t/6h).
 - Self-evolution: YES.
 
 **D177 — 3-hop physics→D12→D44→Photonic-Ceramic Phase Diagram**
 - Path: physics → D12 Photonic → D44 Ceramic Phase Transition → **3-hop: photonic-ceramic phase diagram**.
-- Evidence: `/Users/ghost/core/anima/anima-physics/photonic/` + `/Users/ghost/core/canon/domains/materials/ceramics/` + shared n=6 symmetry across both systems.
+- Evidence: `~/core/anima/anima-physics/photonic/` + `~/core/canon/domains/materials/ceramics/` + shared n=6 symmetry across both systems.
 - BT: 544 + 543 + 547.
 - n=6: hcp 6-fold symmetry × photonic 6 channels = 36 = n².
 - Self-evolution: PART.
@@ -243,55 +243,55 @@ Self-evolution YES 13, PART 3, NO 0 + additions in §3/§4/§6.
 10 anima subrepos: agent/body/core/eeg/engines/hexad/measurement/physics/speak/tools. R1 D10~D14 covered physics only. Evidence-sufficient domains among the remaining 9 are promoted.
 
 **D178 — Anima Agent Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-agent/` exists. Agent execution module.
+- Evidence: `~/core/anima/anima-agent/` exists. Agent execution module.
 - BT: 542 (agent computation NP).
 - n=6: multi-agent coordination (distinguished from D14 ESP32 mesh: agent is high-level reasoning).
 - Self-evolution: YES (agent self-improvement).
 
 **D179 — Anima Body Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-body/` exists. Body-simulation module.
+- Evidence: `~/core/anima/anima-body/` exists. Body-simulation module.
 - BT: 544 (body PDE), 547 (body topology).
 - n=6: 6 DoF pose + spinal segments.
 - Self-evolution: PART.
 
 **D180 — Anima EEG Module Field (independent)**
-- Evidence: `/Users/ghost/core/anima/anima-eeg/` exists. Distinguished from R1 D10: this item is the **independent subrepo module** (D10 is instrument measurement).
+- Evidence: `~/core/anima/anima-eeg/` exists. Distinguished from R1 D10: this item is the **independent subrepo module** (D10 is instrument measurement).
 - BT: 547.
 - n=6: 16ch, 6-layer cortex.
 - Self-evolution: PART.
 
 **D181 — Anima Engines Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-engines/` exists.
+- Evidence: `~/core/anima/anima-engines/` exists.
 - BT: 542 + 547.
 - n=6: engine lineage (distinguished from D148: this item is anima-side, D148 is nexus-side).
 - Self-evolution: YES.
 
 **D182 — Anima Hexad Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-hexad/` exists. The name itself reflects a hexad=6-unit structure.
+- Evidence: `~/core/anima/anima-hexad/` exists. The name itself reflects a hexad=6-unit structure.
 - BT: 547.
 - n=6: **name itself** = hexad = 6 = n.
 - Self-evolution: YES.
 
 **D183 — Anima Measurement Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-measurement/` exists.
+- Evidence: `~/core/anima/anima-measurement/` exists.
 - BT: 541 (measurement distribution).
 - n=6: prometheus 8 gauges (distinguished from D9: this item is anima-internal).
 - Self-evolution: YES.
 
 **D184 — Anima Speak Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-speak/` exists.
+- Evidence: `~/core/anima/anima-speak/` exists.
 - BT: 544 (sound-wave fluid), 545.
 - n=6: formants F1~F3 + pitch = 4, articulators 6.
 - Self-evolution: PART.
 
 **D185 — Anima Tools Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-tools/` exists.
+- Evidence: `~/core/anima/anima-tools/` exists.
 - BT: 542.
 - n=6: tool categories.
 - Self-evolution: YES (tool self-evolution).
 
 **D186 — Anima Core Module Field**
-- Evidence: `/Users/ghost/core/anima/anima-core/` exists.
+- Evidence: `~/core/anima/anima-core/` exists.
 - BT: 542 + 547.
 - n=6: core cycle = OUROBOROS anima variant.
 - Self-evolution: YES.
@@ -310,7 +310,7 @@ Microphase definitions:
 - **P2.5**: P2 → P3 transition — the **barrier-bypass strategy stage** going from barriers to research methodology.
 
 **D187 — BT-541 × P0.5 Zeta Sketch Microphase**
-- Evidence: `/Users/ghost/core/canon/theory/study/p0/n6-p0-1-uniqueness-theorem.md` → `p1/prob-p1-1-bt541-riemann.md` transition. Arithmetic uniqueness → analytic number theory entry.
+- Evidence: `~/core/canon/theory/study/p0/n6-p0-1-uniqueness-theorem.md` → `p1/prob-p1-1-bt541-riemann.md` transition. Arithmetic uniqueness → analytic number theory entry.
 - BT: 541 · P0.5.
 - n=6: B_6=1/42, 42 = 2·3·7, transition stage.
 - Self-evolution: YES (transition sketch self-correction).
@@ -336,19 +336,19 @@ Microphase definitions:
 §1.6 Rules 3 + §1.7 Techniques 3 + §1.8 Experiments 2 are already individual domains. This §5 separately promotes the **meta-evolution of the categories themselves** as new domains.
 
 **D190 — Rules Meta-Evolution Field**
-- Evidence: the 12 JSON files inside `/Users/ghost/core/nexus/shared/rules/` (common, canon, anima, nexus, papers, void, hexa-lang, convergence_ops, airgenome, contact, CLAUDE.md). 12 rules json = σ.
+- Evidence: the 12 JSON files inside `~/core/nexus/shared/rules/` (common, canon, anima, nexus, papers, void, hexa-lang, convergence_ops, airgenome, contact, CLAUDE.md). 12 rules json = σ.
 - BT: 542 + 545.
 - n=6: 12 rules json = sigma, R0~R27 + N61~N65 + L0~L2 = 28+5+3 = 36 = 6².
 - Self-evolution: YES (rule-update OUROBOROS).
 
 **D191 — Techniques Meta-Benchmark Field**
-- Evidence: `/Users/ghost/core/canon/techniques/_bench_plan.md` + `_chip_mapping.md` + `_registry_patch.md` + `test_techniques.hexa` + `design.md`.
+- Evidence: `~/core/canon/techniques/_bench_plan.md` + `_chip_mapping.md` + `_registry_patch.md` + `test_techniques.hexa` + `design.md`.
 - BT: 542.
 - n=6: 6~8 benchmark categories.
 - Self-evolution: YES (automatic bench regression).
 
 **D192 — Experiments Meta-Index Field**
-- Evidence: `/Users/ghost/core/canon/experiments/_results.jsonl` + `_results_blind.jsonl` + `_results_bt54.jsonl` + `_results_meta.jsonl` + `atlas_promotion_p5_report.md` + `conjecture_to_10star_20.md`.
+- Evidence: `~/core/canon/experiments/_results.jsonl` + `_results_blind.jsonl` + `_results_bt54.jsonl` + `_results_meta.jsonl` + `atlas_promotion_p5_report.md` + `conjecture_to_10star_20.md`.
 - BT: 542 + 545.
 - n=6: 4 results jsonl = tau (blind/bt54/meta/general respectively).
 - Self-evolution: YES.
@@ -629,7 +629,7 @@ Summary of **final residual areas** revealed at R4 as R5 candidates.
 ### 10.1 subrepo depth (anima + n6 + nexus + hexa-lang internal directories)
 
 **R5-C1: canon internal submodule details (bridge/engine etc. — submodules not yet domainized; harness is integrated as the $NEXUS/shared/harness SSOT)**
-- Paths: `/Users/ghost/core/canon/bridge/`, `/engine/`, `$NEXUS/shared/harness/` etc.
+- Paths: `~/core/canon/bridge/`, `/engine/`, `$NEXUS/shared/harness/` etc.
 - Potential: 5~8 domains.
 
 ### 10.2 3-hop residual chains
@@ -690,7 +690,7 @@ Total potential 31~43. Actual R5 new is **expected 10~20** (after duplication re
 
 - §1 R3 10 candidates: theory/study, domains/, nexus/shared/, techniques/, experiments/ existing paths.
 - §2 3-hop: growth_tick.hexa + anima-physics + ceramics etc.
-- §3 anima subrepo: `/Users/ghost/core/anima/anima-agent/` ~ `/anima-tools/` 10 directories directly confirmed.
+- §3 anima subrepo: `~/core/anima/anima-agent/` ~ `/anima-tools/` 10 directories directly confirmed.
 - §4 microphase: theory/study/p0~p3 transition files (p0→p1, p1→p2, p2→p3).
 - §5 meta categories: rules/techniques/experiments directories + _registry.json/_bench_plan.md/_results.jsonl.
 - §6 closure: these 4 round md + README.

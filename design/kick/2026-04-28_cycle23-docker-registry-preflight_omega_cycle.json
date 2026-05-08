@@ -13,7 +13,7 @@
     "size_mb": 54.96,
     "transport_estimate_ubu1_ubu2_hetzner": "55MB × 3 = 165MB",
     "alt_path_docker_save_rsync_estimate": "55MB × 3 = 165MB (same transport, no compression difference)",
-    "ghcr_namespace": "ghcr.io/need-singularity/hexa-runner",
+    "ghcr_namespace": "ghcr.io/dancinlab/hexa-runner",
     "tag_set_planned": ["cycle-14", "2026-04-28", "latest"]
   },
   "deadline_remaining": {
@@ -31,7 +31,7 @@
     "disadvantages": "165MB triple-transport vs ghcr.io (single push + 3 pull = same total but ghcr.io has CDN caching)"
   },
   "user_action_pending": {
-    "1_PAT_issuance": "https://github.com/settings/tokens classic + write:packages + read:packages + need-singularity org SSO",
+    "1_PAT_issuance": "https://github.com/settings/tokens classic + write:packages + read:packages + dancinlab org SSO",
     "2_token_storage": "~/.config/hexa/ghcr.token mode 0600",
     "3_env_export": "GHCR_USER + GHCR_TOKEN_FILE",
     "4_execute_invocation": "bash tool/ghcr_push.hexa --execute"

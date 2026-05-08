@@ -436,7 +436,7 @@ These are **design specifications**, not deployed files. Deployment requires a s
 
 ### File 1: `~/core/nexus/design/method_gap_pattern.md`
 
-- **Source**: `/Users/ghost/core/canon/reports/sessions/omega-meta-prediction-cross-bt-method-gap-2026-04-25.md`.
+- **Source**: `~/core/canon/reports/sessions/omega-meta-prediction-cross-bt-method-gap-2026-04-25.md`.
 - **Content outline**:
   - 6/6 cross-BT method-gap empirical observation.
   - PATTERN_STRONGLY_GENERAL classification rubric (criteria + caveats).
@@ -447,7 +447,7 @@ These are **design specifications**, not deployed files. Deployment requires a s
 
 ### File 2: `~/core/nexus/design/progressive_deepening_methodology.md`
 
-- **Source**: `/Users/ghost/core/canon/reports/sessions/omega-meta-cumulative-session-methodology-2026-04-25.md`.
+- **Source**: `~/core/canon/reports/sessions/omega-meta-cumulative-session-methodology-2026-04-25.md`.
 - **Content outline**:
   - 5-pattern progressive deepening (pattern names + activation conditions).
   - 8-step omega-cycle workflow (4-axis lens application sequence).
@@ -458,7 +458,7 @@ These are **design specifications**, not deployed files. Deployment requires a s
 
 ### File 3: `~/core/nexus/design/3pillar_obstruction_localization.md`
 
-- **Source**: `/Users/ghost/core/canon/reports/sessions/omega-meta-synthesis-3pillar-obstruction-localization-2026-04-25.md`.
+- **Source**: `~/core/canon/reports/sessions/omega-meta-synthesis-3pillar-obstruction-localization-2026-04-25.md`.
 - **Content outline**:
   - 3-pillar obstruction-localization framework (Λ² unification).
   - BT-544 axis-B 5-witness instantiation (PARTIAL example).

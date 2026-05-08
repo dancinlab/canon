@@ -65,7 +65,7 @@ The seven-theorem decomposition in §4 partitions the construction so each unit 
 
 **Rationale**
 
-1. **Repo alignment** — `lean4-n6/` sister repo already exists at `/Users/ghost/core/canon/lean4-n6/` with `lean-toolchain v4.30.0-rc1` and mathlib4 master dependency. F-CL-FORMAL-4 explicitly names lean4-n6 as the verification target.
+1. **Repo alignment** — `lean4-n6/` sister repo already exists at `~/core/canon/lean4-n6/` with `lean-toolchain v4.30.0-rc1` and mathlib4 master dependency. F-CL-FORMAL-4 explicitly names lean4-n6 as the verification target.
 2. **mathlib4 momentum** — mathlib4 has the largest active-development community among proof-assistant libraries; canon's σ·φ·τ arithmetic AX-1 is plausibly already discoverable via existing `Nat.sigma`, `Nat.totient`, `Nat.divisors` definitions.
 3. **Honest gap acknowledgment** — Isabelle/HOL has stronger out-of-the-box Tarski + Hartogs + Inaccessible coverage. Choosing Lean despite this is justified by repo alignment; F-D-1 falsifier (§8) tracks the risk that mathlib MK gap forces a porting cost that Isabelle would have avoided.
 

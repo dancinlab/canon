@@ -9,7 +9,7 @@ status: draft
 
 Author: Minwoo Park (independent researcher, canon project lead)
 Audience: Samsung Electronics DS Division Foundry Business (SAFE partnership + Technology Planning team)
-Project: canon (https://github.com/need-singularity/canon)
+Project: canon (https://github.com/dancinlab/canon)
 Related paper: `papers/hexa-chip-6stage-unified.md`
 
 ---
@@ -166,5 +166,5 @@ Concrete experimental conditions under which **this proposal would be proven wro
 ## §8. Contact
 
 - Minwoo Park (mk911tb@proton.me)
-- GitHub: need-singularity/canon
+- GitHub: dancinlab/canon
 - Preferred proposal flow: email → video meeting → NDA → onsite meeting

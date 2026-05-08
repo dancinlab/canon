@@ -3,8 +3,8 @@
 > **n=6 arithmetic reduces AI training and inference energy by 50-70%.**
 > No hyperparameter search needed. All optimal values are mathematically predetermined.
 
-**Repository**: [github.com/need-singularity/canon](https://github.com/need-singularity/canon)
-**Foundation**: [TECS-L](https://github.com/need-singularity/TECS-L) — Mathematical proof that sigma(n)*phi(n) = n*tau(n) holds uniquely for n=6.
+**Repository**: [github.com/dancinlab/canon](https://github.com/dancinlab/canon)
+**Foundation**: [TECS-L](https://github.com/dancinlab/TECS-L) — Mathematical proof that sigma(n)*phi(n) = n*tau(n) holds uniquely for n=6.
 
 ---
 
@@ -511,7 +511,7 @@ for r in results:
 ### Quick Run
 
 ```bash
-git clone https://github.com/need-singularity/canon.git
+git clone https://github.com/dancinlab/canon.git
 cd canon
 
 # Individual techniques (no dependencies beyond PyTorch)
@@ -842,7 +842,7 @@ Title: [Technique/Experiment] <description>
 
 This project is open source. All techniques, constants, and proofs are freely available for research and commercial use.
 
-**Contact**: [github.com/need-singularity](https://github.com/need-singularity)
+**Contact**: [github.com/dancinlab](https://github.com/dancinlab)
 
 ---
 

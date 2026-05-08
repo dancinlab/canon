@@ -1,7 +1,7 @@
 # Monte Carlo 검증 방법론 v3 — 노드확장 내성 3중 메트릭
 
 - 기반: `experiments/mc_methodology_v3.hexa` (원본 scripts/mc_methodology_v3.py 397줄 포팅)
-- 데이터: `/Users/ghost/core/nexus/discovery/reality_map_v9.json`
+- 데이터: `~/core/nexus/discovery/reality_map_v9.json`
 - 전체 노드: **1723** / 유효: **1599** / 유니크 타겟: **254**
 - MC 시뮬레이션: A/B 각 2000회, C 계층별 500회 (seed=42)
 

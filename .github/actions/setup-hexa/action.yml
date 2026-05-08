@@ -2,7 +2,7 @@
 # Composite action: setup-hexa
 # ─────────────────────────────────────────────────────────────────────
 # Bootstraps the hexa CLI on stock ubuntu-latest runners by:
-#   1. Sparse-checking-out the hexa-lang sister repo (need-singularity/hexa-lang)
+#   1. Sparse-checking-out the hexa-lang sister repo (dancinlab/hexa-lang)
 #   2. Restoring (or building) the bare-host hexa interpreter via 2-stage gcc
 #      bootstrap (self/native/hexa_v2 → build/stage1/main.c → ./hexa).
 #   3. Exposing $GITHUB_WORKSPACE/hexa-lang/hexa on PATH.
@@ -34,7 +34,7 @@ runs:
       id: checkout-hexa
       uses: actions/checkout@v4
       with:
-        repository: need-singularity/hexa-lang
+        repository: dancinlab/hexa-lang
         path: hexa-lang
       continue-on-error: true
 

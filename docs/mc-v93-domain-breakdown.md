@@ -1,7 +1,7 @@
 # Monte Carlo v9.3 · 도메인별 분해 리포트
 
 - 기반: `experiments/mc_v93_by_domain.hexa` (원본 scripts/mc_v93_by_domain.py 238줄 포팅)
-- 데이터: `/Users/ghost/core/nexus/discovery/reality_map_v9.json`
+- 데이터: `~/core/nexus/discovery/reality_map_v9.json`
 - 도메인 수: **10**
 - 도메인별 시뮬레이션: 2000회 (seed=42)
 - 평균 z-score: **107000000000.0000**

@@ -12,7 +12,7 @@
       "missing_domain_index", "proposal_outdated"
     ],
     "roi_ssot_present": true,
-    "roi_ssot_path": "/Users/ghost/core/nexus/config/roi/canon.json",
+    "roi_ssot_path": "~/core/nexus/config/roi/canon.json",
     "categorization_review": {
       "all_atlas_derived_entries_tagged_loss_free_roi": true,
       "uncategorized_atlas_drift": 0,

@@ -119,7 +119,7 @@ The following files can be handed over wholesale:
 - `papers/n6-chip-6stages-integrated-paper.md` (arXiv stub)
 - `domains/compute/chip-*/` 9 domains, each 200 ~ 400 lines of .md
 - **ASCII comparison graph bundle** (15 text-art pages for on-screen use)
-- Full GitHub: https://github.com/need-singularity/canon
+- Full GitHub: https://github.com/dancinlab/canon
 
 Producible on request:
 - **Hand-drawn-style diagrams** (30 sheets) without 3D rendering
@@ -174,7 +174,7 @@ Aligning with the Anthropic Fellows Program July 2026 cohort result enables addi
 
 - Park Min-woo (mk911tb@proton.me)
 - Personal YouTube: 24K subscribers (smaller than SOD but highly loyal)
-- GitHub: need-singularity/canon
+- GitHub: dancinlab/canon
 
 ---
 

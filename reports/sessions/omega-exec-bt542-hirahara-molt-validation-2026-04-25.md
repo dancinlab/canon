@@ -123,7 +123,7 @@ new frame admit a primitive the old frame did not).
 
 ## §2 Existence / tooling check
 
-Repo scan results (under `/Users/ghost/core/canon/`):
+Repo scan results (under `~/core/canon/`):
 
 - `reports/breakthroughs/v3-t5-hirahara-mcsp-deep-2026-04-15.md`
   (200 lines) — explicit summary of the Hirahara 2017-2023

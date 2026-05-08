@@ -7,7 +7,7 @@ mission: F-MX-3-c kick infra closure (cycle 10 / fan-out 5/5) — B.3 ghcr.io du
 status: PROPOSAL — not executed. Requires explicit user approval AND a `write:packages` PAT before any push.
 ---
 
-# HEXA-WEAVE B.3 — `ghcr.io/need-singularity/hexa-runner` push plan (durable channel)
+# HEXA-WEAVE B.3 — `ghcr.io/dancinlab/hexa-runner` push plan (durable channel)
 
 ## §0 Why ghcr.io is the durable channel
 
@@ -20,7 +20,7 @@ Why ghcr.io over Docker Hub:
 - Docker Hub `docker.io/library/<name>` is reserved for official images
   (cycle-7 push failed with `insufficient_scope`); user-namespace push would
   need a paid org plan.
-- ghcr.io ties access to existing GitHub `need-singularity` org credentials —
+- ghcr.io ties access to existing GitHub `dancinlab` org credentials —
   no new account, no new billing surface.
 - ghcr.io supports private images at no charge; visibility is per-image.
 - Native `docker buildx` multi-arch support for arm64 (Mac) → amd64 (ubu1/
@@ -41,7 +41,7 @@ User action (browser, GitHub UI):
 3. **Expiration**: 90 days max (raw 65 minimal-blast-radius).
 4. **Scopes**: `write:packages`, `read:packages`, `delete:packages`
    (the last only if cycle-12+ image GC is anticipated).
-5. **Org access**: must include the `need-singularity` org if the image is
+5. **Org access**: must include the `dancinlab` org if the image is
    to be pushed under that org namespace.
 6. Copy the generated token. **Do NOT paste it into chat.** User stores it
    locally (e.g. `pass insert ghcr/hexa-runner-pat` or
@@ -74,10 +74,10 @@ User action (Mac shell):
 ```sh
 DIGEST=$(docker image inspect hexa-runner:latest --format '{{.Id}}')
 echo "tagging $DIGEST"
-docker tag hexa-runner:latest ghcr.io/need-singularity/hexa-runner:latest
-docker tag hexa-runner:latest ghcr.io/need-singularity/hexa-runner:2026-04-28
-docker tag hexa-runner:latest ghcr.io/need-singularity/hexa-runner:cycle-10
-docker images ghcr.io/need-singularity/hexa-runner   # verify 3 tags
+docker tag hexa-runner:latest ghcr.io/dancinlab/hexa-runner:latest
+docker tag hexa-runner:latest ghcr.io/dancinlab/hexa-runner:2026-04-28
+docker tag hexa-runner:latest ghcr.io/dancinlab/hexa-runner:cycle-10
+docker images ghcr.io/dancinlab/hexa-runner   # verify 3 tags
 ```
 
 Expected: 3 tag lines, all with the same image ID. (The `latest` floating
@@ -91,9 +91,9 @@ before tagging.
 
 User action (Mac shell — single-arch arm64 first):
 ```sh
-docker push ghcr.io/need-singularity/hexa-runner:cycle-10
-docker push ghcr.io/need-singularity/hexa-runner:2026-04-28
-docker push ghcr.io/need-singularity/hexa-runner:latest
+docker push ghcr.io/dancinlab/hexa-runner:cycle-10
+docker push ghcr.io/dancinlab/hexa-runner:2026-04-28
+docker push ghcr.io/dancinlab/hexa-runner:latest
 ```
 
 Expected each: `<digest>: digest: sha256:… size: <n>` and exit 0.
@@ -103,8 +103,8 @@ For multi-arch (arm64 + amd64) durable channel, prefer `buildx`:
 docker buildx create --name hexa-builder --use 2>/dev/null || docker buildx use hexa-builder
 docker buildx build \
   --platform linux/arm64,linux/amd64 \
-  --tag ghcr.io/need-singularity/hexa-runner:cycle-10 \
-  --tag ghcr.io/need-singularity/hexa-runner:latest \
+  --tag ghcr.io/dancinlab/hexa-runner:cycle-10 \
+  --tag ghcr.io/dancinlab/hexa-runner:latest \
   --push \
   -f ./hexa-runner/Dockerfile ./hexa-runner
 ```
@@ -114,11 +114,11 @@ This eliminates F-B3-REG-1 (arch mismatch) entirely on the durable channel.
 **Safety gate G4**: visibility check after first push:
 ```sh
 gh api -H 'Accept: application/vnd.github+json' \
-  /orgs/need-singularity/packages/container/hexa-runner \
+  /orgs/dancinlab/packages/container/hexa-runner \
   | jq '{name, visibility, url}'
 ```
 If visibility is `public` and that is unintended, set it private via UI:
-<https://github.com/orgs/need-singularity/packages/container/hexa-runner/settings>.
+<https://github.com/orgs/dancinlab/packages/container/hexa-runner/settings>.
 
 ### Step 5 — remote pull on ubu1 / ubu2 / hetzner
 
@@ -130,10 +130,10 @@ explicit approval):
 ssh ubu1 'echo "$GHCR_PAT" | docker login ghcr.io -u <github-username> --password-stdin'
 
 # 5b. pull
-ssh ubu1 'docker pull ghcr.io/need-singularity/hexa-runner:cycle-10'
+ssh ubu1 'docker pull ghcr.io/dancinlab/hexa-runner:cycle-10'
 
 # 5c. retag locally so existing fallback chain code finds it
-ssh ubu1 'docker tag ghcr.io/need-singularity/hexa-runner:cycle-10 hexa-runner:latest'
+ssh ubu1 'docker tag ghcr.io/dancinlab/hexa-runner:cycle-10 hexa-runner:latest'
 
 # 5d. verify
 ssh ubu1 "docker image inspect hexa-runner:latest --format '{{.Id}}'"
@@ -157,9 +157,9 @@ host before any kick traffic resumes.
 | ID | Predicate | Mitigation |
 |----|-----------|------------|
 | F-B3-GHCR-1 | PAT leaks into a committed file (cycle witness, marker, or `.docker/config.json` accidentally tracked). | pre-commit hook: deny `ghp_*`, `gho_*`, `ghu_*`, `ghs_*`, `ghr_*` patterns; revoke PAT on detection. |
-| F-B3-GHCR-2 | `docker buildx` multi-arch produces an amd64 layer mismatched with the arm64 manifest list (rare GHCR manifest-v2 bug). | post-push, `docker buildx imagetools inspect ghcr.io/need-singularity/hexa-runner:cycle-10` MUST list both linux/arm64 + linux/amd64 entries; if not, re-push. |
+| F-B3-GHCR-2 | `docker buildx` multi-arch produces an amd64 layer mismatched with the arm64 manifest list (rare GHCR manifest-v2 bug). | post-push, `docker buildx imagetools inspect ghcr.io/dancinlab/hexa-runner:cycle-10` MUST list both linux/arm64 + linux/amd64 entries; if not, re-push. |
 | F-B3-GHCR-3 | Remote `docker pull` succeeds but the cached image on the remote is from a previous tag race (latest mutated mid-pull on another host). | always pull the immutable `cycle-10` tag, not `latest`; retag locally on each host. |
-| F-B3-GHCR-4 | `need-singularity` org PAT-issuance permission is not yet granted to the user (org membership state). | preflight: `gh api /user/orgs` must list `need-singularity`; if not, fall back to user-namespace `ghcr.io/<user>/hexa-runner`. |
+| F-B3-GHCR-4 | `dancinlab` org PAT-issuance permission is not yet granted to the user (org membership state). | preflight: `gh api /user/orgs` must list `dancinlab`; if not, fall back to user-namespace `ghcr.io/<user>/hexa-runner`. |
 | F-B3-GHCR-5 | GHCR rate-limit on anonymous pull during a remote without `docker login` (the package is public but rate-limited). | always `docker login` on remotes too; or set image visibility to public ONLY if no proprietary code is baked into the image. |
 
 ## §3 Approval matrix

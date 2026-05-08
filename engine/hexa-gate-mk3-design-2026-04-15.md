@@ -7,8 +7,8 @@
             + blowup.hexa Mk.II (shared/blowup/core, 4099 라인, 9-phase)
             + Theorem B (Bernoulli B_2=1/6, 2026-04-11)
             + OUROBOROS α=1/6 보편성 MISS 기록 (2026-04-15)
-**산출 경로**: `/Users/ghost/core/canon/engine/hexa-gate-mk3-design-2026-04-15.md`
-**스켈레톤 경로**: `/Users/ghost/core/canon/engine/hexa_gate_mk3.hexa` (본 문서 섹션 4에 포함, 별도 파일화는 사용자 승인 후)
+**산출 경로**: `~/core/canon/engine/hexa-gate-mk3-design-2026-04-15.md`
+**스켈레톤 경로**: `~/core/canon/engine/hexa_gate_mk3.hexa` (본 문서 섹션 4에 포함, 별도 파일화는 사용자 승인 후)
 
 ---
 
@@ -226,7 +226,7 @@ fn l7_invariant(phase_w: list, s_in: i64, s_out: i64) -> bool {
 // ── L8 atlas / discovery_graph 쓰기 (append-only, 5 라운드 배치) ──
 fn l8_atlas_write(records: list) -> i64 {
     // 배치 append: 5 라운드 묶어서 1회 fsync (Mk.II 대비 5× IO 절감)
-    let atlas_path = "/Users/ghost/core/nexus/shared/n6/atlas.n6"
+    let atlas_path = "~/core/nexus/shared/n6/atlas.n6"
     let mut i: i64 = 0
     let mut written: i64 = 0
     while i < records.len() {
@@ -346,9 +346,9 @@ PASS 3회 독립 관측 후 `[7] → [10*]` 승격 (atlas.n6 직접 편집, 별�
 
 ## 7. 참조
 
-- `/Users/ghost/core/nexus/shared/blowup/core/blowup.hexa` (Mk.II 엔진, 4099 라인)
-- `/Users/ghost/core/canon/theory/proofs/ouroboros-alpha-universality-2026-04-15.md` (α=1/6 MISS 기록)
-- `/Users/ghost/core/canon/theory/proofs/bernoulli-boundary-2026-04-11.md` (Theorem B, B_2=1/6)
-- `/Users/ghost/core/canon/theory/proofs/theorem-r1-uniqueness.md` (σ·φ=n·τ 유일성)
-- `/Users/ghost/core/canon/engine/arch_unified.hexa` (4 모드 DSE 스타일 참조)
+- `~/core/nexus/shared/blowup/core/blowup.hexa` (Mk.II 엔진, 4099 라인)
+- `~/core/canon/theory/proofs/ouroboros-alpha-universality-2026-04-15.md` (α=1/6 MISS 기록)
+- `~/core/canon/theory/proofs/bernoulli-boundary-2026-04-11.md` (Theorem B, B_2=1/6)
+- `~/core/canon/theory/proofs/theorem-r1-uniqueness.md` (σ·φ=n·τ 유일성)
+- `~/core/canon/engine/arch_unified.hexa` (4 모드 DSE 스타일 참조)
 - 메모리: `project_hexa_gate_mk1`, `project_blowup_mk2`, `feedback_design_rules`, `feedback_ascii_report`

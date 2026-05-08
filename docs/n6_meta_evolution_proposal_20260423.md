@@ -260,9 +260,9 @@ claim "n=28 fails identity check" {
 # 전달용 프롬프트 (paste-ready)
 
 ```
-Working dir: /Users/ghost/core/canon
+Working dir: ~/core/canon
 관련 위치:
-  - $N6 = /Users/ghost/core/canon
+  - $N6 = ~/core/canon
   - $N6/tool/n6_meta.hexa (canonical meta CLI — 신규)
   - $N6/tool/n6_*.hexa (Phase 1-3 scanners — 15개)
   - $N6/reports/n6_*.json (scanner outputs)

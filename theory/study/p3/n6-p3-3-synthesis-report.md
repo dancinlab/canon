@@ -465,9 +465,9 @@ Each question ≤3 minutes.
 
 ## 11. Source Reconfirmation
 
-- `/Users/ghost/core/canon/CLAUDE.md` — top-level rules, 9-axis navigation, atlas section
-- `/Users/ghost/core/canon/theory/CLAUDE.md` — theory layer sub-rules
-- `/Users/ghost/core/nexus/shared/n6/atlas.n6` — whole-region measurements (106,899 lines, 2026-04-15)
+- `~/core/canon/CLAUDE.md` — top-level rules, 9-axis navigation, atlas section
+- `~/core/canon/theory/CLAUDE.md` — theory layer sub-rules
+- `~/core/nexus/shared/n6/atlas.n6` — whole-region measurements (106,899 lines, 2026-04-15)
 - `theory/proofs/theorem-r1-uniqueness.md` — σ·φ=n·τ 3 demonstrations original
 - `theory/proofs/bernoulli-boundary-2026-04-11.md` — Theorem B
 - `reports/breakthroughs/millennium-dfs-complete-2026-04-11.md` — DFS 51

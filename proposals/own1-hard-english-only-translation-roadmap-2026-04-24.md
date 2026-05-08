@@ -139,8 +139,8 @@ Caveat (own#11): P0 entries above are "in-flight / target completion" at the tim
 
 ## 9. References
 
-- own#1 (HARD): `/Users/ghost/core/canon/.own`
-- allowlist SSOT: `/Users/ghost/core/canon/tool/own1_legacy_allowlist.json`
+- own#1 (HARD): `~/core/canon/.own`
+- allowlist SSOT: `~/core/canon/tool/own1_legacy_allowlist.json`
 - Policy commit (promote to HARD): `2ef79fe7` — `feat(own): promote own#1 to HARD block for new docs`
 - Policy commit (elevate on_fail to block): `4b472b0c` — `docs(own): elevate own#1 on_fail to block; add verify runner`
 - Peer proposal: `proposals/kr-ai-grant-2026-strategic-matching-2026-04-24.md`
