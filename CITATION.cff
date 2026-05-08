@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use canon in academic work, please cite as below."
+title: "CANON — Arithmetic Design Framework"
+abstract: |
+  From this single identity, optimal AI architectures, chip designs, energy systems, and network protocols are **derived** — not chosen.
+authors:
+  - name: dancinlab contributors
+    affiliation: dancinlab
+license: MIT
+repository-code: "https://github.com/dancinlab/canon"
+url: "https://github.com/dancinlab/canon"
+version: "0.2.1"
+date-released: "2026-05-08"
