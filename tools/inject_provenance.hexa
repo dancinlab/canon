@@ -138,22 +138,30 @@ fn main() {
                 continue
             }
             let body = read_file(copy_path)
-            if body.contains(MARKER) {
+            // Defensive idempotency: check both contains() AND starts_with()
+            // against all 3 comment styles. Earlier hexa-lang versions had
+            // a continue-after-contains() quirk where the loop fell through
+            // to write_file even when contains returned true; the explicit
+            // else-branch below avoids that path entirely.
+            let already_tagged = body.contains(MARKER)
+                || body.starts_with("<!-- @canonical: canon@")
+                || body.starts_with("// @canonical: canon@")
+                || body.starts_with("-- @canonical: canon@")
+            if already_tagged {
                 already = already + 1
-                in_seed = false
-                continue
-            }
-            let mut header = ""
-            if ends_with_md(copy) {
-                header = build_header_md(sha, canonical, md5_canon_rec)
-            } else if ends_with_hexa(copy) {
-                header = build_header_hexa(sha, canonical, md5_canon_rec)
             } else {
-                // Unknown ext — fallback to HTML comment
-                header = build_header_md(sha, canonical, md5_canon_rec)
+                let mut header = ""
+                if ends_with_md(copy) {
+                    header = build_header_md(sha, canonical, md5_canon_rec)
+                } else if ends_with_hexa(copy) {
+                    header = build_header_hexa(sha, canonical, md5_canon_rec)
+                } else {
+                    // Unknown ext — fallback to HTML comment
+                    header = build_header_md(sha, canonical, md5_canon_rec)
+                }
+                write_file(copy_path, header + body)
+                injected = injected + 1
             }
-            write_file(copy_path, header + body)
-            injected = injected + 1
             in_seed = false
             continue
         }
