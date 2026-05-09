@@ -9,10 +9,10 @@
 
 [meta]
 schema_version = "1.0"
-last_updated   = "2026-05-06"
-n6_arch_sha    = "f5bae2e6"
-standalones    = 17
-total_seeds    = 133
+last_updated   = "2026-05-09"
+n6_arch_sha    = "47c70cbf"
+standalones    = 19
+total_seeds    = 154
 
 [[standalone]]
 slug      = "hexa-fusion"
@@ -31,7 +31,7 @@ md5_copy  = "0658fccc31742ec1ec4270d39778aa29"
 [[standalone.seeds]]
 canonical = "domains/energy/fusion/fusion_ledger.hexa"
 copy      = "fusion/module/fusion_ledger.hexa"
-md5_canon = "c2b432a65fc089f6de4f3c9075bd3d81"
+md5_canon = "23369d17165f00bf4d0179a24d46b31b"
 md5_copy  = "2b9cb3d124a701c433d7f27dbf0dab58"
 
 [[standalone.seeds]]
@@ -119,8 +119,8 @@ extracted = "2026-05-06"
 [[standalone.seeds]]
 canonical = "domains/sf-ufo/hexa-ufo/hexa-ufo.md"
 copy      = "ufo/doc/hexa-ufo.md"
-md5_canon = "faeda5ddcfb7ebdae88f2ea6927feac1"
-md5_copy  = "71d7f7128f05e13fbbb5bbfbb67636b2"
+md5_canon = "85ec0ce7e0a75a5c93ec03413393b3ef"
+md5_copy  = "6a0e41b48b89fb46aed1014accbb0761"
 
 [[standalone.seeds]]
 canonical = "experiments/structural/ufo_nexus_scan.hexa"
@@ -241,31 +241,31 @@ extracted = "2026-05-06"
 [[standalone.seeds]]
 canonical = "domains/pets/cat-food/cat-food.md"
 copy      = "cat_food/cat-food.md"
-md5_canon = "5d4d773dc169c9fc20315b8ce2d20be6"
+md5_canon = "7550582d35997ec10ca9647a452046c5"
 md5_copy  = "b0d7a043ff6429c7d3a6c9bdbe1ee59c"
 
 [[standalone.seeds]]
 canonical = "domains/pets/cat-litter/cat-litter.md"
 copy      = "cat_litter/cat-litter.md"
-md5_canon = "fa5c3f728060766a68d46d18262a74fd"
+md5_canon = "c2fa5abda8fa02550c72d85775048d8e"
 md5_copy  = "51f0a7aa7de88deb55a4ac6dd69bc1dc"
 
 [[standalone.seeds]]
 canonical = "domains/pets/cat-toy/cat-toy.md"
 copy      = "cat_toy/cat-toy.md"
-md5_canon = "8f68f1e7192a55a2238b6829d0f55c8c"
+md5_canon = "2fa08749087a2d6880cf4e909ed31d61"
 md5_copy  = "18cfa6ced29598a00b5f4ea75464c305"
 
 [[standalone.seeds]]
 canonical = "domains/pets/dog-food/dog-food.md"
 copy      = "dog_food/dog-food.md"
-md5_canon = "c13e6c46e5646c010b91aa3387eca210"
+md5_canon = "910987989fc1eaa82e8a61dfa7205ab8"
 md5_copy  = "fd804d7c0f2b7dfb96b8f2baa89679d6"
 
 [[standalone.seeds]]
 canonical = "domains/pets/dog-toy/dog-toy.md"
 copy      = "dog_toy/dog-toy.md"
-md5_canon = "c1343aecc6ff6910d6115263d4a4f6fb"
+md5_canon = "450f8c78d8c44d7c65a7103552d56cf9"
 md5_copy  = "9563239f3bc1acf2794929cbca8de737"
 
 [[standalone]]
@@ -372,7 +372,7 @@ md5_copy  = "5cc31b22fd3fec371cac7088ec4426cb"
 slug      = "hexa-fantasy"
 emoji     = "🐉"
 repo      = "https://github.com/dancinlab/hexa-fantasy"
-oneliner  = "Fantasy substrate — dragon + vampire + fantasy + sf + snowflake-ice."
+oneliner  = "Fantasy substrate — sf seed only (dragon/vampire/fantasy/snowflake-ice migrated to private hexa-fantasy repo)."
 license   = "MIT"
 extracted = "2026-05-06"
 
@@ -394,85 +394,85 @@ extracted = "2026-05-06"
 canonical = "domains/energy/battery-architecture/battery-architecture.md"
 copy      = "battery_arch/battery-architecture.md"
 md5_canon = "8e1957f2dce1f00c5ecef1842ac9cc1d"
-md5_copy  = "f13dc9d8a16be6ea23e7067e3b42c283"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/battery-energy/battery-energy.md"
 copy      = "battery_energy/battery-energy.md"
 md5_canon = "0c603dd68a5a00e366acd50640bcd21c"
-md5_copy  = "b062e4ea9468ca508dd9f611879cd6a3"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/nuclear-reactor/nuclear-reactor.md"
 copy      = "nuclear/nuclear-reactor.md"
 md5_canon = "efde6b6ef12278aba75d1f3c2cf29edd"
-md5_copy  = "9aa974f79e56e936c1ccdcbe88d327dd"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/smr-datacenter/smr-datacenter.md"
 copy      = "smr_dc/smr-datacenter.md"
 md5_canon = "1d8059e3e7264396c0fb252bfdbcb0a3"
-md5_copy  = "514d1ddbb725b1ced42dd5fe0f9d72ed"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/datacenter-reactor/datacenter-reactor.md"
 copy      = "dc_reactor/datacenter-reactor.md"
 md5_canon = "0daf4d0723ffc9872e8bdf0a5d4bb637"
-md5_copy  = "f3ccbb8e688dfa9ec60555533a7d7010"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/power-grid/power-grid.md"
 copy      = "grid/power-grid.md"
 md5_canon = "a7d2c96d6eddb44a56a5412d5dbe5f57"
-md5_copy  = "58392d8428ac5b199460e98d5d44053e"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/rooftop-pv-2nd-life-microgrid/rooftop-pv-2nd-life-microgrid.md"
 copy      = "pv_microgrid/rooftop-pv-2nd-life-microgrid.md"
-md5_canon = "55d056fd71fe5f8b28582f5cef2d464d"
-md5_copy  = "9c898ffb7655fdbf5fe181884fbf6207"
+md5_canon = "59b8de6762b0f6281d935efed8400935"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/solar-architecture/solar-architecture.md"
 copy      = "solar/solar-architecture.md"
 md5_canon = "eb610533130419786e340e2cad119ca7"
-md5_copy  = "7fb851a39d641ffed11c0b448b9435d0"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/pemfc/pemfc.md"
 copy      = "pemfc/pemfc.md"
 md5_canon = "1ae523d4cd00a8d83a0a176682e73240"
-md5_copy  = "f5d1c71e8d4c8842257df54119455d2b"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/hvac-system/hvac-system.md"
 copy      = "hvac/hvac-system.md"
 md5_canon = "b0504f8c45c4099cc1c4c23f3bca791f"
-md5_copy  = "33e9c64dcbc962fc615b1b9fa79c4dc9"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/thermal-management/thermal-management.md"
 copy      = "thermal/thermal-management.md"
 md5_canon = "4500567a1522254f541e2a0bc6bd69e6"
-md5_copy  = "8a244408b30f7dfc508b8c0abc681dc3"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/amd-ree-mineshaft-phes/amd-ree-mineshaft-phes.md"
 copy      = "mineshaft/amd-ree-mineshaft-phes.md"
-md5_canon = "4739d0c0736b73b9ed615b886bb62083"
-md5_copy  = "e3fe93e23c2d2c3e1845eb49a791c08c"
+md5_canon = "9cabda78ec822107036f2633b7d63c38"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/energy-architecture/energy-architecture.md"
 copy      = "arch/energy-architecture.md"
 md5_canon = "dcacddff9b053e418b26837088a80523"
-md5_copy  = "ec1d960442432418dd4b1693276e298c"
+md5_copy  = "MISSING"
 
 [[standalone.seeds]]
 canonical = "domains/energy/energy-efficiency/energy-efficiency.md"
 copy      = "efficiency/energy-efficiency.md"
 md5_canon = "42419e23de3b153411afb5331a7b2a20"
-md5_copy  = "593a32bd589efd55f755764933428651"
+md5_copy  = "MISSING"
 
 [[standalone]]
 slug      = "hexa-earth"
@@ -566,19 +566,19 @@ extracted = "2026-05-06"
 canonical = "domains/physics/antimatter-factory/antimatter-factory.md"
 copy      = "factory/antimatter-factory.md"
 md5_canon = "e6c5d6b70fc09e15e715172df56a2281"
-md5_copy  = "76f7372f49b5d96fe54617d62eec3f69"
+md5_copy  = "c10ccfe11d9e7d8bdaa2442b71c2ce28"
 
 [[standalone.seeds]]
 canonical = "domains/physics/tabletop-antimatter/tabletop-antimatter.md"
 copy      = "tabletop/tabletop-antimatter.md"
 md5_canon = "16569e0cb571f7bac9c557439b6e6237"
-md5_copy  = "751ae37a4ff16da75d19bb666bf2aaa4"
+md5_copy  = "9b6901badead07770a219922978e0fe8"
 
 [[standalone.seeds]]
 canonical = "domains/physics/pet-cyclotron/pet-cyclotron.md"
 copy      = "pet_cyclotron/pet-cyclotron.md"
 md5_canon = "081adb50f910b3c5fe978b1472fc9abf"
-md5_copy  = "7e4e1c08b7ee3a7989656d406343eea9"
+md5_copy  = "5d54847053d1d584c9e9f3a0e97e3654"
 
 [[standalone]]
 slug      = "hexa-codex"
@@ -597,7 +597,7 @@ md5_copy  = "1716de613272fbcc29764b901f0dec95"
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-safety/ai-safety.md"
 copy      = "safety/ai-safety.md"
-md5_canon = "fefc9c4ab9302d107806fe42252fb9f9"
+md5_canon = "a26140e45d2035ac8efdebea7b9e50eb"
 md5_copy  = "abd83f3bdceda06d1c4f005bf8ddfa40"
 
 [[standalone.seeds]]
@@ -615,8 +615,8 @@ md5_copy  = "1ce7e5f9ce866f6ffcf6291fbd3c9cde"
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-consciousness/ai-consciousness.md"
 copy      = "consciousness/ai-consciousness.md"
-md5_canon = "c19f2ef532752520116afbcbe036d698"
-md5_copy  = "5b1898923348a8fab9890e6903a35fab"
+md5_canon = "f35ff172d759e93100ea6b53aa36e79d"
+md5_copy  = "0309dd0b0d4d6fcec07e88cc43256184"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-interpretability/ai-interpretability.md"
@@ -639,7 +639,7 @@ md5_copy  = "78347112a88d34e74542ad02ce5235a6"
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-quality-scale/ai-quality-scale.md"
 copy      = "quality_scale/ai-quality-scale.md"
-md5_canon = "99222b65d331fa514d0b0fbcef1b5f3a"
+md5_canon = "0774b35d69a29591ddd3e3ab8ce00bc0"
 md5_copy  = "16b41d2753bdc9abc41fb8e32139466f"
 
 [[standalone.seeds]]
@@ -657,7 +657,7 @@ md5_copy  = "791698a75f2c4176cdd82ebfb1173943"
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-agent-serving/ai-agent-serving.md"
 copy      = "agent_serving/ai-agent-serving.md"
-md5_canon = "3bbed6c391862e1b089d02ffac57600a"
+md5_canon = "c76d5bbc0493aa4237a46d09267225ee"
 md5_copy  = "fb1214823035cc5b82b4d4310bce4aa3"
 
 [[standalone.seeds]]
@@ -675,7 +675,7 @@ md5_copy  = "6ab9a13ecb04aac971b54d962f8e19f8"
 [[standalone.seeds]]
 canonical = "domains/cognitive/youth-ai-labeling-rlhf-hub/youth-ai-labeling-rlhf-hub.md"
 copy      = "rlhf/youth-ai-labeling-rlhf-hub.md"
-md5_canon = "14991a09788927308ca4f431d352cac9"
+md5_canon = "14ebb5c088e9cab689c7ccbd6b5714c3"
 md5_copy  = "9a8c829e3358544223c3e52f205977ac"
 
 [[standalone.seeds]]
@@ -719,7 +719,7 @@ md5_copy  = "676e1dfa49d1e915a8b7943bd54af5c5"
 [[standalone.seeds]]
 canonical = "domains/life/dog-robot-test/dog-robot-test.md"
 copy      = "dog_robot/dog-robot-test.md"
-md5_canon = "c647a764335a411ace6682bed86daa5a"
+md5_canon = "f96170d5f395797296053a9c18954af9"
 md5_copy  = "41b4a76fc1e91bdb349860667d986fe6"
 
 [[standalone]]
@@ -923,3 +923,169 @@ canonical = "domains/space/observational-astronomy/observational-astronomy.md"
 copy      = "obs_astronomy/observational-astronomy.md"
 md5_canon = "9e148b73a3064c389875c290e14b694f"
 md5_copy  = "a2f056148cca312b50463a8a79f2427f"
+
+[[standalone]]
+slug      = "hexa-matter"
+emoji     = "⚛️"
+repo      = "https://github.com/dancinlab/hexa-matter"
+oneliner  = "n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출)."
+license   = "MIT"
+extracted = "2026-05-06"
+
+[[standalone.seeds]]
+canonical = "domains/materials/aramid/aramid.md"
+copy      = "aramid/aramid.md"
+md5_canon = "80fa7257fa423ef22a4574730a2db905"
+md5_copy  = "d2d5a9f92644a8c8b1058e7d6d3d7316"
+
+[[standalone.seeds]]
+canonical = "domains/materials/ceramics/ceramics.md"
+copy      = "ceramics/ceramics.md"
+md5_canon = "06c45bbbef0d10c7ee3b5613ff7d369f"
+md5_copy  = "6acab88400d2dd6da994ba91831df547"
+
+[[standalone.seeds]]
+canonical = "domains/materials/concrete/concrete.md"
+copy      = "concrete/concrete.md"
+md5_canon = "5dad18f00ad895854ce5ddcdeb7a11e1"
+md5_copy  = "33077bb0a09e4682f1c5aa3743dd650a"
+
+[[standalone.seeds]]
+canonical = "domains/materials/concrete-technology/concrete-technology.md"
+copy      = "concrete_tech/concrete-technology.md"
+md5_canon = "020b0a86b9305f6e37c213dda126461c"
+md5_copy  = "cf67858e24bac54f99883ca6b35ff369"
+
+[[standalone.seeds]]
+canonical = "domains/materials/epoxy/epoxy.md"
+copy      = "epoxy/epoxy.md"
+md5_canon = "514169a2923f34b8280a2888f01e1a0e"
+md5_copy  = "bdc9cf367387d69749ad8951a194a2fc"
+
+[[standalone.seeds]]
+canonical = "domains/materials/gemology/gemology.md"
+copy      = "gemology/gemology.md"
+md5_canon = "34cf2e8808a6f3acb9f3eb401befe565"
+md5_copy  = "30f95a9367e5c77e980ec08d2458dad0"
+
+[[standalone.seeds]]
+canonical = "domains/materials/hexa-fabric/hexa-fabric.md"
+copy      = "fabric/hexa-fabric.md"
+md5_canon = "426c7e7bc962ad92a8f9e180873e9fbe"
+md5_copy  = "a009aed74a2243236d4d1a179d39f307"
+
+[[standalone.seeds]]
+canonical = "domains/materials/hexa-glass/hexa-glass.md"
+copy      = "glass/hexa-glass.md"
+md5_canon = "0711fb78667b3c0cf723b9e0b68fd4af"
+md5_copy  = "e0c9e5ce8ed8e6c9f9810c3ee60335d0"
+
+[[standalone.seeds]]
+canonical = "domains/materials/hexa-recycle/hexa-recycle.md"
+copy      = "recycle_n6/hexa-recycle.md"
+md5_canon = "1304f77601c309a3823949bbadc96d91"
+md5_copy  = "37b264504aae224b6762ec5b187209fb"
+
+[[standalone.seeds]]
+canonical = "domains/materials/material-synthesis/material-synthesis.md"
+copy      = "synthesis/material-synthesis.md"
+md5_canon = "7dd6b14ad162370cb6be04eaf3968098"
+md5_copy  = "d1dfc756ad1d86a1fc75b1e25eb3c4b3"
+
+[[standalone.seeds]]
+canonical = "domains/materials/nylon/nylon.md"
+copy      = "nylon/nylon.md"
+md5_canon = "22796ca1895af9fe336c7b3ea2aa9420"
+md5_copy  = "1fe6486fae5aaa46dad505cbc1fc7ebb"
+
+[[standalone.seeds]]
+canonical = "domains/materials/paper/paper.md"
+copy      = "paper/paper.md"
+md5_canon = "d76d0fabdfd4c80edbc78c7c5fd43ed2"
+md5_copy  = "a7f9fe9b0499efd2e211f5666600540b"
+
+[[standalone.seeds]]
+canonical = "domains/materials/pet-film/pet-film.md"
+copy      = "pet_film/pet-film.md"
+md5_canon = "95f0cb34ab2477b2724a5e3be65813a4"
+md5_copy  = "73e14087c9cc6248173d0a75a7312e47"
+
+[[standalone.seeds]]
+canonical = "domains/materials/recycling/recycling.md"
+copy      = "recycling/recycling.md"
+md5_canon = "faa62da5c0519f15bb6f1bf80272632c"
+md5_copy  = "9582e71718be80e61c66ed320f5f2ea0"
+
+[[standalone.seeds]]
+canonical = "domains/materials/swordsmithing/swordsmithing.md"
+copy      = "metallurgy/swordsmithing.md"
+md5_canon = "df35ff6f0b29a539b4dde54cdfec01e5"
+md5_copy  = "75981dfeee535b5f55be3c9c8c09f2a0"
+
+[[standalone.seeds]]
+canonical = "domains/materials/tire-cord/tire-cord.md"
+copy      = "tire_cord/tire-cord.md"
+md5_canon = "254211dee8bdd94ae47f4f0292aadedf"
+md5_copy  = "27636d10ec6a7012b18fbe96ad16b1b0"
+
+[[standalone]]
+slug      = "hexa-grid"
+emoji     = "🌐"
+repo      = "https://github.com/dancinlab/hexa-grid"
+oneliner  = "AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI)."
+license   = "MIT"
+extracted = "2026-05-06"
+
+[[standalone.seeds]]
+canonical = "domains/compute/network/network.md"
+copy      = "network/network.md"
+md5_canon = "52541ab65b482d3e46aed5d38a336ed3"
+md5_copy  = "bdf9e412ce40b51925041b04e07cd4c7"
+
+[[standalone.seeds]]
+canonical = "domains/compute/network-protocol/network-protocol.md"
+copy      = "netproto/network-protocol.md"
+md5_canon = "b2065a04668402b79e501238ebed9f9f"
+md5_copy  = "cef890787d0b9ad8f533475296fd75aa"
+
+[[standalone.seeds]]
+canonical = "domains/compute/5g-6g-network/5g-6g-network.md"
+copy      = "5g6g/5g-6g-network.md"
+md5_canon = "cf63c6458859ce7629f18e2a972d5364"
+md5_copy  = "9ed81c08a3e8fceb769f7a8c3424ed9e"
+
+[[standalone.seeds]]
+canonical = "domains/compute/ai-native-architecture/ai-native-architecture.md"
+copy      = "ai_native/ai-native-architecture.md"
+md5_canon = "3232d8b0325cdcea1d81b7c9c65cd51d"
+md5_copy  = "1339ecf1591c628941aee49029ae6628"
+
+[[standalone.seeds]]
+canonical = "domains/compute/gpgpu/gpgpu.md"
+copy      = "gpgpu/gpgpu.md"
+md5_canon = "26c10154bbe584b0c2ecf08932506ddc"
+md5_copy  = "d77f0a13293f5bdd35542df708149093"
+
+[[standalone.seeds]]
+canonical = "domains/compute/hexa-netproto/hexa-netproto.md"
+copy      = "hexa_netproto/hexa-netproto.md"
+md5_canon = "dbf7ad914a2a46d079d0b3e6405cf043"
+md5_copy  = "c576307895a60e0bc4ca09e87a3c3ca8"
+
+[[standalone.seeds]]
+canonical = "domains/infra/lora-mesh-learning-terminal/lora-mesh-learning-terminal.md"
+copy      = "lora_mesh/lora-mesh-learning-terminal.md"
+md5_canon = "26cf1ee5e7bfb38e3910c20d13901e92"
+md5_copy  = "41bfcf103e546d66c4bc67b0e861cf36"
+
+[[standalone.seeds]]
+canonical = "domains/infra/manufacturing-quality/manufacturing-quality.md"
+copy      = "mfg_quality/manufacturing-quality.md"
+md5_canon = "075ef203050583a91f32cdb470c110bb"
+md5_copy  = "8e55165332cee941e4ba7b57ca494331"
+
+[[standalone.seeds]]
+canonical = "domains/infra/construction-structural/construction-structural.md"
+copy      = "construction/construction-structural.md"
+md5_canon = "4d36c58955dfe144de78a99e74b8b323"
+md5_copy  = "920e97e0898d23d684dc2db64b52c40e"

@@ -127,3 +127,28 @@ hexa-chip	🔲	Chip substrate — 28-verb semiconductor stack.	domains/compute/c
 hexa-chip	🔲	Chip substrate — 28-verb semiconductor stack.	domains/compute/consciousness-soc/consciousness-soc.md	conscious_soc/consciousness-soc.md
 hexa-scope	🛰️	Space telescope substrate — Hubble·JWST·LSST·Roman + post-Hubble.	domains/physics/cosmic-observatory/cosmic-observatory.md	observatory/cosmic-observatory.md
 hexa-scope	🛰️	Space telescope substrate — Hubble·JWST·LSST·Roman + post-Hubble.	domains/space/observational-astronomy/observational-astronomy.md	obs_astronomy/observational-astronomy.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/aramid/aramid.md	aramid/aramid.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/ceramics/ceramics.md	ceramics/ceramics.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/concrete/concrete.md	concrete/concrete.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/concrete-technology/concrete-technology.md	concrete_tech/concrete-technology.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/epoxy/epoxy.md	epoxy/epoxy.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/gemology/gemology.md	gemology/gemology.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/hexa-fabric/hexa-fabric.md	fabric/hexa-fabric.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/hexa-glass/hexa-glass.md	glass/hexa-glass.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/hexa-recycle/hexa-recycle.md	recycle_n6/hexa-recycle.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/material-synthesis/material-synthesis.md	synthesis/material-synthesis.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/nylon/nylon.md	nylon/nylon.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/paper/paper.md	paper/paper.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/pet-film/pet-film.md	pet_film/pet-film.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/recycling/recycling.md	recycling/recycling.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/swordsmithing/swordsmithing.md	metallurgy/swordsmithing.md
+hexa-matter	⚛️	n=6 소재 substrate — ceramic·polymer·glass·gem·metal·recycle 16-verb (chip-materials는 hexa-chip CLI 호출).	domains/materials/tire-cord/tire-cord.md	tire_cord/tire-cord.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/compute/network/network.md	network/network.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/compute/network-protocol/network-protocol.md	netproto/network-protocol.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/compute/5g-6g-network/5g-6g-network.md	5g6g/5g-6g-network.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/compute/ai-native-architecture/ai-native-architecture.md	ai_native/ai-native-architecture.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/compute/gpgpu/gpgpu.md	gpgpu/gpgpu.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/compute/hexa-netproto/hexa-netproto.md	hexa_netproto/hexa-netproto.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/infra/lora-mesh-learning-terminal/lora-mesh-learning-terminal.md	lora_mesh/lora-mesh-learning-terminal.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/infra/manufacturing-quality/manufacturing-quality.md	mfg_quality/manufacturing-quality.md
+hexa-grid	🌐	AI 산업 인프라 fabric — network·5G/6G·gpgpu·ai-native·lora-mesh·mfg·construction 9-verb (datacenter/grid → hexa-energy, interconnect → hexa-chip CLI).	domains/infra/construction-structural/construction-structural.md	construction/construction-structural.md
