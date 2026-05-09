@@ -9,4 +9,4 @@
 # schema:s5 ts iter event n_s-chi2 norm2-spread interpretation
 @s5 "2026-04-28T02:20:04Z"|23|"observable-consistency-check"|"9-across-all-5-topologies-toy-proxy-stability-confirmed"|"39928-41776-(9.4-percent-variance-across-topology)"|"observable-mostly-stable-vs-topology-at-toy-scale-distinct-composites-verify-each-topology-leaves-fingerprint"
 # schema:s6 ts iter event cumulative-axes sim-stages topology-modes sim-modules sub-agents total-LoC commits own-11-violation raw-100-fallback-validated cron-active CLI-subcommands
-@s6 "2026-04-28T02:20:05Z"|23|"iter-23-close"|13|"5-of-5-100-percent"|21|7|39|"~2740"|"6-nexus-+-12-n6-architecture"|0|"39-of-39"|"61349c86-5m-recurring-7d"|"9-universe-+pipeline"
+@s6 "2026-04-28T02:20:05Z"|23|"iter-23-close"|13|"5-of-5-100-percent"|21|7|39|"~2740"|"6-nexus-+-12-canon"|0|"39-of-39"|"61349c86-5m-recurring-7d"|"9-universe-+pipeline"

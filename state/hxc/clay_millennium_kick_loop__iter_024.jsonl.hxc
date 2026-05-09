@@ -11,4 +11,4 @@
 # schema:s6 ts iter event subcommand CLI-total
 @s6 "2026-04-28T02:25:05Z"|24|"nexus-CLI-integration"|"nexus universe propagation {selftest | run <topo> [ticks_per_stage]}"|"10-universe-subcommands"
 # schema:s7 ts iter event cumulative-axes sim-stages topology-modes sim-modules sub-agents total-LoC commits own-11-violation raw-100-fallback-validated cron-active
-@s7 "2026-04-28T02:25:06Z"|24|"iter-24-close"|13|"5-of-5-COMPLETE-+-Stage-6-candidate"|21|8|39|"~3100"|"7-nexus-+-13-n6-architecture"|0|"39-of-39"|"61349c86-5m-recurring-7d"
+@s7 "2026-04-28T02:25:06Z"|24|"iter-24-close"|13|"5-of-5-COMPLETE-+-Stage-6-candidate"|21|8|39|"~3100"|"7-nexus-+-13-canon"|0|"39-of-39"|"61349c86-5m-recurring-7d"

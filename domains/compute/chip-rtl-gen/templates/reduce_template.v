@@ -1,7 +1,7 @@
 // ============================================================
 // reduce_template.v — Ω₅ REDUCE 원시연산 Verilog 템플릿
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I
+// canon · chip-rtl-gen · Phase 3 Mk.I
 // τ=4 reduce tree (sum/max/min/mean)
 //
 // 템플릿 플레이스홀더:

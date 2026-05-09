@@ -1,5 +1,5 @@
 ---
-schema: n6-architecture/docs/raw47_sister_repo_propagation/ai-native/1
+schema: canon/docs/raw47_sister_repo_propagation/ai-native/1
 last_updated: 2026-05-04
 ssot:
   proposal_only: true
@@ -15,7 +15,7 @@ omega_cycle: investigation-only (no emit beyond this doc)
 # raw 47 sister-repo propagation plan (2026-05-04)
 
 > Investigation-only doc. READ-ONLY scan of `~/core/{nexus,anima,hexa-lang,papers,airgenome,hive}/`
-> mapped against n6-architecture mk2 governance items (own#6 / own#15 / own#29 / own#14 / own#17)
+> mapped against canon mk2 governance items (own#6 / own#15 / own#29 / own#14 / own#17)
 > + 4 FU-deferred lint emits from the 2026-05-04 own.readme cycle. Outcome: prioritized propagation
 > matrix + own#17 hive-resource migration analysis + raw#10 caveats. NO impl this cycle.
 
@@ -31,7 +31,7 @@ Direct `ls` probes (2026-05-04, all paths absolute home-relative):
 | papers (separate repo) | N/A (this IS the papers repo; subdirs anima/core/docs) | YES (251) | absent | NO | 0 (has tool/ for doi/keyword/growth) | own#15 papers-canonical-sections target; own#6 verify target |
 | airgenome | absent | YES (214) | absent | NO | 0 | own#14 weak-only candidate (no governance grammar) |
 | hive | absent | YES (251) | absent (hive uses `.raw.mk2` instead) | NO | 2 (own_lint, own_8_audit_log_lint) | own#14 candidate; cross-repo SSOT layer per arch.001 |
-| **n6-architecture (source)** | YES (canonical_n6_invariants*, etc) | YES | YES (.own.readme, .own.group_p) | YES | 21 | (origin) |
+| **canon (source)** | YES (canonical_n6_invariants*, etc) | YES | YES (.own.readme, .own.group_p) | YES | 21 | (origin) |
 
 Key finding: of 6 sister repos, **2 have papers content** (n6 itself; nexus has paper-shaped content but flat at root not in `papers/`). **`papers/` (separate repo) is the only true papers repo**. Three repos (nexus/anima/hexa-lang) have explicit per-repo governance grammar (`.own` or `.readme-rules.json`); three (papers/airgenome/hive) lack it. `hive` governs via `.raw.mk2` (different format — JSON-line rules with `id/mk/scope/decl/proof` keys per arch.001/ai-native.001/lint.001/resource.001-009 inspection of lines 70+).
 
@@ -56,7 +56,7 @@ Lint coverage delta per repo (sister tool/own*.hexa count vs n6's 21):
 - **Migration plan (PROPOSED, not landed)**:
   - Option A — **add `hive resource exec` subcommand** to host-pool CLI: scope creep (exec is not host-pool-shaped); rejected.
   - Option B — **new `hive cross-repo` CLI namespace** for sister-repo tool dispatch: clean separation, but requires hive raw.mk2 new rule (cross-repo.001) + tool emit + FU cycle. Recommended.
-  - Option C — **inline the english-audit tool into n6** (copy `readme_english_audit.hexa` to `~/core/n6-architecture/tool/`): violates raw 47 cross-repo SSOT spirit (English-audit logic is hexa-lang's domain); rejected.
+  - Option C — **inline the english-audit tool into n6** (copy `readme_english_audit.hexa` to `~/core/canon/tool/`): violates raw 47 cross-repo SSOT spirit (English-audit logic is hexa-lang's domain); rejected.
   - Option D — **continue grandfather indefinitely**: own#35 enforcement asymmetry persists; not preferred but tolerable while Option B incubates.
 - **Recommendation**: defer to Phase 3 (2026-06-01+); Option B requires hive-side rule registration first.
 

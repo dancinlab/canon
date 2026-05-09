@@ -1,7 +1,7 @@
 // ============================================================
 // conv6_3x3.v — Ω₆ CONV6 3×3 spatial (conv.3x3 variant=00)
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
+// canon · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
 // rtl_generator.hexa → generate_conv6_module(12, 12, 3, 4, "00")
 //
 // 3×3 컨볼루션, n=6 사이클 pass, τ=4 채널 병렬

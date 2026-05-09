@@ -1,7 +1,7 @@
 // ============================================================
 // gemm_m.v — Ω₁ GEMM master (gemm.m variant=00)
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
+// canon · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
 // rtl_generator.hexa → generate_gemm_module(12, 12, 12, "00")
 //
 // 12×12 systolic array (σ²=144 MAC cell), σ=12 파이프

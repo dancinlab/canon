@@ -1,5 +1,5 @@
 ---
-schema: n6-architecture/docs/own_readme_mk2_reconstruction/ai-native/1
+schema: canon/docs/own_readme_mk2_reconstruction/ai-native/1
 last_updated: 2026-05-04
 ssot:
   rule_file: .own.readme
@@ -27,7 +27,7 @@ policy:
 omega_cycle: 6-step single-pass (audit -> plan -> emit -> handoff -> marker -> close)
 ---
 
-# n6-architecture .own.readme mk2 reconstruction — landed plan (2026-05-04)
+# canon .own.readme mk2 reconstruction — landed plan (2026-05-04)
 
 > **TL;DR for the implementer**
 >
@@ -37,7 +37,7 @@ omega_cycle: 6-step single-pass (audit -> plan -> emit -> handoff -> marker -> c
 
 ### §1.1 README inventory
 
-- README.md total LoC: **1370** (`/Users/<user>/core/n6-architecture/README.md`)
+- README.md total LoC: **1370** (`/Users/<user>/core/canon/README.md`)
 - Toolkit `## … Toolkit (HEXA-…)` H2 sections: **33**
 - own#29 mk1 mandatory-sections: **30** — all 30 heading literals present verbatim in README
 - README sections NOT in mk1 mandatory list: **2** (Pets at L539 + Apps at L570) — both registered in mk2 expansion (32 mandatory total)
@@ -88,10 +88,10 @@ omega_cycle: 6-step single-pass (audit -> plan -> emit -> handoff -> marker -> c
 ### §2.1 File path
 
 ```
-/Users/<user>/core/n6-architecture/.own.readme
+/Users/<user>/core/canon/.own.readme
 ```
 
-Sibling to `.own.group_p` (paper-md, emitted 2026-05-03). Schema: `n6-architecture/own/readme/2`.
+Sibling to `.own.group_p` (paper-md, emitted 2026-05-03). Schema: `canon/own/readme/2`.
 
 ### §2.2 5-rule structure (concern-separated, NOT collapsed)
 
@@ -163,7 +163,7 @@ own#1 (doc-english-required) / own#2 (n6-master-identity) / own#14 / own#17 / ow
 ### §4.2 Marker
 
 - path: `state/markers/n6_architecture_own_readme_mk2_reconstruction.marker`
-- format: JSON (schema `n6-architecture/markers/own_readme_mk2_reconstruction/1`)
+- format: JSON (schema `canon/markers/own_readme_mk2_reconstruction/1`)
 - key fields: completion_iso / handoff_path / handoff_sha256 / phase_outputs / raw_anchors / policy_compliance / next_step
 
 ## §5 What is NOT done (Phase 2 + drift fix deferred)

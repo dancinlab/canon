@@ -1,8 +1,8 @@
-# n6-architecture /.own.group_p — L1 paper-md governance (mk2 reconstruction, 1 unified rule)
+# canon /.own.group_p — L1 paper-md governance (mk2 reconstruction, 1 unified rule)
 #
 # AI-native frontmatter (YAML in comment block; .own DSL parser skips # lines):
 # ---
-# schema: n6-architecture/own/group_p/2
+# schema: canon/own/group_p/2
 # last_updated: 2026-05-03
 # ssot:
 #   parent_handoff: docs/n6_architecture_own_group_p_mk2_reconstruction_2026_05_03.ai.md

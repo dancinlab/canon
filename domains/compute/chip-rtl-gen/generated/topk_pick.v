@@ -1,7 +1,7 @@
 // ============================================================
 // topk_pick.v — Ω₃ TOPK top-φ=2 선택 (tk.pick variant=01)
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
+// canon · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
 // rtl_generator.hexa → generate_topk_module(12, 2, "01")
 //
 // τ=4 선별기, k=φ=2 default, MoE 활성 전문가 선택

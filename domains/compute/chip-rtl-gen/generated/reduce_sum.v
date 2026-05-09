@@ -1,7 +1,7 @@
 // ============================================================
 // reduce_sum.v — Ω₅ REDUCE τ=4 sum (rd.sum variant=00)
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
+// canon · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
 // rtl_generator.hexa → generate_reduce_module(4, "00")
 //
 // τ=4 reduce tree (sum/max/min/mean), 사이클 log₂(τ)=φ=2

@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════════════
-# n6-architecture Makefile — test automation
+# canon Makefile — test automation
 # ═══════════════════════════════════════════════════════════════
 
 CARGO   := $(HOME)/.cargo/bin/cargo

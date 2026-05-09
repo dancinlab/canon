@@ -1,5 +1,5 @@
 ---
-schema: n6-architecture/docs/own_group_p_mk2_reconstruction/ai-native/1
+schema: canon/docs/own_group_p_mk2_reconstruction/ai-native/1
 last_updated: 2026-05-03
 ssot:
   rule_file: .own.group_p
@@ -24,7 +24,7 @@ policy:
 omega_cycle: 6-step single-pass (audit -> plan -> emit -> handoff -> marker -> close)
 ---
 
-# n6-architecture .own.group_p mk2 reconstruction — landed plan (2026-05-03)
+# canon .own.group_p mk2 reconstruction — landed plan (2026-05-03)
 
 > **TL;DR for the implementer**
 >
@@ -84,10 +84,10 @@ omega_cycle: 6-step single-pass (audit -> plan -> emit -> handoff -> marker -> c
 ### §2.1 File path
 
 ```
-/Users/<user>/core/n6-architecture/.own.group_p
+/Users/<user>/core/canon/.own.group_p
 ```
 
-Parallel to (retired) mk1 `.own`. Schema: `n6-architecture/own/group_p/2`.
+Parallel to (retired) mk1 `.own`. Schema: `canon/own/group_p/2`.
 
 ### §2.2 Unified rule structure
 
@@ -132,7 +132,7 @@ own#2 (master identity) / own#31 (tautology ban) / own#32 (physical-limit framin
 ### §3.2 Marker
 
 - path: `state/markers/n6_architecture_own_group_p_mk2_reconstruction.marker`
-- format: JSON (schema `n6-architecture/markers/own_group_p_mk2_reconstruction/1`)
+- format: JSON (schema `canon/markers/own_group_p_mk2_reconstruction/1`)
 - key fields: completion_iso / handoff_path / handoff_sha256 / phase_outputs / raw_anchors / policy_compliance / next_step
 
 ## §4 What is NOT done (Phase 2-5 deferred)

@@ -1,7 +1,7 @@
 // ============================================================
 // softmax_exp.v — Ω₂ SOFTMAX Phi6 exp (sm.exp variant=00)
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
+// canon · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
 // rtl_generator.hexa → generate_softmax_module(12, "00")
 //
 // 4단 체인 (exp → max → sub → norm)  Phi6 근사 (x²-x+1)

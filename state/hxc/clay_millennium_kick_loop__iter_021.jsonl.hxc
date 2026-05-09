@@ -11,4 +11,4 @@
 # schema:s6 ts iter event raw-91-C3-honest options recommendation
 @s6 "2026-04-28T02:10:05Z"|21|"loop-status-self-recommendation"|"main-5-axis-termination-met-iter-10-stage-roadmap-complete-iter-20-marginal-return-mode"|[{"a":"cross-stage-integration-test-iter-21-DONE-this-turn"},{"b":"sigma2-gt-1e6-production-out-of-hexa-stage1-scope"},{"c":"saturation-push-A12-plus-axes-marginal"},{"d":"user-explicit-stop"}]|"loop-self-stop-justified-saturation-tracking-mode-acknowledge-marginal-return"
 # schema:s7 ts iter event cumulative-axes sim-stages topology-modes sub-agents sim-modules total-LoC commits own-11-violation raw-100-fallback-validated cron-active
-@s7 "2026-04-28T02:10:06Z"|21|"iter-21-close"|12|"5-of-5-100-percent"|21|38|6|"~2400"|"5-nexus-+-9-n6-architecture"|0|"38-of-38"|"61349c86-5m-recurring-7d"
+@s7 "2026-04-28T02:10:06Z"|21|"iter-21-close"|12|"5-of-5-100-percent"|21|38|6|"~2400"|"5-nexus-+-9-canon"|0|"38-of-38"|"61349c86-5m-recurring-7d"

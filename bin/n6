@@ -1,5 +1,5 @@
 #!/bin/bash
-# bin/n6 — canonical CLI entry for n6-architecture
+# bin/n6 — canonical CLI entry for canon
 #
 # raw 99  canonical-CLI single entry point
 # raw 47  cross-repo sister parity (anima, airgenome mirror)
@@ -53,7 +53,7 @@ cmd_verify_run() {
 
 cmd_help() {
     cat <<'EOF'
-n6 — canonical CLI entry for n6-architecture (raw 99 single entry)
+n6 — canonical CLI entry for canon (raw 99 single entry)
 
 usage: n6 <command>
 
@@ -68,7 +68,7 @@ usage: n6 <command>
 design notes:
   raw 99   single canonical entry (this script)
   raw 47   sister-repo parity with anima, airgenome
-  raw 91   honest C3: n6-architecture has no local .raw — governance
+  raw 91   honest C3: canon has no local .raw — governance
            subcmds dispatch to cross-repo siblings; selftest verifies
            backend reachability rather than local lint coverage
   own 1    doc-english-required HARD gate (all output English)

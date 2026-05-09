@@ -1,5 +1,5 @@
 #!/bin/bash
-# check_remote_dispatch.sh — verify n6-architecture remote dispatch is wired.
+# check_remote_dispatch.sh — verify canon remote dispatch is wired.
 # Recurrence guard for the 2026-04-24 hexa_remote cwd-mapping fix.
 # See docs/operations/remote-dispatch-cwd-mapping.md.
 #
@@ -16,10 +16,10 @@ if [ ! -f "$TARGET" ]; then
   exit 2
 fi
 
-hits="$(grep -c 'core/n6-architecture' "$TARGET" 2>/dev/null)"
+hits="$(grep -c 'core/canon' "$TARGET" 2>/dev/null)"
 
 if [ "${hits:-0}" -lt 3 ]; then
-  echo "[check_remote_dispatch] FAIL: hexa_remote has only $hits/3 n6-architecture references — patch missing or partial" >&2
+  echo "[check_remote_dispatch] FAIL: hexa_remote has only $hits/3 canon references — patch missing or partial" >&2
   echo "[check_remote_dispatch] remediation: docs/operations/remote-dispatch-cwd-mapping.md §'Recovery procedure'" >&2
   exit 1
 fi

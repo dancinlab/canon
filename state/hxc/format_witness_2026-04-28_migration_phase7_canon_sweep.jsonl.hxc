@@ -1,5 +1,5 @@
 # schema:s1 repo input_path input_bytes output_bytes saving_pct chain
-# enum:s1.0 41:"n6-architecture"
+# enum:s1.0 41:"canon"
 # enum:s1.4 29:1.00|8:0|2:2.00|2:3.00
 # enum:s1.5 41:"A1"
 # schema:s2 phase file_count saving_count_ge_5pct total_input_bytes total_output_bytes byte_weighted_saving_pct
@@ -49,4 +49,4 @@
 @s1 ^A|^PCaudit.jsonl"|235|229|^D|^A
 @s1 ^A|^PDstry.jsonl"|520|514|^C|^A
 @s1 ^A|^PEit.jsonl"|217|211|^D|^A
-@s2 "7-n6-architecture-sweep-aggregate"|41|0|183571|182967|1.00
+@s2 "7-canon-sweep-aggregate"|41|0|183571|182967|1.00

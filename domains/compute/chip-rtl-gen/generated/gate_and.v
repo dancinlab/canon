@@ -1,7 +1,7 @@
 // ============================================================
 // gate_and.v — Ω₄ GATE bit AND 마스크 (gt.and variant=01)
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
+// canon · chip-rtl-gen · Phase 3 Mk.I 샘플 출력
 // rtl_generator.hexa → generate_gate_module(12, "01")
 //
 // μ=1 사이클 AND/OR/XOR 마스크, Boltzmann 1/e 임계 옵션

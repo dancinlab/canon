@@ -1,83 +1,83 @@
-[21:42:09] [n6-architecture] Lock 획득: n6-architecture (PID 36732)
-[21:42:09] [n6-architecture] === n6-architecture Growth Loop ===
-[21:42:09] [n6-architecture]     cycles=1 interval=0s domain=architecture
-[21:42:09] [n6-architecture] ━━━ Cycle 1/1 ━━━
-[21:42:09] [n6-architecture] Phase: 아키텍처 문서 스캔
-[21:42:09] [n6-architecture]   docs/ Markdown: 911개
-[21:42:09] [n6-architecture] Phase: nexus tools 빌드
-[21:42:09] [n6-architecture] WARN:   cargo check tools/nexus: FAIL
-[21:42:09] [n6-architecture] Phase: DSE 상태
-[21:42:09] [n6-architecture]   dse/ 디렉토리 없음
-[21:42:09] [n6-architecture] Phase: 성장 스캔
-[21:42:09] [n6-architecture]   .growth/scan.py 없음 — skip
-[21:42:09] [n6-architecture] 📡 NEXUS-6 scan
-[21:42:09] [n6-architecture]       [EmLens] 2 entries
-[21:42:09] [n6-architecture]   
-[21:42:09] [n6-architecture]     Scan complete.
-[21:42:10] [n6-architecture]     Growth Log:
-[21:42:10] [n6-architecture]       [2026-04-04T08:33:15.929921] stage_up: seedling → forest
-[21:42:10] [n6-architecture]   ═══════════════════════════════════════════
-[21:42:14] [n6-architecture] 📦 Committed cycle 1
-[21:42:14] [n6-architecture] === n6-architecture Growth 완료 (1 cycles) ===
-[23:25:14] [n6-architecture] Lock 획득: n6-architecture (PID 396)
-[23:25:14] [n6-architecture] === n6-architecture Growth Loop ===
-[23:25:14] [n6-architecture]     cycles=1 interval=0s domain=architecture
-[23:25:14] [n6-architecture] ━━━ Cycle 1/1 ━━━
-[23:25:14] [n6-architecture] WARN: 과부하 — 60초 대기
-[23:26:14] [n6-architecture] === n6-architecture Growth 완료 (1 cycles) ===
-[04:03:47] [n6-architecture] Lock 획득: n6-architecture (PID 1092)
-[04:03:47] [n6-architecture] === n6-architecture Growth Loop ===
-[04:03:47] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[04:03:47] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[04:33:47] [n6-architecture] Lock 획득: n6-architecture (PID 27392)
-[04:33:47] [n6-architecture] === n6-architecture Growth Loop ===
-[04:33:47] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[04:33:47] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[05:03:48] [n6-architecture] Lock 획득: n6-architecture (PID 71648)
-[05:03:49] [n6-architecture] === n6-architecture Growth Loop ===
-[05:03:49] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[05:03:49] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[05:33:49] [n6-architecture] Lock 획득: n6-architecture (PID 11304)
-[05:33:49] [n6-architecture] === n6-architecture Growth Loop ===
-[05:33:49] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[05:33:49] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[06:03:50] [n6-architecture] Lock 획득: n6-architecture (PID 54705)
-[06:03:50] [n6-architecture] === n6-architecture Growth Loop ===
-[06:03:50] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[06:03:50] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[06:33:50] [n6-architecture] Lock 획득: n6-architecture (PID 9281)
-[06:33:50] [n6-architecture] === n6-architecture Growth Loop ===
-[06:33:50] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[06:33:50] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[07:03:50] [n6-architecture] Lock 획득: n6-architecture (PID 59755)
-[07:03:50] [n6-architecture] === n6-architecture Growth Loop ===
-[07:03:50] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[07:03:50] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[07:33:50] [n6-architecture] Lock 획득: n6-architecture (PID 94648)
-[07:33:50] [n6-architecture] === n6-architecture Growth Loop ===
-[07:33:50] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[07:33:51] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[08:03:52] [n6-architecture] Lock 획득: n6-architecture (PID 29969)
-[08:03:52] [n6-architecture] === n6-architecture Growth Loop ===
-[08:03:52] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[08:03:52] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[08:34:13] [n6-architecture] Lock 획득: n6-architecture (PID 1173)
-[08:34:13] [n6-architecture] === n6-architecture Growth Loop ===
-[08:34:13] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[08:34:13] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[17:55:28] [n6-architecture] Lock 획득: n6-architecture (PID 1648)
-[17:55:28] [n6-architecture] === n6-architecture Growth Loop ===
-[17:55:28] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[17:55:28] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[18:25:33] [n6-architecture] Lock 획득: n6-architecture (PID 57482)
-[18:25:33] [n6-architecture] === n6-architecture Growth Loop ===
-[18:25:34] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[18:25:35] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[18:55:36] [n6-architecture] Lock 획득: n6-architecture (PID 4912)
-[18:55:36] [n6-architecture] === n6-architecture Growth Loop ===
-[18:55:36] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[18:55:36] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
-[19:25:36] [n6-architecture] Lock 획득: n6-architecture (PID 55202)
-[19:25:36] [n6-architecture] === n6-architecture Growth Loop ===
-[19:25:36] [n6-architecture]     cycles=--max-cycles interval=999s domain=architecture
-[19:25:36] [n6-architecture] === n6-architecture Growth 완료 (0 cycles) ===
+[21:42:09] [canon] Lock 획득: canon (PID 36732)
+[21:42:09] [canon] === canon Growth Loop ===
+[21:42:09] [canon]     cycles=1 interval=0s domain=architecture
+[21:42:09] [canon] ━━━ Cycle 1/1 ━━━
+[21:42:09] [canon] Phase: 아키텍처 문서 스캔
+[21:42:09] [canon]   docs/ Markdown: 911개
+[21:42:09] [canon] Phase: nexus tools 빌드
+[21:42:09] [canon] WARN:   cargo check tools/nexus: FAIL
+[21:42:09] [canon] Phase: DSE 상태
+[21:42:09] [canon]   dse/ 디렉토리 없음
+[21:42:09] [canon] Phase: 성장 스캔
+[21:42:09] [canon]   .growth/scan.py 없음 — skip
+[21:42:09] [canon] 📡 NEXUS-6 scan
+[21:42:09] [canon]       [EmLens] 2 entries
+[21:42:09] [canon]   
+[21:42:09] [canon]     Scan complete.
+[21:42:10] [canon]     Growth Log:
+[21:42:10] [canon]       [2026-04-04T08:33:15.929921] stage_up: seedling → forest
+[21:42:10] [canon]   ═══════════════════════════════════════════
+[21:42:14] [canon] 📦 Committed cycle 1
+[21:42:14] [canon] === canon Growth 완료 (1 cycles) ===
+[23:25:14] [canon] Lock 획득: canon (PID 396)
+[23:25:14] [canon] === canon Growth Loop ===
+[23:25:14] [canon]     cycles=1 interval=0s domain=architecture
+[23:25:14] [canon] ━━━ Cycle 1/1 ━━━
+[23:25:14] [canon] WARN: 과부하 — 60초 대기
+[23:26:14] [canon] === canon Growth 완료 (1 cycles) ===
+[04:03:47] [canon] Lock 획득: canon (PID 1092)
+[04:03:47] [canon] === canon Growth Loop ===
+[04:03:47] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[04:03:47] [canon] === canon Growth 완료 (0 cycles) ===
+[04:33:47] [canon] Lock 획득: canon (PID 27392)
+[04:33:47] [canon] === canon Growth Loop ===
+[04:33:47] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[04:33:47] [canon] === canon Growth 완료 (0 cycles) ===
+[05:03:48] [canon] Lock 획득: canon (PID 71648)
+[05:03:49] [canon] === canon Growth Loop ===
+[05:03:49] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[05:03:49] [canon] === canon Growth 완료 (0 cycles) ===
+[05:33:49] [canon] Lock 획득: canon (PID 11304)
+[05:33:49] [canon] === canon Growth Loop ===
+[05:33:49] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[05:33:49] [canon] === canon Growth 완료 (0 cycles) ===
+[06:03:50] [canon] Lock 획득: canon (PID 54705)
+[06:03:50] [canon] === canon Growth Loop ===
+[06:03:50] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[06:03:50] [canon] === canon Growth 완료 (0 cycles) ===
+[06:33:50] [canon] Lock 획득: canon (PID 9281)
+[06:33:50] [canon] === canon Growth Loop ===
+[06:33:50] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[06:33:50] [canon] === canon Growth 완료 (0 cycles) ===
+[07:03:50] [canon] Lock 획득: canon (PID 59755)
+[07:03:50] [canon] === canon Growth Loop ===
+[07:03:50] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[07:03:50] [canon] === canon Growth 완료 (0 cycles) ===
+[07:33:50] [canon] Lock 획득: canon (PID 94648)
+[07:33:50] [canon] === canon Growth Loop ===
+[07:33:50] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[07:33:51] [canon] === canon Growth 완료 (0 cycles) ===
+[08:03:52] [canon] Lock 획득: canon (PID 29969)
+[08:03:52] [canon] === canon Growth Loop ===
+[08:03:52] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[08:03:52] [canon] === canon Growth 완료 (0 cycles) ===
+[08:34:13] [canon] Lock 획득: canon (PID 1173)
+[08:34:13] [canon] === canon Growth Loop ===
+[08:34:13] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[08:34:13] [canon] === canon Growth 완료 (0 cycles) ===
+[17:55:28] [canon] Lock 획득: canon (PID 1648)
+[17:55:28] [canon] === canon Growth Loop ===
+[17:55:28] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[17:55:28] [canon] === canon Growth 완료 (0 cycles) ===
+[18:25:33] [canon] Lock 획득: canon (PID 57482)
+[18:25:33] [canon] === canon Growth Loop ===
+[18:25:34] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[18:25:35] [canon] === canon Growth 완료 (0 cycles) ===
+[18:55:36] [canon] Lock 획득: canon (PID 4912)
+[18:55:36] [canon] === canon Growth Loop ===
+[18:55:36] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[18:55:36] [canon] === canon Growth 완료 (0 cycles) ===
+[19:25:36] [canon] Lock 획득: canon (PID 55202)
+[19:25:36] [canon] === canon Growth Loop ===
+[19:25:36] [canon]     cycles=--max-cycles interval=999s domain=architecture
+[19:25:36] [canon] === canon Growth 완료 (0 cycles) ===

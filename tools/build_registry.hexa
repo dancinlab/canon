@@ -81,7 +81,7 @@ fn main() {
     header = header + "[meta]\n"
     header = header + "schema_version = " + quote(SCHEMA) + "\n"
     header = header + "last_updated   = " + quote(when) + "\n"
-    header = header + "n6_arch_sha    = " + quote(sha) + "\n"
+    header = header + "canon_sha    = " + quote(sha) + "\n"
 
     let mut current_slug = ""
     let mut total_seeds = 0
@@ -150,7 +150,7 @@ fn main() {
     println("  total seeds:       " + str(total_seeds))
     println("  header-diff seeds: " + str(total_drift) + "  (expected: provenance header injected in copy)")
     println("  missing:           " + str(total_missing))
-    println("  n6-arch SHA:       " + sha)
+    println("  canon SHA:         " + sha)
     println("")
     println("Run `hexa run tools/check_drift.hexa` to verify nothing has drifted")
     println("since the last build (recorded vs current md5).")

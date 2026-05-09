@@ -1,7 +1,7 @@
 // ============================================================
 // gate_template.v — Ω₄ GATE 원시연산 Verilog 템플릿
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I
+// canon · chip-rtl-gen · Phase 3 Mk.I
 // μ=1 사이클 AND/OR/XOR 마스크 (Boltzmann 1/e 임계 옵션)
 //
 // 템플릿 플레이스홀더:

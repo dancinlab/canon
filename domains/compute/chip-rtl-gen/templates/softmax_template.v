@@ -1,7 +1,7 @@
 // ============================================================
 // softmax_template.v — Ω₂ SOFTMAX 원시연산 Verilog 템플릿
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I
+// canon · chip-rtl-gen · Phase 3 Mk.I
 // 4단 체인 (exp → max → sub → norm)  Phi6 근사 (x²-x+1)
 //
 // 템플릿 플레이스홀더:

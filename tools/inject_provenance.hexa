@@ -81,13 +81,13 @@ fn main() {
     while mi < meta_lines.len() {
         let ml = meta_lines[mi].trim()
         mi = mi + 1
-        if ml.starts_with("n6_arch_sha") {
+        if ml.starts_with("canon_sha") {
             sha = parse_value(ml)
             break
         }
     }
     if sha.len() == 0 {
-        println("ERROR: n6_arch_sha not found in registry")
+        println("ERROR: canon_sha not found in registry")
         return
     }
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-# bin/hexa-local — n6-architecture HEXA_LOCAL=1 wrapper (FU-fix-hexa, 2026-05-04)
+# bin/hexa-local — canon HEXA_LOCAL=1 wrapper (FU-fix-hexa, 2026-05-04)
 #
 # Root-cause fix for "interp not found" hang on Docker Desktop daemon failure.
 #
@@ -9,13 +9,13 @@
 #
 # Why: raw 44 docker hard-landing (2026-04-25) intentionally blocks bare-Mac
 # to prevent SIGKILL pressure under heavy load (load 445, swap 18/19GB
-# incident). For n6-architecture lint workloads (read-files / count-strings /
+# incident). For canon lint workloads (read-files / count-strings /
 # exit) the load profile is light enough that bare-Mac exec is safe AND faster
 # than docker route. When Docker Desktop daemon hangs (docker info no
 # response), the standard `hexa` invocation stalls until SIGTERM — this
 # wrapper avoids that path entirely.
 #
-# Scope: n6-architecture lint runs ONLY. Do NOT use for kick/subagent paths
+# Scope: canon lint runs ONLY. Do NOT use for kick/subagent paths
 # (those genuinely need container's CPU/MEM caps + node binary). For
 # kick/subagent, use bare `hexa` and ensure Docker Desktop is healthy.
 #

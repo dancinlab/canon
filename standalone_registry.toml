@@ -10,7 +10,7 @@
 [meta]
 schema_version = "1.0"
 last_updated   = "2026-05-09"
-n6_arch_sha    = "47c70cbf"
+canon_sha    = "d1640e62"
 standalones    = 19
 total_seeds    = 154
 
@@ -26,61 +26,61 @@ extracted = "2026-05-06"
 canonical = "domains/energy/fusion/fusion.md"
 copy      = "fusion/doc/fusion.md"
 md5_canon = "289643cc78c636c7c9850d8ef1b9cd7c"
-md5_copy  = "0658fccc31742ec1ec4270d39778aa29"
+md5_copy  = "aa5812a79d382c9d11c9b18e68de7e9e"
 
 [[standalone.seeds]]
 canonical = "domains/energy/fusion/fusion_ledger.hexa"
 copy      = "fusion/module/fusion_ledger.hexa"
 md5_canon = "23369d17165f00bf4d0179a24d46b31b"
-md5_copy  = "2b9cb3d124a701c433d7f27dbf0dab58"
+md5_copy  = "f965f209be56670d7690b1b11781eb77"
 
 [[standalone.seeds]]
 canonical = "domains/energy/fusion/verify_fusion.hexa"
 copy      = "fusion/module/verify_fusion.hexa"
 md5_canon = "7a1c3df7c63f1388af43e33a5f705d56"
-md5_copy  = "2f4d5c024ba10836ba6e114290eaf104"
+md5_copy  = "052eae1f0d3233ba6f473ab1f2d0ba31"
 
 [[standalone.seeds]]
 canonical = "domains/energy/fusion/fusion_ledger.README.md"
 copy      = "fusion/doc/fusion_ledger.README.md"
 md5_canon = "ab7d5420d32cbef2dbba236b3caac6b2"
-md5_copy  = "12a45b10567a74a7892c8cdea0409546"
+md5_copy  = "028cc8e0ca6f79603516a0238701308f"
 
 [[standalone.seeds]]
 canonical = "domains/energy/tabletop-fusion/tabletop-fusion.md"
 copy      = "tabletop_fusion/doc/tabletop-fusion.md"
 md5_canon = "420b63fe3ba3cac70050efb9603bb4ff"
-md5_copy  = "b2b299baa79b2daaa23f115ee0cc9a90"
+md5_copy  = "4cc990e9ea7e597fc5bec07f9c807a8e"
 
 [[standalone.seeds]]
 canonical = "domains/energy/fusion-powerplant/fusion-powerplant.md"
 copy      = "fusion_powerplant/doc/fusion-powerplant.md"
 md5_canon = "692bea1ad31cc873d27b8cbeac2b1c5d"
-md5_copy  = "0afaf5baa2da99c2221fbc6012daa9fc"
+md5_copy  = "09e375060bc2feb324d5d658b60bbe89"
 
 [[standalone.seeds]]
 canonical = "domains/physics/plasma-fusion-deep/plasma-fusion-deep.md"
 copy      = "plasma_deep/doc/plasma-fusion-deep.md"
 md5_canon = "04bd11f645e8c5367771afb4d4a6d6f2"
-md5_copy  = "5750eebafbcfcb62402e40ebccd7857d"
+md5_copy  = "0437526f9768ee5ca0a9d511942682cb"
 
 [[standalone.seeds]]
 canonical = "bridge/origins/fusion-calc/main.hexa"
 copy      = "cli/fusion_calc.hexa"
 md5_canon = "6c858d78fe7c18ba0fe9925a362b5135"
-md5_copy  = "4350d14394bcd15fa12ea75bc676610d"
+md5_copy  = "a3038732a640c91481bb4b1d387376b2"
 
 [[standalone.seeds]]
 canonical = "bridge/origins/fusion-dse/main.hexa"
 copy      = "cli/fusion_dse.hexa"
 md5_canon = "a091c1bc00a03b1184d3070a70983e10"
-md5_copy  = "46f33db3b1b180bec214ed8e6b70b562"
+md5_copy  = "04d9b608ff1c81d2553dae0d21652a00"
 
 [[standalone.seeds]]
 canonical = "bridge/origins/fusion-verify/main.hexa"
 copy      = "cli/fusion_verify.hexa"
 md5_canon = "7efb3b21de90f522fb07719ba5671961"
-md5_copy  = "5b160029325483e01ec7da3d752ec27d"
+md5_copy  = "5ab3003be2fd087008df075a8ffcae03"
 
 [[standalone]]
 slug      = "hexa-cern"
@@ -94,19 +94,19 @@ extracted = "2026-05-06"
 canonical = "domains/physics/mini-accelerator/mini-accelerator.md"
 copy      = "mini/doc/mini-accelerator.md"
 md5_canon = "b57f26d573107feab3547d0b224af653"
-md5_copy  = "c9aea9a562d59567a45eeea3ac7a8d34"
+md5_copy  = "635f132af8b07f0dee17d8782f9b256a"
 
 [[standalone.seeds]]
 canonical = "domains/physics/particle-accelerator/particle-accelerator.md"
 copy      = "parent/doc/particle-accelerator.md"
 md5_canon = "0fb6a1813dbf2d6b37f1188e9fb15e5f"
-md5_copy  = "729f85fdf3fae29e5daa67a37f6bf36a"
+md5_copy  = "f17b81d34f11b9f7700a44ee72972288"
 
 [[standalone.seeds]]
 canonical = "domains/physics/classical-mechanics-accelerator/classical-mechanics-accelerator.md"
 copy      = "classical/doc/classical-mechanics-accelerator.md"
 md5_canon = "9b724ec9d1177a7587a66d542cb49e4c"
-md5_copy  = "24cacb73cba6aaaf1836aef1d62feb2e"
+md5_copy  = "9c7f89f2c7555a1451749e4ba40c3e66"
 
 [[standalone]]
 slug      = "hexa-ufo"
@@ -120,19 +120,19 @@ extracted = "2026-05-06"
 canonical = "domains/sf-ufo/hexa-ufo/hexa-ufo.md"
 copy      = "ufo/doc/hexa-ufo.md"
 md5_canon = "85ec0ce7e0a75a5c93ec03413393b3ef"
-md5_copy  = "6a0e41b48b89fb46aed1014accbb0761"
+md5_copy  = "94fd0b1ba7ff3d7b906890396b816ce8"
 
 [[standalone.seeds]]
 canonical = "experiments/structural/ufo_nexus_scan.hexa"
 copy      = "ufo/module/ufo_nexus_scan.hexa"
 md5_canon = "ffec03280a23a21b313b14e487e4134b"
-md5_copy  = "ca0d56d3c69a3b10124d2480c8dbc6b2"
+md5_copy  = "5d951984f6457dae230ca03dd4ca3eb6"
 
 [[standalone.seeds]]
 canonical = "reports/sessions/specs/2026-04-06-ufo-warp-dimension-design.md"
 copy      = "ufo/doc/warp-dimension-design.md"
 md5_canon = "d670d2ce587ed404fa709d4751680935"
-md5_copy  = "0f4406133596cc0570a09cc3e8ab671d"
+md5_copy  = "7d52155ca5f812083256e17b0fdeb975"
 
 [[standalone]]
 slug      = "hexa-rtsc"
@@ -146,13 +146,13 @@ extracted = "2026-05-06"
 canonical = "domains/energy/room-temp-sc/room-temp-sc.md"
 copy      = "rtsc/room-temp-sc.md"
 md5_canon = "5ba955ca9b38199d0ecfe59c7d182a54"
-md5_copy  = "2bde74f4b45f86c52502904f07da346e"
+md5_copy  = "185c3af31b252d84b6e13f62c2346ba7"
 
 [[standalone.seeds]]
 canonical = "domains/energy/superconductor/superconductor.md"
 copy      = "sc/superconductor.md"
 md5_canon = "a4a1db3e33bab1664b0ae90c9b4f9414"
-md5_copy  = "3a8e6f57c21a699782ad84c70699d823"
+md5_copy  = "ae7d96ac3c071d58217edaad2e053511"
 
 [[standalone]]
 slug      = "hexa-millennium"
@@ -166,43 +166,43 @@ extracted = "2026-05-06"
 canonical = "domains/physics/millennium-bsd/millennium-bsd.md"
 copy      = "bsd/millennium-bsd.md"
 md5_canon = "577938e5cfd2f8f19aba7afd90c5bc77"
-md5_copy  = "70d9deb386c49cef604f8048467d6a84"
+md5_copy  = "af3b34f88d37a37fc3638e60c3621002"
 
 [[standalone.seeds]]
 canonical = "domains/physics/millennium-hodge/millennium-hodge.md"
 copy      = "hodge/millennium-hodge.md"
 md5_canon = "6e39ab5dc3aacdc4a980bfb36604d8e8"
-md5_copy  = "07534fee9fd15201291ce24db2093773"
+md5_copy  = "211a6e1d3aefa0e8794b5b615cc09aad"
 
 [[standalone.seeds]]
 canonical = "domains/physics/millennium-navier-stokes/millennium-navier-stokes.md"
 copy      = "navier_stokes/millennium-navier-stokes.md"
 md5_canon = "b91079794d6e74898a8338ffef7fdec2"
-md5_copy  = "ec5af86995ee428958c94ef87e4df80d"
+md5_copy  = "428fdce152177ab92bd6988f4fce70d1"
 
 [[standalone.seeds]]
 canonical = "domains/physics/millennium-p-vs-np/millennium-p-vs-np.md"
 copy      = "p_vs_np/millennium-p-vs-np.md"
 md5_canon = "7b8da642209bb161ec742bac9522a31e"
-md5_copy  = "705ce0c98548f2965400d4e1cc4435cc"
+md5_copy  = "787e5d403f051104b05ddd63da64ff66"
 
 [[standalone.seeds]]
 canonical = "domains/physics/millennium-poincare/millennium-poincare.md"
 copy      = "poincare/millennium-poincare.md"
 md5_canon = "7f428c6be94741f226cfb07a5b32b647"
-md5_copy  = "a4d9d10b32feaef3ca088d3077cae90a"
+md5_copy  = "04b0254c6f238a8e87e30adf1aa016c0"
 
 [[standalone.seeds]]
 canonical = "domains/physics/millennium-riemann/millennium-riemann.md"
 copy      = "riemann/millennium-riemann.md"
 md5_canon = "a2cea603b99744dcfba2211629af671f"
-md5_copy  = "1522b505fe04888dfc58af835fba7692"
+md5_copy  = "5a509ed06e3d993f31e9c8aa566cb980"
 
 [[standalone.seeds]]
 canonical = "domains/physics/millennium-yang-mills/millennium-yang-mills.md"
 copy      = "yang_mills/millennium-yang-mills.md"
 md5_canon = "d2f14afae2ac89c3f0b7a573385305f0"
-md5_copy  = "872b72a89e6e8b70000582ef40e4d079"
+md5_copy  = "75fec250c5379289b9babdf90a8f8a41"
 
 [[standalone]]
 slug      = "hexa-cosmos"
@@ -216,19 +216,19 @@ extracted = "2026-05-06"
 canonical = "domains/physics/cosmology/cosmology.md"
 copy      = "cosmology/cosmology.md"
 md5_canon = "05cb991ea44f0aa98758b5d83ecf1409"
-md5_copy  = "4ffad52789a656acd378df2e5315413e"
+md5_copy  = "54ae25031923cbdd4ca269cd907a4954"
 
 [[standalone.seeds]]
 canonical = "domains/physics/cosmology-particle/cosmology-particle.md"
 copy      = "particle/cosmology-particle.md"
 md5_canon = "ba364fa277c5143cfe6108323f4a615c"
-md5_copy  = "dc813e71e9d7af763750a724f0e7acd0"
+md5_copy  = "4b6604ee598f12279a2dc3dc9bef25f3"
 
 [[standalone.seeds]]
 canonical = "domains/physics/cosmic-observatory/cosmic-observatory.md"
 copy      = "observatory/cosmic-observatory.md"
 md5_canon = "fddbb7ce4ba211a345f1c454c346a909"
-md5_copy  = "fcb527469707f2225b4d33a70fbb1d18"
+md5_copy  = "7cf484ab396c05175209e7b8a09fbee1"
 
 [[standalone]]
 slug      = "hexa-pet"
@@ -242,31 +242,31 @@ extracted = "2026-05-06"
 canonical = "domains/pets/cat-food/cat-food.md"
 copy      = "cat_food/cat-food.md"
 md5_canon = "7550582d35997ec10ca9647a452046c5"
-md5_copy  = "b0d7a043ff6429c7d3a6c9bdbe1ee59c"
+md5_copy  = "4ee04c50d264443a391131849ac195fc"
 
 [[standalone.seeds]]
 canonical = "domains/pets/cat-litter/cat-litter.md"
 copy      = "cat_litter/cat-litter.md"
 md5_canon = "c2fa5abda8fa02550c72d85775048d8e"
-md5_copy  = "51f0a7aa7de88deb55a4ac6dd69bc1dc"
+md5_copy  = "e653b67e172947f17481126e4e0a08bd"
 
 [[standalone.seeds]]
 canonical = "domains/pets/cat-toy/cat-toy.md"
 copy      = "cat_toy/cat-toy.md"
 md5_canon = "2fa08749087a2d6880cf4e909ed31d61"
-md5_copy  = "18cfa6ced29598a00b5f4ea75464c305"
+md5_copy  = "f2a8067fc52412af9875d8e8566c6e09"
 
 [[standalone.seeds]]
 canonical = "domains/pets/dog-food/dog-food.md"
 copy      = "dog_food/dog-food.md"
 md5_canon = "910987989fc1eaa82e8a61dfa7205ab8"
-md5_copy  = "fd804d7c0f2b7dfb96b8f2baa89679d6"
+md5_copy  = "edaaa07b7546b040b6b87160c3664193"
 
 [[standalone.seeds]]
 canonical = "domains/pets/dog-toy/dog-toy.md"
 copy      = "dog_toy/dog-toy.md"
 md5_canon = "450f8c78d8c44d7c65a7103552d56cf9"
-md5_copy  = "9563239f3bc1acf2794929cbca8de737"
+md5_copy  = "e53629326f7f83fd082cc23ff39802cc"
 
 [[standalone]]
 slug      = "hexa-time"
@@ -280,19 +280,19 @@ extracted = "2026-05-06"
 canonical = "domains/culture/horology/horology.md"
 copy      = "horology/horology.md"
 md5_canon = "beb5d5f62977653c28e5ea6dd2767d6a"
-md5_copy  = "4dc2c6a4b11c27b26ceef6baf87fdc50"
+md5_copy  = "34d7412c384b10d860905bbf11bb86a6"
 
 [[standalone.seeds]]
 canonical = "domains/culture/bell-clockwork/bell-clockwork.md"
 copy      = "clockwork/bell-clockwork.md"
 md5_canon = "3e2b5774e4700dbf9591d81393913d6e"
-md5_copy  = "3393832cb5f9dcaf1ca6a577727c4616"
+md5_copy  = "53332c958b18ac5440b118169ec642eb"
 
 [[standalone.seeds]]
 canonical = "domains/infra/calendar-time-geography/calendar-time-geography.md"
 copy      = "calendar/calendar-time-geography.md"
 md5_canon = "0d101738715d25b0c5e701ed5bf9a980"
-md5_copy  = "680b8ca19e15545b9d40bfeca0037029"
+md5_copy  = "b74019bdc2b23e63d5a6b96e3c3f13ee"
 
 [[standalone]]
 slug      = "hexa-space"
@@ -306,67 +306,67 @@ extracted = "2026-05-06"
 canonical = "domains/space/hexa-cosmic/hexa-cosmic.md"
 copy      = "cosmic/hexa-cosmic.md"
 md5_canon = "d26b243b8262af1453f92c30f9c8faca"
-md5_copy  = "f919fe547e470305677725a0e5f9ff4e"
+md5_copy  = "ae86b36553cb28094e98a210af659a06"
 
 [[standalone.seeds]]
 canonical = "domains/space/hexa-starship/hexa-starship.md"
 copy      = "starship/hexa-starship.md"
 md5_canon = "b859c384ab09e633a5d2bf4d8429e160"
-md5_copy  = "3abb3830ab7207bd657bd9a42be3f615"
+md5_copy  = "87a4ab5c88a375e97764679ba2c29ed3"
 
 [[standalone.seeds]]
 canonical = "domains/space/aerospace/aerospace.md"
 copy      = "aerospace/aerospace.md"
 md5_canon = "7f5d0ad3cd1ea0018a87f3ec66cd6ead"
-md5_copy  = "61b8046c3844f2b5eedfa3da493b1b3b"
+md5_copy  = "f7bd02fc88740d70857613565ef569aa"
 
 [[standalone.seeds]]
 canonical = "domains/space/aerospace-transport/aerospace-transport.md"
 copy      = "aerospace_transport/aerospace-transport.md"
 md5_canon = "d4944befa4abac2dc7a2b65797fe70e6"
-md5_copy  = "6e29bda316ebfb4ba9fa6d94c3b4bf76"
+md5_copy  = "d94fcbb829a28a2c2df845a9907d6b08"
 
 [[standalone.seeds]]
 canonical = "domains/space/space-engineering/space-engineering.md"
 copy      = "engineering/space-engineering.md"
 md5_canon = "d9bb23141219c2836faa4efa86b50343"
-md5_copy  = "08e04e855dc9d9c72bcd56015ddb1e91"
+md5_copy  = "34420c16f7d9dddfc87f422e8371ab42"
 
 [[standalone.seeds]]
 canonical = "domains/space/space-systems/space-systems.md"
 copy      = "systems/space-systems.md"
 md5_canon = "f356ac2845be8858565d0478b1701a79"
-md5_copy  = "3a7159770d25ca508e5f9afc5aefb9c9"
+md5_copy  = "88cd3b027aad626d973ae6a7550aa4db"
 
 [[standalone.seeds]]
 canonical = "domains/space/astrodynamics/astrodynamics.md"
 copy      = "astrodynamics/astrodynamics.md"
 md5_canon = "394311415b1b870fc6395fa87ea089e8"
-md5_copy  = "417191dd406dce0c9e01589a1cbbbe7d"
+md5_copy  = "e27d04584987faa5b60ab5f1ae937bd0"
 
 [[standalone.seeds]]
 canonical = "domains/space/astronomy/astronomy.md"
 copy      = "astronomy/astronomy.md"
 md5_canon = "2c5fdc76436a4139a6f85664c7f16fb2"
-md5_copy  = "0b3625c11903f0213eeebd424e45c377"
+md5_copy  = "2cc0fb5df845297aa05edce96afc04e2"
 
 [[standalone.seeds]]
 canonical = "domains/space/observational-astronomy/observational-astronomy.md"
 copy      = "obs_astronomy/observational-astronomy.md"
 md5_canon = "9e148b73a3064c389875c290e14b694f"
-md5_copy  = "a2f056148cca312b50463a8a79f2427f"
+md5_copy  = "73a309a681fea102bdc77825c08beb61"
 
 [[standalone.seeds]]
 canonical = "domains/space/astrobiology/astrobiology.md"
 copy      = "astrobiology/astrobiology.md"
 md5_canon = "4a46caef57903fc77b70be31257414e8"
-md5_copy  = "2e02882ddf4ea4446bd19a2422bf7ba6"
+md5_copy  = "e6b263c25334a8831bc98a47b9c90909"
 
 [[standalone.seeds]]
 canonical = "domains/space/space-medicine/space-medicine.md"
 copy      = "medicine/space-medicine.md"
 md5_canon = "9152fbd7d895155a3ff504f9baa6e56d"
-md5_copy  = "5cc31b22fd3fec371cac7088ec4426cb"
+md5_copy  = "21d8613d058f2d880fb6faf8c0e02054"
 
 [[standalone]]
 slug      = "hexa-fantasy"
@@ -380,7 +380,7 @@ extracted = "2026-05-06"
 canonical = "domains/sf-ufo/sf/sf.md"
 copy      = "sf/sf.md"
 md5_canon = "1d0e74be68f87d58c173935073a62d7a"
-md5_copy  = "a235e0a57a063425dd10454cf0a1c50d"
+md5_copy  = "dd96273e58cb37c30fd09201a71574bc"
 
 [[standalone]]
 slug      = "hexa-energy"
@@ -394,85 +394,85 @@ extracted = "2026-05-06"
 canonical = "domains/energy/battery-architecture/battery-architecture.md"
 copy      = "battery_arch/battery-architecture.md"
 md5_canon = "8e1957f2dce1f00c5ecef1842ac9cc1d"
-md5_copy  = "MISSING"
+md5_copy  = "346652be2498922caee0e0f489f36c4a"
 
 [[standalone.seeds]]
 canonical = "domains/energy/battery-energy/battery-energy.md"
 copy      = "battery_energy/battery-energy.md"
 md5_canon = "0c603dd68a5a00e366acd50640bcd21c"
-md5_copy  = "MISSING"
+md5_copy  = "6083e84c73d326198fa6f6f08060b834"
 
 [[standalone.seeds]]
 canonical = "domains/energy/nuclear-reactor/nuclear-reactor.md"
 copy      = "nuclear/nuclear-reactor.md"
 md5_canon = "efde6b6ef12278aba75d1f3c2cf29edd"
-md5_copy  = "MISSING"
+md5_copy  = "2bb852e9b65f90029f86fc1e0e33f322"
 
 [[standalone.seeds]]
 canonical = "domains/energy/smr-datacenter/smr-datacenter.md"
 copy      = "smr_dc/smr-datacenter.md"
 md5_canon = "1d8059e3e7264396c0fb252bfdbcb0a3"
-md5_copy  = "MISSING"
+md5_copy  = "138ccc3e100fc8572cb040b463888688"
 
 [[standalone.seeds]]
 canonical = "domains/energy/datacenter-reactor/datacenter-reactor.md"
 copy      = "dc_reactor/datacenter-reactor.md"
 md5_canon = "0daf4d0723ffc9872e8bdf0a5d4bb637"
-md5_copy  = "MISSING"
+md5_copy  = "3c4b2b2a2c5a4838f7456babb70390eb"
 
 [[standalone.seeds]]
 canonical = "domains/energy/power-grid/power-grid.md"
 copy      = "grid/power-grid.md"
 md5_canon = "a7d2c96d6eddb44a56a5412d5dbe5f57"
-md5_copy  = "MISSING"
+md5_copy  = "c2db762898af0631d6503d97834614e7"
 
 [[standalone.seeds]]
 canonical = "domains/energy/rooftop-pv-2nd-life-microgrid/rooftop-pv-2nd-life-microgrid.md"
 copy      = "pv_microgrid/rooftop-pv-2nd-life-microgrid.md"
 md5_canon = "59b8de6762b0f6281d935efed8400935"
-md5_copy  = "MISSING"
+md5_copy  = "1d2cb7b22ec1b131b1a57959dcaea295"
 
 [[standalone.seeds]]
 canonical = "domains/energy/solar-architecture/solar-architecture.md"
 copy      = "solar/solar-architecture.md"
 md5_canon = "eb610533130419786e340e2cad119ca7"
-md5_copy  = "MISSING"
+md5_copy  = "1964bdc97c989c72a9dc44d9cb60c342"
 
 [[standalone.seeds]]
 canonical = "domains/energy/pemfc/pemfc.md"
 copy      = "pemfc/pemfc.md"
 md5_canon = "1ae523d4cd00a8d83a0a176682e73240"
-md5_copy  = "MISSING"
+md5_copy  = "553332aa87b4267bb175ae66c1d9e0d2"
 
 [[standalone.seeds]]
 canonical = "domains/energy/hvac-system/hvac-system.md"
 copy      = "hvac/hvac-system.md"
 md5_canon = "b0504f8c45c4099cc1c4c23f3bca791f"
-md5_copy  = "MISSING"
+md5_copy  = "64ff87fbdba2a3082b81409053b44d41"
 
 [[standalone.seeds]]
 canonical = "domains/energy/thermal-management/thermal-management.md"
 copy      = "thermal/thermal-management.md"
 md5_canon = "4500567a1522254f541e2a0bc6bd69e6"
-md5_copy  = "MISSING"
+md5_copy  = "6a73913ebcdd4475001d1b98e7e41a0e"
 
 [[standalone.seeds]]
 canonical = "domains/energy/amd-ree-mineshaft-phes/amd-ree-mineshaft-phes.md"
 copy      = "mineshaft/amd-ree-mineshaft-phes.md"
 md5_canon = "9cabda78ec822107036f2633b7d63c38"
-md5_copy  = "MISSING"
+md5_copy  = "e9210e068c885394009b5bc4b8a7c6dd"
 
 [[standalone.seeds]]
 canonical = "domains/energy/energy-architecture/energy-architecture.md"
 copy      = "arch/energy-architecture.md"
 md5_canon = "dcacddff9b053e418b26837088a80523"
-md5_copy  = "MISSING"
+md5_copy  = "093bb4b21a5972ab6a02e1a384baff3f"
 
 [[standalone.seeds]]
 canonical = "domains/energy/energy-efficiency/energy-efficiency.md"
 copy      = "efficiency/energy-efficiency.md"
 md5_canon = "42419e23de3b153411afb5331a7b2a20"
-md5_copy  = "MISSING"
+md5_copy  = "7839549302b415d3a9948df8f12e79ef"
 
 [[standalone]]
 slug      = "hexa-earth"
@@ -486,73 +486,73 @@ extracted = "2026-05-06"
 canonical = "domains/infra/climate/climate.md"
 copy      = "climate/climate.md"
 md5_canon = "0424a804dc66d39fe369285c9cdbaf7f"
-md5_copy  = "8acea16c5132317caf3985fe258de4cb"
+md5_copy  = "1fdcaf07ac905d69183f4ab4944acce2"
 
 [[standalone.seeds]]
 canonical = "domains/infra/carbon-capture/carbon-capture.md"
 copy      = "carbon_capture/carbon-capture.md"
 md5_canon = "d8fcbf9817cae77a10a4496418e4fd57"
-md5_copy  = "d4ae11a80b79c90bfd1c763814a1f70a"
+md5_copy  = "329e8b6ab0f124da66645935c19ec612"
 
 [[standalone.seeds]]
 canonical = "domains/infra/environment-thermal/environment-thermal.md"
 copy      = "env_thermal/environment-thermal.md"
 md5_canon = "158d5932fc4fe49112443bbe4ecf19bf"
-md5_copy  = "c0c1ce61b82127d9433f0cea8e52960c"
+md5_copy  = "3eb636e48c521a60fb749ae80ae161d7"
 
 [[standalone.seeds]]
 canonical = "domains/infra/environmental-protection/environmental-protection.md"
 copy      = "env_protect/environmental-protection.md"
 md5_canon = "875d5d3db49ade3a8a482bcf52cda745"
-md5_copy  = "1b63d72c768424e9acca0343b007c722"
+md5_copy  = "59cc78fd257269f6b131a8242959e2d3"
 
 [[standalone.seeds]]
 canonical = "domains/infra/desal/desal.md"
 copy      = "desal/desal.md"
 md5_canon = "0bd56c422f9774f4773b0dc9ac31991c"
-md5_copy  = "e30170e809f68a07b817daf1310f04dc"
+md5_copy  = "a2744a1412fec29c1b13b43d26f65dae"
 
 [[standalone.seeds]]
 canonical = "domains/infra/desalination/desalination.md"
 copy      = "desalination/desalination.md"
 md5_canon = "214ce538c285e6dea9a34b9045f86381"
-md5_copy  = "4f315bece4f7b0e6dc55d714beeafc0e"
+md5_copy  = "4e19571f488b4a263ab86bb15ec51dec"
 
 [[standalone.seeds]]
 canonical = "domains/infra/water-treatment/water-treatment.md"
 copy      = "water_treat/water-treatment.md"
 md5_canon = "fc1b6644d1da1926896dd30eb34f2588"
-md5_copy  = "319a92dd1fbda61fb0d3c2bc3bbaf003"
+md5_copy  = "b703396695a7aa5e9c55f5f6c7ee8f74"
 
 [[standalone.seeds]]
 canonical = "domains/infra/geology/geology.md"
 copy      = "geology/geology.md"
 md5_canon = "7af853ebb94b00c9b986e105eb7c1181"
-md5_copy  = "3a4b4d52203449af591707585e82dfca"
+md5_copy  = "3cbe124bb4edafe20c3409846f1f77e6"
 
 [[standalone.seeds]]
 canonical = "domains/infra/earthquake-engineering/earthquake-engineering.md"
 copy      = "earthquake/earthquake-engineering.md"
 md5_canon = "df704f5aa7e8e1d2892af45461e33e88"
-md5_copy  = "a09178cf100d1f6fafecca6c97332efc"
+md5_copy  = "0efc992ae09dbb8d1e56ea9d26b4f673"
 
 [[standalone.seeds]]
 canonical = "domains/infra/cartography-gis/cartography-gis.md"
 copy      = "cartography/cartography-gis.md"
 md5_canon = "aceb97acaa539cac8ed6bebd444b388b"
-md5_copy  = "b0c31f8b6dfd760b8c1b6eff53657c42"
+md5_copy  = "ed5c753f0a791e42ae18857708abc273"
 
 [[standalone.seeds]]
 canonical = "domains/infra/earth-defense/earth-defense.md"
 copy      = "earth_defense/earth-defense.md"
 md5_canon = "bac642afd955033ac36a0d7598b79e7b"
-md5_copy  = "7fafae56aaa89b70fd01203558af0fcc"
+md5_copy  = "f50240d7a39a919fd549f21785980654"
 
 [[standalone.seeds]]
 canonical = "domains/infra/hexa-defense/hexa-defense.md"
 copy      = "hexa_defense/hexa-defense.md"
 md5_canon = "df67cc49d88d417d05991c1336d5bb9f"
-md5_copy  = "9633e048b8483861c4b37e147cab6ffe"
+md5_copy  = "3a9358b8aa5aef1c993293aa475ede49"
 
 [[standalone]]
 slug      = "hexa-antimatter"
@@ -566,19 +566,19 @@ extracted = "2026-05-06"
 canonical = "domains/physics/antimatter-factory/antimatter-factory.md"
 copy      = "factory/antimatter-factory.md"
 md5_canon = "e6c5d6b70fc09e15e715172df56a2281"
-md5_copy  = "c10ccfe11d9e7d8bdaa2442b71c2ce28"
+md5_copy  = "467c490e298b7b10884f9338d0cc31dd"
 
 [[standalone.seeds]]
 canonical = "domains/physics/tabletop-antimatter/tabletop-antimatter.md"
 copy      = "tabletop/tabletop-antimatter.md"
 md5_canon = "16569e0cb571f7bac9c557439b6e6237"
-md5_copy  = "9b6901badead07770a219922978e0fe8"
+md5_copy  = "c70157bd16f27efd62f0097e66806759"
 
 [[standalone.seeds]]
 canonical = "domains/physics/pet-cyclotron/pet-cyclotron.md"
 copy      = "pet_cyclotron/pet-cyclotron.md"
 md5_canon = "081adb50f910b3c5fe978b1472fc9abf"
-md5_copy  = "5d54847053d1d584c9e9f3a0e97e3654"
+md5_copy  = "357fffd88f5ac4d292a5a94ecef86bc2"
 
 [[standalone]]
 slug      = "hexa-codex"
@@ -592,103 +592,103 @@ extracted = "2026-05-06"
 canonical = "domains/cognitive/ai-alignment/ai-alignment.md"
 copy      = "alignment/ai-alignment.md"
 md5_canon = "19d9484fd13e875d0e3d55716b4383f6"
-md5_copy  = "1716de613272fbcc29764b901f0dec95"
+md5_copy  = "c91a9c3ecfbb4f4ff0bece60bf50ca86"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-safety/ai-safety.md"
 copy      = "safety/ai-safety.md"
 md5_canon = "a26140e45d2035ac8efdebea7b9e50eb"
-md5_copy  = "abd83f3bdceda06d1c4f005bf8ddfa40"
+md5_copy  = "cff02bb953f4e64b28669ecd0b9fd8f7"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-welfare/ai-welfare.md"
 copy      = "welfare/ai-welfare.md"
 md5_canon = "f373ab15cc253d1464d9c5e25ad5a3a0"
-md5_copy  = "5c099d8019dfcb8f1374f171b71e3441"
+md5_copy  = "bdbf40deaeb349ab09990efe0f91bb2f"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-adversarial/ai-adversarial.md"
 copy      = "adversarial/ai-adversarial.md"
 md5_canon = "0bc0073751754d8d4c6b00439d872619"
-md5_copy  = "1ce7e5f9ce866f6ffcf6291fbd3c9cde"
+md5_copy  = "52c734ea5d11c6baf3fcc853b5e38fc1"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-consciousness/ai-consciousness.md"
 copy      = "consciousness/ai-consciousness.md"
 md5_canon = "f35ff172d759e93100ea6b53aa36e79d"
-md5_copy  = "0309dd0b0d4d6fcec07e88cc43256184"
+md5_copy  = "5551f53ec3184a65d9192fb7995fba63"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-interpretability/ai-interpretability.md"
 copy      = "interpret/ai-interpretability.md"
 md5_canon = "4a43c49fb55d77bd45a800f75b43ea9d"
-md5_copy  = "4e0f0726f34c70a95404c86c4510efcb"
+md5_copy  = "fd32a536d3282e681ae686a056427a2b"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-training-cost/ai-training-cost.md"
 copy      = "train_cost/ai-training-cost.md"
 md5_canon = "fdf50d9548a2012dd5a86c93eb9f7396"
-md5_copy  = "52febb4e9932baddb5d6228158f1c68c"
+md5_copy  = "69c1d262503b6ee7bf2d256beaa87f10"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-inference-cost/ai-inference-cost.md"
 copy      = "infer_cost/ai-inference-cost.md"
 md5_canon = "b447074e878d91878813a258ff31cbb0"
-md5_copy  = "78347112a88d34e74542ad02ce5235a6"
+md5_copy  = "7ede5566c14a91b9c8f4e54619726f4d"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-quality-scale/ai-quality-scale.md"
 copy      = "quality_scale/ai-quality-scale.md"
 md5_canon = "0774b35d69a29591ddd3e3ab8ce00bc0"
-md5_copy  = "16b41d2753bdc9abc41fb8e32139466f"
+md5_copy  = "e7244d77874a1e9ca8ea27dd5cae2515"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-deployment/ai-deployment.md"
 copy      = "deploy/ai-deployment.md"
 md5_canon = "03a930efd9c3c0990f5c78f88d830d00"
-md5_copy  = "b962b2c28196c52fb3775461604a53fa"
+md5_copy  = "2bfd24f8665bfe93ba642c9f308bbb82"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-enterprise-custom/ai-enterprise-custom.md"
 copy      = "enterprise/ai-enterprise-custom.md"
 md5_canon = "00c026e85a4823fadfa4860e9b57e3d2"
-md5_copy  = "791698a75f2c4176cdd82ebfb1173943"
+md5_copy  = "db41a932f63d5f122a7553d36c0cda9d"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-agent-serving/ai-agent-serving.md"
 copy      = "agent_serving/ai-agent-serving.md"
 md5_canon = "c76d5bbc0493aa4237a46d09267225ee"
-md5_copy  = "fb1214823035cc5b82b4d4310bce4aa3"
+md5_copy  = "2d5e89f7d16b093ed85f69028d8302d9"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-eval-pipeline/ai-eval-pipeline.md"
 copy      = "eval/ai-eval-pipeline.md"
 md5_canon = "52575c0764d878fbbb681f348d07902b"
-md5_copy  = "f4873d24a231045458635196ec761832"
+md5_copy  = "8b0671a9dadbefca050fb1691aeb4300"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/ai-multimodal/ai-multimodal.md"
 copy      = "multimodal/ai-multimodal.md"
 md5_canon = "dead6d30b5161b9743e1201f00c0a240"
-md5_copy  = "6ab9a13ecb04aac971b54d962f8e19f8"
+md5_copy  = "33a9a4d3631d4ce2841d65dc668bef50"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/youth-ai-labeling-rlhf-hub/youth-ai-labeling-rlhf-hub.md"
 copy      = "rlhf/youth-ai-labeling-rlhf-hub.md"
 md5_canon = "14ebb5c088e9cab689c7ccbd6b5714c3"
-md5_copy  = "9a8c829e3358544223c3e52f205977ac"
+md5_copy  = "1e678489adaad610883d038be9e37baf"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/cognitive-architecture/cognitive-architecture.md"
 copy      = "cog_arch/cognitive-architecture.md"
 md5_canon = "817eeee875158ba9669e77342d916456"
-md5_copy  = "87e3bac2214ef343423de69a23e4bb26"
+md5_copy  = "41cedd443fa0e5b3db6c13485912f501"
 
 [[standalone.seeds]]
 canonical = "domains/cognitive/causal-chain/causal-chain.md"
 copy      = "causal/causal-chain.md"
 md5_canon = "8bee3d5c116050c57ede4f83fb81bcfc"
-md5_copy  = "03eeca5aa184dab15e2c003cc71c6668"
+md5_copy  = "b1b508ca1f86071c19c3b98702bd247c"
 
 [[standalone]]
 slug      = "hexa-bot"
@@ -702,25 +702,25 @@ extracted = "2026-05-06"
 canonical = "domains/infra/robotics/robotics.md"
 copy      = "robotics/robotics.md"
 md5_canon = "060c43d3ef79f4b50164118a999d26f4"
-md5_copy  = "945b9743e9ac4281fee3fd7d980c1f31"
+md5_copy  = "03fa334455211e6cf7bfb6fd94a2fa0e"
 
 [[standalone.seeds]]
 canonical = "domains/infra/robotics-transport/robotics-transport.md"
 copy      = "transport/robotics-transport.md"
 md5_canon = "8080c89fa1598c781920c97d21922de7"
-md5_copy  = "d77693749354f3ad835991e4fdd6b883"
+md5_copy  = "f38950f9c874f32aa9c79e205a5b0a54"
 
 [[standalone.seeds]]
 canonical = "domains/infra/control-automation/control-automation.md"
 copy      = "automation/control-automation.md"
 md5_canon = "636a812ad92d3c89cd669be594fbecbb"
-md5_copy  = "676e1dfa49d1e915a8b7943bd54af5c5"
+md5_copy  = "82fe5004af1339dd8473eba624e09358"
 
 [[standalone.seeds]]
 canonical = "domains/life/dog-robot-test/dog-robot-test.md"
 copy      = "dog_robot/dog-robot-test.md"
 md5_canon = "f96170d5f395797296053a9c18954af9"
-md5_copy  = "41b4a76fc1e91bdb349860667d986fe6"
+md5_copy  = "f3f10e7ebdca43b12a6833b76451e778"
 
 [[standalone]]
 slug      = "hexa-chip"
@@ -734,175 +734,175 @@ extracted = "2026-05-06"
 canonical = "domains/compute/chip-architecture/chip-architecture.md"
 copy      = "architecture/chip-architecture.md"
 md5_canon = "f98a5725bf14ea361c57901ba8a40aa4"
-md5_copy  = "34c20277d60445a033132a95f41fb78d"
+md5_copy  = "0bc7502b06d529be662b818959b73d9b"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-isa-n6/chip-isa-n6.md"
 copy      = "isa_n6/chip-isa-n6.md"
 md5_canon = "155d892d0e84fb6e045b17f917ae5a34"
-md5_copy  = "2ec89104b30146f713220fa82db5c762"
+md5_copy  = "7c2d6ecb9c18c4b770a359514c5af762"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-hexa1/chip-hexa1.md"
 copy      = "hexa1/chip-hexa1.md"
 md5_canon = "bb9af3713b4c5b4b7e8a1bf68186f6d8"
-md5_copy  = "001358616f2b582d2a95acf19ef987a8"
+md5_copy  = "664bef3093b805fb8f25f1463d723441"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-design/chip-design.md"
 copy      = "design/chip-design.md"
 md5_canon = "837f395e365bd577b21e6b167641340e"
-md5_copy  = "ae04592618dc8a53e2e3ae3f95f9eaa7"
+md5_copy  = "a96635ef46f9c72e1531f8579c8a94b7"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-dse-pipeline/chip-dse-pipeline.md"
 copy      = "dse_pipeline/chip-dse-pipeline.md"
 md5_canon = "12b83d10ebee2ef2d5d5dc4596135085"
-md5_copy  = "393717afdce61a5bb4a4b1923aeddff0"
+md5_copy  = "ab321ed92a7177e418bc34cc484a5f66"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-rtl-gen/chip-rtl-gen.md"
 copy      = "rtl_gen/chip-rtl-gen.md"
 md5_canon = "4b6a012b9f0eaa04acede08045a8e5a9"
-md5_copy  = "6be049afd6295bb71ef5ccf87f4d7b3f"
+md5_copy  = "d3b0b5fd7ad6acf02072f96b125f3d88"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-eda/chip-eda.md"
 copy      = "eda/chip-eda.md"
 md5_canon = "367898cb71ef3cfe7fb20dd29721c77b"
-md5_copy  = "7796a13bed1143c840a66a8b2831acb7"
+md5_copy  = "2339693e8af42ad875e311b4523ff9ad"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-verify-test/chip-verify-test.md"
 copy      = "verify_test/chip-verify-test.md"
 md5_canon = "a6fb9d9b333f36b427c433d7db9f47c7"
-md5_copy  = "5a4edc369f46a0d5ca74c591c7bf08e1"
+md5_copy  = "adfd95225c83b90e02c959cfefd5c55d"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-process/chip-process.md"
 copy      = "process/chip-process.md"
 md5_canon = "e6529cb95c3a93ffac937f59f67a69b4"
-md5_copy  = "c82a1ec562b3ff9a22a4c62d68660455"
+md5_copy  = "1ab4ecafd07d9cb482d7738091a799fd"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-materials/chip-materials.md"
 copy      = "materials/chip-materials.md"
 md5_canon = "52899bc7b3aa9ae3979f35964e586bf6"
-md5_copy  = "c0769e9f027d99446298cbfa5a3af254"
+md5_copy  = "615f481afe3f05c9e6de1b64e42ba0f4"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-wafer/chip-wafer.md"
 copy      = "wafer/chip-wafer.md"
 md5_canon = "d246647d049668410aacfe53741862ac"
-md5_copy  = "e95919994548ab4d0cb22a959316d6e1"
+md5_copy  = "bb6bc9129661332a169492cfb1a38bd5"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-yield/chip-yield.md"
 copy      = "yield/chip-yield.md"
 md5_canon = "b6e3d72ec19b477da73dbc0f9fa8bf2b"
-md5_copy  = "b625468ebf08bca58b9f3c6907eea385"
+md5_copy  = "5575ed2d5f167a8c40fa1f29926a06dd"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-thermal-power/chip-thermal-power.md"
 copy      = "thermal_power/chip-thermal-power.md"
 md5_canon = "aa59bfb4af4f26c9f1150e1e02690702"
-md5_copy  = "6dfa49ac7df476cca47b49041986dd75"
+md5_copy  = "a915ad0b45dd8d530f7e781483309f7a"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-packaging/chip-packaging.md"
 copy      = "packaging/chip-packaging.md"
 md5_canon = "b93c82b598512ce72c096f62ab0cce9c"
-md5_copy  = "f757f2746452d56cc9633cfb23bfcfe8"
+md5_copy  = "d14a95c9fa68d58bb23c23e3036cd224"
 
 [[standalone.seeds]]
 canonical = "domains/compute/advanced-packaging/advanced-packaging.md"
 copy      = "advanced_packaging/advanced-packaging.md"
 md5_canon = "705b6ee91b744878ee4e980f5eb6a322"
-md5_copy  = "83c9598a94b3d9a356f0e236d94bdd09"
+md5_copy  = "7ff22ab80766c97c438e542042869e8f"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-3d/chip-3d.md"
 copy      = "chip_3d/chip-3d.md"
 md5_canon = "8322abeed5cc57f269991c196a5b1e53"
-md5_copy  = "9043cbf408599b6cd80156bf11b664a5"
+md5_copy  = "fa52f9f7fee9678b8b6dfdeb5b38c4e2"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-hbm/chip-hbm.md"
 copy      = "hbm/chip-hbm.md"
 md5_canon = "b7ab8ca54bd5bd602037bd269faf54fe"
-md5_copy  = "e7b37664fcaa35b99e6fa252991aa4b1"
+md5_copy  = "766f2506471024936b944620a3c8bc20"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-interconnect/chip-interconnect.md"
 copy      = "interconnect/chip-interconnect.md"
 md5_canon = "2390d6f0fd63071bc24e0c2625fac5c5"
-md5_copy  = "a8d4a4fe49c163a49e276a2116154821"
+md5_copy  = "240fd17983ecb30307862d27523f92e5"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-sc/chip-sc.md"
 copy      = "sc/chip-sc.md"
 md5_canon = "709d26316bff251a24bebf34e259e902"
-md5_copy  = "956892d0913dc64989c754625d0c4b22"
+md5_copy  = "635707d959a2f6978f393231448fa1c8"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-npu-n6/chip-npu-n6.md"
 copy      = "npu_n6/chip-npu-n6.md"
 md5_canon = "db0074e5c27634f903d975271e6d5869"
-md5_copy  = "92c47628d8861d8a86126080cc8b36fb"
+md5_copy  = "94a2593c2b105f4c9bb0f82dd0661852"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-pim/chip-pim.md"
 copy      = "pim/chip-pim.md"
 md5_canon = "9cf6e5e4511005ea8d946457f2f1dd55"
-md5_copy  = "43c89a37743bd6bc027dd035c362f490"
+md5_copy  = "f53269260ea258cc1b90a1815c825213"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-photonic/chip-photonic.md"
 copy      = "photonic/chip-photonic.md"
 md5_canon = "c50d817e11d70f43eff10581bf3c71b1"
-md5_copy  = "a03e647602cd50f6ea26bc214f270e20"
+md5_copy  = "f5d49f5ffc9941a7bf7cd8196c71a294"
 
 [[standalone.seeds]]
 canonical = "domains/compute/hexa-accel/hexa-accel.md"
 copy      = "accel/hexa-accel.md"
 md5_canon = "188260fde2b32ef074400e88c93f8417"
-md5_copy  = "6adb382e5f9ff293cc60afb3c39685f8"
+md5_copy  = "6b57a9d4b3b04ef9482122c7ef019241"
 
 [[standalone.seeds]]
 canonical = "domains/compute/hexa-asic/hexa-asic.md"
 copy      = "asic/hexa-asic.md"
 md5_canon = "f514f01af1a4c55887564d671d6929b3"
-md5_copy  = "31d9aff046a480beea22a868e344d5fb"
+md5_copy  = "b631fb9509c893d7672dfa2a76426bc2"
 
 [[standalone.seeds]]
 canonical = "domains/compute/hexa-pim/hexa-pim.md"
 copy      = "hexa_pim/hexa-pim.md"
 md5_canon = "1b3343ddcfa9d00592d0f63b551fe876"
-md5_copy  = "0267f25ea125a564fc58b24aea30de5f"
+md5_copy  = "bc856341a7fb0d483395a3eca61e3a69"
 
 [[standalone.seeds]]
 canonical = "domains/compute/hexa-3d/hexa-3d.md"
 copy      = "hexa_3d/hexa-3d.md"
 md5_canon = "31a0f24987b699a9618b8615435ee726"
-md5_copy  = "e96cc6ea9c5d6d86d2ae00288107e7ad"
+md5_copy  = "a05c41438a780a0af810eef2cf7f164e"
 
 [[standalone.seeds]]
 canonical = "domains/compute/hexa-wafer/hexa-wafer.md"
 copy      = "hexa_wafer/hexa-wafer.md"
 md5_canon = "569843c4044473a4a3762fd821b2207f"
-md5_copy  = "ba363eddb8f6e3d0758390ef2f5d10fc"
+md5_copy  = "8c0e568be36fad553914149a71fa6c63"
 
 [[standalone.seeds]]
 canonical = "domains/compute/consciousness-chip/consciousness-chip.md"
 copy      = "conscious_chip/consciousness-chip.md"
 md5_canon = "9966c231989a57b061fd33fed6c39d44"
-md5_copy  = "652582728eadf553f1549166607aca77"
+md5_copy  = "a655fa165da09a02096b7ccc9b0c44d8"
 
 [[standalone.seeds]]
 canonical = "domains/compute/consciousness-soc/consciousness-soc.md"
 copy      = "conscious_soc/consciousness-soc.md"
 md5_canon = "434d180e2d83938bc9b9dd55b862a831"
-md5_copy  = "c225295408f9e7695b43631682edbfb9"
+md5_copy  = "e6af87990ada672e9b7835b54685970d"
 
 [[standalone]]
 slug      = "hexa-scope"
@@ -916,13 +916,13 @@ extracted = "2026-05-06"
 canonical = "domains/physics/cosmic-observatory/cosmic-observatory.md"
 copy      = "observatory/cosmic-observatory.md"
 md5_canon = "fddbb7ce4ba211a345f1c454c346a909"
-md5_copy  = "fcb527469707f2225b4d33a70fbb1d18"
+md5_copy  = "7cf484ab396c05175209e7b8a09fbee1"
 
 [[standalone.seeds]]
 canonical = "domains/space/observational-astronomy/observational-astronomy.md"
 copy      = "obs_astronomy/observational-astronomy.md"
 md5_canon = "9e148b73a3064c389875c290e14b694f"
-md5_copy  = "a2f056148cca312b50463a8a79f2427f"
+md5_copy  = "73a309a681fea102bdc77825c08beb61"
 
 [[standalone]]
 slug      = "hexa-matter"
@@ -936,97 +936,97 @@ extracted = "2026-05-06"
 canonical = "domains/materials/aramid/aramid.md"
 copy      = "aramid/aramid.md"
 md5_canon = "80fa7257fa423ef22a4574730a2db905"
-md5_copy  = "d2d5a9f92644a8c8b1058e7d6d3d7316"
+md5_copy  = "be88b38e8382c3d0b088bbfc85537a58"
 
 [[standalone.seeds]]
 canonical = "domains/materials/ceramics/ceramics.md"
 copy      = "ceramics/ceramics.md"
 md5_canon = "06c45bbbef0d10c7ee3b5613ff7d369f"
-md5_copy  = "6acab88400d2dd6da994ba91831df547"
+md5_copy  = "66555e2a981650d78722b9b47d262caf"
 
 [[standalone.seeds]]
 canonical = "domains/materials/concrete/concrete.md"
 copy      = "concrete/concrete.md"
 md5_canon = "5dad18f00ad895854ce5ddcdeb7a11e1"
-md5_copy  = "33077bb0a09e4682f1c5aa3743dd650a"
+md5_copy  = "47cea3000cb26bfa4c6c56e10a2e572d"
 
 [[standalone.seeds]]
 canonical = "domains/materials/concrete-technology/concrete-technology.md"
 copy      = "concrete_tech/concrete-technology.md"
 md5_canon = "020b0a86b9305f6e37c213dda126461c"
-md5_copy  = "cf67858e24bac54f99883ca6b35ff369"
+md5_copy  = "4305b2b37e244c0f13dd3a66e304607b"
 
 [[standalone.seeds]]
 canonical = "domains/materials/epoxy/epoxy.md"
 copy      = "epoxy/epoxy.md"
 md5_canon = "514169a2923f34b8280a2888f01e1a0e"
-md5_copy  = "bdc9cf367387d69749ad8951a194a2fc"
+md5_copy  = "cba21798165f1c8065e18b2a2813bbc0"
 
 [[standalone.seeds]]
 canonical = "domains/materials/gemology/gemology.md"
 copy      = "gemology/gemology.md"
 md5_canon = "34cf2e8808a6f3acb9f3eb401befe565"
-md5_copy  = "30f95a9367e5c77e980ec08d2458dad0"
+md5_copy  = "65a87df6ef9fe08e5a22c53d874fc179"
 
 [[standalone.seeds]]
 canonical = "domains/materials/hexa-fabric/hexa-fabric.md"
 copy      = "fabric/hexa-fabric.md"
 md5_canon = "426c7e7bc962ad92a8f9e180873e9fbe"
-md5_copy  = "a009aed74a2243236d4d1a179d39f307"
+md5_copy  = "456a74a41dfb3ca4264b132b8802c64b"
 
 [[standalone.seeds]]
 canonical = "domains/materials/hexa-glass/hexa-glass.md"
 copy      = "glass/hexa-glass.md"
 md5_canon = "0711fb78667b3c0cf723b9e0b68fd4af"
-md5_copy  = "e0c9e5ce8ed8e6c9f9810c3ee60335d0"
+md5_copy  = "698ab2d9d898149431d4662b4afd3f2a"
 
 [[standalone.seeds]]
 canonical = "domains/materials/hexa-recycle/hexa-recycle.md"
 copy      = "recycle_n6/hexa-recycle.md"
 md5_canon = "1304f77601c309a3823949bbadc96d91"
-md5_copy  = "37b264504aae224b6762ec5b187209fb"
+md5_copy  = "4488a89591b017f3aab7d924671a859d"
 
 [[standalone.seeds]]
 canonical = "domains/materials/material-synthesis/material-synthesis.md"
 copy      = "synthesis/material-synthesis.md"
 md5_canon = "7dd6b14ad162370cb6be04eaf3968098"
-md5_copy  = "d1dfc756ad1d86a1fc75b1e25eb3c4b3"
+md5_copy  = "359d5f4c3195a797c0cea71363e55595"
 
 [[standalone.seeds]]
 canonical = "domains/materials/nylon/nylon.md"
 copy      = "nylon/nylon.md"
 md5_canon = "22796ca1895af9fe336c7b3ea2aa9420"
-md5_copy  = "1fe6486fae5aaa46dad505cbc1fc7ebb"
+md5_copy  = "fb6b65002c3e8e994a86d5c840acf451"
 
 [[standalone.seeds]]
 canonical = "domains/materials/paper/paper.md"
 copy      = "paper/paper.md"
 md5_canon = "d76d0fabdfd4c80edbc78c7c5fd43ed2"
-md5_copy  = "a7f9fe9b0499efd2e211f5666600540b"
+md5_copy  = "7e54fabd0c9b1a9a32d4c0b445815e3a"
 
 [[standalone.seeds]]
 canonical = "domains/materials/pet-film/pet-film.md"
 copy      = "pet_film/pet-film.md"
 md5_canon = "95f0cb34ab2477b2724a5e3be65813a4"
-md5_copy  = "73e14087c9cc6248173d0a75a7312e47"
+md5_copy  = "f4be3fd38add14dfc26276f5c43734e3"
 
 [[standalone.seeds]]
 canonical = "domains/materials/recycling/recycling.md"
 copy      = "recycling/recycling.md"
 md5_canon = "faa62da5c0519f15bb6f1bf80272632c"
-md5_copy  = "9582e71718be80e61c66ed320f5f2ea0"
+md5_copy  = "ffa032336e6759da2f7904d702fcaa7e"
 
 [[standalone.seeds]]
 canonical = "domains/materials/swordsmithing/swordsmithing.md"
 copy      = "metallurgy/swordsmithing.md"
 md5_canon = "df35ff6f0b29a539b4dde54cdfec01e5"
-md5_copy  = "75981dfeee535b5f55be3c9c8c09f2a0"
+md5_copy  = "39bbc535342bbe808712289faae737fd"
 
 [[standalone.seeds]]
 canonical = "domains/materials/tire-cord/tire-cord.md"
 copy      = "tire_cord/tire-cord.md"
 md5_canon = "254211dee8bdd94ae47f4f0292aadedf"
-md5_copy  = "27636d10ec6a7012b18fbe96ad16b1b0"
+md5_copy  = "17afc14994ea185114f1bda6f484b072"
 
 [[standalone]]
 slug      = "hexa-grid"
@@ -1040,52 +1040,52 @@ extracted = "2026-05-06"
 canonical = "domains/compute/network/network.md"
 copy      = "network/network.md"
 md5_canon = "52541ab65b482d3e46aed5d38a336ed3"
-md5_copy  = "bdf9e412ce40b51925041b04e07cd4c7"
+md5_copy  = "5e71d58eefe82d9d04cd5e9cfc0438f4"
 
 [[standalone.seeds]]
 canonical = "domains/compute/network-protocol/network-protocol.md"
 copy      = "netproto/network-protocol.md"
 md5_canon = "b2065a04668402b79e501238ebed9f9f"
-md5_copy  = "cef890787d0b9ad8f533475296fd75aa"
+md5_copy  = "9a70fd6df188413592dd2cda037f18ca"
 
 [[standalone.seeds]]
 canonical = "domains/compute/5g-6g-network/5g-6g-network.md"
 copy      = "5g6g/5g-6g-network.md"
 md5_canon = "cf63c6458859ce7629f18e2a972d5364"
-md5_copy  = "9ed81c08a3e8fceb769f7a8c3424ed9e"
+md5_copy  = "e728a6fc53c3df8c564b608c15f08ed6"
 
 [[standalone.seeds]]
 canonical = "domains/compute/ai-native-architecture/ai-native-architecture.md"
 copy      = "ai_native/ai-native-architecture.md"
 md5_canon = "3232d8b0325cdcea1d81b7c9c65cd51d"
-md5_copy  = "1339ecf1591c628941aee49029ae6628"
+md5_copy  = "34ec1db901f2e48b45aa63e5f5a52b9c"
 
 [[standalone.seeds]]
 canonical = "domains/compute/gpgpu/gpgpu.md"
 copy      = "gpgpu/gpgpu.md"
 md5_canon = "26c10154bbe584b0c2ecf08932506ddc"
-md5_copy  = "d77f0a13293f5bdd35542df708149093"
+md5_copy  = "15fd66359e0b2264909ff7adc2a5ca53"
 
 [[standalone.seeds]]
 canonical = "domains/compute/hexa-netproto/hexa-netproto.md"
 copy      = "hexa_netproto/hexa-netproto.md"
 md5_canon = "dbf7ad914a2a46d079d0b3e6405cf043"
-md5_copy  = "c576307895a60e0bc4ca09e87a3c3ca8"
+md5_copy  = "f39b371176d5848ebf6462901e1fe073"
 
 [[standalone.seeds]]
 canonical = "domains/infra/lora-mesh-learning-terminal/lora-mesh-learning-terminal.md"
 copy      = "lora_mesh/lora-mesh-learning-terminal.md"
 md5_canon = "26cf1ee5e7bfb38e3910c20d13901e92"
-md5_copy  = "41bfcf103e546d66c4bc67b0e861cf36"
+md5_copy  = "352588beaa71cf5f3e7725b8271802fb"
 
 [[standalone.seeds]]
 canonical = "domains/infra/manufacturing-quality/manufacturing-quality.md"
 copy      = "mfg_quality/manufacturing-quality.md"
 md5_canon = "075ef203050583a91f32cdb470c110bb"
-md5_copy  = "8e55165332cee941e4ba7b57ca494331"
+md5_copy  = "452051522400aab7319fd6fbac905719"
 
 [[standalone.seeds]]
 canonical = "domains/infra/construction-structural/construction-structural.md"
 copy      = "construction/construction-structural.md"
 md5_canon = "4d36c58955dfe144de78a99e74b8b323"
-md5_copy  = "920e97e0898d23d684dc2db64b52c40e"
+md5_copy  = "f29ee494abbec0fc7b2bef1878b89078"

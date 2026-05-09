@@ -6,7 +6,7 @@
 # single dispatch entrypoint that each tool/n6_*.hexa wraps with exec().
 
 set -e
-N6="${N6:-/Users/ghost/core/n6-architecture}"
+N6="${N6:-/Users/ghost/core/canon}"
 cd "$N6"
 
 # Engine version (Phase 11). Read once from the manifest so every
@@ -110,7 +110,7 @@ scan_blockers() {
 
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_blockers/1",
+  "schema": "canon/n6_blockers/1",
   "ts": "$(ts)",
   "head": "$(head_sha)",
   "inputs": {
@@ -208,7 +208,7 @@ scan_roi() {
 
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_roi/1",
+  "schema": "canon/n6_roi/1",
   "ts": "$(ts)",
   "counters": {
     "techniques_total": $total_tech,
@@ -266,7 +266,7 @@ PY
   local n496_pres=true; [ "$n496_eq" = "1" ] && n496_pres=false
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_arithmetic_invariant/1",
+  "schema": "canon/n6_arithmetic_invariant/1",
   "ts": "$(ts)",
   "range": "1..100",
   "identity": "sigma(n) * phi(n) == n * tau(n)",
@@ -297,7 +297,7 @@ scan_derivation() {
   local leaf_n6=$(find domains -maxdepth 3 -name '*.json' -type f ! -name '_*' 2>/dev/null | xargs grep -lE '"n=6"|"sigma.*phi.*tau"|"perfect_number"' 2>/dev/null | wc -l | tr -d ' ')
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_derivation_lineage/1",
+  "schema": "canon/n6_derivation_lineage/1",
   "ts": "$(ts)",
   "counters": {
     "product_json_total": $prod_files,
@@ -336,7 +336,7 @@ scan_atlas() {
   readme_edge_claim="${readme_edge_claim:-0}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_atlas_integrity/1",
+  "schema": "canon/n6_atlas_integrity/1",
   "ts": "$(ts)",
   "atlas": {"bytes": $bytes, "sha256": "$sha"},
   "signals": {"bytes": $sig_bytes, "sha256": "$sig_sha"},
@@ -371,7 +371,7 @@ scan_domains() {
   per_sector="${per_sector}}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_domain_coverage/1",
+  "schema": "canon/n6_domain_coverage/1",
   "ts": "$(ts)",
   "sectors_total": $sectors_total,
   "sectors_with_index": $sectors_with_idx,
@@ -410,7 +410,7 @@ scan_papers() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_paper_lineage/1",
+  "schema": "canon/n6_paper_lineage/1",
   "ts": "$(ts)",
   "papers_total": $total,
   "orphan_paper_count": $orphan_count,
@@ -436,7 +436,7 @@ scan_monte_carlo() {
   local in_window=true
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_monte_carlo/1",
+  "schema": "canon/n6_monte_carlo/1",
   "ts": "$(ts)",
   "mode": "historical_lookup",
   "z_score": $z_hist,
@@ -465,7 +465,7 @@ scan_causal() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_causal_chain/1",
+  "schema": "canon/n6_causal_chain/1",
   "ts": "$(ts)",
   "chains_audited": $chains,
   "node_intact_count": $intact,
@@ -513,7 +513,7 @@ scan_citations() {
   drifts="${drifts}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_external_citation_drift/1",
+  "schema": "canon/n6_external_citation_drift/1",
   "ts": "$(ts)",
   "actual": {"products": $actual_products, "domains": $actual_domains, "techniques": $actual_techniques, "papers": $actual_papers},
   "drift_entries": $drifts,
@@ -541,7 +541,7 @@ scan_nexus_dep() {
   local atlas_tools=$(find "$mirror1" -maxdepth 1 -name 'atlas_*.hexa' -type f 2>/dev/null | wc -l | tr -d ' ')
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_nexus_dep_drift/1",
+  "schema": "canon/n6_nexus_dep_drift/1",
   "ts": "$(ts)",
   "mirrors": {"nexus/n6_present": $m1_present, "nexus/n6_mirror_present": $m2_present},
   "atlas_in_sync": $in_sync,
@@ -583,7 +583,7 @@ scan_loop_rules() {
   results="${results}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_loop_rules/1",
+  "schema": "canon/n6_loop_rules/1",
   "ts": "$(ts)",
   "rules_total": $n,
   "pass": $pass,
@@ -606,7 +606,7 @@ scan_experiments() {
   local with_seed=$(grep -rlE "random_seed|seed\s*=\s*[0-9]+" experiments/ 2>/dev/null | wc -l | tr -d ' ')
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_experiment_repro/1",
+  "schema": "canon/n6_experiment_repro/1",
   "ts": "$(ts)",
   "experiments_total": $total_dirs,
   "with_manifest": $with_manifest,
@@ -647,7 +647,7 @@ PY
   [ "$n8128" = "1" ] && alarm=true
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_falsification/1",
+  "schema": "canon/n6_falsification/1",
   "ts": "$(ts)",
   "cases": [
     {"n": 28,   "type": "perfect_number", "still_fails": $n28_falsified},
@@ -716,7 +716,7 @@ gap_proposer() {
   local repeat_count=$(echo "$repeat_proposals" | jq 'length')
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_gap_proposals/1",
+  "schema": "canon/n6_gap_proposals/1",
   "ts": "$(ts)",
   "hotfix_commit_count_30d": $hotfix,
   "hotfix_raw_count_30d": $raw_hotfix,
@@ -753,7 +753,7 @@ propose_from_gaps() {
   local s_items=""
 
   [ -f reports/n6_gap_proposals.json ] || {
-    echo "{\"schema\":\"n6-architecture/n6_auto_proposals/1\",\"ts\":\"$(ts)\",\"note\":\"n6_gap_proposals.json missing — run gap first\",\"created\":[],\"skipped\":[]}" >"$out"
+    echo "{\"schema\":\"canon/n6_auto_proposals/1\",\"ts\":\"$(ts)\",\"note\":\"n6_gap_proposals.json missing — run gap first\",\"created\":[],\"skipped\":[]}" >"$out"
     echo "SKIP: gap report missing"
     return 0
   }
@@ -872,7 +872,7 @@ MD
 
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_auto_proposals/1",
+  "schema": "canon/n6_auto_proposals/1",
   "ts": "$(ts)",
   "triggers_fired": {
     "hotfix": $([ "$hotfix" -ge 5 ] && echo true || echo false),
@@ -895,7 +895,7 @@ JEOF
 # ────────────────────────────────────────────────────────────
 promote_cross_repo() {
   local out="reports/n6_cross_repo_promotions.json"
-  local roi_ssot="/Users/ghost/core/nexus/config/roi/n6-architecture.json"
+  local roi_ssot="/Users/ghost/core/nexus/config/roi/canon.json"
   local floor=95
   if [ -f config/cross_repo_blocker_convention.json ]; then
     floor=$(jq -r '.priority_floor // 95' config/cross_repo_blocker_convention.json)
@@ -911,7 +911,7 @@ promote_cross_repo() {
   fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_cross_repo_promotions/1",
+  "schema": "canon/n6_cross_repo_promotions/1",
   "ts": "$(ts)",
   "convention_ref": "n6a-20260422-004",
   "priority_floor": $floor,
@@ -1008,7 +1008,7 @@ EOF_NAMES
   drifts="${drifts}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_engine_integrity/1",
+  "schema": "canon/n6_engine_integrity/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "checks": {
@@ -1048,7 +1048,7 @@ scan_engine_hash() {
   if [ "$actual" = "$stamped" ]; then matches="true"; else matches="false"; fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_engine_hash/1",
+  "schema": "canon/n6_engine_hash/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "source_file": "tool/_n6_lib",
@@ -1097,7 +1097,7 @@ scan_audit_retention() {
   [ "$kept" -le "$max" ] && within_bound="true" || within_bound="false"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_audit_retention/1",
+  "schema": "canon/n6_audit_retention/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "source": "$src",
@@ -1158,7 +1158,7 @@ scan_emitter_registry() {
   orphans_json="${orphans_json:-[]}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_emitter_registry/1",
+  "schema": "canon/n6_emitter_registry/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "emitters_declared_count": $emitter_count,
@@ -1211,7 +1211,7 @@ scan_claim_effectiveness() {
   silent_count=$(echo "$claims_json" | jq '[.[] | select(.fail_count == 0)] | length')
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_claim_effectiveness/1",
+  "schema": "canon/n6_claim_effectiveness/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "audit_source": "$src",
@@ -1269,7 +1269,7 @@ scan_coverage_map() {
   unobserved_json="${unobserved_json:-[]}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_coverage_map/1",
+  "schema": "canon/n6_coverage_map/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "must_observe_count": $total,
@@ -1316,7 +1316,7 @@ scan_dir_inventory() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_dir_inventory/1",
+  "schema": "canon/n6_dir_inventory/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "watched": $(printf '%s\n' "${watched[@]}" | jq -R -s -c 'split("\n") | map(select(length>0))'),
@@ -1363,7 +1363,7 @@ scan_emission_completeness() {
   missing_json="${missing_json:-[]}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_emission_completeness/1",
+  "schema": "canon/n6_emission_completeness/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "declared_emitter_count": $total,
@@ -1413,7 +1413,7 @@ scan_claim_cmd_purity() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_claim_purity/1",
+  "schema": "canon/n6_claim_purity/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "total_claims": $total,
@@ -1467,7 +1467,7 @@ scan_claim_meta_hygiene() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_claim_meta_hygiene/1",
+  "schema": "canon/n6_claim_meta_hygiene/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "total_claims": $total,
@@ -1533,7 +1533,7 @@ scan_manifest_phase_monotonic() {
   ooo_json="${ooo_json:-[]}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_manifest_phase_monotonic/1",
+  "schema": "canon/n6_manifest_phase_monotonic/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "total_phases": $total,
@@ -1597,7 +1597,7 @@ scan_registry_cso_parity() {
   on_demand_json="${on_demand_json:-[]}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_registry_cso_parity/1",
+  "schema": "canon/n6_registry_cso_parity/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "registry_total": $reg_total,
@@ -1643,7 +1643,7 @@ scan_selftest_fn_parity() {
   undef_json="${undef_json:-[]}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_selftest_fn_parity/1",
+  "schema": "canon/n6_selftest_fn_parity/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "listed_fn_count": $total,
@@ -1681,7 +1681,7 @@ scan_version_phase_alignment() {
   fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_version_phase_alignment/1",
+  "schema": "canon/n6_version_phase_alignment/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "manifest_version": "$version",
@@ -1726,7 +1726,7 @@ scan_recheck_cadence_enum() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_recheck_cadence_enum/1",
+  "schema": "canon/n6_recheck_cadence_enum/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "total_claims": $total,
@@ -1779,7 +1779,7 @@ scan_must_fail_expected_pair() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_must_fail_expected_pair/1",
+  "schema": "canon/n6_must_fail_expected_pair/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "total_claims": $total,
@@ -1824,7 +1824,7 @@ scan_claim_type_enum() {
   done
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_claim_type_enum/1",
+  "schema": "canon/n6_claim_type_enum/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "total_claims": $total,
@@ -1886,7 +1886,7 @@ scan_invariants_manifest() {
   fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_invariants_manifest/1",
+  "schema": "canon/n6_invariants_manifest/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "manifest_path": "$mf",
@@ -1936,7 +1936,7 @@ scan_invariants_atom_values() {
   fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_invariants_atom_values/1",
+  "schema": "canon/n6_invariants_atom_values/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "atoms_verified_count": $verified,
@@ -1982,7 +1982,7 @@ scan_invariants_atom_faithful() {
   unfaithful_json="${unfaithful_json:-[]}"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_invariants_atom_faithful/1",
+  "schema": "canon/n6_invariants_atom_faithful/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "atom_total": $total,
@@ -2051,7 +2051,7 @@ scan_invariants_relations_live() {
   local failed=$((total - passed))
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_invariants_relations_live/1",
+  "schema": "canon/n6_invariants_relations_live/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "relations_total": $total,
@@ -2105,7 +2105,7 @@ scan_invariants_generator_orbits() {
   local mismatched=$((total - passed))
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_invariants_generator_orbits/1",
+  "schema": "canon/n6_invariants_generator_orbits/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "orbits_total": $total,
@@ -2161,7 +2161,7 @@ scan_invariants_composition() {
   local failed=$((total - passed))
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_invariants_composition/1",
+  "schema": "canon/n6_invariants_composition/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "checks_total": $total,
@@ -2221,7 +2221,7 @@ scan_silicon_functor_manifest() {
   fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_silicon_functor_manifest/1",
+  "schema": "canon/n6_silicon_functor_manifest/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "manifest_path": "$mf",
@@ -2283,7 +2283,7 @@ scan_measurement_boundary_manifest() {
   fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_measurement_boundary_manifest/1",
+  "schema": "canon/n6_measurement_boundary_manifest/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "manifest_path": "$mf",
@@ -2346,7 +2346,7 @@ scan_thermodynamic_closure_manifest() {
   fi
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_thermodynamic_closure_manifest/1",
+  "schema": "canon/n6_thermodynamic_closure_manifest/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "manifest_path": "$mf",
@@ -2455,7 +2455,7 @@ scan_gate_alignment() {
   [ -f "$hook" ] && hook_present="true"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_gate_alignment/1",
+  "schema": "canon/n6_gate_alignment/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "hook_path": "$hook",
@@ -2513,7 +2513,7 @@ scan_claim_schema() {
   duplicate_id_count=$(echo "$duplicate_ids" | jq 'length')
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_claim_schema/1",
+  "schema": "canon/n6_claim_schema/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "required_fields": $required,
@@ -2611,7 +2611,7 @@ scan_audit_summary() {
 
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_audit_summary/1",
+  "schema": "canon/n6_audit_summary/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "source": "$src",
@@ -2667,7 +2667,7 @@ scan_manifest() {
   local out="reports/n6_manifest.json"
   local mf="config/engine_manifest.json"
   [ -f "$mf" ] || {
-    echo "{\"schema\":\"n6-architecture/n6_manifest/1\",\"ts\":\"$(ts)\",\"engine_version\":\"${ENGINE_VERSION}\",\"error\":\"missing ${mf}\"}" >"$out"
+    echo "{\"schema\":\"canon/n6_manifest/1\",\"ts\":\"$(ts)\",\"engine_version\":\"${ENGINE_VERSION}\",\"error\":\"missing ${mf}\"}" >"$out"
     echo "MISS: $mf"; return 0
   }
   local phases_live=$(jq -r '[.phases[] | select(.state=="live")] | length' "$mf")
@@ -2679,7 +2679,7 @@ scan_manifest() {
   local claims_total=$(ls scanners/*.claim.json 2>/dev/null | wc -l | tr -d ' ')
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_manifest/1",
+  "schema": "canon/n6_manifest/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "phases": {"live": $phases_live, "total": $phases_total},
@@ -2698,7 +2698,7 @@ JEOF
 
 scan_schemas() {
   local out="reports/n6_schema_audit.json"
-  local prefix=$(jq -r '.schema_prefix // "n6-architecture/"' config/engine_manifest.json 2>/dev/null)
+  local prefix=$(jq -r '.schema_prefix // "canon/"' config/engine_manifest.json 2>/dev/null)
   local total=0 ok=0 drift=0
   local drifts="["
   local first=1
@@ -2722,7 +2722,7 @@ scan_schemas() {
   drifts="${drifts}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_schema_audit/1",
+  "schema": "canon/n6_schema_audit/1",
   "ts": "$(ts)",
   "engine_version": "${ENGINE_VERSION}",
   "schema_prefix_required": "${prefix}",
@@ -2795,7 +2795,7 @@ scan_idempotence() {
   results="${results}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_idempotence/1",
+  "schema": "canon/n6_idempotence/1",
   "ts": "$(ts)",
   "total": $total,
   "pass": $pass,
@@ -2860,7 +2860,7 @@ scan_invariants() {
 
   # rule 4: SSOT vs live — items marked status=done in the nexus ROI SSOT
   # must NOT be re-flagged in today's findings.
-  local ssot="/Users/ghost/core/nexus/config/roi/n6-architecture.json"
+  local ssot="/Users/ghost/core/nexus/config/roi/canon.json"
   if [ -f "$ssot" ]; then
     # Example: orphan_paper done in SSOT ⇒ findings.orphan_paper length should be 0.
     local orphan_done=$(jq -r '.items[] | select(.id=="n6-roi-004" and .status=="done") | .id' "$ssot" 2>/dev/null)
@@ -2879,7 +2879,7 @@ scan_invariants() {
 
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_invariants/1",
+  "schema": "canon/n6_invariants/1",
   "ts": "$(ts)",
   "checked": {
     "domains_triad":    ["n6_roi", "n6_external_citation_drift", "n6_domain_coverage"],
@@ -2978,7 +2978,7 @@ scan_trend() {
 
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_trend/1",
+  "schema": "canon/n6_trend/1",
   "ts": "$(ts)",
   "prior_snapshot": ${prior_date:-null},
   "today": {
@@ -3051,7 +3051,7 @@ run_proof_obligations() {
   details="${details}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_proof_obligations/1",
+  "schema": "canon/n6_proof_obligations/1",
   "ts": "$(ts)",
   "total": $total,
   "green": $green,
@@ -3084,7 +3084,7 @@ doctor() {
   summary="${summary}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_doctor/1",
+  "schema": "canon/n6_doctor/1",
   "ts": "$(ts)",
   "reports_present": $summary
 }
@@ -3243,7 +3243,7 @@ selftest() {
   results="${results}]"
   cat >"$out" <<JEOF
 {
-  "schema": "n6-architecture/n6_selftest/1",
+  "schema": "canon/n6_selftest/1",
   "ts": "$(ts)",
   "total": $total,
   "pass": $pass,

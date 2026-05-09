@@ -4,7 +4,7 @@ papers/.own own 9 (`papers-cross-repo-publish-canonical`, papers commit 6b670f9)
 
 ## 폐기 사유
 
-own 9 mandate: sister repos (anima / n6-architecture / hexa-lang / airgenome / nexus / hive / void)
+own 9 mandate: sister repos (anima / canon / hexa-lang / airgenome / nexus / hive / void)
 는 자체 zenodo/osf publish 도구 작성 금지. paper 발행 시 papers CLI 에 위임.
 
 ## 폐기 파일

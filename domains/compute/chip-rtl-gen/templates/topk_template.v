@@ -1,7 +1,7 @@
 // ============================================================
 // topk_template.v — Ω₃ TOPK 원시연산 Verilog 템플릿
 // ------------------------------------------------------------
-// n6-architecture · chip-rtl-gen · Phase 3 Mk.I
+// canon · chip-rtl-gen · Phase 3 Mk.I
 // τ=4 선별기, k=φ=2 default
 //
 // 템플릿 플레이스홀더:
