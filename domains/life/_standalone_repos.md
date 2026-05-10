@@ -1,19 +1,21 @@
 # life/ standalone repository pointers
 
-Cross-reference index of `domains/life/*` specs that have been extracted into standalone GitHub repositories.
+All `life/` domain specs were MOVED to standalone repos in the 2026-05-10 canon shrink migration.
 
 ## Active extractions
 
-| Spec(s) | Standalone repo | Extracted | Notes |
-|---|---|---|---|
-| `dog-robot-test` | 🤖 [dancinlab/hexa-bot](https://github.com/dancinlab/hexa-bot) | 2026-05-06 | `domains/infra/_standalone_repos.md` 의 hexa-bot 4-verb 묶음 안에 합류 (`dog_robot/` verb, 실증/테스트 케이스). |
+| Standalone repo | Verbs | Original canon paths |
+|---|---|---|
+| ✨ [`hexa-aura`](https://github.com/dancinlab/hexa-aura) | `neuro` · `neuroscience` | `domains/life/neuro/`, `domains/life/neuroscience/` |
+| 🧬 [`hexa-bio`](https://github.com/dancinlab/hexa-bio) | `bio-pharma` · `biology` · `biology-medical` · `crispr-cas13-poc-diagnostic` · `crispr-gene-editing` · `dolphin` · `dolphin-bioacoustics` · `genetics` · ... (11 total) | `domains/life/bio-pharma/`, `domains/life/biology-medical/`, `domains/life/biology/`, `domains/life/crispr-cas13-poc-diagnostic/`, `domains/life/crispr-gene-editing/`, ... (11 total) |
+| 🤖 [`hexa-bot`](https://github.com/dancinlab/hexa-bot) | `dog-robot-test` | `domains/life/dog-robot-test/` |
+| 🌾 [`hexa-farm`](https://github.com/dancinlab/hexa-farm) | `agriculture` · `apiculture` · `aquaculture` · `baking` · `biochar-dryland-restoration` · `cheese-dairy` · `coffee` · `coffee-science` · ... (18 total) | `domains/life/agriculture/`, `domains/life/apiculture/`, `domains/life/aquaculture/`, `domains/life/baking/`, `domains/life/biochar-dryland-restoration/`, ... (18 total) |
+| 💊 [`hexa-medic`](https://github.com/dancinlab/hexa-medic) | `cancer-therapy` · `cosmetic-surgery` · `gastrointestinal-medicine` · `hair-regeneration` · `herbalism` · `hiv` · `hiv-treatment` · `immunology` · ... (24 total) | `domains/life/cancer-therapy/`, `domains/life/cosmetic-surgery/`, `domains/life/gastrointestinal-medicine/`, `domains/life/hair-regeneration/`, `domains/life/herbalism/`, ... (24 total) |
+| 🐱 [`hexa-pet`](https://github.com/dancinlab/hexa-pet) | `veterinary` | `domains/life/veterinary/` |
 
 ## Convention
 
-- Spec files in `domains/life/<slug>/<slug>.md` 은 canonical (uchg-seal). 편집 금지.
-- Standalone 레포 (`github.com/dancinlab/*`) 는 작동 구현 + 시드 복사.
-- README in each standalone 은 doc/ 시드를 통해 canonical로 역참조; 본 인덱스는 정참조.
-
-## Pending candidates
-
-`life/` 카테고리에는 ~58 도메인이 있고 본 라운드에서 1개만 합류. 후속 standalone 후보 다수 (식품·농업·건강·노화 substrate 묶음 등).
+- **MOVE pattern** (this migration): canon source dirs were DELETED and the standalone repo is the SSOT.
+- Each standalone repo has the spec docs as top-level verb dirs (or `docs/` flat for hexa-mobility).
+- Provenance headers in each `<verb>/<verb>.md` point to canon@ded52144 (pre-deletion SHA).
+- Recovery: `git -C canon log --diff-filter=D --follow -- domains/life/<leaf>/<file>.md`

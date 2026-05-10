@@ -2,18 +2,20 @@
   "_doc": "sf-ufo 축 sub-SSOT — 부모: ../_index.json (sf-ufo 키). 자동 생성 2026-04-12.",
   "_axis": "sf-ufo",
   "_parent": "../_index.json",
-  "_version": "1.0.0",
+  "_version": "2.0.0",
   "_meta": {
     "_category_name": "SF·UFO·판타지·초광속·텔레포트·차원·용·뱀파이어",
     "_domains_count": 17,
     "_verified_count": null,
     "_alien_index_avg": null,
     "_honesty_note": "_verified_count / _alien_index_avg: 도메인별 alien_index 소스 부재로 null (자기참조 금지 — 추후 atlas.n6 혹은 _registry 집계 시 갱신)",
-    "_updated": "2026-04-14"
+    "_updated": "2026-05-10",
+    "_migration": "All 13 domains MOVED to standalone repos on 2026-05-10. See _standalone_repos.md."
   },
-  "_count": 17,
+  "_count": 0,
   "_changelog": [
-    "1.0.0 (2026-04-12): sf-ufo 축 sub-SSOT 신설. 전체 17개 도메인 등록."
+    "1.0.0 (2026-04-12): sf-ufo 축 sub-SSOT 신설. 전체 17개 도메인 등록.",
+    "2.0.0 (2026-05-10): MOVE migration complete — all 17 domains relocated to standalone repos. _count → 0. See _standalone_repos.md."
   ],
   "domains": [
     {

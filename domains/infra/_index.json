@@ -2,20 +2,22 @@
   "_doc": "infra axis sub-SSOT — parent: ../_index.json (infra key). auto-generated 2026-04-12.",
   "_axis": "infra",
   "_parent": "../_index.json",
-  "_version": "1.2.0",
+  "_version": "2.0.0",
   "_meta": {
     "_category_name": "infrastructure / architecture / civil / transport / economics / climate / manufacturing / marine / jurisprudence",
     "_domains_count": 59,
     "_verified_count": null,
     "_alien_index_avg": null,
     "_honesty_note": "_verified_count / _alien_index_avg: per-domain alien_index source absent so null (no self-reference — populate from atlas.n6 / _registry aggregation later)",
-    "_updated": "2026-05-01"
+    "_updated": "2026-05-10",
+    "_migration": "All 59 domains MOVED to standalone repos on 2026-05-10. See _standalone_repos.md."
   },
-  "_count": 59,
+  "_count": 0,
   "_changelog": [
     "1.0.0 (2026-04-12): infra axis sub-SSOT created. 57 domains registered.",
     "1.1.0 (2026-04-23): DIS-P2-1 low-risk batch 2 — forensic-science.",
-    "1.2.0 (2026-05-01): SA applied-tech bet #6 lora-mesh-learning-terminal registered (solar-powered LoRa mesh + e-paper Android terminal stack delivering CAPS-aligned curriculum + AI-tutor responses to South African rural learners at USD 8-15/learner-year all-in. Physical-limit anchors: Shannon-Hartley channel capacity at SF12 BW125 kHz (Shannon 1948) + LoRa link budget 162 dB (Semtech SX127x §4.1.1.3) + Friis 1946 free-space-path-loss + ITU-R P.833 vegetation attenuation + solar PV sizing for 50 W panel + 100 Wh LiFePO4 at Karoo 6 kWh/m^2/d (PVGIS-Africa) + e-paper bistable display 0 mW idle / 50-100 mW per refresh (Carsel-Hwang 2017) + per-learner cost USD 11-15/yr from BOM. 6 precursors: compute/5g-6g-network + compute/chip-architecture + cognitive/ai-multimodal + energy/solar-architecture + physics/electromagnetism + infra/calendar-time-geography. F-LORA-MVP-1..5 falsifier gates 2026-09-30 (attrition + uptime) + 2026-12-31 (link reliability + per-learner cost) + 2027-03-31 (DBE CAPS certification). Source: proposals/south-africa-applied-tech.md row 6. Design-by-physics per own#32, NOT n=6 force-fit. infra axis count 58 -> 59; alien-grade 10 PHYSICAL-LIMIT."
+    "1.2.0 (2026-05-01): SA applied-tech bet #6 lora-mesh-learning-terminal registered (solar-powered LoRa mesh + e-paper Android terminal stack delivering CAPS-aligned curriculum + AI-tutor responses to South African rural learners at USD 8-15/learner-year all-in. Physical-limit anchors: Shannon-Hartley channel capacity at SF12 BW125 kHz (Shannon 1948) + LoRa link budget 162 dB (Semtech SX127x §4.1.1.3) + Friis 1946 free-space-path-loss + ITU-R P.833 vegetation attenuation + solar PV sizing for 50 W panel + 100 Wh LiFePO4 at Karoo 6 kWh/m^2/d (PVGIS-Africa) + e-paper bistable display 0 mW idle / 50-100 mW per refresh (Carsel-Hwang 2017) + per-learner cost USD 11-15/yr from BOM. 6 precursors: compute/5g-6g-network + compute/chip-architecture + cognitive/ai-multimodal + energy/solar-architecture + physics/electromagnetism + infra/calendar-time-geography. F-LORA-MVP-1..5 falsifier gates 2026-09-30 (attrition + uptime) + 2026-12-31 (link reliability + per-learner cost) + 2027-03-31 (DBE CAPS certification). Source: proposals/south-africa-applied-tech.md row 6. Design-by-physics per own#32, NOT n=6 force-fit. infra axis count 58 -> 59; alien-grade 10 PHYSICAL-LIMIT.",
+    "2.0.0 (2026-05-10): MOVE migration complete — all 59 domains relocated to standalone repos. _count → 0. See _standalone_repos.md."
   ],
   "domains": [
     {

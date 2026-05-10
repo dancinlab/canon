@@ -1,20 +1,17 @@
 # space/ standalone repository pointers
 
-Cross-reference index of `domains/space/*` specs that have been extracted into standalone GitHub repositories.
+All `space/` domain specs were MOVED to standalone repos in the 2026-05-10 canon shrink migration.
 
 ## Active extractions
 
-| Spec(s) | Standalone repo | Extracted | Notes |
-|---|---|---|---|
-| `hexa-cosmic`, `hexa-starship`, `aerospace`, `aerospace-transport`, `space-engineering`, `space-systems`, `astrodynamics`, `astronomy`, `observational-astronomy`, `astrobiology`, `space-medicine` | 🚀 [dancinlab/hexa-space](https://github.com/dancinlab/hexa-space) | 2026-05-06 | 11-verb / 4 그룹 (core · engineering · observation · life). hexa-cosmos(이론) · hexa-ufo(starship 자매) cross-link. MIT. |
-| `observational-astronomy` (specialized fork) | 🛰️ [dancinlab/hexa-scope](https://github.com/dancinlab/hexa-scope) | 2026-05-06 | 망원경 hardware 측면 specialize fork. JWST 18-segment hexagonal mirror = n=6 직접 hardware instance. 7-mission overview (Hubble · JWST · LSST · Roman · LUVOIR · Origins · HabEx). hexa-cosmos · hexa-rtsc cross-link. MIT. |
+| Standalone repo | Verbs | Original canon paths |
+|---|---|---|
+| 🔭 [`hexa-scope`](https://github.com/dancinlab/hexa-scope) | `observational-astronomy` | `domains/space/observational-astronomy/` |
+| 🛰️ [`hexa-space`](https://github.com/dancinlab/hexa-space) | `aerospace` · `aerospace-transport` · `astrobiology` · `astrodynamics` · `astronomy` · `hexa-cosmic` · `hexa-starship` · `space-engineering` · ... (10 total) | `domains/space/aerospace-transport/`, `domains/space/aerospace/`, `domains/space/astrobiology/`, `domains/space/astrodynamics/`, `domains/space/astronomy/`, ... (10 total) |
 
 ## Convention
 
-- Spec files in `domains/space/<slug>/<slug>.md` 은 canonical (uchg-seal). 편집 금지.
-- Standalone 레포 (`github.com/dancinlab/*`) 는 작동 구현 + 시드 복사.
-- README in each standalone 은 doc/ 시드를 통해 canonical로 역참조; 본 인덱스는 정참조.
-
-## Pending candidates
-
-이번 라운드에서 space 카테고리는 모두 `hexa-space` 묶음으로 추출 완료.
+- **MOVE pattern** (this migration): canon source dirs were DELETED and the standalone repo is the SSOT.
+- Each standalone repo has the spec docs as top-level verb dirs (or `docs/` flat for hexa-mobility).
+- Provenance headers in each `<verb>/<verb>.md` point to canon@ded52144 (pre-deletion SHA).
+- Recovery: `git -C canon log --diff-filter=D --follow -- domains/space/<leaf>/<file>.md`

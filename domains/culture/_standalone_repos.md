@@ -1,24 +1,17 @@
 # culture/ standalone repository pointers
 
-Cross-reference index of `domains/culture/*` specs that have been extracted into standalone GitHub repositories.
+All `culture/` domain specs were MOVED to standalone repos in the 2026-05-10 canon shrink migration.
 
 ## Active extractions
 
-| Spec(s) | Standalone repo | Extracted | Notes |
-|---|---|---|---|
-| `horology` ⊕ `bell-clockwork` (+ `infra/calendar-time-geography`) | ⏰ [dancinlab/hexa-time](https://github.com/dancinlab/hexa-time) | 2026-05-06 | 시간 substrate (escapement τ=4 phase + bell ratio + calendar 6-cycle). MIT. |
+| Standalone repo | Verbs | Original canon paths |
+|---|---|---|
+| 🎨 [`hexa-arts`](https://github.com/dancinlab/hexa-arts) | `ar-vr-xr` · `archaeology` · `audio` · `baduk` · `biometrics` · `dance-choreography` · `dice-probability` · `ethnomusicology` · ... (24 total) | `domains/culture/ar-vr-xr/`, `domains/culture/archaeology/`, `domains/culture/audio/`, `domains/culture/baduk/`, `domains/culture/biometrics/`, ... (24 total) |
+| ⏳ [`hexa-time`](https://github.com/dancinlab/hexa-time) | `bell-clockwork` · `horology` | `domains/culture/bell-clockwork/`, `domains/culture/horology/` |
 
 ## Convention
 
-- Spec files in `domains/culture/<slug>/<slug>.md` 은 canonical (uchg-seal). 편집 금지.
-- Standalone 레포 (`github.com/dancinlab/*`) 는 작동 구현 + 시드 복사.
-- README in each standalone 은 doc/ 시드를 통해 canonical로 역참조; 본 인덱스는 정참조.
-
-## Pending candidates
-
-후속 standalone 후보:
-- 🎵 `hexa-music` — `music` + `music-mathematics` + `ethnomusicology` + `audio`
-- 🥋 `hexa-arts` — `baduk` + `dance-choreography` + `taekwondo` + `mountaineering` + `yoga`
-- 🇰🇷 `hangul` — `hangul-script` + `linguistics` + `telecom-linguistics` + `writing-systems`
-- 🕯️ `hexa-myth` — `religion` + `religion-mythology`
-- 단독: `archaeology`, `photography`, `library-science`, `dice-probability`, `numismatics`, `ar-vr-xr`, `social-architecture`, `biometrics`, `games-sports`
+- **MOVE pattern** (this migration): canon source dirs were DELETED and the standalone repo is the SSOT.
+- Each standalone repo has the spec docs as top-level verb dirs (or `docs/` flat for hexa-mobility).
+- Provenance headers in each `<verb>/<verb>.md` point to canon@ded52144 (pre-deletion SHA).
+- Recovery: `git -C canon log --diff-filter=D --follow -- domains/culture/<leaf>/<file>.md`

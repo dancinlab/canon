@@ -1,19 +1,16 @@
 # pets/ standalone repository pointers
 
-Cross-reference index of `domains/pets/*` specs that have been extracted into standalone GitHub repositories.
+All `pets/` domain specs were MOVED to standalone repos in the 2026-05-10 canon shrink migration.
 
 ## Active extractions
 
-| Spec(s) | Standalone repo | Extracted | Notes |
-|---|---|---|---|
-| `cat-food` ⊕ `cat-litter` ⊕ `cat-toy` ⊕ `dog-food` ⊕ `dog-toy` | 🐱 [dancinlab/hexa-pet](https://github.com/dancinlab/hexa-pet) | 2026-05-06 | 5-verb 반려동물 toolkit. 가장 자족적 묶음, consumer-friendly 톤. MIT. |
+| Standalone repo | Verbs | Original canon paths |
+|---|---|---|
+| 🐱 [`hexa-pet`](https://github.com/dancinlab/hexa-pet) | `cat-food` · `cat-litter` · `cat-toy` · `dog-food` · `dog-toy` | `domains/pets/cat-food/`, `domains/pets/cat-litter/`, `domains/pets/cat-toy/`, `domains/pets/dog-food/`, `domains/pets/dog-toy/` |
 
 ## Convention
 
-- Spec files in `domains/pets/<slug>/<slug>.md` 은 canonical (uchg-seal). 편집 금지.
-- Standalone 레포 (`github.com/dancinlab/*`) 는 작동 구현 + 시드 복사.
-- README in each standalone 은 doc/ 시드를 통해 canonical로 역참조; 본 인덱스는 정참조.
-
-## Pending candidates
-
-이번 라운드에서 pets 카테고리는 모두 `hexa-pet` 묶음으로 추출 완료.
+- **MOVE pattern** (this migration): canon source dirs were DELETED and the standalone repo is the SSOT.
+- Each standalone repo has the spec docs as top-level verb dirs (or `docs/` flat for hexa-mobility).
+- Provenance headers in each `<verb>/<verb>.md` point to canon@ded52144 (pre-deletion SHA).
+- Recovery: `git -C canon log --diff-filter=D --follow -- domains/pets/<leaf>/<file>.md`

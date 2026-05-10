@@ -1,29 +1,23 @@
 # physics/ standalone repository pointers
 
-Cross-reference index of `domains/physics/*` specs that have been extracted into standalone GitHub repositories. The spec files in this directory remain canonical (uchg-sealed after registration); standalone repos are the working implementations.
+All `physics/` domain specs were MOVED to standalone repos in the 2026-05-10 canon shrink migration.
 
 ## Active extractions
 
-| Spec(s) | Standalone repo | Extracted | Notes |
-|---|---|---|---|
-| `mini-accelerator` ⊕ `particle-accelerator` ⊕ `classical-mechanics-accelerator` | 💫 [dancinlab/hexa-cern](https://github.com/dancinlab/hexa-cern) | 2026-05-06 | 3-pillar 벤치톱 CERN. README §Status: "specs only, .hexa CLI TBD". MIT. |
-| `millennium-bsd`, `millennium-hodge`, `millennium-navier-stokes`, `millennium-p-vs-np`, `millennium-poincare`, `millennium-riemann`, `millennium-yang-mills` | 🏆 [dancinlab/hexa-millennium](https://github.com/dancinlab/hexa-millennium) | 2026-05-06 | Clay 7대 난제 n=6 closed-form **candidates**. Poincaré는 Perelman(2003) 검증 측. **공식 증명 아님** 명시. MIT. |
-| `cosmology` ⊕ `cosmology-particle` ⊕ `cosmic-observatory` | 🌌 [dancinlab/hexa-cosmos](https://github.com/dancinlab/hexa-cosmos) | 2026-05-06 | 우주론 substrate. ΛCDM 6 parameter vs n=6 비교 표. MIT. |
-| `antimatter-factory` ⊕ `tabletop-antimatter` ⊕ `pet-cyclotron` | ☄️ [dancinlab/hexa-antimatter](https://github.com/dancinlab/hexa-antimatter) | 2026-05-06 | 반물질 substrate. hexa-cern (가속기 cousin) + hexa-ufo (Stage-3 propulsion) cross-link. MIT. |
-| `plasma-fusion-deep` | 🔥 [dancinlab/hexa-fusion](https://github.com/dancinlab/hexa-fusion) | 2026-05-06 | `domains/energy/_standalone_repos.md` 의 hexa-fusion 4-pillar 안에 합류 (`plasma_deep/` verb). |
-| `cosmic-observatory` (specialized fork) | 🛰️ [dancinlab/hexa-scope](https://github.com/dancinlab/hexa-scope) | 2026-05-06 | hexa-cosmos 와 별개로 망원경 hardware 측면 specialize. JWST 18-segment hexagonal mirror = n=6 직접 instance. |
+| Standalone repo | Verbs | Original canon paths |
+|---|---|---|
+| ⚛️ [`hexa-antimatter`](https://github.com/dancinlab/hexa-antimatter) | `antimatter-factory` · `pet-cyclotron` · `tabletop-antimatter` | `domains/physics/antimatter-factory/`, `domains/physics/pet-cyclotron/`, `domains/physics/tabletop-antimatter/` |
+| 💫 [`hexa-cern`](https://github.com/dancinlab/hexa-cern) | `classical-mechanics-accelerator` · `higgs` · `mini-accelerator` · `particle-accelerator` · `particle-cosmology` · `plasma` · `plasma-physics` · `quantum-computer` · ... (14 total) | `domains/physics/classical-mechanics-accelerator/`, `domains/physics/higgs/`, `domains/physics/mini-accelerator/`, `domains/physics/particle-accelerator/`, `domains/physics/particle-cosmology/`, ... (14 total) |
+| 🌌 [`hexa-cosmos`](https://github.com/dancinlab/hexa-cosmos) | `calabi-yau-nav` · `cosmology` · `cosmology-particle` · `holography` · `m-theory-11d` · `meta-closure-nav` · `multiverse-nav` · `simulation-theory` | `domains/physics/calabi-yau-nav/`, `domains/physics/cosmology-particle/`, `domains/physics/cosmology/`, `domains/physics/holography/`, `domains/physics/m-theory-11d/`, ... (8 total) |
+| 🔥 [`hexa-fusion`](https://github.com/dancinlab/hexa-fusion) | `plasma-fusion-deep` | `domains/physics/plasma-fusion-deep/` |
+| 🏆 [`hexa-millennium`](https://github.com/dancinlab/hexa-millennium) | `hexa-topo` · `millennium-bsd` · `millennium-hodge` · `millennium-navier-stokes` · `millennium-p-vs-np` · `millennium-poincare` · `millennium-riemann` · `millennium-yang-mills` · ... (10 total) | `domains/physics/hexa-topo/`, `domains/physics/millennium-bsd/`, `domains/physics/millennium-hodge/`, `domains/physics/millennium-navier-stokes/`, `domains/physics/millennium-p-vs-np/`, ... (10 total) |
+| 🔬 [`hexa-physics`](https://github.com/dancinlab/hexa-physics) | `computational-fluid-dynamics` · `crystallography` · `crystallography-materials` · `electromagnetism` · `fluid` · `gravity-wave` · `light-optics` · `optics` · ... (9 total) | `domains/physics/computational-fluid-dynamics/`, `domains/physics/crystallography-materials/`, `domains/physics/crystallography/`, `domains/physics/electromagnetism/`, `domains/physics/fluid/`, ... (9 total) |
+| 🔭 [`hexa-scope`](https://github.com/dancinlab/hexa-scope) | `cosmic-observatory` | `domains/physics/cosmic-observatory/` |
+| 🛸 [`hexa-ufo`](https://github.com/dancinlab/hexa-ufo) | `warp-drive` · `wormhole` | `domains/physics/warp-drive/`, `domains/physics/wormhole/` |
 
 ## Convention
 
-- Spec files in `domains/physics/<slug>/<slug>.md` 은 canonical (uchg-seal). 편집 금지.
-- Standalone 레포 (`github.com/dancinlab/*`) 는 작동 구현 + 시드 복사.
-- README in each standalone 은 doc/ 시드를 통해 canonical로 역참조; 본 인덱스는 정참조.
-
-## Pending candidates
-
-후속 standalone 후보:
-- 🌑 `hexa-gravity` — `gravity-wave` + `tabletop-blackhole`
-- 🪢 `hexa-strings` — `m-theory-11d` + `calabi-yau-nav` + `holography`
-- ⚡ `hexa-em` — `electromagnetism` + `light-optics`
-- `crystallography`, `crystallography-materials` 단독 후보
-- `fluid`, `computational-fluid-dynamics`, `meta-closure-nav`, `hexa-topo`, `higgs` 단독 또는 묶음 후보
+- **MOVE pattern** (this migration): canon source dirs were DELETED and the standalone repo is the SSOT.
+- Each standalone repo has the spec docs as top-level verb dirs (or `docs/` flat for hexa-mobility).
+- Provenance headers in each `<verb>/<verb>.md` point to canon@ded52144 (pre-deletion SHA).
+- Recovery: `git -C canon log --diff-filter=D --follow -- domains/physics/<leaf>/<file>.md`

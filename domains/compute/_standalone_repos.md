@@ -1,20 +1,21 @@
 # compute/ standalone repository pointers
 
-Cross-reference index of `domains/compute/*` specs that have been extracted into standalone GitHub repositories.
+All `compute/` domain specs were MOVED to standalone repos in the 2026-05-10 canon shrink migration.
 
 ## Active extractions
 
-| Spec(s) | Standalone repo | Extracted | Notes |
-|---|---|---|---|
-| `chip-architecture`, `chip-isa-n6`, `chip-hexa1`, `chip-design`, `chip-dse-pipeline`, `chip-rtl-gen`, `chip-eda`, `chip-verify-test`, `chip-process`, `chip-materials`, `chip-wafer`, `chip-yield`, `chip-thermal-power`, `chip-packaging`, `advanced-packaging`, `chip-3d`, `chip-hbm`, `chip-interconnect`, `chip-sc`, `chip-npu-n6`, `chip-pim`, `chip-photonic`, `hexa-accel`, `hexa-asic`, `hexa-pim`, `hexa-3d`, `hexa-wafer`, `consciousness-chip`, `consciousness-soc` | 🔲 [dancinlab/hexa-chip](https://github.com/dancinlab/hexa-chip) | 2026-05-06 | 28-verb / 7 그룹 (architecture · design · process · packaging · accelerator · consciousness). hexa-rtsc · hexa-codex · anima cross-link. MIT. |
+| Standalone repo | Verbs | Original canon paths |
+|---|---|---|
+| ✨ [`hexa-aura`](https://github.com/dancinlab/hexa-aura) | `chip-architecture` · `chip-design` | `domains/compute/chip-architecture/`, `domains/compute/chip-design/` |
+| 🔌 [`hexa-chip`](https://github.com/dancinlab/hexa-chip) | `advanced-packaging` · `chip-3d` · `chip-dse-pipeline` · `chip-eda` · `chip-hbm` · `chip-hexa1` · `chip-interconnect` · `chip-isa-n6` · ... (44 total) | `domains/compute/advanced-packaging/`, `domains/compute/chip-3d/`, `domains/compute/chip-dse-pipeline/`, `domains/compute/chip-eda/`, `domains/compute/chip-hbm/`, ... (44 total) |
+| 💰 [`hexa-finance`](https://github.com/dancinlab/hexa-finance) | `blockchain` · `cryptography` | `domains/compute/blockchain/`, `domains/compute/cryptography/` |
+| 🌐 [`hexa-grid`](https://github.com/dancinlab/hexa-grid) | `5g-6g-network` · `ai-efficiency` · `ai-native-architecture` · `browser` · `compiler-os` · `digital-twin` · `gpgpu` · `hexa-netproto` · ... (18 total) | `domains/compute/5g-6g-network/`, `domains/compute/ai-efficiency/`, `domains/compute/ai-native-architecture/`, `domains/compute/browser/`, `domains/compute/compiler-os/`, ... (18 total) |
+| 🖥️ [`hexa-os`](https://github.com/dancinlab/hexa-os) | `hexa-ios` · `hexa-macos` · `unified-service` | `domains/compute/hexa-ios/`, `domains/compute/hexa-macos/`, `domains/compute/unified-service/` |
+| 🧱 [`hexa-sscb`](https://github.com/dancinlab/hexa-sscb) | `sscb` | `domains/compute/sscb/` |
 
 ## Convention
 
-- Spec files in `domains/compute/<slug>/<slug>.md` 은 canonical (uchg-seal). 편집 금지.
-- Standalone 레포 (`github.com/dancinlab/*`) 는 작동 구현 + 시드 복사.
-
-## Pending candidates
-
-후속 standalone 후보:
-- 단독: `5g-6g-network`, `blockchain`, `browser`, `compiler-os`, `cryptography`, `digital-twin`, `display`, `display-8stack`, `dram`, `exynos`, `ai-efficiency`, `ai-native-architecture` 등 ~40여 개
-- 묶음: `hexa-display` (display + display-8stack + LED 등), `hexa-network` (5g-6g + browser + blockchain 등), `hexa-crypto` (cryptography + 등)
+- **MOVE pattern** (this migration): canon source dirs were DELETED and the standalone repo is the SSOT.
+- Each standalone repo has the spec docs as top-level verb dirs (or `docs/` flat for hexa-mobility).
+- Provenance headers in each `<verb>/<verb>.md` point to canon@ded52144 (pre-deletion SHA).
+- Recovery: `git -C canon log --diff-filter=D --follow -- domains/compute/<leaf>/<file>.md`

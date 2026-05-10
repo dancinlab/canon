@@ -1,21 +1,19 @@
 # energy/ standalone repository pointers
 
-Cross-reference index of `domains/energy/*` specs that have been extracted into standalone GitHub repositories. The spec files in this directory remain canonical (uchg-sealed after registration); standalone repos are the working implementations.
+All `energy/` domain specs were MOVED to standalone repos in the 2026-05-10 canon shrink migration.
 
 ## Active extractions
 
-| Spec(s) | Standalone repo | Extracted | Notes |
-|---|---|---|---|
-| `fusion` ⊕ `tabletop-fusion` ⊕ `fusion-powerplant` (+ `physics/plasma-fusion-deep` + `bridge/origins/fusion-{calc,dse,verify}`) | 🔥 [dancinlab/hexa-fusion](https://github.com/dancinlab/hexa-fusion) | 2026-05-06 | 4-pillar Fusion Toolkit. README §Verification: 26/27 EXACT (96.3%) + 1 honest negative (lawson_triple 1-decade falsified). MIT. |
-| `room-temp-sc` ⊕ `superconductor` | 🧲 [dancinlab/hexa-rtsc](https://github.com/dancinlab/hexa-rtsc) | 2026-05-06 | Substrate-of-substrates: hexa-fusion(48T coil) · hexa-ufo(Meissner) · hexa-cern(SC magnet) cross-link. RT-SC 학계 미증명 명시. MIT. |
-| `battery-architecture`, `battery-energy`, `nuclear-reactor`, `smr-datacenter`, `datacenter-reactor`, `power-grid`, `rooftop-pv-2nd-life-microgrid`, `solar-architecture`, `pemfc`, `hvac-system`, `thermal-management`, `amd-ree-mineshaft-phes`, `energy-architecture`, `energy-efficiency` | ⚡ [dancinlab/hexa-energy](https://github.com/dancinlab/hexa-energy) | 2026-05-06 | 14-verb / 7 그룹 (battery + nuclear + grid + fuel-cell + thermal + mining + meta). fusion·rtsc 별도. MIT. |
+| Standalone repo | Verbs | Original canon paths |
+|---|---|---|
+| ⚡ [`hexa-energy`](https://github.com/dancinlab/hexa-energy) | `amd-ree-mineshaft-phes` · `battery-energy` · `datacenter-reactor` · `energy-architecture` · `energy-efficiency` · `hvac-system` · `nuclear-reactor` · `pemfc` · ... (13 total) | `domains/energy/amd-ree-mineshaft-phes/`, `domains/energy/battery-energy/`, `domains/energy/datacenter-reactor/`, `domains/energy/energy-architecture/`, `domains/energy/energy-efficiency/`, ... (13 total) |
+| 🔥 [`hexa-fusion`](https://github.com/dancinlab/hexa-fusion) | `fusion` · `fusion-powerplant` · `tabletop-fusion` | `domains/energy/fusion-powerplant/`, `domains/energy/fusion/`, `domains/energy/tabletop-fusion/` |
+| 🧭 [`hexa-mobility`](https://github.com/dancinlab/hexa-mobility) | `battery-architecture` | `domains/energy/battery-architecture/` |
+| 🧲 [`hexa-rtsc`](https://github.com/dancinlab/hexa-rtsc) | `room-temp-sc` · `superconductor` | `domains/energy/room-temp-sc/`, `domains/energy/superconductor/` |
 
 ## Convention
 
-- Spec files in `domains/energy/<slug>/<slug>.md` 은 canonical (uchg-seal). 편집 금지.
-- Standalone 레포 (`github.com/dancinlab/*`) 는 작동 구현 + 시드 복사.
-- README in each standalone 은 doc/ 시드를 통해 canonical로 역참조; 본 인덱스는 정참조.
-
-## Pending candidates
-
-위에 나열되지 않은 `domains/energy/` 도메인(예: `pemfc` 등)은 단독 standalone 후보로 유지(현재는 `hexa-energy` 묶음 안).
+- **MOVE pattern** (this migration): canon source dirs were DELETED and the standalone repo is the SSOT.
+- Each standalone repo has the spec docs as top-level verb dirs (or `docs/` flat for hexa-mobility).
+- Provenance headers in each `<verb>/<verb>.md` point to canon@ded52144 (pre-deletion SHA).
+- Recovery: `git -C canon log --diff-filter=D --follow -- domains/energy/<leaf>/<file>.md`
