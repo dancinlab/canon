@@ -9,10 +9,10 @@
 
 [meta]
 schema_version = "1.0"
-last_updated   = "2026-05-09"
-canon_sha    = "879da013"
-standalones    = 19
-total_seeds    = 154
+last_updated   = "2026-05-10"
+canon_sha    = "aadcb101"
+standalones    = 20
+total_seeds    = 165
 
 [[standalone]]
 slug      = "hexa-fusion"
@@ -1089,3 +1089,77 @@ canonical = "domains/infra/construction-structural/construction-structural.md"
 copy      = "construction/construction-structural.md"
 md5_canon = "4d36c58955dfe144de78a99e74b8b323"
 md5_copy  = "f29ee494abbec0fc7b2bef1878b89078"
+
+[[standalone]]
+slug      = "hexa-mobility"
+emoji     = "🧭"
+repo      = "https://github.com/dancinlab/hexa-mobility"
+oneliner  = "n=6 mobility substrate (Stage-5 autonomous) — autonomous-driving·EV·vehicle-control·HD-map·robotics-transport·MRM·urban-traffic 11-doc bundle (battery → hexa-energy, V2X → hexa-grid, SoC → hexa-chip CLI)."
+license   = "MIT"
+extracted = "2026-05-10"
+
+[[standalone.seeds]]
+canonical = "domains/infra/autonomous-driving/autonomous-driving.md"
+copy      = "docs/autonomous-driving.md"
+md5_canon = "7f8409941f6141a175c41960b095e883"
+md5_copy  = "6add5dffaa594f8c21c4f502a1ec7751"
+
+[[standalone.seeds]]
+canonical = "domains/infra/electric-vehicle/electric-vehicle.md"
+copy      = "docs/electric-vehicle.md"
+md5_canon = "3d18a049c4458ef5549729eeabdb2667"
+md5_copy  = "ec6c01017372c37e9814f79252abb3c4"
+
+[[standalone.seeds]]
+canonical = "domains/infra/control-automation/control-automation.md"
+copy      = "docs/control-automation.md"
+md5_canon = "636a812ad92d3c89cd669be594fbecbb"
+md5_copy  = "d68aec2c22c520451fd3a27cc9df7977"
+
+[[standalone.seeds]]
+canonical = "domains/infra/fun-car/fun-car.md"
+copy      = "docs/fun-car.md"
+md5_canon = "387e8a4c8f176368d35f4c0ed8594ad2"
+md5_copy  = "8fe0c25b162f62703ab9471b3ecaed4d"
+
+[[standalone.seeds]]
+canonical = "domains/infra/cartography-gis/cartography-gis.md"
+copy      = "docs/cartography-gis.md"
+md5_canon = "aceb97acaa539cac8ed6bebd444b388b"
+md5_copy  = "279f986863eb11bbaee8df8cc63a13da"
+
+[[standalone.seeds]]
+canonical = "domains/infra/robotics/robotics.md"
+copy      = "docs/robotics.md"
+md5_canon = "060c43d3ef79f4b50164118a999d26f4"
+md5_copy  = "b29f923e874327fb7ec27715798e6088"
+
+[[standalone.seeds]]
+canonical = "domains/infra/robotics-transport/robotics-transport.md"
+copy      = "docs/robotics-transport.md"
+md5_canon = "8080c89fa1598c781920c97d21922de7"
+md5_copy  = "1d05a181f79939052e590d16261036b3"
+
+[[standalone.seeds]]
+canonical = "domains/infra/motorcycle/motorcycle.md"
+copy      = "docs/motorcycle.md"
+md5_canon = "a5766322bccdbfb92a1e35094ecca88d"
+md5_copy  = "3c1fe0d17719475a02e1a518a8bedcdc"
+
+[[standalone.seeds]]
+canonical = "domains/infra/ultimate-safety/ultimate-safety.md"
+copy      = "docs/ultimate-safety.md"
+md5_canon = "82f5c0de83d7c442a15f569c2da8dc41"
+md5_copy  = "c0399e3e67c87184df2aa073734473f8"
+
+[[standalone.seeds]]
+canonical = "domains/energy/battery-architecture/battery-scale-6-ev/battery-scale-6-ev.md"
+copy      = "docs/battery-scale-6-ev.md"
+md5_canon = "7a73a90e9e1c59e01acddd0bc2142a9d"
+md5_copy  = "7f42f1a46c9810770dea5421939a0ee6"
+
+[[standalone.seeds]]
+canonical = "domains/infra/governance-safety-urban/governance-safety-urban.md"
+copy      = "docs/governance-safety-urban.md"
+md5_canon = "4ee415f9adc3d6ef54071b957fe9f2df"
+md5_copy  = "102e5254dbec3b6d79c05b537e5edfc1"
