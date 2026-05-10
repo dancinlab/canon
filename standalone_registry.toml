@@ -10,9 +10,9 @@
 [meta]
 schema_version = "1.0"
 last_updated   = "2026-05-10"
-canon_sha    = "c33c9326"
+canon_sha    = "5458b7d1"
 standalones    = 21
-total_seeds    = 176
+total_seeds    = 170
 
 [[standalone]]
 slug      = "hexa-fusion"
@@ -1168,7 +1168,7 @@ md5_copy  = "102e5254dbec3b6d79c05b537e5edfc1"
 slug      = "hexa-aura"
 emoji     = "✨"
 repo      = "https://github.com/dancinlab/hexa-aura"
-oneliner  = "n=6 post-aural BCI substrate (측두골 클립이 스마트폰+18개 웨어러블 대체) — neuro·BCI·neuromorphic·mind/speak/dream/telepathy 11-doc bundle (5 docs historically restored from canon@579ab196/ab155706 to recover richer KR content; decoder→hexa-codex, neuromorphic-silicon→hexa-chip, uplink→hexa-grid CLI)."
+oneliner  = "n=6 post-aural BCI chip substrate (측두골 클립이 스마트폰+18개 웨어러블 대체) — neuro·BCI·neuromorphic·neuro-chip-arch·neuroscience 5-doc tight bundle (2 docs historically restored from canon@579ab196/ab155706; cognitive verbs→hexa-mind, sensory verbs→hexa-senses, working pipeline→hexa-brain)."
 license   = "MIT"
 extracted = "2026-05-10"
 
@@ -1179,22 +1179,10 @@ md5_canon = "9f70606b57964324839dff40e9d8422f"
 md5_copy  = "2d55e6190cab2c90d4810896be9d623a"
 
 [[standalone.seeds]]
-canonical = "domains/cognitive/hexa-neuro/hexa-neuro.md"
-copy      = "docs/hexa-neuro.md"
-md5_canon = "7278d8b56bac7437d95f69a74ab727af"
-md5_copy  = "a2fcfee32c6fb55364a7beeefad67dc1"
-
-[[standalone.seeds]]
 canonical = "domains/cognitive/brain-computer-interface/brain-computer-interface.md"
 copy      = "docs/brain-computer-interface.md"
 md5_canon = "63a25a0ea5db7272e67e43d71690f67e"
 md5_copy  = "22c06f2806625938be588968f1581a64"
-
-[[standalone.seeds]]
-canonical = "domains/cognitive/hexa-ear/hexa-ear.md"
-copy      = "docs/hexa-ear.md"
-md5_canon = "e792596ec16a05e08db1f0e36e319f68"
-md5_copy  = "bab25cc2cfec40b9a056eadd912619cc"
 
 [[standalone.seeds]]
 canonical = "domains/compute/chip-design/hexa-neuromorphic/hexa-neuromorphic.md"
@@ -1207,30 +1195,6 @@ canonical = "domains/compute/chip-architecture/l9-field-photon-neuro/l9-field-ph
 copy      = "docs/l9-field-photon-neuro.md"
 md5_canon = "b9b1b87a099dda40a0bbd286089b0b64"
 md5_copy  = "67362b4b6e0c487c950429fe2b425d0b"
-
-[[standalone.seeds]]
-canonical = "domains/cognitive/hexa-mind/hexa-mind.md"
-copy      = "docs/hexa-mind.md"
-md5_canon = "6f274a2d31ccfb213f7051a2690a0cbd"
-md5_copy  = "88e466ebcc1f432818b7f5d2e567ee84"
-
-[[standalone.seeds]]
-canonical = "domains/cognitive/hexa-speak/hexa-speak.md"
-copy      = "docs/hexa-speak.md"
-md5_canon = "f9139b0046a712169fe2391098596b52"
-md5_copy  = "038ae6185fb220f29fd7c5447d20ef32"
-
-[[standalone.seeds]]
-canonical = "domains/cognitive/hexa-dream/hexa-dream.md"
-copy      = "docs/hexa-dream.md"
-md5_canon = "4f33b984e0fab93935121b805e17741f"
-md5_copy  = "da05e2aece8b15b526527bc4a3288da8"
-
-[[standalone.seeds]]
-canonical = "domains/cognitive/hexa-telepathy/hexa-telepathy.md"
-copy      = "docs/hexa-telepathy.md"
-md5_canon = "3b62386ca0caa3714a782b053df8d7a7"
-md5_copy  = "eb3a2bf3b7d6010851089716f6231839"
 
 [[standalone.seeds]]
 canonical = "domains/life/neuroscience/neuroscience.md"
