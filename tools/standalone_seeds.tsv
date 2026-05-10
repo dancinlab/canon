@@ -1,5 +1,2 @@
-hexa-fusion	🔥	Fusion Toolkit (HEXA family) — D-T ignition + p-11B aneutronic + KSTAR-N6 powerplant + plasma deep.	bridge/origins/fusion-calc/main.hexa	cli/fusion_calc.hexa
-hexa-fusion	🔥	Fusion Toolkit (HEXA family) — D-T ignition + p-11B aneutronic + KSTAR-N6 powerplant + plasma deep.	bridge/origins/fusion-dse/main.hexa	cli/fusion_dse.hexa
-hexa-fusion	🔥	Fusion Toolkit (HEXA family) — D-T ignition + p-11B aneutronic + KSTAR-N6 powerplant + plasma deep.	bridge/origins/fusion-verify/main.hexa	cli/fusion_verify.hexa
 hexa-ufo	🛸	UFO Substrate Atlas + 7-stage Propulsion.	experiments/structural/ufo_nexus_scan.hexa	ufo/module/ufo_nexus_scan.hexa
 hexa-ufo	🛸	UFO Substrate Atlas + 7-stage Propulsion.	reports/sessions/specs/2026-04-06-ufo-warp-dimension-design.md	ufo/doc/warp-dimension-design.md

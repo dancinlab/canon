@@ -6,39 +6,18 @@
 #
 # Each [[standalone]] block lists every (canonical, copy) seed pair with
 # md5 captured at build time. md5 mismatch = drift.
+#
+# NOTE 2026-05-10: the bulk of canon's specs/papers/tools were MOVED into the
+# dancinlab/hexa-* family (see MOVED_TO_STANDALONES.md + domains/*/_standalone_repos.md);
+# those are MOVE-pattern (no drift tracking). Only BUNDLE-pattern seeds whose
+# canonical path still lives in canon remain registered here.
 
 [meta]
 schema_version = "1.0"
 last_updated   = "2026-05-10"
-canon_sha    = "5458b7d1"
-standalones    = 2
-total_seeds    = 5
-
-[[standalone]]
-slug      = "hexa-fusion"
-emoji     = "🔥"
-repo      = "https://github.com/dancinlab/hexa-fusion"
-oneliner  = "Fusion Toolkit (HEXA family) — D-T ignition + p-11B aneutronic + KSTAR-N6 powerplant + plasma deep."
-license   = "MIT"
-extracted = "2026-05-06"
-
-[[standalone.seeds]]
-canonical = "bridge/origins/fusion-calc/main.hexa"
-copy      = "cli/fusion_calc.hexa"
-md5_canon = "6c858d78fe7c18ba0fe9925a362b5135"
-md5_copy  = "a3038732a640c91481bb4b1d387376b2"
-
-[[standalone.seeds]]
-canonical = "bridge/origins/fusion-dse/main.hexa"
-copy      = "cli/fusion_dse.hexa"
-md5_canon = "a091c1bc00a03b1184d3070a70983e10"
-md5_copy  = "04d9b608ff1c81d2553dae0d21652a00"
-
-[[standalone.seeds]]
-canonical = "bridge/origins/fusion-verify/main.hexa"
-copy      = "cli/fusion_verify.hexa"
-md5_canon = "7efb3b21de90f522fb07719ba5671961"
-md5_copy  = "5ab3003be2fd087008df075a8ffcae03"
+canon_sha    = "812bd794"
+standalones    = 1
+total_seeds    = 2
 
 [[standalone]]
 slug      = "hexa-ufo"
