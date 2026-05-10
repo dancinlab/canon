@@ -1,11 +1,26 @@
-# Moved to standalone repos (2026-05-10)
+# Moved to standalone repos
 
 During the canon-minimization migration, the research artifacts that used to live
-under `papers/`, `theory/proofs/` and `bridge/origins/` were **moved** out of canon
-into the `dancinlab/hexa-*` family (MOVE pattern — canon no longer holds them; prior
-history is recoverable via `git log` in canon).
+under `papers/`, `theory/proofs/`, `bridge/origins/`, `techniques/`, and `experiments/ai-efficiency/`
+were **moved** out of canon into the `dancinlab/hexa-*` family
+(MOVE pattern — canon no longer holds them; prior history is recoverable via `git log` in canon).
+
+## Wave 1 — 2026-05-10 (papers / proofs / origins)
 
 Total moved: **228 files/dirs** → **28 repos**.
+
+## Wave 2 — 2026-05-11 (AI techniques + experiments → hexa-codex)
+
+Total moved: **304 files** → **1 repo** (`hexa-codex`).
+
+- `techniques/` (242 files, 8 axes × 68 BODY, 18,630 lines) → `hexa-codex/techniques/`
+  - arch/16, attention/9, compress/5, graph/5, moe/11, optim/15, sparse/6, sota/3
+  - + `_registry.json` v1.3.0, `_bench_plan.md`, `_chip_mapping.md`, root `design.md`
+  - Ossified `AI_TECHNIQUE_68_BODY_ALL` (2026-04-12).
+- `experiments/ai-efficiency/` (62 files, `.hexa` verification experiments) → `hexa-codex/experiments/ai-efficiency/`
+  - Pre-canon SHA: `canon@93e6ef4c` (recovery via `git log --diff-filter=D --follow`).
+
+## Wave-1 table (legacy)
 
 | repo | from | item |
 |---|---|---|
