@@ -51,6 +51,24 @@
 
 ---
 
+## 📚 Domain papers — longest archived paper per domain
+
+> Pre-reorganization versions restored from canon history (richest content per domain).
+
+- 🧪 [MATERIALS.md](MATERIALS.md) — Ultimate superconductor integrated paper (95 KB)
+- 🚀 [SPACE.md](SPACE.md) — Aerospace & transport paper (89 KB)
+- 💻 [COMPUTE.md](COMPUTE.md) — Hexa-chip 7-dan integrated paper (84 KB)
+- 🧠 [COGNITIVE.md](COGNITIVE.md) — Cognitive social psychology paper (84 KB)
+- 🧬 [BIOLOGY.md](BIOLOGY.md) — Therapeutic nanobot paper (79 KB)
+- 🌿 [LIFE.md](LIFE.md) — Ecology, agriculture & food paper (70 KB)
+- ⚛️ [PHYSICS.md](PHYSICS.md) — Moonshine barrier honest report (66 KB)
+- 📱 [APPS.md](APPS.md) — Autonomous driving paper (58 KB)
+- 🎭 [CULTURE.md](CULTURE.md) — Calendar, time & geography paper (55 KB)
+- 🏗️ [INFRA.md](INFRA.md) — n=6 convergence across 80 domains (46 KB)
+- ⚡ [ENERGY.md](ENERGY.md) — Battery & energy storage paper (38 KB)
+
+---
+
 
 # 🔥 Fusion
 
