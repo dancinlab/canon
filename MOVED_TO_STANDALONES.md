@@ -20,6 +20,30 @@ Total moved: **304 files** → **1 repo** (`hexa-codex`).
 - `experiments/ai-efficiency/` (62 files, `.hexa` verification experiments) → `hexa-codex/experiments/ai-efficiency/`
   - Pre-canon SHA: `canon@93e6ef4c` (recovery via `git log --diff-filter=D --follow`).
 
+## Wave 3 — 2026-05-11 (canon infrastructure → nexus/canon-infra/)
+
+Total moved: **1,808 files** (1,457 tracked) → **1 repo** (`nexus`).
+
+Bulk move of canon runtime infrastructure into a single sub-tree under nexus,
+co-locating canon's tooling/state/scanners with its natural consumer (the
+nexus universal discovery engine).
+
+Pre-canon SHA: `canon@2ad85661` · Post-nexus SHA: `nexus@cf6be439`.
+
+**Directories (16)** → `nexus/canon-infra/<same name>/`:
+- `engine/` (19), `scanners/` (50), `canonshared/` (45), `canon_meta/` (6),
+- `bridge/` (31), `convergence/` (1), `hooks/` (1), `tool/` (70),
+- `tools/` (4), `shared/` (1), `scripts/` (26), `design/` (114),
+- `state/` (1053), `raw_archive/` (11), `bin/` (6), `config/` (9).
+
+**Root files (8)**:
+- `INDEX.json`, `hive.json`, `loop-rules.json`, `project.hexa`,
+- `standalone_registry.toml`, `build_log.txt`, `README.md.sealed.hash`, `Makefile`.
+
+See: `nexus/canon-infra/MIGRATION_PLAN.md` for full spec including
+theory/ destination analysis (hexa-meta vs new hexa-theory) and future
+Wave candidates.
+
 ## Wave-1 table (legacy)
 
 | repo | from | item |
