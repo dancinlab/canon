@@ -20,6 +20,28 @@ Total moved: **304 files** → **1 repo** (`hexa-codex`).
 - `experiments/ai-efficiency/` (62 files, `.hexa` verification experiments) → `hexa-codex/experiments/ai-efficiency/`
   - Pre-canon SHA: `canon@93e6ef4c` (recovery via `git log --diff-filter=D --follow`).
 
+## Wave 4 — 2026-05-11 (theory + formal/lean4 → hexa-meta)
+
+Total moved: **260 files** → **1 repo** (`hexa-meta`).
+
+n=6 timeless theory layer absorbed into hexa-meta — the 'meta' member
+of the HEXA family already housing meta-theorems, self-architecture
+papers, proof-cert chains, and discovery tooling.
+
+- `theory/breakthroughs/` (6) → `hexa-meta/breakthroughs/`
+- `theory/constants/` (5) → `hexa-meta/constants/`
+- `theory/flow/` (4) → `hexa-meta/flow/`
+- `theory/predictions/` (117) → `hexa-meta/predictions/`
+- `theory/preprints/` (1) → `hexa-meta/preprints/`
+- `theory/roadmap-v2/` (65) → `hexa-meta/roadmap-v2/`
+- `theory/roadmap-v3/` (3) → `hexa-meta/roadmap-v3/`
+- `theory/study/` (48) → `hexa-meta/study/`
+- `theory/_index.json` → `hexa-meta/_theory_index.json`
+- `formal/lean4/` (10 .lean + lakefile + toolchain + README) → `hexa-meta/formal/lean4/`
+
+`.olean` compiled artifacts excluded (regenerable).
+Pre-canon SHA: `canon@50e6f679` · Post-hexa-meta SHA: `hexa-meta@e954dbe`.
+
 ## Wave 3 — 2026-05-11 (canon infrastructure → nexus/canon-infra/)
 
 Total moved: **1,808 files** (1,457 tracked) → **1 repo** (`nexus`).
