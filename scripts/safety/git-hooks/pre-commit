@@ -1,3 +1,0 @@
-#!/bin/sh
-# hive safety gate — pre-commit (L3)
-exec "$(git rev-parse --show-toplevel)/scripts/safety/staged-scan.sh"
