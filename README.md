@@ -51,23 +51,23 @@
 
 ---
 
-## 📚 Domain showcase — richest doc per domain (mk1 source)
+## 📚 Domain showcase — largest doc per domain (full history)
 
-> One showcase document per canonical domain, restored from the `mk1` branch.
+> One showcase document per canonical domain — the most voluminous version across canon's entire git history.
 
-- 🛸 [SF-UFO.md](SF-UFO.md) — Hexa-UFO (96 KB)
-- 🧠 [COGNITIVE.md](COGNITIVE.md) — AI training cost (88 KB)
-- 🐾 [PETS.md](PETS.md) — Cat food (81 KB)
-- 💻 [COMPUTE.md](COMPUTE.md) — Hexa-neuromorphic (80 KB)
-- 🏗️ [INFRA.md](INFRA.md) — LoRa mesh learning terminal (76 KB)
-- 🌿 [LIFE.md](LIFE.md) — Biochar dryland restoration (74 KB)
-- ⚡ [ENERGY.md](ENERGY.md) — AMD-REE mineshaft PHES (67 KB)
-- 📱 [APPS.md](APPS.md) — Hexa main-character (65 KB)
-- ⚛️ [PHYSICS.md](PHYSICS.md) — Cosmology (52 KB)
-- 🚀 [SPACE.md](SPACE.md) — Hexa-starship (50 KB)
-- 🧬 [BIOLOGY.md](BIOLOGY.md) — Hexa-virocapsid (41 KB)
-- 🧪 [MATERIALS.md](MATERIALS.md) — Ceramics (29 KB)
-- 🎭 [CULTURE.md](CULTURE.md) — Religion & mythology (18 KB)
+- 🧪 [MATERIALS.md](MATERIALS.md) — Paper archive index (2.5 MB)
+- 💻 [COMPUTE.md](COMPUTE.md) — Chip architecture (2.3 MB)
+- ⚡ [ENERGY.md](ENERGY.md) — Room-temp superconductor (1.1 MB)
+- 🏗️ [INFRA.md](INFRA.md) — Carbon capture (1.0 MB)
+- ⚛️ [PHYSICS.md](PHYSICS.md) — Plasma physics (504 KB)
+- 🎭 [CULTURE.md](CULTURE.md) — Audio (291 KB)
+- 🚀 [SPACE.md](SPACE.md) — Aerospace (269 KB)
+- 🌿 [LIFE.md](LIFE.md) — Biology (202 KB)
+- 🧠 [COGNITIVE.md](COGNITIVE.md) — KSTAR-N6 tokamak design (189 KB)
+- 🛸 [SF-UFO.md](SF-UFO.md) — Hypotheses (120 KB)
+- 🐾 [PETS.md](PETS.md) — Cat food (80 KB)
+- 📱 [APPS.md](APPS.md) — Hexa main-character (64 KB)
+- 🧬 [BIOLOGY.md](BIOLOGY.md) — Hexa-virocapsid (40 KB)
 
 ---
 
