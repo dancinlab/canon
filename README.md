@@ -46,59 +46,11 @@
 
 [![Join our Discord](https://invidget.switchblade.xyz/mYzqYr67R)](https://discord.gg/mYzqYr67R)
 
-Live research discussion, paper drops, stage-gate reviews, cross-project dispatch.
-
 <!-- private repos는 projects.json의 private_repos 필드에 저장됨 (노출 금지) -->
 <!-- SHARED:PROJECTS:END -->
 
-
-
-
-
-<!-- AUTO:STATS:START -->
-```
-  AI techniques:    17
-  DSE domains:      381
-  DSE paths:        5,893,032+
-  NEXUS tests:    1116
-```
-<!-- AUTO:STATS:END -->
-
 ---
 
-## Grading rubric (dual axis)
-
-Full rubric: [canonshared/GRADE_RUBRIC_1_TO_10PLUS.md](canonshared/GRADE_RUBRIC_1_TO_10PLUS.md) (shared with nexus).
-
-- **🛸 alien_index (1–13+)** — product maturity. `10` = physical-limit reproduction; `13+` = civilization-scale infrastructure.
-- **closure_grade (1–13+)** — mathematical closure to n = 6. `10` = EXACT closure from n=6 primitives; `13+` = meta² closure generator.
-
-The two axes are independent: alien_index measures product maturity; closure_grade measures mathematical quality of the derivation.
-
----
-
-## Install
-
-```bash
-# Install hexa-lang (ships `hexa` + `hx` package manager)
-curl -fsSL https://raw.githubusercontent.com/dancinlab/hexa-lang/main/install.sh | bash
-
-# Install n6
-hx install n6
-```
-
-## Run
-
-```bash
-n6                      # show all domain sections with summary
-n6 domain <id>          # open a specific domain (fusion / chip / ai / ...)
-n6 dse <domain>         # run design-space exploration for a domain
-n6 calc <expr>          # evaluate an n=6 arithmetic expression
-n6 verify               # full-verify all BT claims (EXACT check)
-n6 map                  # open the 3D Reality Map (4,098 nodes)
-```
-
----
 
 # 🔥 Fusion
 
