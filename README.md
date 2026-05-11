@@ -51,21 +51,23 @@
 
 ---
 
-## 📚 Domain papers — longest archived paper per domain
+## 📚 Domain showcase — richest doc per domain (mk1 source)
 
-> Pre-reorganization versions restored from canon history (richest content per domain).
+> One showcase document per canonical domain, restored from the `mk1` branch.
 
-- 🧪 [MATERIALS.md](MATERIALS.md) — Ultimate superconductor integrated paper (95 KB)
-- 🚀 [SPACE.md](SPACE.md) — Aerospace & transport paper (89 KB)
-- 💻 [COMPUTE.md](COMPUTE.md) — Hexa-chip 7-dan integrated paper (84 KB)
-- 🧠 [COGNITIVE.md](COGNITIVE.md) — Cognitive social psychology paper (84 KB)
-- 🧬 [BIOLOGY.md](BIOLOGY.md) — Therapeutic nanobot paper (79 KB)
-- 🌿 [LIFE.md](LIFE.md) — Ecology, agriculture & food paper (70 KB)
-- ⚛️ [PHYSICS.md](PHYSICS.md) — Moonshine barrier honest report (66 KB)
-- 📱 [APPS.md](APPS.md) — Autonomous driving paper (58 KB)
-- 🎭 [CULTURE.md](CULTURE.md) — Calendar, time & geography paper (55 KB)
-- 🏗️ [INFRA.md](INFRA.md) — n=6 convergence across 80 domains (46 KB)
-- ⚡ [ENERGY.md](ENERGY.md) — Battery & energy storage paper (38 KB)
+- 🛸 [SF-UFO.md](SF-UFO.md) — Hexa-UFO (96 KB)
+- 🧠 [COGNITIVE.md](COGNITIVE.md) — AI training cost (88 KB)
+- 🐾 [PETS.md](PETS.md) — Cat food (81 KB)
+- 💻 [COMPUTE.md](COMPUTE.md) — Hexa-neuromorphic (80 KB)
+- 🏗️ [INFRA.md](INFRA.md) — LoRa mesh learning terminal (76 KB)
+- 🌿 [LIFE.md](LIFE.md) — Biochar dryland restoration (74 KB)
+- ⚡ [ENERGY.md](ENERGY.md) — AMD-REE mineshaft PHES (67 KB)
+- 📱 [APPS.md](APPS.md) — Hexa main-character (65 KB)
+- ⚛️ [PHYSICS.md](PHYSICS.md) — Cosmology (52 KB)
+- 🚀 [SPACE.md](SPACE.md) — Hexa-starship (50 KB)
+- 🧬 [BIOLOGY.md](BIOLOGY.md) — Hexa-virocapsid (41 KB)
+- 🧪 [MATERIALS.md](MATERIALS.md) — Ceramics (29 KB)
+- 🎭 [CULTURE.md](CULTURE.md) — Religion & mythology (18 KB)
 
 ---
 
