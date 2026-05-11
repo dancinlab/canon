@@ -20,6 +20,34 @@ Total moved: **304 files** → **1 repo** (`hexa-codex`).
 - `experiments/ai-efficiency/` (62 files, `.hexa` verification experiments) → `hexa-codex/experiments/ai-efficiency/`
   - Pre-canon SHA: `canon@93e6ef4c` (recovery via `git log --diff-filter=D --follow`).
 
+## Wave 5 — 2026-05-11 (domain-tied residue → 14 hexa-* / anima)
+
+Total moved: **112 files** → **14 repos**.
+
+| Repo | Source(s) | Count |
+|---|---|---:|
+| `hexa-chip` | `experiments/chip-verify/*` (27 chip-only) + `proposals/samsung-foundry-hexa-6stage.md` + `reports/discovery/chip-architecture-guide.md` | 29 |
+| `anima` | `experiments/chip-verify/verify_anima_soc.hexa` + `reports/discovery/consciousness-cluster-bt.md` + `reports/breakthroughs/consciousness-triple-fusion-2026-04-15.md` | 3 |
+| `hexa-aura` | `experiments/chip-verify/verify_bci_6ch_n6.hexa` | 1 |
+| `hexa-senses` | `experiments/chip-verify/n6_speak_integration_bench.{hexa,_report.md}` | 2 |
+| `hexa-codex` | 6 LLM/AI `reports/discovery/` (LLM-001-018, LLM-DEEP, ai-algorithm-new-hypotheses, ai-energy-savings-guide, llm-improvement-new-hypotheses, n6-optimal-llm-spec) | 6 |
+| `hexa-bio` | 57× `proposals/hexa(_\|-)weave_*` + `bt-1387-huckel-aromatic` + `bt-1391-photosynthesis-equation` | 59 |
+| `hexa-cern` | `bt-1176-nuclear-reactor-kinetics` + `bt-1386-standard-model` | 2 |
+| `hexa-rtsc` | `bt-1163-1168-superconductor-v5` | 1 |
+| `hexa-fusion` | `bt-1169-1174-fusion-v5` | 1 |
+| `hexa-cosmos` | `bt-1108-dimensional-perception` | 1 |
+| `hexa-matter` | `bt-1388-ionic-octahedral` | 1 |
+| `hexa-arts` | `bt-1390-hsv-color-hexad` | 1 |
+| `hexa-millennium` | `bt-1392-millennium-7-breakthrough-ideas` | 1 |
+| `hexa-forge` | `forge-triple-fusion` | 1 |
+| `hexa-meta` | `bt-1389-cube-octahedron-duality` (math/geometry) | 1 |
+
+Pre-canon SHA: `canon@ceced262`.
+
+**Kept in canon** (uncertain placement, see MIGRATION_PLAN §7.4):
+- `proposals/{cat_litter_mk2_trial,critical-mineral-conflict-arbitration,kim-sangwook-quantum,own1-hard-english-only-translation,yoo-hyunjun-architecture,sod-youtube,south-africa-applied-tech,south-africa-tech-stack,kolon-materials-z6}.md`
+- `reports/breakthroughs/bt-1175-water-treatment-2026-04-12.md` (uncertain hexa-earth?)
+
 ## Wave 4 — 2026-05-11 (theory + formal/lean4 → hexa-meta)
 
 Total moved: **260 files** → **1 repo** (`hexa-meta`).
