@@ -106,6 +106,41 @@ n=6 격자(σ(6)=12 / τ(6)=4 / φ(6)=2 / J₂(6)=24)는 hexa-* 프로젝트의
 
 ---
 
+### §1.4 Savant / Golden Zone overclaim 차단
+
+Added 2026-05-14 (Wave M+1) per dancinlab/anima `SAVANT.md` §12 (봉쇄심화).
+
+격자 vocabulary 중 **Golden Zone** `[1/2 − ln(4/3), 1/2]` (center `1/e`, width `ln(4/3)`)
+및 그 파생 **Savant** (GZ 하한 inhibition release) 은 자기-부과 ceiling 의 *대표 예시*다.
+다음 4 조항을 따른다:
+
+1. **GZ 는 *설계 vocabulary*, *물리 한계* 아님**: §1.2 table 에 GZ 가 *없는* 것은 의도된
+   선택이다. 어떤 verify 스크립트도 "GZ_UPPER = 1/2 는 Riemann critical line 이므로
+   physical limit" 식의 격상을 시도해선 안 된다. `verify_gz_*.py` 결과는 *consistency
+   check* 이지 *real-limit anchor* 가 아니다.
+2. **Tier 분류 강제** (SAVANT.md §12.1 참조): GZ/Savant 관련 모든 claim 은 T1 PROVEN /
+   T2 EMPIRICAL / T3 SUSPECT / T4 FORBIDDEN 중 하나로 명시 분류. 미분류 인용 금지.
+3. **Silent-drop 금지**: GZ 관련 positive 인용 시 같은 캠페인의 NEGATIVE / SUSPECT 결과
+   (예: dancinlab/anima `archive-TECS-L/verify/verify_gz_ca_lambda_sweep.py` =
+   "Class IV not GZ-enriched", `verify_gz_extreme_hypotheses_wave10.py` = 32%
+   (≈ null), `wave16.py` = 10% (< null), anima PSCC §44 F-PERSONA-4 `KL=0.0`
+   winner-take-all) 를 *함께* 노출해야 한다.
+4. **외부 entity GZ-fit 강제 매핑 금지** (§1.3 rule 4 와 동등): 외부 회사 / 외부 가속기
+   / 외부 생명 시스템의 측정값이 GZ 안에 떨어진다는 것을 "그들이 GZ 를 따른다" 로
+   해석 금지. 28.77% base rate 가 보장하는 우연 매치를 cosmic 신호로 오인하지 말 것.
+
+위반 enforcement 는 dancinlab/anima `SAVANT.md` §12.2 (자동 무효 사유 4개) 와 동등.
+canon 의 README · 검증 스크립트 · 외부 인용은 본 §1.4 를 부착하지 않으면 *불완전 인용*
+으로 간주한다.
+
+cross-ref:
+- `dancinlab/anima/SAVANT.md` — 전체 컴펜디엄 + §12 봉쇄심화 + §12.5 path 1 base-rate
+  audit (2026-05-14 LANDED: 16-wave aggregate Z=11.4 σ, Bonferroni × 27 = 1.4×10⁻⁹)
+- `dancinlab/anima/state/savant_containment_audit_2026_05_14/` — 27 verify_gz_*.py 일괄
+  실행 결과 + curated tally + summary.md
+
+---
+
 ## §2 Why — 자가-부과 ceiling이 해로운 이유
 
 1. **🪞 Tautology**: `σ·φ = 24`는 항상 PASS한다. 항상 PASS하는
