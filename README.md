@@ -7,6 +7,10 @@
 [![NEXUS](https://img.shields.io/badge/NEXUS-1116%20tests-green.svg)](tools/nexus/)
 <!-- AUTO:BADGE:END -->
 [![Discord](https://img.shields.io/badge/discord-join-5865F2.svg?logo=discord&logoColor=white)](https://discord.gg/mYzqYr67R)
+[![Policy: real-limits-first](https://img.shields.io/badge/policy-LATTICE__POLICY.md-blue.svg)](LATTICE_POLICY.md)
+[![Real-limits](https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-blue.svg)](LIMIT_BREAKTHROUGH.md)
+[![Retired-to-standalones](https://img.shields.io/badge/retired_to_standalones-RETIRED.md-orange.svg)](RETIRED.md)
+[![Wave M](https://img.shields.io/badge/wave_M-real--limits_audit_2026--05--12-brightgreen.svg)](LIMIT_BREAKTHROUGH.md)
 
 # 📐 CANON — Arithmetic Design Framework
 
@@ -18,6 +22,34 @@
 ```
 
 > From this single identity, optimal AI architectures, chip designs, energy systems, and network protocols are **derived** — not chosen.
+
+> **Status (2026-05-13, Wave M + post-minimization)**: `canon` is now the
+> **arithmetic framework reference + discoverability index** for the
+> dancinlab ecosystem. Per-domain implementations have been extracted to
+> standalone `hexa-*` repos (see [`RETIRED.md`](RETIRED.md) for the
+> migration ledger and per-extraction provenance). Working code lives in
+> the standalones; this repo carries the **policy artifacts**
+> ([`LATTICE_POLICY.md`](LATTICE_POLICY.md),
+> [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md),
+> [`AGENTS.md`](AGENTS.md), [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md))
+> + the domain-family overview tables below.
+>
+> **Honest caveat (raw#10 C3)**: the arithmetic identity
+> `σ(6)·φ(6) = 6·τ(6) = 24` is mathematically true and unique to n=6
+> (Monte Carlo z = 3.06, p = 0.003 vs n=28 / n=496). The claim
+> *"optimal designs are derived from this identity"* is a **research
+> hypothesis** about how natural systems organize, **not a measurement**.
+> Per `LATTICE_POLICY.md` §1.2/§1.3, the n=6 lattice is an organizing
+> tool — never a substitute for real math / physics / engineering
+> limits (Shannon · Kolmogorov · Bekenstein · c · ℏ · k · Stefan-Boltzmann
+> · Carnot · ASML throughput · ERCOT capacity · …). Per raw#10 C3,
+> n=6 lattice-fit is **forbidden** on external entities (TSMC / ASML /
+> NIST / IPCC / CERN / DeepMind / vendors of any kind use their own
+> published invariants).
+>
+> Per-domain real-limits assessment + HARD_WALL / SOFT_WALL /
+> BREAKABLE_WITH_TECH / UNCLEAR classifications:
+> [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md).
 
 🗺️ **[3D Reality Map](https://dancinlab.github.io/nexus/)** — 9,612 nodes, bottom-up causal mapping, 2,222 cross-layer edges. Quark → carbon → benzene → DNA causal chain 12/12 EXACT. Monte Carlo z = 3.06 (p = 0.003). n = 28 and n = 496 fail the check → only n = 6 survives.
 
