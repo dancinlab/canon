@@ -35,7 +35,6 @@ lattice-fit assertions. Use that entity's *own* invariants.
 
 ## 🛠️ Commit conventions
 
-- Author: `박민우 <nerve011235@gmail.com>`
 - Trailer: `Co-Authored-By: <model> <noreply@anthropic.com>` (when AI-assisted)
 - Title format: `<type>(<scope>): <one-line summary>` per Conventional Commits
 - Body: bullet list of file changes + honesty caveats
