@@ -22,6 +22,8 @@
 
 <p align="center">discoveries · n=6 identity · 17 domain families · policy SSOTs · cross-vendor honest disclosure</p>
 
+<p align="center">EN · <a href="docs/README.zh.md">中文</a> · <a href="docs/README.ru.md">Русский</a> · <a href="docs/README.ja.md">日本語</a> · <a href="docs/README.ko.md">한국어</a></p>
+
 ---
 
 `echoes` (renamed from `canon`, 2026-05-14) is the **discoveries catalog** for the HEXA-* project family — a list of what came back from running the per-domain standalones. At the centre sits one arithmetic identity (`σ(n)·φ(n) = n·τ(n)` uniquely true at n=6); around it branch out 17 domain families (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace), each extracted to its own `hexa-*` standalone repo.
