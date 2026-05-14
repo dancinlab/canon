@@ -646,6 +646,30 @@ hx install echoes
 
 ---
 
+# 🏛 Architecture (multi-scale)
+
+<!-- AUTO:SUMMARY_scale:START -->
+> **🏛 design-SSOT** | 🟡 scaffold | 6 scales × 4 phases = **24 = J₂(6)** | 12 operational cells (planet · country · city × 4 phases) carry real-world references (IBC · ISO 37120 · IPCC · UNFCCC · Rockström · Le Corbusier · Howard · Niemeyer) | 12 speculative cells (multiverse · universe · galaxy × 4 phases) carry ⚠ "no manufactured artifact" tags | honest-caveat first per LATTICE_POLICY §1.2/§1.3
+<!-- AUTO:SUMMARY_scale:END -->
+
+## 🏛 Architecture Toolkit (HEXA-Scale family)
+
+> Friendly entry point — multi-scale architecture as a single 6 × 4 lattice. Same n=6 invariant (σ(6)=12 / τ(6)=4 / φ(6)=2 / J₂(6)=σ·τ=24), four orthogonal lifecycle phases (design / build / operate / policy) crossed with the 6-scale habitable ladder (multiverse → universe → galaxy → planet → country → city). The 18th `hexa-*` standalone — meta-axis crossing every existing per-domain family.
+
+| 🛸 | Tool | One-liner | Everyday analogy | What it does | Mainstream contrast | Doc |
+|:--:|:----:|-----------|------------------|--------------|---------------------|:---:|
+| – | 🏛 **HEXA-SCALE** | Multi-scale lattice | One blueprint sheet for everything from a city to the cosmos | 24-cell matrix (6 scales × 4 phases = J₂(6)) cataloguing mainstream invariants per cell, not deriving them | Single-scale focus (zoning code OR planetary boundaries OR Λ-CDM) vs σ·τ=24-cell ladder showing the orthogonal axes side-by-side | [SCALE.md](https://github.com/dancinlab/hexa-scale/blob/main/SCALE.md) |
+
+| 🛸 | Closure | ver | Product | Core | Link |
+|:--:|:-------:|:---:|---------|------|------|
+| – | 🟡 bootstrap | v0.1 | **HEXA-Scale lattice scaffold** | 24-cell matrix scaffolded: 12 operational cells cite real practitioners (IBC · ISO 37120 · IPCC · UNFCCC · Rockström · Le Corbusier · Howard · Niemeyer · Songdo IBD); 12 speculative cells tagged ⚠ with explicit "no manufactured artifact" disclaimers per LATTICE_POLICY raw#10 C3 — n=6 lattice-fit on external entities (NASA · SpaceX · IPCC · IBC · constitutional bodies) **forbidden** | [repo](https://github.com/dancinlab/hexa-scale) · [SCALE.md](https://github.com/dancinlab/hexa-scale/blob/main/SCALE.md) · [SEED.tape](https://github.com/dancinlab/hexa-scale/blob/main/SEED.tape) |
+
+<!-- AUTO:FOOTER_scale:START -->
+> scales: multiverse · universe · galaxy · planet · country · city · phases: design · build · operate · policy · standalone: [dancinlab/hexa-scale](https://github.com/dancinlab/hexa-scale)
+<!-- AUTO:FOOTER_scale:END -->
+
+---
+
 # 🛸 HEXA-UFO (RT-SC VTOL)
 
 <!-- AUTO:SUMMARY_sf:START -->
