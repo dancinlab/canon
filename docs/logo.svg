@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140">
+  <!-- echoes signature — a mirror reflecting many HEXA-* discoveries back -->
+  <g stroke="#bf8700" stroke-width="2.5" fill="none">
+    <!-- hexagonal mirror frame -->
+    <polygon points="70,12 122,40 122,100 70,128 18,100 18,40" stroke-linejoin="round"/>
+    <!-- inner mirror surface (slightly recessed hex) -->
+    <polygon points="70,22 113,46 113,94 70,118 27,94 27,46" stroke-linejoin="round" stroke-width="1.5"/>
+    <!-- reflected rays — multiple beams converging toward the centre then radiating -->
+    <line x1="70" y1="36"  x2="70" y2="104"/>
+    <line x1="36" y1="56"  x2="104" y2="84"/>
+    <line x1="36" y1="84"  x2="104" y2="56"/>
+    <!-- centre node (the σφτ identity at the heart) -->
+    <circle cx="70" cy="70" r="6" fill="#bf8700" stroke="none"/>
+    <!-- σ(6)·φ(6) = 6·τ(6) compact label below -->
+    <text x="70" y="58" text-anchor="middle" font-family="ui-monospace, monospace" font-size="8" fill="#bf8700" stroke="none">σφ=nτ</text>
+  </g>
+</svg>

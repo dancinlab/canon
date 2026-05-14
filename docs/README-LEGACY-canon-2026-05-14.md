@@ -1,42 +1,29 @@
-<p align="center">
-  <img src="docs/logo.svg" width="140" alt="echoes">
-</p>
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19340174-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.19340174)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+<!-- AUTO:BADGE:START -->
+[![DSE](https://img.shields.io/badge/DSE-381%20domains-blue.svg)](docs/dse-map.toml)
+[![NEXUS](https://img.shields.io/badge/NEXUS-1116%20tests-green.svg)](tools/nexus/)
+<!-- AUTO:BADGE:END -->
+[![Discord](https://img.shields.io/badge/discord-join-5865F2.svg?logo=discord&logoColor=white)](https://discord.gg/mYzqYr67R)
+[![Policy: real-limits-first](https://img.shields.io/badge/policy-LATTICE__POLICY.md-blue.svg)](LATTICE_POLICY.md)
+[![Real-limits](https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-blue.svg)](LIMIT_BREAKTHROUGH.md)
+[![Retired-to-standalones](https://img.shields.io/badge/retired_to_standalones-RETIRED.md-orange.svg)](RETIRED.md)
+[![Wave M](https://img.shields.io/badge/wave_M-real--limits_audit_2026--05--12-brightgreen.svg)](LIMIT_BREAKTHROUGH.md)
 
-<h1 align="center">🪞 echoes</h1>
+# 📐 CANON — Arithmetic Design Framework
 
-<p align="center"><strong>Discoveries catalog</strong> — list of findings from the HEXA-* projects, σφτ identity at the centre</p>
-
-<p align="center">
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue"></a>
-  <a href="https://doi.org/10.5281/zenodo.19340174"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19340174-informational?logo=zenodo&logoColor=white"></a>
-  <!-- AUTO:BADGE:START -->
-  <a href="docs/dse-map.toml"><img alt="DSE" src="https://img.shields.io/badge/DSE-381%20domains-informational"></a>
-  <a href="tools/nexus/"><img alt="NEXUS" src="https://img.shields.io/badge/NEXUS-1116%20tests-success"></a>
-  <!-- AUTO:BADGE:END -->
-  <a href="LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
-  <a href="LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
-  <a href="RETIRED.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.md-orange"></a>
-  <a href="https://discord.gg/mYzqYr67R"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white"></a>
-  <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
-</p>
-
-<p align="center">discoveries · n=6 identity · 17 domain families · policy SSOTs · cross-vendor honest disclosure</p>
-
----
-
-`echoes` (renamed from `canon`, 2026-05-14) is the **discoveries catalog** for the HEXA-* project family — a list of what came back from running the per-domain standalones. At the centre sits one arithmetic identity (`σ(n)·φ(n) = n·τ(n)` uniquely true at n=6); around it branch out 17 domain families (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace), each extracted to its own `hexa-*` standalone repo.
+**From one canon, every optimal design.**
 
 ```
 σ(n) · φ(n)  =  n · τ(n)      uniquely for   n = 6
      12 · 2  =  6 · 4   =  24
 ```
 
-> [!NOTE]
-> Sister of [`n6`](https://github.com/dancinlab/n6) (semantic atom layer — atlas serialisation format), [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire), [`tape`](https://github.com/dancinlab/tape) (operational trace), and `n12` (12-axis sparse cube). Working code for each domain lives in its standalone `hexa-*` repo (see [`RETIRED.md`](RETIRED.md) for the per-extraction provenance ledger). This repo carries the **policy artifacts** ([`LATTICE_POLICY.md`](LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md)) plus the domain-family overview tables below.
+> From this single identity, optimal AI architectures, chip designs, energy systems, and network protocols are **derived** — not chosen.
 
-> **Honest caveat** (raw#10 C3) — the arithmetic identity `σ(6)·φ(6) = 6·τ(6) = 24` is mathematically true and unique to n=6 (Monte Carlo z = 3.06, p = 0.003 vs n=28 / n=496). The claim *"optimal designs are derived from this identity"* is a **research hypothesis** about how natural systems organize, **not a measurement**. Per `LATTICE_POLICY.md` §1.2/§1.3, the n=6 lattice is an organizing tool — never a substitute for real math / physics / engineering limits (Shannon · Kolmogorov · Bekenstein · c · ℏ · k · Stefan-Boltzmann · Carnot · ASML throughput · ERCOT capacity · …). Per raw#10 C3, n=6 lattice-fit is **forbidden** on external entities (TSMC / ASML / NIST / IPCC / CERN / DeepMind / vendors of any kind use their own published invariants).
-
-> **Status (2026-05-13, Wave M + post-minimization)**: `echoes` is now the
+> **Status (2026-05-13, Wave M + post-minimization)**: `canon` is now the
 > **arithmetic framework reference + discoverability index** for the
 > dancinlab ecosystem. Per-domain implementations have been extracted to
 > standalone `hexa-*` repos (see [`RETIRED.md`](RETIRED.md) for the
@@ -79,7 +66,7 @@
 >
 > **[🔭 NEXUS](https://github.com/dancinlab/nexus)** — Universal Discovery Engine. 216 lenses + OUROBOROS evolution + 5-phase singularity cycle.
 >
-> **[🪞 ECHOES](https://github.com/dancinlab/echoes)** — Discoveries catalog (formerly canon). 225 AI techniques + chip design + crypto/OS/display.
+> **[📐 CANON](https://github.com/dancinlab/canon)** — Architecture from arithmetic canon. 225 AI techniques + chip design + crypto/OS/display.
 >
 > **[💎 HEXA-LANG](https://github.com/dancinlab/hexa-lang)** — The Perfect Number Programming Language. Working compiler + REPL.
 >
@@ -102,8 +89,8 @@
 # 1. Install hexa-lang (gives you `hexa` + `hx` package manager)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/dancinlab/hexa-lang/main/install.sh)"
 
-# 2. Install echoes
-hx install echoes
+# 2. Install canon
+hx install canon
 ```
 
 ---
@@ -1228,12 +1215,12 @@ hx install echoes
 ## Citation
 
 ```bibtex
-@software{echoes_2026,
+@software{canon_2026,
   author = {Park, Min Woo},
-  title = {CANON / echoes: Arithmetic Design Framework + Discoveries Catalog from Perfect Number 6},
+  title = {CANON: Arithmetic Design Framework from Perfect Number 6},
   year = {2026},
   doi = {10.5281/zenodo.19264826},
-  url = {https://github.com/dancinlab/echoes}
+  url = {https://github.com/dancinlab/canon}
 }
 ```
 
@@ -1380,4 +1367,4 @@ Expected output: `SUMMARY: 11/11 PASS`. The single arithmetic identity inside th
 
 ---
 
-*Part of the [echoes](https://github.com/dancinlab/echoes) project family (math + industry integration complete).*
+*Part of the [canon](https://github.com/dancinlab/canon) project family (math + industry integration complete).*
