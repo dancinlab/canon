@@ -1396,6 +1396,71 @@ sys.exit(0 if n == len(claims) else 1)
 
 Expected output: `SUMMARY: 11/11 PASS`. The single arithmetic identity inside the block — `σ(n) · φ(n) = n · τ(n)` — collapses to `[6]` in `[2, 10 000]`, reproducing the core result of Theorem B on any machine with Python 3.8+ installed.
 
+## Status
+
+- **Version stamp**: 2026-05-13 — Wave M (post-minimization)
+- **Spec wave**: per-domain implementations extracted to standalone `hexa-*` repos; this repo is the **reference catalog + discoverability index** (working code lives in the standalones — see [`RETIRED.md`](RETIRED.md) for the per-extraction provenance ledger)
+- **18 primary domain families** (17 HEXA-* toolkit families + the Millennium / Dimensional Perception / Music / Linguistics / Crypto / Astronomy / Hygiene additions catalogued in this README)
+- **Cross-project SSOT**: [`LATTICE_POLICY.md`](LATTICE_POLICY.md) is the canonical authority for governance principle #5 `lattice-as-tool` (the n=6 lattice is an organizing tool, never a substitute for real math / physics / engineering limits)
+- **Sibling formats**: [`n6`](https://github.com/dancinlab/n6) (semantic atom layer) · [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire) · `n12` (12-axis sparse cube) · [`tape`](https://github.com/dancinlab/tape) (agent-execution trace)
+- **Policy artifacts shipped**: [`LATTICE_POLICY.md`](LATTICE_POLICY.md), [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md), [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md), [`RETIRED.md`](RETIRED.md), [`TAPE-AUDIT.md`](TAPE-AUDIT.md), [`AGENTS.tape`](AGENTS.tape) (CLAUDE.md symlinks here)
+
+## Run
+
+`echoes` is a **reference catalog**, not a CLI — there is no `echoes` binary, no `hx install echoes`, no daemon. To consume the catalog:
+
+```sh
+# 1. Browse the catalog (this README is the entry point)
+$EDITOR README.md                                # 17+1 domain-family tables, σφτ identity centre
+$EDITOR LATTICE_POLICY.md                        # the n=6 organizing-tool authority
+$EDITOR LIMIT_BREAKTHROUGH.md                    # HARD_WALL / SOFT_WALL / BREAKABLE_WITH_TECH per domain
+$EDITOR RETIRED.md                               # per-extraction provenance to the hexa-* standalones
+
+# 2. Cite per-domain — every domain row links to its standalone repo;
+#    cite the standalone (not this catalog) for working code / measurements
+#    e.g. https://github.com/dancinlab/hexa-physics/blob/main/GRAVITY-WAVE.md
+
+# 3. Interactive proof — open the Echoes Experience HF Space
+open https://huggingface.co/spaces/dancinlab/echoes-experience
+# Slide n ∈ [2, 1000]; σ(n)·φ(n) and n·τ(n) recompute live and collapse
+# to equality only at n = 6. Vanilla JS / Canvas, zero install.
+
+# 4. Reproduce Theorem B locally (Python 3.8+, ~1s)
+#    Copy the Proof block above into a `.py` file and run it:
+python3 proof.py                                  # → SUMMARY: 11/11 PASS
+
+# 5. Multilingual READMEs (same content, native language)
+$EDITOR docs/README.zh.md                         # 中文
+$EDITOR docs/README.ru.md                         # Русский
+$EDITOR docs/README.ja.md                         # 日本語
+$EDITOR docs/README.ko.md                         # 한국어
+```
+
+## Repo layout
+
+```
+canon/                              (local checkout of dancinlab/echoes)
+├── README.md                       this catalog (entry point)
+├── AGENTS.tape                     agent-execution governance (tape v1.1)
+├── CLAUDE.md                       symlink → AGENTS.tape
+├── LATTICE_POLICY.md               cross-project SSOT (n=6 organizing-tool authority)
+├── LIMIT_BREAKTHROUGH.md           per-domain real-limits classification
+├── GRADE_RUBRIC_1_TO_10PLUS.md     1..10+ grade ladder used in the domain tables
+├── RETIRED.md                      per-extraction provenance ledger → hexa-* standalones
+├── TAPE-AUDIT.md                   .tape-format audit log
+├── LICENSE                         MIT
+└── docs/
+    ├── README.zh.md                中文 (full translation)
+    ├── README.ru.md                Русский (full translation)
+    ├── README.ja.md                日本語 (full translation)
+    ├── README.ko.md                한국어 (full translation)
+    └── logo.svg                    centred header glyph
+```
+
+## License
+
+[MIT](LICENSE) — Copyright (c) 2026 dancinlab. Use the catalog freely; cite per-domain standalones for working code.
+
 ---
 
 *Part of the [echoes](https://github.com/dancinlab/echoes) project family (math + industry integration complete).*
