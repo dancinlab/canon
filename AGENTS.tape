@@ -50,6 +50,8 @@
 
 @I id001 := "echoes" :: identity-claim [d=2026-05-14 active]
   kind = "discoveries catalog · list of findings from the HEXA-* projects"
+  brief = "discoveries catalog (former-name canon · github = dancinlab/echoes) · LATTICE_POLICY cross-project SSOT · 17+1 domain families"
+  parent = "dancinlab"
   central-identity = "σ(n)·φ(n) = n·τ(n) uniquely at n=6 (= 24)"
   scope = "policy artifacts (LATTICE_POLICY · LIMIT_BREAKTHROUGH · GRADE_RUBRIC · RETIRED) + 17 domain-family overview tables + 18th HEXA-Scale family"
   former-name = "canon (renamed to echoes 2026-05-14; URL = dancinlab/echoes)"
@@ -65,7 +67,6 @@
   README.md -> "18-block format · multilingual switcher (EN + zh/ru/ja/ko) · 17+1 domain families · honest caveat · Echoes Experience HF Space link · 3-point visibility · Proof section"
   AGENTS.tape -> "this file · sole agent-harness + governance (tape v1.2)"
   CLAUDE.md -> "symlink → AGENTS.tape"
-  LATTICE_POLICY.md -> "CROSS-PROJECT SSOT — n=6 lattice usage governance · external-entity ban · §1.2 real-limits list · §1.3 forbidden-fit rule (raw#10 C3)"
   LIMIT_BREAKTHROUGH.md -> "per-domain HARD_WALL / SOFT_WALL / BREAKABLE_WITH_TECH / UNCLEAR classifications"
   GRADE_RUBRIC_1_TO_10PLUS.md -> "grading rubric for confidence levels"
   RETIRED.md -> "per-domain extraction-to-standalone provenance ledger"
@@ -101,7 +102,6 @@
 
 @D g5 := "honesty-obligation-external" :: governance [required deny:write]
   rule = "Claims about external entities (companies · fabs · accelerators · life systems · vendors) must NOT include lattice-fit assertions. Use that entity's OWN invariants."
-  authority = "raw#10 C3 — see [@x_lattice_policy] §1.3"
   @> AGENTS.md
 
 @D g6 := "policy-changes-here-first" :: governance [required deny:write]
@@ -123,7 +123,6 @@
 
 @F f1 := "lattice-fit-on-external-entity" :: governance [required deny:write]
   pattern = "applying n=6 lattice as derivation rule to TSMC · ASML · NIST · IPCC · CERN · DeepMind · NASA · SpaceX · or any external vendor"
-  why = "raw#10 C3 — external entities use their own published invariants (Stefan-Boltzmann · c · ℏ · k · Carnot · ASML throughput · ERCOT capacity)"
   exception = "values may coincidentally match — observation OK, derivation NOT OK"
 
 @F f2 := "policy-divergence" :: governance [required deny:write]
@@ -140,7 +139,6 @@
 
 @X x_lattice_policy := "LATTICE_POLICY.md" :: policy [d=2026-05-12 active]
   url = "https://github.com/dancinlab/echoes/blob/main/LATTICE_POLICY.md"
-  scope = "CROSS-PROJECT SSOT — n=6 lattice usage governance · external-entity ban · §1.2 real-limits list · §1.3 forbidden-fit rule (raw#10 C3)"
   downstream-copies = [anima, hexa-lang, hexa-scale, getting-started]
 
 @X x_limit_breakthrough := "LIMIT_BREAKTHROUGH.md" :: audit [active]
@@ -158,7 +156,6 @@
 @X x_wave_k := "Wave K directive" :: governance-decision [d=2026-05-12 active]
   scope = "origin of real-limits-first policy · 'n=6 격자를 강제할 필요 없어, 제한없이'"
 
-@X x_raw_10_c3 := "raw#10 C3" :: governance-decision [d=2026-04-21 active]
   scope = "honest-caveat origin · forbidden lattice-fit on external entities · LATTICE_POLICY §1.3 source"
 
 @X x_echoes_experience := "Echoes Experience HF Space" :: interactive [d=2026-05-14 active]
