@@ -1223,6 +1223,10 @@ hx install echoes
 
 Any FAIL refutes the corresponding axis.
 
+> **Interactive widget** — slide `n ∈ [2, 1000]` in a browser, watch σ / φ / τ recompute live and the equation collapse to `=` only at `n = 6`:
+>
+> 🪞 [**Echoes Experience**](https://huggingface.co/spaces/dancinlab/echoes-experience) (HF Space · zero install · vanilla JS / Canvas · [source](https://github.com/dancinlab/echoes-experience))
+
 ```py
 #!/usr/bin/env python3
 """canon + NEXUS — 11 falsifiable claims. stdlib only."""
