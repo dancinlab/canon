@@ -654,11 +654,11 @@ hx install echoes
 
 ## 🏛 Architecture Toolkit (HEXA-Scale family)
 
-> Friendly entry point — multi-scale architecture as a single 6 × 4 lattice. Same n=6 invariant (σ(6)=12 / τ(6)=4 / φ(6)=2 / J₂(6)=σ·τ=24), four orthogonal lifecycle phases (design / build / operate / policy) crossed with the 6-scale habitable ladder (multiverse → universe → galaxy → planet → country → city). The 18th `hexa-*` standalone — meta-axis crossing every existing per-domain family.
+> Friendly entry point — multi-scale architecture as a single 6 × 4 lattice. Same n=6 invariants (σ(6)=12 / τ(6)=4 / φ(6)=2; central identity σ·φ = n·τ = 24; Jordan totient J₂(6) = 24), four orthogonal lifecycle phases (design / build / operate / policy) crossed with the 6-scale habitable ladder (multiverse → universe → galaxy → planet → country → city). The 18th `hexa-*` standalone — meta-axis crossing every existing per-domain family.
 
 | 🛸 | Tool | One-liner | Everyday analogy | What it does | Mainstream contrast | Doc |
 |:--:|:----:|-----------|------------------|--------------|---------------------|:---:|
-| – | 🏛 **HEXA-SCALE** | Multi-scale lattice | One blueprint sheet for everything from a city to the cosmos | 24-cell matrix (6 scales × 4 phases = J₂(6)) cataloguing mainstream invariants per cell, not deriving them | Single-scale focus (zoning code OR planetary boundaries OR Λ-CDM) vs σ·τ=24-cell ladder showing the orthogonal axes side-by-side | [SCALE.md](https://github.com/dancinlab/hexa-scale/blob/main/SCALE.md) |
+| – | 🏛 **HEXA-SCALE** | Multi-scale lattice | One blueprint sheet for everything from a city to the cosmos | 24-cell matrix (6 scales × 4 phases — coincides with σ·φ = n·τ = J₂(6) = 24) cataloguing mainstream invariants per cell, not deriving them | Single-scale focus (zoning code OR planetary boundaries OR Λ-CDM) vs 6×4 = 24-cell ladder showing the orthogonal axes side-by-side | [SCALE.md](https://github.com/dancinlab/hexa-scale/blob/main/SCALE.md) |
 
 | 🛸 | Closure | ver | Product | Core | Link |
 |:--:|:-------:|:---:|---------|------|------|
