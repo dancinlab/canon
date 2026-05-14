@@ -19,7 +19,7 @@
 
 ---
 
-`echoes` (2026-05-14 に `canon` から改名) は HEXA-* プロジェクト群の**発見カタログ** — 各ドメインのスタンドアロンリポジトリを実行して戻ってきたものの一覧です。中心には算術恒等式 (`σ(n)·φ(n) = n·τ(n)` は n=6 でのみ唯一成立) があり、その周りに 17 のドメインファミリー (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace) が分岐し、それぞれが独自の `hexa-*` スタンドアロンリポジトリに抽出されています。
+`echoes` は HEXA-* プロジェクト群の**発見カタログ** — 各ドメインのスタンドアロンリポジトリを実行して戻ってきたものの一覧です。中心には算術恒等式 (`σ(n)·φ(n) = n·τ(n)` は n=6 でのみ唯一成立) があり、その周りに 17 のドメインファミリー (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace) が分岐し、それぞれが独自の `hexa-*` スタンドアロンリポジトリに抽出されています。
 
 ```
 σ(n) · φ(n)  =  n · τ(n)      n = 6 でのみ唯一

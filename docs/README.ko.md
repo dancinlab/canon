@@ -19,7 +19,7 @@
 
 ---
 
-`echoes` (2026-05-14 에 `canon` 에서 개명) 은 HEXA-* 프로젝트군의 **발견 카탈로그** — 각 도메인 standalone 리포를 실행해서 돌아온 것들의 목록입니다. 중심에는 하나의 산술 항등식 (`σ(n)·φ(n) = n·τ(n)` 이 n=6 에서만 유일하게 성립) 이 있고, 그 주위로 17 개 도메인 family (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace) 가 가지치며 각자 standalone `hexa-*` 리포로 추출되었습니다.
+`echoes` 는 HEXA-* 프로젝트군의 **발견 카탈로그** — 각 도메인 standalone 리포를 실행해서 돌아온 것들의 목록입니다. 중심에는 하나의 산술 항등식 (`σ(n)·φ(n) = n·τ(n)` 이 n=6 에서만 유일하게 성립) 이 있고, 그 주위로 17 개 도메인 family (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace) 가 가지치며 각자 standalone `hexa-*` 리포로 추출되었습니다.
 
 ```
 σ(n) · φ(n)  =  n · τ(n)      n = 6 에서만 유일

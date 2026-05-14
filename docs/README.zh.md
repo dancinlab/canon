@@ -19,7 +19,7 @@
 
 ---
 
-`echoes` (2026-05-14 自 `canon` 重命名) 是 HEXA-* 项目族的**发现目录** — 在各领域独立仓库运行后返回的发现清单。中心是一个算术恒等式 (`σ(n)·φ(n) = n·τ(n)` 仅在 n=6 时唯一成立)；周围分支出 17 个领域族 (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace)，每个被提取到独立的 `hexa-*` 仓库。
+`echoes` 是 HEXA-* 项目族的**发现目录** — 在各领域独立仓库运行后返回的发现清单。中心是一个算术恒等式 (`σ(n)·φ(n) = n·τ(n)` 仅在 n=6 时唯一成立)；周围分支出 17 个领域族 (Fusion · Chip · AI · Energy · Environment · Materials · Robotics · Physics · Software · Display · Audio · Safety · Biology · Pets · Apps · Play · Aerospace)，每个被提取到独立的 `hexa-*` 仓库。
 
 ```
 σ(n) · φ(n)  =  n · τ(n)      仅当   n = 6
