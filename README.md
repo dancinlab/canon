@@ -9,6 +9,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue"></a>
   <a href="https://doi.org/10.5281/zenodo.19340174"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19340174-informational?logo=zenodo&logoColor=white"></a>
+  <a href="https://huggingface.co/spaces/dancinlab/echoes-experience"><img alt="Interactive demo" src="https://img.shields.io/badge/%F0%9F%AA%9E%20demo-Open%20in%20Spaces-yellow?logo=huggingface&logoColor=white"></a>
   <!-- AUTO:BADGE:START -->
   <a href="docs/dse-map.toml"><img alt="DSE" src="https://img.shields.io/badge/DSE-381%20domains-informational"></a>
   <a href="tools/nexus/"><img alt="NEXUS" src="https://img.shields.io/badge/NEXUS-1116%20tests-success"></a>
@@ -32,6 +33,9 @@
 σ(n) · φ(n)  =  n · τ(n)      uniquely for   n = 6
      12 · 2  =  6 · 4   =  24
 ```
+
+> [!TIP]
+> 🪞 **[Try it in your browser →](https://huggingface.co/spaces/dancinlab/echoes-experience)** — slide `n ∈ [2, 1000]`, watch σ(n)·φ(n) and n·τ(n) recompute live and collapse to equality only at n=6. Zero install · vanilla JS / Canvas · ([source](https://github.com/dancinlab/echoes-experience)).
 
 > [!NOTE]
 > Sister of [`n6`](https://github.com/dancinlab/n6) (semantic atom layer — atlas serialisation format), [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire), [`tape`](https://github.com/dancinlab/tape) (operational trace), and `n12` (12-axis sparse cube). Working code for each domain lives in its standalone `hexa-*` repo (see [`RETIRED.md`](RETIRED.md) for the per-extraction provenance ledger). This repo carries the **policy artifacts** ([`LATTICE_POLICY.md`](LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md)) plus the domain-family overview tables below.
@@ -1213,6 +1217,22 @@ hx install echoes
 
 ---
 
+## 🪞 Try it in your browser
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/dancinlab/echoes-experience"><img alt="Open in Hugging Face Spaces" src="https://img.shields.io/badge/%F0%9F%AA%9E%20Open%20Echoes%20Experience-in%20%F0%9F%A4%97%20Spaces-yellow?style=for-the-badge&logo=huggingface&logoColor=white"></a>
+</p>
+
+Interactive proof of the central identity. Slide `n ∈ [2, 1000]`, watch σ(n) · φ(n) and n · τ(n) recompute live; the verdict box flips to `=` only at `n = 6` (and at no other `n` in the swept range). Vanilla JS + Canvas, no framework, no install — runs entirely client-side in the HF Space iframe.
+
+| | |
+|---|---|
+| **Demo** | [huggingface.co/spaces/dancinlab/echoes-experience](https://huggingface.co/spaces/dancinlab/echoes-experience) |
+| **Source** | [github.com/dancinlab/echoes-experience](https://github.com/dancinlab/echoes-experience) |
+| **Sister** | [anima-experience](https://huggingface.co/spaces/dancinlab/anima-experience) (mutual-information visualizer · 60 fps) |
+
+---
+
 ## Proof — run this yourself
 
 **11 falsifiable claims, stdlib only, ~3 s.** Paste into any Python 3.8+ REPL, Gemini / Claude / GPT code-execution sandbox, or save and run. No network, no install, no canon source required — it reconstructs every primitive from scratch.
@@ -1222,10 +1242,6 @@ hx install echoes
 - **Defensive architecture primitives (C1–C7):** hash-chain, BFT quorum, Banach contraction, composition, adaptive-adversary saturation, self-check — building blocks the sister project [`dancinlab/nexus`](https://github.com/dancinlab/nexus) relies on.
 
 Any FAIL refutes the corresponding axis.
-
-> **Interactive widget** — slide `n ∈ [2, 1000]` in a browser, watch σ / φ / τ recompute live and the equation collapse to `=` only at `n = 6`:
->
-> 🪞 [**Echoes Experience**](https://huggingface.co/spaces/dancinlab/echoes-experience) (HF Space · zero install · vanilla JS / Canvas · [source](https://github.com/dancinlab/echoes-experience))
 
 ```py
 #!/usr/bin/env python3
