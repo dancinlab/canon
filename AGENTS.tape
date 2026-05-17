@@ -46,6 +46,10 @@
 @V := "tape" :: spec [active]
   version = "1.2"
 
+@X hexa_verify := "hexa verify — verification via hexa CLI only" :: guide [active]
+  tldr = "Any correctness / purity / grade / identity claim → verify with `hexa <verb>` or `hexa run <verifier>.hexa` (e.g. `hexa run tool/atlas_verify.hexa`) and paste the verdict VERBATIM. NEVER cite sympy / PyPhi / Wolfram / Mathematica output as evidence."
+  detail = "~/core/atlas/VERIFY.tape"
+
 @X wilson_pool := "wilson pool — resource utilization" :: guide [active]
   tldr = "Heavy / deterministic work (build · drill · probe · compile · test-sweep · GPU fire) → do NOT serialize on localhost; route to the host pool: `wilson pool list` then `wilson pool on <host> <cmd>`, or a ToolUse `\"host\"` field. Empty roster = degrade-to-local, fine."
   detail = "~/core/atlas/POOL.tape"
