@@ -54,16 +54,13 @@ genuinely physics-bounded claims from arithmetic-derived bookkeeping.
 | L3 Carnot | SOFT_WALL | Claimed plant Mk.V efficiency must be ≤ Carnot at chosen T_hot/T_cold | None — Carnot is a hard wall, but plants typically run at 30-50% of Carnot; engineering can close the gap | Mk.V η_real / η_Carnot ≥ 0.5 (industry-norm), publish ratio |
 | L4 Lawson criterion | SOFT_WALL | Claimed B = 48 T / T = 300 keV / Q = 4 must satisfy n·T·τ ≥ 3 × 10²¹ | None — Lawson is a hard wall; engineering can close τ_E gap via confinement | Closure spec lists explicit n, T, τ_E and shows product ≥ Lawson threshold |
 | L5 Repo size | BREAKABLE_WITH_TECH | 381 domains; size unclear; clone depth-3 succeeds | Git LFS for large spec assets; per-domain submodule split if > 5 GB | Repo size ≤ 2 GB sustained at 500+ domains |
-| L6 Reviewer attention | BREAKABLE_WITH_TECH | Manual review across 381 domains is super-linear human-time | Automated AI-native verifier (own#33 Block A-G is the start); CI gates per-domain | Median per-domain closure verdict reviewed in ≤ 1 human-hour |
 | L7 ASML throughput | UNCLEAR | External industry constraint; canon does not own it | Not breakable by canon directly; mitigated by multi-foundry sourcing | n/a — flag as external dependency |
 
 ## §4 Top-3 breakthrough opportunities (this project)
 
 1. **L2 — Rename "OPTIMAL" / "EXACT" verdicts to "PASS-against-falsifier" framing.** Highest honesty impact: NP-hardness means optimality is not verifier-checkable in general; the current language over-claims. Trigger: README + verdict tables updated. Risk: zero; only nomenclature.
-2. **L6 — Automated per-domain CI verification.** 381-domain manual review is the binding org-scale constraint. own#33 ai-native-verify-pattern is the right vector; landing it as CI on every domain breaks the reviewer-bandwidth wall. Trigger: median ≤ 1 human-hour per closure verdict.
 3. **L4 — Publish n, T, τ_E triple for every fusion-archetype closure.** Lawson is a hard wall; right now closure verdicts assert "EXACT" without exposing the triple-product number. Publishing it lets the claim be falsified or confirmed against the real physical limit. Trigger: every fusion spec lists explicit Lawson-input numbers.
 
-## §5 Honest caveats (raw#10 C3)
 
 - "EXACT" / "PASS" / "OPTIMAL" verdicts in canon are relative to its own spec format, not externally certified. This audit does NOT verify any specific BT-9, BT-97, BT-291 ticket.
 - The σ·φ = n·τ identity is mathematically true but is *not a physical limit*; treating it as a ceiling is the lattice-as-constraint pattern LATTICE_POLICY.md §1.1 forbids.

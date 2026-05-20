@@ -6,7 +6,6 @@ None present at root or in any subdir. Canon is a static documentation repo — 
 
 ## B. Identity surface
 
-Minimal. `AGENTS.md` inherits the dancinlab-wide `LATTICE_POLICY.md` agent-operating preamble (real-limits-first verification) and the raw#10 C3 honesty obligation — but there is no per-agent identity contract beyond the policy carry-over. No candidate for `canon/identity.tape`; the contract is generic enough that `bedrock/identity.tape` (when it lands) would cover canon agents.
 
 ## C. Domain.md files
 
