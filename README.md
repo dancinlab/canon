@@ -17,7 +17,6 @@
   <a href="LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
   <a href="LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
   <a href="RETIRED.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.md-orange"></a>
-  <a href="https://discord.gg/mYzqYr67R"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white"></a>
   <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
 </p>
 
