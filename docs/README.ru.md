@@ -15,7 +15,7 @@
   <!-- AUTO:BADGE:END -->
   <a href="../LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
   <a href="../LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
-  <a href="../RETIRED.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.md-orange"></a>
+  <a href="../RETIRED.log.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.log.md-orange"></a>
   <a href="https://discord.gg/mYzqYr67R"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white"></a>
   <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
 </p>
@@ -34,13 +34,13 @@
 ```
 
 > [!NOTE]
-> Родственник [`n6`](https://github.com/dancinlab/n6) (слой семантических атомов — формат сериализации atlas), [`hxc`](https://github.com/dancinlab/hxc) (байт-канонический транспорт), [`tape`](https://github.com/dancinlab/tape) (операционная трасса) и `n12` (12-осный разрежённый куб). Рабочий код каждого домена живёт в его автономном репозитории `hexa-*` (см. [`RETIRED.md`](../RETIRED.md) — журнал происхождения каждого извлечения). Этот репозиторий несёт **артефакты политики** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) плюс обзорные таблицы доменных семейств ниже.
+> Родственник [`n6`](https://github.com/dancinlab/n6) (слой семантических атомов — формат сериализации atlas), [`hxc`](https://github.com/dancinlab/hxc) (байт-канонический транспорт), [`tape`](https://github.com/dancinlab/tape) (операционная трасса) и `n12` (12-осный разрежённый куб). Рабочий код каждого домена живёт в его автономном репозитории `hexa-*` (см. [`RETIRED.log.md`](../RETIRED.log.md) — журнал происхождения каждого извлечения). Этот репозиторий несёт **артефакты политики** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) плюс обзорные таблицы доменных семейств ниже.
 
 
 > **Статус (2026-05-13, Wave M + пост-минимизация)**: `echoes` теперь является
 > **арифметической эталонной структурой + индексом обнаружения** для
 > экосистемы dancinlab. Реализации по доменам были извлечены в
-> автономные репозитории `hexa-*` (см. [`RETIRED.md`](../RETIRED.md) для
+> автономные репозитории `hexa-*` (см. [`RETIRED.log.md`](../RETIRED.log.md) для
 > журнала миграции и происхождения каждого извлечения). Рабочий код живёт в
 > автономных репозиториях; этот репозиторий несёт **артефакты политики**
 > ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md),

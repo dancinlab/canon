@@ -16,7 +16,7 @@
   <!-- AUTO:BADGE:END -->
   <a href="LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
   <a href="LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
-  <a href="RETIRED.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.md-orange"></a>
+  <a href="RETIRED.log.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.log.md-orange"></a>
   <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
 </p>
 
@@ -37,14 +37,14 @@
 > 🪞 **[Try it in your browser →](https://huggingface.co/spaces/dancinlab/echoes-experience)** — slide `n ∈ [2, 1000]`, watch σ(n)·φ(n) and n·τ(n) recompute live and collapse to equality only at n=6. Zero install · vanilla JS / Canvas · ([source](https://github.com/dancinlab/echoes-experience)).
 
 > [!NOTE]
-> Sister of [`n6`](https://github.com/dancinlab/n6) (semantic atom layer — atlas serialisation format), [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire), [`tape`](https://github.com/dancinlab/tape) (operational trace), and `n12` (12-axis sparse cube). Working code for each domain lives in its standalone `hexa-*` repo (see [`RETIRED.md`](RETIRED.md) for the per-extraction provenance ledger). This repo carries the **policy artifacts** ([`LATTICE_POLICY.md`](LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md)) plus the domain-family overview tables below.
+> Sister of [`n6`](https://github.com/dancinlab/n6) (semantic atom layer — atlas serialisation format), [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire), [`tape`](https://github.com/dancinlab/tape) (operational trace), and `n12` (12-axis sparse cube). Working code for each domain lives in its standalone `hexa-*` repo (see [`RETIRED.log.md`](RETIRED.log.md) for the per-extraction provenance ledger). This repo carries the **policy artifacts** ([`LATTICE_POLICY.md`](LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md)) plus the domain-family overview tables below.
 
 > **Honest caveat** (raw#10 C3) — the arithmetic identity `σ(6)·φ(6) = 6·τ(6) = 24` is mathematically true and unique to n=6 (Monte Carlo z = 3.06, p = 0.003 vs n=28 / n=496). The claim *"optimal designs are derived from this identity"* is a **research hypothesis** about how natural systems organize, **not a measurement**. Per `LATTICE_POLICY.md` §1.2/§1.3, the n=6 lattice is an organizing tool — never a substitute for real math / physics / engineering limits (Shannon · Kolmogorov · Bekenstein · c · ℏ · k · Stefan-Boltzmann · Carnot · ASML throughput · ERCOT capacity · …). Per raw#10 C3, n=6 lattice-fit is **forbidden** on external entities (TSMC / ASML / NIST / IPCC / CERN / DeepMind / vendors of any kind use their own published invariants).
 
 > **Status (2026-05-13, Wave M + post-minimization)**: `echoes` is now the
 > **arithmetic framework reference + discoverability index** for the
 > dancinlab ecosystem. Per-domain implementations have been extracted to
-> standalone `hexa-*` repos (see [`RETIRED.md`](RETIRED.md) for the
+> standalone `hexa-*` repos (see [`RETIRED.log.md`](RETIRED.log.md) for the
 > migration ledger and per-extraction provenance). Working code lives in
 > the standalones; this repo carries the **policy artifacts**
 > ([`LATTICE_POLICY.md`](LATTICE_POLICY.md),
@@ -1401,11 +1401,11 @@ Expected output: `SUMMARY: 11/11 PASS`. The single arithmetic identity inside th
 ## Status
 
 - **Version stamp**: 2026-05-13 — Wave M (post-minimization)
-- **Spec wave**: per-domain implementations extracted to standalone `hexa-*` repos; this repo is the **reference catalog + discoverability index** (working code lives in the standalones — see [`RETIRED.md`](RETIRED.md) for the per-extraction provenance ledger)
+- **Spec wave**: per-domain implementations extracted to standalone `hexa-*` repos; this repo is the **reference catalog + discoverability index** (working code lives in the standalones — see [`RETIRED.log.md`](RETIRED.log.md) for the per-extraction provenance ledger)
 - **18 primary domain families** (17 HEXA-* toolkit families + the Millennium / Dimensional Perception / Music / Linguistics / Crypto / Astronomy / Hygiene additions catalogued in this README)
 - **Cross-project SSOT**: [`LATTICE_POLICY.md`](LATTICE_POLICY.md) is the canonical authority for governance principle #5 `lattice-as-tool` (the n=6 lattice is an organizing tool, never a substitute for real math / physics / engineering limits)
 - **Sibling formats**: [`n6`](https://github.com/dancinlab/n6) (semantic atom layer) · [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire) · `n12` (12-axis sparse cube) · [`tape`](https://github.com/dancinlab/tape) (agent-execution trace)
-- **Policy artifacts shipped**: [`LATTICE_POLICY.md`](LATTICE_POLICY.md), [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md), [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md), [`RETIRED.md`](RETIRED.md), [`TAPE-AUDIT.md`](TAPE-AUDIT.md), [`AGENTS.tape`](AGENTS.tape) (CLAUDE.md symlinks here)
+- **Policy artifacts shipped**: [`LATTICE_POLICY.md`](LATTICE_POLICY.md), [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md), [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md), [`RETIRED.log.md`](RETIRED.log.md), [`TAPE-AUDIT.md`](TAPE-AUDIT.md), [`AGENTS.tape`](AGENTS.tape) (CLAUDE.md symlinks here)
 
 ## Run
 
@@ -1416,7 +1416,7 @@ Expected output: `SUMMARY: 11/11 PASS`. The single arithmetic identity inside th
 $EDITOR README.md                                # 17+1 domain-family tables, σφτ identity centre
 $EDITOR LATTICE_POLICY.md                        # the n=6 organizing-tool authority
 $EDITOR LIMIT_BREAKTHROUGH.md                    # HARD_WALL / SOFT_WALL / BREAKABLE_WITH_TECH per domain
-$EDITOR RETIRED.md                               # per-extraction provenance to the hexa-* standalones
+$EDITOR RETIRED.log.md                           # per-extraction provenance to the hexa-* standalones
 
 # 2. Cite per-domain — every domain row links to its standalone repo;
 #    cite the standalone (not this catalog) for working code / measurements
@@ -1448,7 +1448,7 @@ canon/                              (local checkout of dancinlab/echoes)
 ├── LATTICE_POLICY.md               cross-project SSOT (n=6 organizing-tool authority)
 ├── LIMIT_BREAKTHROUGH.md           per-domain real-limits classification
 ├── GRADE_RUBRIC_1_TO_10PLUS.md     1..10+ grade ladder used in the domain tables
-├── RETIRED.md                      per-extraction provenance ledger → hexa-* standalones
+├── RETIRED.log.md                  per-extraction provenance ledger → hexa-* standalones
 ├── TAPE-AUDIT.md                   .tape-format audit log
 ├── LICENSE                         MIT
 └── docs/

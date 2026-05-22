@@ -2,7 +2,7 @@
 
 ## A. Audit-class ledgers
 
-None present at root or in any subdir. Canon is a static documentation repo — no `*.jsonl`, no `state/`, no `.hook-audit`, no `*-audit` directories. Only files: `README.md` (184 KB), `LATTICE_POLICY.md`, `LIMIT_BREAKTHROUGH.md`, `GRADE_RUBRIC_1_TO_10PLUS.md`, `RETIRED.md`, `AGENTS.md`, `CLAUDE.md` symlink, plus `.git`, `.claude`.
+None present at root or in any subdir. Canon is a static documentation repo — no `*.jsonl`, no `state/`, no `.hook-audit`, no `*-audit` directories. Only files: `README.md` (184 KB), `LATTICE_POLICY.md`, `LIMIT_BREAKTHROUGH.md`, `GRADE_RUBRIC_1_TO_10PLUS.md`, `RETIRED.log.md`, `AGENTS.md`, `CLAUDE.md` symlink, plus `.git`, `.claude`.
 
 ## B. Identity surface
 
@@ -14,17 +14,17 @@ Root UPPERCASE.md inventory:
 - `LATTICE_POLICY.md` — dancinlab-wide real-limits-first policy
 - `LIMIT_BREAKTHROUGH.md` — per-limit HARD_WALL / SOFT_WALL / BREAKABLE_WITH_TECH / UNCLEAR classifications
 - `GRADE_RUBRIC_1_TO_10PLUS.md` — 1-to-10+ rubric for paper / discovery grading
-- `RETIRED.md` — migration ledger for hexa-* standalone extractions
+- `RETIRED.log.md` — migration ledger for hexa-* standalone extractions
 - `AGENTS.md` / `CLAUDE.md` (symlink)
 
 Sibling `.tape` candidates:
-- `RETIRED.tape` — extraction-event ledger (every "domain → hexa-* standalone" move is a typed `@D` event with a `==` provenance edge to its source commit). **The most natural fit** — `RETIRED.md` already reads as an append-only migration ledger.
+- `RETIRED.tape` — extraction-event ledger (every "domain → hexa-* standalone" move is a typed `@D` event with a `==` provenance edge to its source commit). **The most natural fit** — `RETIRED.log.md` already reads as an append-only migration ledger.
 - `LIMIT_BREAKTHROUGH.tape` — per-limit verdict-change events (when a SOFT_WALL graduates to BREAKABLE_WITH_TECH it's a typed `@D` with a measurement provenance).
 - `GRADE_RUBRIC.tape` — rubric promotion / grade-issued events (each "paper X scored 8/10" → `@D` row).
 
 ## D. Per-run/per-event history
 
-Effectively none. Canon is purely declarative — the 225 AI techniques + chip design + crypto/OS/display content is reference material, not run logs. The only history-flavored content is `RETIRED.md` (migration events) and commit log itself.
+Effectively none. Canon is purely declarative — the 225 AI techniques + chip design + crypto/OS/display content is reference material, not run logs. The only history-flavored content is `RETIRED.log.md` (migration events) and commit log itself.
 
 ## E. Promotion candidates
 

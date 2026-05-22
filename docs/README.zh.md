@@ -15,7 +15,7 @@
   <!-- AUTO:BADGE:END -->
   <a href="../LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
   <a href="../LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
-  <a href="../RETIRED.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.md-orange"></a>
+  <a href="../RETIRED.log.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.log.md-orange"></a>
   <a href="https://discord.gg/mYzqYr67R"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white"></a>
   <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
 </p>
@@ -34,12 +34,12 @@
 ```
 
 > [!NOTE]
-> 是 [`n6`](https://github.com/dancinlab/n6) (语义原子层 — atlas 序列化格式)、[`hxc`](https://github.com/dancinlab/hxc) (字节规范化传输)、[`tape`](https://github.com/dancinlab/tape) (运行时轨迹) 与 `n12` (12 轴稀疏立方) 的姊妹仓库。各领域的工作代码位于独立的 `hexa-*` 仓库 (按提取来源参见 [`RETIRED.md`](../RETIRED.md))。本仓库携带**政策资产** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) 及下方的领域族概览表。
+> 是 [`n6`](https://github.com/dancinlab/n6) (语义原子层 — atlas 序列化格式)、[`hxc`](https://github.com/dancinlab/hxc) (字节规范化传输)、[`tape`](https://github.com/dancinlab/tape) (运行时轨迹) 与 `n12` (12 轴稀疏立方) 的姊妹仓库。各领域的工作代码位于独立的 `hexa-*` 仓库 (按提取来源参见 [`RETIRED.log.md`](../RETIRED.log.md))。本仓库携带**政策资产** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) 及下方的领域族概览表。
 
 
 > **状态 (2026-05-13, Wave M + 极简化后)**：`echoes` 现在是 dancinlab
 > 生态系统的**算术框架参考 + 可发现性索引**。各领域实现已提取到独立的
-> `hexa-*` 仓库 (迁移账本及逐项提取出处见 [`RETIRED.md`](../RETIRED.md))。
+> `hexa-*` 仓库 (迁移账本及逐项提取出处见 [`RETIRED.log.md`](../RETIRED.log.md))。
 > 工作代码位于独立仓库；本仓库携带**政策资产**
 > ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md),
 > [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md),

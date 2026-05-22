@@ -15,7 +15,7 @@
   <!-- AUTO:BADGE:END -->
   <a href="../LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
   <a href="../LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
-  <a href="../RETIRED.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.md-orange"></a>
+  <a href="../RETIRED.log.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.log.md-orange"></a>
   <a href="https://discord.gg/mYzqYr67R"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white"></a>
   <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
 </p>
@@ -34,13 +34,13 @@
 ```
 
 > [!NOTE]
-> [`n6`](https://github.com/dancinlab/n6) (意味原子レイヤー — atlas シリアライズ形式)、[`hxc`](https://github.com/dancinlab/hxc) (バイトカノニカル転送)、[`tape`](https://github.com/dancinlab/tape) (運用トレース)、`n12` (12軸スパースキューブ) の姉妹リポジトリ。各ドメインの動作コードは独自の `hexa-*` スタンドアロンリポジトリにあります (抽出元の経緯は [`RETIRED.md`](../RETIRED.md) を参照)。このリポジトリは**ポリシー資産** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) と以下のドメインファミリー概要表を保持しています。
+> [`n6`](https://github.com/dancinlab/n6) (意味原子レイヤー — atlas シリアライズ形式)、[`hxc`](https://github.com/dancinlab/hxc) (バイトカノニカル転送)、[`tape`](https://github.com/dancinlab/tape) (運用トレース)、`n12` (12軸スパースキューブ) の姉妹リポジトリ。各ドメインの動作コードは独自の `hexa-*` スタンドアロンリポジトリにあります (抽出元の経緯は [`RETIRED.log.md`](../RETIRED.log.md) を参照)。このリポジトリは**ポリシー資産** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) と以下のドメインファミリー概要表を保持しています。
 
 
 > **状況 (2026-05-13, Wave M + post-minimization)**: `echoes` は現在、
 > dancinlab エコシステムの**算術フレームワーク参照 + 発見性インデックス**です。
 > 各ドメインの実装はスタンドアロンの `hexa-*` リポジトリに抽出されました
-> (移行台帳と抽出元の経緯は [`RETIRED.md`](../RETIRED.md) を参照)。動作コードは
+> (移行台帳と抽出元の経緯は [`RETIRED.log.md`](../RETIRED.log.md) を参照)。動作コードは
 > スタンドアロンに住み、このリポジトリは**ポリシー資産**
 > ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md),
 > [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md),

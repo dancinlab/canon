@@ -15,7 +15,7 @@
   <!-- AUTO:BADGE:END -->
   <a href="../LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
   <a href="../LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
-  <a href="../RETIRED.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.md-orange"></a>
+  <a href="../RETIRED.log.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.log.md-orange"></a>
   <a href="https://discord.gg/mYzqYr67R"><img alt="Discord" src="https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white"></a>
   <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
 </p>
@@ -34,13 +34,13 @@
 ```
 
 > [!NOTE]
-> [`n6`](https://github.com/dancinlab/n6) (의미 원자 layer — atlas 직렬화 포맷), [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical 전송), [`tape`](https://github.com/dancinlab/tape) (운영 trace), `n12` (12축 sparse cube) 의 자매 리포. 각 도메인의 작업 코드는 standalone `hexa-*` 리포에 있으며 (추출별 출처는 [`RETIRED.md`](../RETIRED.md) 참조), 본 리포는 **정책 자산** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) 과 아래 도메인 family 개요 표를 보유합니다.
+> [`n6`](https://github.com/dancinlab/n6) (의미 원자 layer — atlas 직렬화 포맷), [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical 전송), [`tape`](https://github.com/dancinlab/tape) (운영 trace), `n12` (12축 sparse cube) 의 자매 리포. 각 도메인의 작업 코드는 standalone `hexa-*` 리포에 있으며 (추출별 출처는 [`RETIRED.log.md`](../RETIRED.log.md) 참조), 본 리포는 **정책 자산** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](../AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md)) 과 아래 도메인 family 개요 표를 보유합니다.
 
 
 > **상태 (2026-05-13, Wave M + post-minimization)**: `echoes` 는 이제 dancinlab 생태계의
 > **산술 framework 참조 + 발견 색인** 입니다. 도메인별 구현은 standalone
 > `hexa-*` 리포로 추출되었습니다 (마이그레이션 ledger 와 추출별 출처는
-> [`RETIRED.md`](../RETIRED.md) 참조). 작업 코드는 standalone 에 있고,
+> [`RETIRED.log.md`](../RETIRED.log.md) 참조). 작업 코드는 standalone 에 있고,
 > 본 리포는 **정책 자산** ([`LATTICE_POLICY.md`](../LATTICE_POLICY.md),
 > [`LIMIT_BREAKTHROUGH.md`](../LIMIT_BREAKTHROUGH.md),
 > [`AGENTS.md`](../AGENTS.md), [`GRADE_RUBRIC_1_TO_10PLUS.md`](../GRADE_RUBRIC_1_TO_10PLUS.md))
