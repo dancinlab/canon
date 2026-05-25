@@ -6,6 +6,10 @@ For the full audit trail, see `git log`.
 
 ---
 
+## 2026-05-25
+
+- **README — NEXUS 재사용 격자 (@D g67)** — appended a `## 🕸️ NEXUS — 재사용 격자 (@D g67)` section to `README.md` (the canonical catalog/index), implementing the universal commons rule g67 (intra-project domain reuse lattice — atlas-first · provenance · per-repo reuse graph). Aggregates echoes' *existing* informal cross-domain tracking into a reuse graph + edge ledger + `provides[]` registry — NOT new claims. REAL edges (with evidence rows): n=6 invariant lattice (`LATTICE_POLICY.md` → 17+ families), grade ladder (`GRADE_RUBRIC_1_TO_10PLUS.md`), real-limits/C3 caveat (`LIMIT_BREAKTHROUGH.md`), Cross-Domain Mega Bridge (BT-366~369), §11.5 8-substrate Putnam federation. Candidate (cross-repo, not intra-canon): HEXA-NANOBOT↔HEXA-WEAVE, hexa-vsco→hexa-filter-algebra. Honest note: working code lives in standalone `hexa-*` repos (per `RETIRED.log.md`), so intra-canon reuse is invariant/policy-level, not code-primitive. Docs-only — no version surface (content-versioned by git history).
+
 ## 2026-05-22
 
 - **RETIRED.md → RETIRED.log.md** — split per the per-domain spec/history file rule (current-state `.md` · append-only `.log.md`). The file was a 2026-05-11 retirement-event ledger end-to-end, so the whole thing moved to `.log.md`; live references in `README.md` (EN + 4 translations) and `TAPE-AUDIT.md` updated to point at the new name. Other root spec docs (`LATTICE_POLICY.md`, `LIMIT_BREAKTHROUGH.md`, `GRADE_RUBRIC_1_TO_10PLUS.md`, `TAPE-AUDIT.md`, `README.md`, `CLAUDE.md → project.tape`) are pure spec/current-state and stayed put. Archive + LEGACY snapshots left as-is.

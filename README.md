@@ -1229,6 +1229,65 @@ hx install echoes
 
 > Honest disclosure (raw 91 C3): the biology axis now hosts three sister-domains forming an orthogonal genus triangle — **HEXA-WEAVE** (write-side multi-strand composition / Landauer × NP-search ceiling) + **HEXA-NANOBOT** (single-device mechanical actuation / Brownian thermal floor at 310 K) + **HEXA-RIBOZYME** (catalytic RNA / diffusion-limit ceiling k_cat/K_M ≤ 10⁸–10⁹ M⁻¹ s⁻¹). All three are status TRANSCEND-CLOSURE-ALL with cycle-15-close alien-grade 4.18, but the closure rests on the same caveat chain: TRANSCEND-CLOSURE-ALL universe-scale extension (Mk.X L4-L7 cosmological lift) is grounded on a **STRONG-CONJECTURE chain** (AdS/CFT + Bousso dS), not a theorem chain. Each sister-domain is **APPROACH grade per raw 69**, not ABSOLUTE — theoretical-analytical only. Specific sister-level caveats: HEXA-RIBOZYME σ(6)=12 catalytic-core nucleotide projection is **STRUCTURAL-APPROXIMATE** (corpus span 10–30 nt across 7 ribozyme classes; hammerhead/HDV/hairpin minimal cores cluster around ~12 nt), not exact. HEXA-NANOBOT 4-state 12-vertex DNA-origami simulation has not been executed this cycle. HEXA-WEAVE 7/8 raw 70 axes PASS with 1 DEFER (CHI2 n=1). 90-day MVP gates F-TP5-b (HEXA-WEAVE) / F-NB-4 (HEXA-NANOBOT) / F-RB-4 (HEXA-RIBOZYME) all due 2026-07-28; F-RB-5 cross-axis collision audit with life/crispr-gene-editing + life/synbio due 2026-05-28. The three sisters are orthogonal in genus (composition / actuation / catalysis) but share the same n=6 invariant lattice (σ=12, τ=4, φ=2, J₂=24, sopfr=5). README curation pipeline note: cycle-11 hexa-runtime sync-readme bug on per-domain SUMMARY/FOOTER markers persists at this cycle (only AUTO:BADGE marker auto-syncs from readme-data.json; SUMMARY_biology / FOOTER_biology / STATS markers were edited manually as cycle-16 fallback per item-5 of the cycle-16 kick spec — sealed-hash regenerated post-edit).
 
+## 🕸️ NEXUS — 재사용 격자 (@D g67)
+
+> commons `@D g67` (universal · intra-project reuse lattice) 의 echoes 구현 surface.
+> **부품 만들기 전** — atlas + 형제 도메인 record 에서 검증된 것을 먼저 찾아 재사용 ·
+> record 에 cross-domain 엣지(`reused[]` / `provides[]`) 스탬프 · 이 reuse 그래프 최신 유지.
+> **intra-project only** — 다른 repo 와 잇지 않음.
+
+> **echoes 의 특수성 (정직 disclosure)**: echoes = *discoveries catalog / index* 다.
+> 작동 코드(working code)는 `RETIRED.log.md` 의 이관 ledger 대로 도메인별 standalone
+> `hexa-*` repo 로 추출(extract)되어 있다 (@D d3 — 코드 home 은 standalone). 따라서 repo
+> **내부**의 cross-domain 재사용은 *코드-부품* 재사용이 아니라 **공유 불변량(invariant) ·
+> 정책 SSOT · 검증된 cross-domain bridge** 의 재사용이다. 아래 엣지는 새 claim 이 아니라
+> README 가 이미 추적하던 비공식 reuse 의 **집계(aggregation)** 다.
+
+### 1. 재사용 그래프 (invariant / policy lattice)
+
+```
+                       ┌──────────────────────────────────────────────┐
+  LATTICE_POLICY.md ───┤ n=6 불변 격자  σ=12 · τ=4 · φ=2 · J₂=24 · sopfr=5 │──→ 17+ 도메인 패밀리 전체
+                       └──────────────────────────────────────────────┘
+  GRADE_RUBRIC ────────── 1..10+ 등급 사다리 ─────────────────────────────→ 모든 도메인 표 (🛸 열)
+  LIMIT_BREAKTHROUGH ──── 실한계 분류 + raw#10 C3 caveat ──────────────────→ 모든 도메인 (정직 disclosure)
+  Cross-Domain Mega Bridge (BT-366~369) ─── τ=4 · J₂=24 · σ-φ=10 · n÷φ=3 ──→ 7~12 도메인 cross-검증
+  §11.5 8-substrate Putnam federation ───── cross-substrate 불변 verifier ──→ 8 chip 자매 substrate
+```
+
+### 2. 엣지 원장 (REAL — 증거 행 있음)
+
+| provides (출처) | primitive / 불변량 | reused by | 증거 |
+|---|---|---|---|
+| `LATTICE_POLICY.md` | n=6 불변 격자 (σ=12 · τ=4 · φ=2 · J₂=24 · sopfr=5) | 17+ 도메인 패밀리 전부 (모든 표가 격자 참조) | README 각 패밀리 표 헤더 (`Same n=6 invariant lattice`) |
+| `GRADE_RUBRIC_1_TO_10PLUS.md` | 1..10+ 등급 사다리 | 모든 도메인 표 (🛸 열) | `GRADE_RUBRIC_1_TO_10PLUS.md` + 표 🛸 열 |
+| `LIMIT_BREAKTHROUGH.md` | 실한계 분류 (HARD/SOFT/BREAKABLE/UNCLEAR) + raw#10 C3 caveat | 모든 도메인 (Honest Limitations) | `LIMIT_BREAKTHROUGH.md` + Honest caveat 블록 |
+| Physics — **Cross-Domain Mega Bridge** | τ=4(12dom)·J₂=24(10dom)·σ-φ=10(7dom)·n÷φ=3(8dom) 공유 불변량 | Fusion · Chip · Materials · Bio · … (도메인 교차) | BT-366~369 (`reports/breakthroughs/new-bt-dimensional-unfolding-2026-04-06.md`) |
+| Chip — **§11.5 ALIEN-10-EXPANSION federation** | cross-substrate 불변 `verify_*_alien10.py` (Putnam multi-realization) | NEURO · QUANTUM · PHOTONIC · SUPERCOND · TOPO · DNA · FET · DIGITAL (8 substrate) | §11.5 표 (126 TP · 38 EXACT · 117/125 PASS) |
+
+### 3. provides[] 레지스트리 (surface별 제공 불변/정책)
+
+| surface | 제공 primitive |
+|---|---|
+| `LATTICE_POLICY.md` | n=6 불변 격자 · 격자=도구(not 제약) 권위 |
+| `GRADE_RUBRIC_1_TO_10PLUS.md` | 1..10+ 등급 사다리 (🛸 alien-grade) |
+| `LIMIT_BREAKTHROUGH.md` | 실한계 분류 · raw#10 C3 caveat 규칙 |
+| Physics (Mega Bridge) | τ=4 · J₂=24 · σ-φ=10 · n÷φ=3 cross-domain 불변 |
+| Chip (§11.5) | 8-substrate cross-class invariance verifier |
+
+### 4. 후보 엣지 (candidate · 미검증 또는 cross-repo)
+
+| 후보 | 비고 |
+|---|---|
+| HEXA-NANOBOT ↔ HEXA-WEAVE (Biology 자매) | README 에 `Cross-link` 명시 — 단, 둘 다 `hexa-bio` standalone 으로 추출됨 (intra-canon 아님 · candidate) |
+| hexa-vsco → hexa-filter-algebra (apps 자매 engine layer) | README 에 "first to depend on a sister apps domain" 명시 — intra-`hexa-apps` cross-repo (intra-canon 아님 · candidate) |
+
+### 5. 사용법 (atlas-first · @D g67)
+
+1. 불변/부품 만들기 전 — `hexa atlas lookup --prefix=<topic>` + 형제 도메인 표/SSOT grep
+2. 재사용 시 record/표에 출처 명시, 제공 시 `provides[]` 에 등록
+3. 이 NEXUS 절에 엣지 1줄 추가 (그래프 + 원장) — REAL 은 증거 행 필수, 미검증은 §4 candidate
+
 ## Citation
 
 ```bibtex
