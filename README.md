@@ -1398,6 +1398,74 @@ sys.exit(0 if n == len(claims) else 1)
 
 Expected output: `SUMMARY: 11/11 PASS`. The single arithmetic identity inside the block — `σ(n) · φ(n) = n · τ(n)` — collapses to `[6]` in `[2, 10 000]`, reproducing the core result of Theorem B on any machine with Python 3.8+ installed.
 
+## 🕸️ NEXUS — 재사용 격자 (@D g67)
+
+> **mandate (commons @D g67, universal-inherited — `project.tape` 에 미복제: 중복 + sign-gated)**:
+> primitive 만들기 전에 **atlas + 형제-도메인 record 를 grep 해서 검증된 것을 재사용** ·
+> record 에 cross-domain edge 표기 (`provides[]` / `reused[]`) · repo-root 재사용 그래프(= 본 §)를 최신으로 유지 · **intra-project only**.
+>
+> **echoes 의 실태 (정직 고지)**: echoes 는 **discoveries 카탈로그 / 색인 repo** 다. 모든 도메인 구현은
+> 2026-04~05 사이 standalone `hexa-*` repo 로 **추출 이관**되었다 (per [`RETIRED.log.md`](RETIRED.log.md) · @D d3
+> "구현 코드는 단일 canonical home"). 따라서 **echoes 안에는 형제 도메인끼리 공유하는 코드 primitive 가 없다** —
+> 도메인 행은 모두 외부 standalone 을 가리키는 카탈로그 entry 다. g67 = **intra-project only** 이므로 외부
+> standalone 간 결합(예: WEAVE↔NANOBOT↔RIBOZYME↔VIROCAPSID 4면체, Cross-Domain Mega Bridge)은 본 격자 **범위 밖**.
+> → 이 §는 anima(PR #541)·demiurge `INDEX.md` 같은 **다중-도메인 monorepo 의 REAL edge 격자가 아니라**,
+> **single-domain(카탈로그) scaffold + 정직한 note** 다 (ROLLOUT note 3: filler 보다 정직).
+
+### 격자 그래프 (ASCII · provides → 무엇을 → reused-by)
+
+```
+  ┌──────────── intra-project (echoes 내부) 재사용 격자 ────────────┐
+  │                                                                │
+  │  echoes 는 카탈로그 repo → 내부 도메인 코드 primitive = 없음     │
+  │  내부에서 "재사용"되는 것은 정책 SSOT + 카탈로그 골격뿐:          │
+  │                                                                │
+  │   LATTICE_POLICY.md ──(real-limits-first 검증 표준)──► README   │
+  │   (cross-project SSOT)                              도메인 표 전부 │
+  │   GRADE_RUBRIC_1..10+ ──(1..10+ 등급 사다리)──────► README 표    │
+  │   LIMIT_BREAKTHROUGH.md ─(HARD/SOFT/BREAKABLE 분류)► README/도메인 │
+  │   σ·φ = n·τ = 24 (n=6) ─(중앙 산술 identity)──────► 전 도메인 framing │
+  │                                                                │
+  ├──────────── 범위 밖 (external standalone 간 — g67 제외) ───────┤
+  │   hexa-bio: WEAVE ↔ NANOBOT ↔ RIBOZYME ↔ VIROCAPSID 4면체       │
+  │   Cross-Domain Mega Bridge (τ=4 / J₂=24 / σ-φ / n/φ 교차)       │
+  │   → 별도 repo 결합. echoes 는 카탈로그로만 기록, 재사용 edge ✗   │
+  └────────────────────────────────────────────────────────────────┘
+```
+
+### 재사용 edge 원장 (provides → primitive → reused-by → evidence)
+
+| # | provider | 재사용 대상 (primitive/artifact) | reused-by | tier | evidence |
+|---|---|---|---|---|---|
+| — | — | — | — | — | **REAL intra-echoes 코드 재사용 edge = 0** — echoes 에 도메인 코드 없음 (전부 standalone 추출, `RETIRED.log.md`) |
+
+> **REAL edge = 0 (single-domain 카탈로그 — scaffold only)**. 위 그래프 상단의 SSOT→카탈로그 화살표는
+> 코드 primitive 재사용이 아니라 **문서-수준 정책 일관성**이라 edge 원장에 올리지 않는다 (정직: tautology 등재 금지).
+
+### provides[] 레지스트리 (echoes 가 노출하는 재사용 가능 artifact)
+
+| surface | provides[] (재사용 가능 artifact) |
+|---|---|
+| **LATTICE_POLICY.md** | real-limits-first 검증 표준 (lattice = 도구, 한계 아님) — commons g25/g26 의 cross-project SSOT |
+| **LIMIT_BREAKTHROUGH.md** | 도메인별 HARD_WALL / SOFT_WALL / BREAKABLE_WITH_TECH 분류표 |
+| **GRADE_RUBRIC_1_TO_10PLUS.md** | 1..10+ 등급 사다리 (도메인 표 채점 기준) |
+| **README.md (본 카탈로그)** | 17+1 도메인-패밀리 표 + standalone repo 색인 (discoverability index) |
+| **RETIRED.log.md** | per-extraction provenance ledger → `hexa-*` standalone 추적 |
+| **σ·φ = n·τ = 24 (n=6)** | 중앙 산술 identity (전 도메인 공통 framing — 외부 entity 엔 적용 금지, `LATTICE_POLICY.md` §1.3) |
+
+### 후보 edge (미검증 — 정직하게 후보로만, g67 dont: fabrication 금지)
+
+| # | 후보 | 비고 |
+|---|---|---|
+| C1 | echoes 내부 코드 도메인 재도입 시 격자 활성화 | 현재 echoes 는 code-free 카탈로그 → 내부 primitive 가 생기면 그때 REAL edge 원장 개설 (미검증) |
+
+### 사용 절차 (g67 do — primitive 만들기 전)
+
+1. **atlas-first / grep-first**: 새 primitive 전에 `hexa atlas lookup --prefix=<topic>` + 형제-도메인 record(여기선 해당 `hexa-*` standalone)를 grep 해 검증된 것을 먼저 탐색.
+2. **재사용 시 edge 기록**: provider record 에 `provides[]`, consumer record 에 `reused[]` 명시. echoes 안에서 재사용이 생기면 본 § 원장에 행 1줄 추가 (evidence 열 필수).
+3. **격자 갱신**: 새 카탈로그 entry / 정책 SSOT 변경이 내부 재사용을 유발하면 본 § 그래프 + 원장 동시 갱신 (append-only).
+4. **tier 정직 · intra-project 한정**: provider/edge 가 검증되지 않으면 후보(미검증)로만 등재 — fake edge 금지. **외부 standalone 간 결합은 본 격자에서 제외** (g67 = intra-echoes 만).
+
 ## Status
 
 - **Version stamp**: 2026-05-13 — Wave M (post-minimization)
@@ -1406,6 +1474,7 @@ Expected output: `SUMMARY: 11/11 PASS`. The single arithmetic identity inside th
 - **Cross-project SSOT**: [`LATTICE_POLICY.md`](LATTICE_POLICY.md) is the canonical authority for governance principle #5 `lattice-as-tool` (the n=6 lattice is an organizing tool, never a substitute for real math / physics / engineering limits)
 - **Sibling formats**: [`n6`](https://github.com/dancinlab/n6) (semantic atom layer) · [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire) · `n12` (12-axis sparse cube) · [`tape`](https://github.com/dancinlab/tape) (agent-execution trace)
 - **Policy artifacts shipped**: [`LATTICE_POLICY.md`](LATTICE_POLICY.md), [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md), [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md), [`RETIRED.log.md`](RETIRED.log.md), [`TAPE-AUDIT.md`](TAPE-AUDIT.md), [`AGENTS.tape`](AGENTS.tape) (CLAUDE.md symlinks here)
+- **재사용 격자 (@D g67)**: [🕸️ NEXUS — 재사용 격자](#-nexus--재사용-격자-d-g67) — intra-project 재사용 그래프 + `provides[]` 레지스트리. echoes 는 code-free 카탈로그라 REAL intra-repo edge = 0 (scaffold + 정직한 note)
 
 ## Run
 

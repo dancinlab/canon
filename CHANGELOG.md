@@ -6,6 +6,10 @@ For the full audit trail, see `git log`.
 
 ---
 
+## 2026-05-25
+
+- **NEXUS 재사용 격자 (@D g67) — README.md 에 § 추가** — commons 의 universal governance rule g67 (intra-project domain reuse lattice · atlas-first · provenance · per-repo INDEX) 을 echoes 에 와이어링. `README.md` (canonical index) 끝부분 Proof↔Status 사이에 `## 🕸️ NEXUS — 재사용 격자 (@D g67)` § 추가 + Status 블록에 cross-link 1줄. echoes 는 모든 도메인 구현이 standalone `hexa-*` repo 로 추출 이관된 **code-free 카탈로그**라 intra-repo 코드 재사용 primitive 가 없음 → ROLLOUT note 3 의 **single-domain scaffold + 정직한 note** 경로: 그래프 stub + `provides[]` 레지스트리(정책 SSOT·카탈로그 골격) + 후보 edge 1 + 사용절차. **REAL intra-echoes edge = 0** (정직 고지, fabrication 금지); 외부 standalone 간 결합(WEAVE 4면체 / Mega Bridge)은 g67 intra-project 범위 밖으로 명시 제외. `project.tape` 미수정 (g67 = universal-inherited, per-repo 복제 redundant + sign-gated). docs-only (동작 불변) → echoes 는 git-history content-versioned 이라 version-bump 면제.
+
 ## 2026-05-22
 
 - **RETIRED.md → RETIRED.log.md** — split per the per-domain spec/history file rule (current-state `.md` · append-only `.log.md`). The file was a 2026-05-11 retirement-event ledger end-to-end, so the whole thing moved to `.log.md`; live references in `README.md` (EN + 4 translations) and `TAPE-AUDIT.md` updated to point at the new name. Other root spec docs (`LATTICE_POLICY.md`, `LIMIT_BREAKTHROUGH.md`, `GRADE_RUBRIC_1_TO_10PLUS.md`, `TAPE-AUDIT.md`, `README.md`, `CLAUDE.md → project.tape`) are pure spec/current-state and stayed put. Archive + LEGACY snapshots left as-is.
