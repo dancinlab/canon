@@ -33,56 +33,6 @@
      12 · 2  =  6 · 4   =  24
 ```
 
-> [!TIP]
-> 🪞 **[Try it in your browser →](https://huggingface.co/spaces/dancinlab/echoes-experience)** — slide `n ∈ [2, 1000]`, watch σ(n)·φ(n) and n·τ(n) recompute live and collapse to equality only at n=6. Zero install · vanilla JS / Canvas · ([source](https://github.com/dancinlab/echoes-experience)).
-
-> [!NOTE]
-> Sister of [`n6`](https://github.com/dancinlab/n6) (semantic atom layer — atlas serialisation format), [`hxc`](https://github.com/dancinlab/hxc) (byte-canonical wire), [`tape`](https://github.com/dancinlab/tape) (operational trace), and `n12` (12-axis sparse cube). Working code for each domain lives in its standalone `hexa-*` repo (see [`RETIRED.log.md`](RETIRED.log.md) for the per-extraction provenance ledger). This repo carries the **policy artifacts** ([`LATTICE_POLICY.md`](LATTICE_POLICY.md) · [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md) · [`AGENTS.md`](AGENTS.md) · [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md)) plus the domain-family overview tables below.
-
-> **Honest caveat** (raw#10 C3) — the arithmetic identity `σ(6)·φ(6) = 6·τ(6) = 24` is mathematically true and unique to n=6 (Monte Carlo z = 3.06, p = 0.003 vs n=28 / n=496). The claim *"optimal designs are derived from this identity"* is a **research hypothesis** about how natural systems organize, **not a measurement**. Per `LATTICE_POLICY.md` §1.2/§1.3, the n=6 lattice is an organizing tool — never a substitute for real math / physics / engineering limits (Shannon · Kolmogorov · Bekenstein · c · ℏ · k · Stefan-Boltzmann · Carnot · ASML throughput · ERCOT capacity · …). Per raw#10 C3, n=6 lattice-fit is **forbidden** on external entities (TSMC / ASML / NIST / IPCC / CERN / DeepMind / vendors of any kind use their own published invariants).
-
-> **Status (2026-05-13, Wave M + post-minimization)**: `echoes` is now the
-> **arithmetic framework reference + discoverability index** for the
-> dancinlab ecosystem. Per-domain implementations have been extracted to
-> standalone `hexa-*` repos (see [`RETIRED.log.md`](RETIRED.log.md) for the
-> migration ledger and per-extraction provenance). Working code lives in
-> the standalones; this repo carries the **policy artifacts**
-> ([`LATTICE_POLICY.md`](LATTICE_POLICY.md),
-> [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md),
-> [`AGENTS.md`](AGENTS.md), [`GRADE_RUBRIC_1_TO_10PLUS.md`](GRADE_RUBRIC_1_TO_10PLUS.md))
-> + the domain-family overview tables below.
->
-> **Honest caveat (raw#10 C3)**: the arithmetic identity
-> `σ(6)·φ(6) = 6·τ(6) = 24` is mathematically true and unique to n=6
-> (Monte Carlo z = 3.06, p = 0.003 vs n=28 / n=496). The claim
-> *"optimal designs are derived from this identity"* is a **research
-> hypothesis** about how natural systems organize, **not a measurement**.
-> Per `LATTICE_POLICY.md` §1.2/§1.3, the n=6 lattice is an organizing
-> tool — never a substitute for real math / physics / engineering
-> limits (Shannon · Kolmogorov · Bekenstein · c · ℏ · k · Stefan-Boltzmann
-> · Carnot · ASML throughput · ERCOT capacity · …). Per raw#10 C3,
-> n=6 lattice-fit is **forbidden** on external entities (TSMC / ASML /
-> NIST / IPCC / CERN / DeepMind / vendors of any kind use their own
-> published invariants).
->
-> Per-domain real-limits assessment + HARD_WALL / SOFT_WALL /
-> BREAKABLE_WITH_TECH / UNCLEAR classifications:
-> [`LIMIT_BREAKTHROUGH.md`](LIMIT_BREAKTHROUGH.md).
-
-🗺️ **[3D Reality Map](https://dancinlab.github.io/nexus/)** — 9,612 nodes, bottom-up causal mapping, 2,222 cross-layer edges. Quark → carbon → benzene → DNA causal chain 12/12 EXACT. Monte Carlo z = 3.06 (p = 0.003). n = 28 and n = 496 fail the check → only n = 6 survives.
-
----
-
-## Install
-
-```bash
-# 1. Install hexa-lang (gives you `hexa` + `hx` package manager)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/dancinlab/hexa-lang/main/install.sh)"
-
-# 2. Install echoes
-hx install echoes
-```
-
 ---
 
 
