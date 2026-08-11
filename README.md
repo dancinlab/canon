@@ -12,15 +12,6 @@
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue"></a>
   <a href="https://doi.org/10.5281/zenodo.19340174"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19340174-informational?logo=zenodo&logoColor=white"></a>
-  <a href="https://huggingface.co/spaces/dancinlab/echoes-experience"><img alt="Interactive demo" src="https://img.shields.io/badge/%F0%9F%AA%9E%20demo-Open%20in%20Spaces-yellow?logo=huggingface&logoColor=white"></a>
-  <!-- AUTO:BADGE:START -->
-  <a href="docs/dse-map.toml"><img alt="DSE" src="https://img.shields.io/badge/DSE-381%20domains-informational"></a>
-  <a href="tools/nexus/"><img alt="NEXUS" src="https://img.shields.io/badge/NEXUS-1116%20tests-success"></a>
-  <!-- AUTO:BADGE:END -->
-  <a href="LATTICE_POLICY.md"><img alt="Policy" src="https://img.shields.io/badge/policy-LATTICE__POLICY.md-informational"></a>
-  <a href="LIMIT_BREAKTHROUGH.md"><img alt="Real-limits" src="https://img.shields.io/badge/limits-LIMIT__BREAKTHROUGH.md-informational"></a>
-  <a href="RETIRED.log.md"><img alt="Retired-to-standalones" src="https://img.shields.io/badge/retired-RETIRED.log.md-orange"></a>
-  <img alt="Sibling" src="https://img.shields.io/badge/sibling-n6%20·%20hxc%20·%20n12%20·%20tape-blueviolet">
 </p>
 
 <p align="center">discoveries · n=6 identity · 17 domain families · policy SSOTs · cross-vendor honest disclosure</p>
