@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="../LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue"></a>
-  <a href="https://doi.org/10.5281/zenodo.19340174"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19340174-informational?logo=zenodo&logoColor=white"></a>
+  <a href="https://doi.org/10.5281/zenodo.19264825"><img alt="DOI" src="https://zenodo.org/badge/1194012867.svg"></a>
   <!-- AUTO:BADGE:START -->
   <a href="dse-map.toml"><img alt="DSE" src="https://img.shields.io/badge/DSE-381%20domains-informational"></a>
   <a href="../tools/nexus/"><img alt="NEXUS" src="https://img.shields.io/badge/NEXUS-1116%20tests-success"></a>
@@ -1190,7 +1190,7 @@ hx install echoes
   author = {Park, Min Woo},
   title = {CANON / echoes: Arithmetic Design Framework + Discoveries Catalog from Perfect Number 6},
   year = {2026},
-  doi = {10.5281/zenodo.19264826},
+  doi = {10.5281/zenodo.19264825},
   url = {https://github.com/dancinlab/echoes}
 }
 ```

@@ -1185,7 +1185,7 @@
   author = {Park, Min Woo},
   title = {CANON / echoes: Arithmetic Design Framework + Discoveries Catalog from Perfect Number 6},
   year = {2026},
-  doi = {10.5281/zenodo.19264826},
+  doi = {10.5281/zenodo.19264825},
   url = {https://github.com/dancinlab/echoes}
 }
 ```
