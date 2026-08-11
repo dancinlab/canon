@@ -6,7 +6,7 @@
   <a href="easy/"><img alt="easy" src="https://img.shields.io/badge/easy-8%20summaries-informational"></a>
   <a href="pdf/"><img alt="pdf" src="https://img.shields.io/badge/pdf-8%20papers-informational"></a>
   <img alt="Fields" src="https://img.shields.io/badge/fields-4-blueviolet">
-  <a href="https://doi.org/10.5281/zenodo.19340174"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19340174-informational?logo=zenodo&logoColor=white"></a>
+  <a href="https://doi.org/10.5281/zenodo.19264825"><img alt="DOI" src="https://zenodo.org/badge/1194012867.svg"></a>
   <a href="README.md"><img alt="Full catalog" src="https://img.shields.io/badge/full%20catalog-README.md-orange"></a>
 </p>
 

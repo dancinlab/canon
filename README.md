@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue"></a>
-  <a href="https://doi.org/10.5281/zenodo.19340174"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19340174-informational?logo=zenodo&logoColor=white"></a>
+  <a href="https://doi.org/10.5281/zenodo.19264825"><img alt="DOI" src="https://zenodo.org/badge/1194012867.svg"></a>
 </p>
 
 <p align="center">discoveries · n=6 identity · 17 domain families · policy SSOTs · cross-vendor honest disclosure</p>
