@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/logo.svg" width="140" alt="echoes">
-</p>
-
 <h1 align="center">🪞 echoes</h1>
 
 <p align="center"><strong>Discoveries catalog</strong> — registered entries only, by field: one-page summaries and papers</p>

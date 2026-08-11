@@ -5,10 +5,6 @@
 > or simply wrong. Do not cite anything here as established fact without checking it at the source.
 > The verified-entries catalog is [`README_temp.md`](README_temp.md).
 
-<p align="center">
-  <img src="docs/logo.svg" width="140" alt="echoes">
-</p>
-
 <h1 align="center">🪞 echoes</h1>
 
 <p align="center"><strong>Discoveries catalog</strong> — list of findings from the HEXA-* projects, σφτ identity at the centre</p>
