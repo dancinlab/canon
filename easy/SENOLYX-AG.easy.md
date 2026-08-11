@@ -1,165 +1,172 @@
-# 🧬 SENOLYX-AG — "AND 조건 자물쇠 노화세포 청소제"
+# 🧬 SENOLYX-AG — "an AND-gated senescent-cell clearing agent"
 
-> 쉽게 읽는 한 장 요약 (easy 버전). 정식 논문: `PAPERS/senolyx-ag-selectivity/` (11쪽·표지·26 참고문헌).
-> 모든 수치는 in-silico(계산)·문헌 근거이며, 마지막 한 실험(ρ 측정)만 습식 실험으로 남았습니다.
+> One-page plain-language summary (easy version). Full paper: `PAPERS/senolyx-ag-selectivity/` (11 pages · cover · 26 references).
+> Every number is grounded in calculation and literature (in-silico); one last experiment (measuring ρ) remains for the wet lab.
 
 ---
 
-## 한 줄로
+## In one line
 
-- **하는 일**: 노화세포만 가진 **열쇠 3개가 동시에 맞을 때만** 작동하는 청소약 — 건강세포는 열쇠를 다 못 갖춰 안전.
-- **별칭**: "AND 조건 자물쇠 청소제"
-- **비유**: 핵미사일 발사처럼 **세 사람이 동시에 키를 돌려야** 열리는 금고. 한두 명으론 절대 안 열림 → 건강세포 보호.
+- **What it does**: a clearing agent that fires **only when all three keys match at once** — three keys that only senescent cells carry. Healthy cells never hold the full set, so they are safe.
+- **Nickname**: "the AND-gated clearing agent"
+- **Analogy**: like a nuclear launch, a safe that opens only when **three people turn their keys simultaneously**. One or two can never open it → healthy cells are protected.
 
 ```
-건강세포 (열쇠 1개)          노화세포 (열쇠 3개 모두)
+Healthy cell (1 key)         Senescent cell (all 3 keys)
 ───────────────             ───────────────
- 🔑 표면marker A             🔑 표면 uPAR ✓
-   → 나머지 없음              🔑 표면 DPP4 ✓
-   → 안 열림 → 산다           🔑 리소좀 SA-β-gal ✓
-                            → AND 충족 → 청소됨
+ 🔑 surface marker A         🔑 surface uPAR ✓
+   → the rest missing        🔑 surface DPP4 ✓
+   → does not open → lives   🔑 lysosomal SA-β-gal ✓
+                            → AND satisfied → cleared
 ```
 
 ---
 
-## 왜 중요한가 — 노화세포 청소(senolytic)란
+## Why it matters — what senolytics are
 
-나이가 들면 몸 안에 **"좀비 세포"(노화세포)** 가 쌓입니다. 죽지도, 일하지도 않으면서
-주변에 염증물질을 뿜어 조직 재생을 막죠. 이걸 **골라서 없애면** 늙은 쥐가 다시 건강해진다는 게
-지난 10년 노화과학의 핵심 발견입니다. 그런데 **사람 임상시험은 번번이 실패**했습니다.
+As you age, **"zombie cells" (senescent cells)** accumulate in the body. They neither die nor work, and they
+spew inflammatory signals that block tissue regeneration. That **selectively removing them** makes old
+mice healthy again is the central finding of the last decade of ageing science. And yet **human trials have
+failed, again and again**.
 
-문제는 "세게 죽이는 약"이 아니라 **"노화세포만 골라 죽이는 정밀함(선택성)"** 이었습니다.
+The problem was never "a drug that kills hard enough" — it was **the precision to kill senescent cells only
+(selectivity)**.
 
 ---
 
-## 어떤 치료가 가능한가 — 노화세포를 골라 없애면 열리는 적응증
+## What treatment becomes possible — the indications that open up
 
-핵심 원리는 하나입니다: **재생을 막던 좀비 세포(노화 섬유아세포)를 골라 없애면, 그 조직 본래의
-재생 능력(η_neo)이 되살아난다.** 같은 청소제 하나가 여러 장기의 "재생 게이트"를 동시에 엽니다.
-demiurge 안에서 SENOLYX-AG는 아래 완치(disease-modifying) 캠페인들의 공통 부품으로 재사용됩니다.
+The core principle is one: **clear away the zombie cells (senescent fibroblasts) that were blocking
+regeneration, and the tissue's own regenerative capacity (η_neo) comes back.** A single clearing agent
+opens the "regeneration gate" of several organs at once. Inside demiurge, SENOLYX-AG is reused as a shared
+component of the disease-modifying campaigns below.
 
 ```
-                  [ SENOLYX-AG: 노화세포 청소 ]
-                            │  (재생 niche 청소 → η_neo 회복)
+                  [ SENOLYX-AG: senescent-cell clearance ]
+                            │  (clear the regenerative niche → η_neo recovers)
         ┌──────────┬────────┼────────┬──────────┐
-       치주        탈모      관절      망막       척추디스크
-     (PERIO)     (AGA)     (OA)    (RETINA)     (IVD)
+     periodontal  hair    joints    retina    spinal disc
+      (PERIO)    (AGA)     (OA)   (RETINA)      (IVD)
 ```
 
-| 적응증 | 무엇을 되살리나 | 계산상 전망(η_neo 게이트) | 비유 |
+| Indication | What it restores | Calculated outlook (η_neo gate) | Analogy |
 |---|---|---|---|
-| 🦷 **치주염**(PERIO) — **첫 표적** | 잇몸·치주인대·치조골 재생 | 🟠 조건부 통과(국소투여 유리) | 잇몸 주머니에 직접 살포 — 가장 깔끔한 첫 무대 |
-| 💇 **탈모**(AGA) | 모유두 재생 → 새 모낭 | 🟠 조건부 통과(항안드로겐 병용) | 늙어버린 화분 흙을 갈아 새싹이 나게 |
-| 👁️ **망막 변성**(RETINA) | 광수용체/혈관 회복 | 🟢 통과(임상 선례 UBX1325) | 안구 국소주사 — 이미 사람에서 효과 입증된 길 |
-| 🦴 **골관절염**(OA) | 연골 재생 | 🔴 단독 미달 → 서방형+연골재생 병용 필요 | 닳은 무릎 — 청소만으론 부족, 보강이 더 필요 |
-| 🦴 **퇴행성 디스크**(IVD) | 척추 디스크 조직 | (3제 병용 요건 — 청소 단독 불충분) | 청소 + 줄기세포 + 영양복구 세트로 |
+| 🦷 **Periodontitis** (PERIO) — **first target** | Gum, periodontal ligament, alveolar bone regeneration | 🟠 conditional pass (local delivery favourable) | Applied straight into the gum pocket — the cleanest first stage |
+| 💇 **Hair loss** (AGA) | Dermal papilla regeneration → new follicles | 🟠 conditional pass (combined with anti-androgens) | Replacing the tired soil in a pot so shoots come up |
+| 👁️ **Retinal degeneration** (RETINA) | Photoreceptor and vascular recovery | 🟢 pass (clinical precedent UBX1325) | Local intraocular injection — a path already shown to work in humans |
+| 🦴 **Osteoarthritis** (OA) | Cartilage regeneration | 🔴 falls short alone → needs sustained release + cartilage regeneration | A worn knee — clearing is not enough on its own |
+| 🦴 **Degenerative disc** (IVD) | Spinal disc tissue | (needs a 3-agent combination — clearing alone insufficient) | Clearing + stem cells + nutritional repair as a set |
 
-> 한 줄: **"좀비 세포를 골라 치우면, 늙어 멈춘 조직이 스스로 다시 자란다"** — 치주·탈모·관절·망막·디스크가
-> 같은 원리의 다른 무대입니다. (전부 계산·문헌 기반 전망이며, 첫 임상 무대로는 치주가 가장 유망합니다.)
+> In one line: **"clear out the zombie cells and tissue that had aged to a halt grows back by itself"** — gums,
+> hair, joints, retina and discs are different stages for the same principle. (All of these are outlooks
+> grounded in calculation and literature; periodontitis is the most promising first clinical stage.)
 
-### 더 넓은 질병군 — 노화세포가 관여하는 거의 모든 장기
+### The wider disease space — nearly every organ where senescent cells play a part
 
-노화세포는 한 장기에만 쌓이지 않습니다. **온몸 곳곳에 같은 좀비 세포가 끼어 노화 질환을 일으킨다** —
-그래서 "골라 청소"라는 한 가지 원리가 아래처럼 전신으로 퍼집니다. (demiurge가 직접 설계·검증한 5개
-적응증 외에는 **노화과학 문헌이 가리키는 넓은 가능성**으로, 본 설계의 직접 검증 범위 밖 — 정직)
+Senescent cells do not pile up in one organ only. **The same zombie cells lodge all over the body and drive
+age-related disease** — so one principle, "clear them selectively", spreads system-wide as below. (Beyond the
+five indications demiurge designed and verified directly, these are **broad possibilities the ageing-science
+literature points to**, outside this design's own verification scope — honestly.)
 
 ```
-온몸의 노화세포 청소
-├─ 🫁 호흡기 : 폐섬유증(IPF) · 만성폐쇄성폐질환(COPD/폐기종)
-├─ ❤️ 심혈관 : 동맥경화 · 심부전 · 노화 심근
-├─ 🩸 대사   : 제2형 당뇨(인슐린저항) · 지방간(NAFLD) · 비만/대사증후군
-├─ 🧠 신경   : 알츠하이머 · 파킨슨 (노화 별아교/미세아교세포·타우)
-├─ 🦴 근골격 : 골다공증 · 근감소증(사르코페니아) · (+관절 OA)
-├─ 🫘 신장   : 만성콩팥병(신장 섬유화)
-├─ 🩹 피부   : 만성 상처·당뇨발 치유 · 피부 노화/주름
-├─ 🛡️ 면역   : 면역노화(백신 반응↓·만성염증 'inflammaging')
-└─ 💊 항암후 : 항암치료가 남긴 노화세포(치료유발 노화)·재발/부작용 완화
+Whole-body senescent-cell clearance
+├─ 🫁 Respiratory : pulmonary fibrosis (IPF) · COPD / emphysema
+├─ ❤️ Cardiovascular: atherosclerosis · heart failure · aged myocardium
+├─ 🩸 Metabolic   : type 2 diabetes (insulin resistance) · fatty liver (NAFLD) · obesity / metabolic syndrome
+├─ 🧠 Neurological: Alzheimer's · Parkinson's (senescent astro-/microglia · tau)
+├─ 🦴 Musculoskeletal: osteoporosis · sarcopenia · (+ osteoarthritis)
+├─ 🫘 Kidney      : chronic kidney disease (renal fibrosis)
+├─ 🩹 Skin        : chronic wounds / diabetic foot healing · skin ageing and wrinkles
+├─ 🛡️ Immune      : immunosenescence (weaker vaccine response · chronic "inflammaging")
+└─ 💊 Post-cancer : senescent cells left by chemotherapy (therapy-induced senescence) · easing relapse and side effects
 ```
 
-| 질병군 | 노화세포가 하는 나쁜 짓 | 청소하면 |
+| Disease group | What the senescent cells do | If they are cleared |
 |---|---|---|
-| 🫁 폐섬유증·COPD | 섬유화 유발물질 분비 → 폐가 굳음 | 섬유화 진행 둔화 |
-| ❤️ 동맥경화·심부전 | 혈관·심근에 염증 → 플라크·기능저하 | 혈관 건강·심기능 보호 |
-| 🩸 당뇨·지방간 | 지방·간 조직 염증 → 인슐린 저항 | 대사 개선 |
-| 🧠 알츠하이머·파킨슨 | 뇌 노화세포가 염증·독성 단백 촉진 | 신경염증 완화(연구단계) |
-| 🦴 골다공증·근감소증 | 뼈·근육 재생 방해 | 뼈·근력 보전 |
-| 🩹 만성 상처·당뇨발 | 상처 부위 노화세포가 치유 방해 | 상처 재생 촉진 |
-| 🛡️ 면역노화 | 만성 저강도 염증(inflammaging) | 면역·백신반응 회복 |
+| 🫁 Pulmonary fibrosis · COPD | Secrete pro-fibrotic factors → the lung stiffens | Fibrosis slows |
+| ❤️ Atherosclerosis · heart failure | Inflame vessels and myocardium → plaque, lost function | Vascular health and cardiac function protected |
+| 🩸 Diabetes · fatty liver | Inflame fat and liver tissue → insulin resistance | Metabolism improves |
+| 🧠 Alzheimer's · Parkinson's | Brain senescent cells drive inflammation and toxic proteins | Neuroinflammation eased (research stage) |
+| 🦴 Osteoporosis · sarcopenia | Obstruct bone and muscle regeneration | Bone and strength preserved |
+| 🩹 Chronic wounds · diabetic foot | Senescent cells at the wound block healing | Wound regeneration accelerated |
+| 🛡️ Immunosenescence | Chronic low-grade inflammation (inflammaging) | Immunity and vaccine response recover |
 
-> 비유: 집(장기)마다 곰팡이(노화세포)가 피면 벽지·배관·천장이 다 망가집니다. **곰팡이만 골라
-> 제거하는 한 가지 청소법**이 거실·욕실·주방 어디든 통하는 셈 — 단, 방마다 청소 농도·전달법은 달라야
-> 합니다(그래서 demiurge는 치주를 첫 무대로 정밀 설계).
+> Analogy: when mould (senescent cells) grows in a house (an organ), the wallpaper, the plumbing and the
+> ceiling all rot. **One cleaning method that removes only the mould** works in the living room, the
+> bathroom and the kitchen alike — though each room needs its own concentration and delivery route (which is
+> why demiurge designed periodontitis precisely, as the first stage).
 
-전신적으로는 만성 염증 감소·**건강수명(healthspan) 연장**까지 같은 계열의 큰 목표로 이어집니다 —
-이는 더 먼 비전이고, 본 설계가 직접 증명한 것은 위 5개 재생 적응증의 in-silico 전망입니다(정직).
-
----
-
-## 우리가 찾은 것 — "두 번 잘못 조준하고 있었다"
-
-이 연구는 막힌 벽(약물 결합력 계산이 안 맞음)에서 시작해, 그 벽이 사실 **잘못된 과녁**이었음을
-수학으로 증명했습니다.
-
-```
-전 (기존 접근)              후 (우리 발견)
-─────────────              ─────────────
- ▢ "더 세게 붙는 약"    →    ▢ 선택성 = 친화도가 아니라
-   (결합력 ABFE 최적화)        '차등 의존성' (닫힌 수식으로 증명)
- ▢ "몇 % 청소했나"      →    ▢ 재생 = 청소율이 아니라
-   (clearance-% 게이트)        '어느 세포를·국소에서' (임상기록과 일치)
- ▢ 단일 표적 약물       →    ▢ 직교 3축 AND-gate (곱셈 선택성 ~19배)
-```
-
-증거 한 방: **navitoclax** 라는 약은 결합력이 가장 센데도 치료창이 가장 좁습니다(혈소판 독성).
-"세게 붙음 ≠ 잘 고름"의 교과서적 반례죠.
+System-wide, this leads on to reduced chronic inflammation and even **extended healthspan** as the same
+family's larger goal — that is a more distant vision, and what this design demonstrates directly is the
+in-silico outlook for the five regenerative indications above (honestly).
 
 ---
 
-## SENOLYX-AG 설계
+## What we found — "we had been aiming at the wrong target twice"
 
-| 부품 | 역할 | 비유 |
+This research started at a wall (binding-affinity calculations that would not match) and proved
+mathematically that the wall was in fact **the wrong target**.
+
+```
+Before (the existing approach)      After (what we found)
+─────────────                      ─────────────
+ ▢ "a drug that binds harder"  →    ▢ selectivity is not affinity but
+   (optimising binding, ABFE)         'differential dependency' (proved in closed form)
+ ▢ "what % did we clear?"      →    ▢ regeneration is not the clearance rate but
+   (a clearance-% gate)               'which cells, and locally' (matches clinical records)
+ ▢ single-target drug          →    ▢ orthogonal 3-axis AND gate (~19× multiplicative selectivity)
+```
+
+The clinching evidence: **navitoclax** binds the hardest of all and yet has the narrowest therapeutic
+window (platelet toxicity). A textbook counterexample to "binds hard = selects well".
+
+---
+
+## The SENOLYX-AG design
+
+| Component | Role | Analogy |
 |---|---|---|
-| BCL-xL/MCL-1 PROTAC | 죽이는 무기(노화세포 공통 약점) | 청소 도구 |
-| 갈락토스 캡(SA-β-gal로 열림) | 자물쇠 ① 리소좀 효소 | 첫째 열쇠구멍 |
-| uPAR 표적 입자 | 자물쇠 ② 표면 marker | 둘째 열쇠구멍 |
-| DPP4 인식 | 자물쇠 ③ 표면 marker | 셋째 열쇠구멍 |
-| 국소 전달 | 전신 독성 회피 | 그 동네에만 살포 |
+| BCL-xL/MCL-1 PROTAC | The killing warhead (a weakness senescent cells share) | The cleaning tool |
+| Galactose cap (opened by SA-β-gal) | Lock ① lysosomal enzyme | First keyhole |
+| uPAR-targeting particle | Lock ② surface marker | Second keyhole |
+| DPP4 recognition | Lock ③ surface marker | Third keyhole |
+| Local delivery | Avoids systemic toxicity | Spraying that neighbourhood only |
 
-- **첫 표적**: 치주(잇몸) 조직 — 노화세포가 단일 유형(CD81+ 섬유아세포)으로 깔끔하고, 잇몸 주머니에 국소 투여가 쉬움.
-- **계산상 선택성**: 최악 조건에서도 13.5배, 보통 ~19배 (단일 표적은 오히려 역효과).
+- **First target**: periodontal (gum) tissue — the senescent cells there are a single clean type (CD81+ fibroblasts), and local delivery into the gum pocket is easy.
+- **Calculated selectivity**: 13.5× even in the worst case, ~19× typically (a single target is actually counterproductive).
 
 ---
 
-## vs 기존 senolytic
+## vs existing senolytics
 
-| 축 | 기존 (navitoclax 등) | SENOLYX-AG |
+| Axis | Existing (navitoclax etc.) | SENOLYX-AG |
 |---|---|---|
-| 고르는 방식 | 열쇠 1개 (표적 1개) | 열쇠 3개 동시 (AND) |
-| 선택성 | 좁음 (혈소판도 죽임) | 곱셈 ~19배 |
-| 설계 원리 | 결합력 최적화 | 차등 의존성 + 직교 AND |
-| 신규성 | — | 분자조각은 전부 기존 화학, **조합이 세계 최초** |
+| How it selects | 1 key (1 target) | 3 keys at once (AND) |
+| Selectivity | Narrow (kills platelets too) | Multiplicative, ~19× |
+| Design principle | Affinity optimisation | Differential dependency + orthogonal AND |
+| Novelty | — | Every molecular piece is existing chemistry; **the combination is a world first** |
 
 ---
 
-## 남은 단 하나의 실험
+## The single experiment that remains
 
-계산으로 풀 수 있는 건 다 풀렸습니다. 마지막 하나 — **세 열쇠가 정말 서로 독립인가(ρ 측정)** —
-는 실험실에서 **3색 유세포분석** 한 번이면 판가름 납니다.
+Everything solvable by calculation has been solved. The last item — **are the three keys really independent
+of each other (measuring ρ)** — is settled by a single **three-colour flow cytometry** run in the lab.
 
 ```
-[ 노화 섬유아세포 ] ──▶ [ 3색 동시측정 ]──▶ [ 상관 ρ 계산 ]
-  uPAR·DPP4·SA-β-gal       유세포분석            ├─ ρ≤0.3 → ✅ 제작 GO
-                                                └─ ρ≥0.6 → 🔴 재설계
+[ senescent fibroblasts ] ──▶ [ 3-colour readout ]──▶ [ compute correlation ρ ]
+  uPAR · DPP4 · SA-β-gal        flow cytometry           ├─ ρ ≤ 0.3 → ✅ GO to synthesis
+                                                         └─ ρ ≥ 0.6 → 🔴 redesign
 ```
 
 ---
 
-## 정직한 한계
+## Honest limits
 
-- 모든 수치는 **계산·문헌 기반**(아직 실험 검증 전).
-- 분자조각은 출판된 화학이고, 새로운 건 **그 조합**(직교 3축 + 국소 전달 + 섬유아세포 표적).
-- 임상 효능 주장은 하지 않습니다 — 습식 실험이 다음 단계.
+- Every number is **grounded in calculation and literature** (not yet experimentally verified).
+- The molecular pieces are published chemistry; what is new is **the combination** (orthogonal 3 axes + local delivery + fibroblast targeting).
+- No claim of clinical efficacy is made — wet-lab work is the next step.
 
 ---
 
-*출처: demiurge `PAPERS/senolyx-ag-selectivity/` · `state/senolyx-novel-andgate/` · 표지 그림 fal.ai/FLUX 생성.*
+*Source: demiurge `PAPERS/senolyx-ag-selectivity/` · `state/senolyx-novel-andgate/` · cover art generated with fal.ai/FLUX.*

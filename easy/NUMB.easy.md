@@ -1,87 +1,91 @@
-# 💉 NUMB — "한 통으로 다 통하는 안전한 마취 크림"
+# 💉 NUMB — "one safe anaesthetic cream that works for everything"
 
-> 쉽게 읽는 한 장 요약 (easy 버전). SSOT: `domains/NUMB/` (G1~G7+V3 게이트 · verify 87건).
-> 비-실험 게이트는 100% 닫혔고(absorbed=false 유지), 남은 건 12개 실험 측정뿐입니다(정직).
-
----
-
-## 한 줄로
-
-- **하는 일**: 바르고 기다리면 피부가 마비되는 **국소(바르는) 마취 크림** — 시술 종류를 안 가리고(문신·레이저·주사·미용시술 등 8가지+) **한 제형**으로 커버.
-- **별칭**: "한 통 만능 마취 크림"
-- **비유**: 칸마다 다른 열쇠(시술마다 다른 마취제) 대신 **여러 문을 여는 마스터키 한 개** — 단, 아이용·성인용 농도를 안전하게 나눔.
-
-```
-[ 바름 ] ──20분 대기──▶ [ 피부 마비 ] ──▶ 시술
-                                        ├─ 문신/레이저
-                                        ├─ 주사/채혈
-                                        └─ 미용시술 …(8+)
-```
+> One-page plain-language summary (easy version). SSOT: `domains/NUMB/` (gates G1–G7 + V3 · 87 verify claims).
+> The non-experimental gates are 100% closed (absorbed=false is kept), and what remains is 12 experimental measurements (honesty).
 
 ---
 
-## 왜 중요한가 — 기존 마취 크림의 진짜 약점
+## In one line
 
-바르는 마취 크림(EMLA 등)은 이미 있습니다. 그런데 진짜 문제는 **"빨리 되냐"가 아니라 안전과 범위**입니다.
-- 아이에게 EMLA를 쓰면 **메트헤모글로빈혈증**(피가 산소를 못 나르는 부작용) 위험이 있습니다(프릴로카인 성분).
-- 시술마다 다른 제품·농도를 써야 하고, 약국용(OTC)과 처방용(Rx)이 뒤섞여 있습니다.
+- **What it does**: a **topical (spread-on) anaesthetic cream** that numbs the skin while you wait — covering procedure after procedure (tattoos, lasers, injections, cosmetic work, 8+ in all) with **a single formulation**.
+- **Nickname**: "the one-tube universal anaesthetic cream"
+- **Analogy**: instead of a different key for every lock (a different anaesthetic per procedure), **one master key that opens many doors** — with children's and adult strengths split apart safely.
 
-NUMB는 **"더 빠른 마취"가 아니라**, 위 약점들을 정조준합니다.
+```
+[ apply ] ──wait 20 min──▶ [ skin numb ] ──▶ procedure
+                                            ├─ tattoo / laser
+                                            ├─ injection / blood draw
+                                            └─ cosmetic work …(8+)
+```
 
 ---
 
-## 어떤 적용이 가능한가 — 진짜 차별점 4가지
+## Why it matters — the real weakness of existing anaesthetic creams
+
+Topical anaesthetic creams (EMLA and others) already exist. But the real problem is **not "how fast", it is
+safety and coverage**.
+- Using EMLA on children carries a risk of **methaemoglobinaemia** (a side effect where blood cannot carry oxygen), because of its prilocaine.
+- Each procedure needs a different product and strength, and over-the-counter (OTC) and prescription (Rx) products are tangled together.
+
+NUMB is **not aimed at "faster numbing"** — it targets exactly those weaknesses.
+
+---
+
+## What becomes possible — the four real differentiators
 
 ```
-              [ NUMB 한 제형 ]
+              [ NUMB, one formulation ]
        ┌────────┬────────┬────────┬────────┐
-   아이 안전   듀얼 채널   8+ 시술    LAST 안전
-  프릴로카인-free OTC↔Rx   한 제형    여유 273×
+   child-safe   dual       8+        LAST
+   prilocaine-  channel  procedures  margin
+   free         OTC↔Rx   one form    273×
 ```
 
-| 차별점 | 무엇이 좋아지나 | 비유 |
+| Differentiator | What improves | Analogy |
 |---|---|---|
-| 👶 소아 안전 | 프릴로카인 빼서 **메트헤모글로빈 위험 ~100× 안전** | 아이에게도 마음 놓고 |
-| 🏪 듀얼 채널 | 약국용(저농도 OTC) ↔ 처방용(고농도+에피네프린 Rx) | 한 브랜드, 두 등급 |
-| 🎯 8+ 시술 | 한 제형이 문신·레이저·주사·미용 등 커버 | 마스터키 |
-| 🛡️ LAST 안전 | 전신독성(LAST) 안전 여유 **273배** · 에피 추가 여력 | 넉넉한 안전 마진 |
+| 👶 Paediatric safety | Prilocaine removed → **~100× safer on methaemoglobin risk** | Safe enough for children |
+| 🏪 Dual channel | Pharmacy (low-strength OTC) ↔ prescription (high-strength + epinephrine, Rx) | One brand, two tiers |
+| 🎯 8+ procedures | One formulation covers tattoo, laser, injection, cosmetic work and more | A master key |
+| 🛡️ LAST safety | **273× margin** against systemic toxicity (LAST), with headroom to add epinephrine | A generous safety margin |
 
-> ⚠️ 정직한 차별: **"마취가 더 빨리 된다"는 혁신이 아닙니다.** 처방용은 기존 Pliaglis와 비슷한 속도예요.
-> 진짜 가치는 위 4가지(특히 소아 안전 + 듀얼 채널)입니다.
-
----
-
-## 핵심 발견 (정직하게)
-
-```
-비-실험(in-silico) 게이트  : 8/8 closed (G1~G7 + V3) ✅
-verify 87 claim           : 🔵12 · 🟢20 · 🟡36 · 🟠15 · 🔴3 (+⚪1)
-실험(wet-lab) 게이트       : 0/12 — 측정만 남음 (그래서 absorbed=false 정직 유지)
-```
-
-- **NOVEL "onset 가속" 주장은 🔴 FALSIFIED**: 빨리 마취된다는 가설을 직접 검증해보니 거짓 — 그 성분들은 **깊이·지속**을 바꿀 뿐 **시작 속도(onset)**와 무관함을 솔직히 확인.
-- **유통기한 게이트**: 진짜 한계는 에피네프린 산화 25.7개월(≈24개월 게이트) — 마취 성분 자체는 사실상 무한정 안정.
-- **실험 진입점**: Phase0 in-vitro 약 $2,650(DSC+Franz+HPLC)로 12 게이트 중 8개를 건드림.
+> ⚠️ Honest distinction: **"it numbs faster" is not the innovation.** The prescription tier is about as fast
+> as the existing Pliaglis. The real value is the four points above (especially paediatric safety and the
+> dual channel).
 
 ---
 
-## vs 기존 마취 크림
+## Core findings (honestly)
 
-| 축 | 기존(EMLA 등) | NUMB |
+```
+Non-experimental (in-silico) gates : 8/8 closed (G1–G7 + V3) ✅
+87 verify claims                   : 🔵12 · 🟢20 · 🟡36 · 🟠15 · 🔴3 (+⚪1)
+Experimental (wet-lab) gates       : 0/12 — measurement is all that is left
+                                     (hence absorbed=false, kept honestly)
+```
+
+- **The NOVEL "faster onset" claim is 🔴 FALSIFIED**: tested directly, the hypothesis turned out false — those ingredients change **depth and duration** only, and have nothing to do with **onset speed**. Recorded plainly.
+- **Shelf-life gate**: the real limit is epinephrine oxidation at 25.7 months (against a ≈24-month gate) — the anaesthetic ingredients themselves are essentially indefinitely stable.
+- **Entry point for experiment**: a Phase-0 in-vitro run at about $2,650 (DSC + Franz + HPLC) touches 8 of the 12 gates.
+
+---
+
+## vs existing anaesthetic creams
+
+| Axis | Existing (EMLA etc.) | NUMB |
 |---|---|---|
-| 소아 안전 | 프릴로카인 MetHb 위험 | 프릴로카인-free ~100× 안전 |
-| 적용 범위 | 시술별 제각각 | 8+ 시술 한 제형 |
-| 채널 | OTC/Rx 혼재 | OTC↔Rx 듀얼 SKU 설계 |
-| onset | — | 동급(혁신 아님·정직) |
+| Paediatric safety | Prilocaine MetHb risk | Prilocaine-free, ~100× safer |
+| Coverage | A different product per procedure | 8+ procedures, one formulation |
+| Channel | OTC / Rx tangled | Designed as an OTC ↔ Rx dual SKU |
+| Onset | — | Comparable (not an innovation — honestly) |
 
 ---
 
-## 정직한 한계
+## Honest limits
 
-- **시작 속도(onset) 혁신은 아닙니다** — 자체 검증으로 솔직히 기각(🔴).
-- **비-실험 설계는 100% 닫혔지만**, 실제 효과·안전은 **12개 실험 측정(0/12)** 으로만 확정됩니다(absorbed=false 유지).
-- 진짜 가치는 onset이 아니라 **소아 안전·듀얼 채널·범용성·안전 마진**에 있습니다.
+- **Onset speed is not an innovation** — our own verification rejected it outright (🔴).
+- **The non-experimental design is 100% closed**, but real efficacy and safety are settled only by the **12 experimental measurements (0/12)** (absorbed=false is kept).
+- The real value is not onset but **paediatric safety, the dual channel, breadth of use, and the safety margin**.
 
 ---
 
-*출처: demiurge `domains/NUMB/` (G1 indication map · G2 regulatory · verify 87 ledger).*
+*Source: demiurge `domains/NUMB/` (G1 indication map · G2 regulatory · 87-claim verify ledger).*

@@ -1,103 +1,108 @@
-# ⚛️ CERN — "입자가속기 빔물리를 노트북 안에서 직접 굴리기"
+# ⚛️ CERN — "running accelerator beam physics directly inside a laptop"
 
-> 쉽게 읽는 한 장 요약 (easy 버전). SSOT: `domains/cern/` (7-verb 파이프라인).
-> 테이블탑(레이저-플라스마) 기준까지는 hexa-native로 닫고, LHC급·GPU-heavy는 외부데이터 의존으로 정직하게 분리합니다.
-
----
-
-## 한 줄로
-
-- **하는 일**: 입자를 가속하는 물리(가속기·빔)를 **닫힌 수식 + 1-D 시뮬레이션**으로 노트북 안에서 직접 재현·검증.
-- **별칭**: "탁상 가속기 시뮬레이터"
-- **비유**: 거대한 입자가속기(둘레 27km LHC)를 **책상 위 축소 모형 + 계산기**로 핵심 물리만 떼어 굴려보는 것.
-
-```
-[ 입자 ] ──RF 가속──▶ [ 빔 ] ──플라스마 wakefield──▶ [ 초고전계 가속 ]
-   닫힌식 4-cell        1-D PIC parity            blowout 전이 재현
-```
+> One-page plain-language summary (easy version). SSOT: `domains/cern/` (7-verb pipeline).
+> Everything up to the tabletop (laser-plasma) level is closed hexa-native; LHC-class and GPU-heavy work is honestly separated out as dependent on external data.
 
 ---
 
-## 왜 중요한가 — 가속기 물리는 보통 거대장비가 있어야 검증된다
+## In one line
 
-입자가속기는 전자·양성자를 빛에 가깝게 가속해 물질의 근본을 봅니다. 보통은 **수 km짜리 장비**와
-거대 시뮬레이션이 필요하죠. CERN 캠페인은 그중 **계산으로 닫을 수 있는 핵심 물리**(RF 가속·빔 광학·
-플라스마 항적장·입자 정지능)를 **외부 장비 없이** demiurge 안에서 재현하고, 표준 코드와 대조해 검증합니다.
+- **What it does**: reproduces and verifies accelerator physics (accelerators and beams) inside a laptop, using **closed-form equations plus 1-D simulation**.
+- **Nickname**: "the desktop accelerator simulator"
+- **Analogy**: taking a giant particle accelerator (the 27 km LHC ring) and running just its core physics on **a desk-sized scale model plus a calculator**.
+
+```
+[ particle ] ──RF accel──▶ [ beam ] ──plasma wakefield──▶ [ ultra-high-field accel ]
+   closed-form 4-cell        1-D PIC parity            blowout transition reproduced
+```
 
 ---
 
-## 일반인에게 뭐가 바뀌나 — 가속기가 작아지면
+## Why it matters — accelerator physics normally needs a giant machine to verify
 
-입자가속기는 거대 과학장비지만, 그 기술은 이미 우리 삶 곳곳(암 치료·검사·반도체)에 쓰입니다.
-이 캠페인이 다루는 **차세대 초소형 가속기(플라스마 항적장)**가 현실이 되면, 보통 사람 기준으로
-아래가 바뀝니다. (본 캠페인은 그 물리를 계산으로 재현·검증한 것 — 장비 제작은 다음 단계.)
+Particle accelerators push electrons and protons close to light speed to look at the foundations of matter.
+That normally takes **kilometre-scale hardware** and enormous simulations. The CERN campaign takes the
+**core physics that can be closed by calculation** (RF acceleration, beam optics, plasma wakefield,
+particle stopping power) and reproduces it inside demiurge **with no external hardware**, cross-checking
+against standard codes.
+
+---
+
+## What changes for an ordinary person — if accelerators get small
+
+Accelerators are big-science instruments, but the technology is already all around us (cancer therapy,
+diagnostics, semiconductors). If the **next-generation ultra-compact accelerator (plasma wakefield)** this
+campaign covers becomes real, here is what changes in everyday terms. (This campaign reproduced and
+verified the physics by calculation — building hardware is the next step.)
 
 ```
-가속기가 km → 방 크기로 작아지면 →
-├─ 🎗️ 암 치료    : 양성자·중입자 치료기가 작고 싸져 → 병원 보급↑·치료비↓
-├─ 🩻 검사·진단  : PET 등 의료영상용 동위원소 생산이 쉬워짐
-├─ 💊 신약·신소재 : 방사광으로 분자·재료 구조 분석 가속
-├─ 🔬 반도체     : 이온주입·미세가공 등 산업 공정 정밀화
-└─ 🏫 연구 접근성 : 대학·병원도 자체 가속기 → 연구 민주화
+If accelerators shrink from km to room scale →
+├─ 🎗️ Cancer therapy : proton / heavy-ion units get small and cheap → wider availability, lower cost
+├─ 🩻 Diagnostics    : isotopes for medical imaging (PET etc.) become easier to produce
+├─ 💊 Drugs/materials: synchrotron light speeds up molecular and material structure analysis
+├─ 🔬 Semiconductors : ion implantation and micro-fabrication get more precise
+└─ 🏫 Research access: universities and hospitals run their own → research democratised
 ```
 
-| 지금 | 가속기가 작아지면 |
+| Today | If accelerators shrink |
 |---|---|
-| 양성자 치료기=수백억·대형 병원만 | 소형·저가 → 동네 병원도 도입 가능 |
-| 암 치료 접근성 낮음 | 정밀 방사선치료 보편화 |
-| 거대 국가시설에 의존 | 대학/병원 단위 자체 운용 |
+| Proton therapy costs tens of millions; only large hospitals | Small and cheap → local hospitals can adopt it |
+| Poor access to cancer therapy | Precision radiotherapy becomes routine |
+| Dependent on huge national facilities | Operated at university / hospital scale |
 
-> 비유: 옛날 컴퓨터가 건물만 했다가 노트북이 된 것처럼, **27km짜리 가속기를 방 크기로** 줄이는 길.
-> 그 핵심 물리(플라스마 항적장)를 이 캠페인이 노트북 계산으로 재현·검증했습니다(표준코드와 3.56% 일치).
-> 단, 실제 의료기기는 장비 제작·임상이 다음 단계입니다.
+> Analogy: just as computers went from filling a building to fitting in a laptop, this is the path to
+> shrinking **a 27 km accelerator to room size**. This campaign reproduced and verified its core physics
+> (plasma wakefield) in laptop calculations, agreeing with the standard code to 3.56%.
+> Building actual medical devices, and the clinical work, is the next step.
 
-## 무엇을 닫았나 — 4갈래
+## What was closed — four strands
 
-| 갈래 | 무엇을 | 결과 |
+| Strand | What | Result |
 |---|---|---|
-| 📡 RF 가속 | 4-cell 가속 공동 | ✅ 닫힌식/알고리즘 closure |
-| 🌊 플라스마 wakefield | 레이저-플라스마 항적장(차세대 초소형 가속) | ✅ cold-linear 닫힌식 + 1-D PIC parity (FBPIC Δ=3.56%) |
-| 🎯 빔 광학 | FODO 격자 twiss(빔 초점) | ✅ Xsuite 대조 rel.err 2.7e-14 |
-| 🛑 입자 정지능 | Bethe-Bloch(물질 속 감속) | 🟢 보정 본해(밀도효과+shell+Bloch+Barkas) mean Δ 6.25%→4.39% |
+| 📡 RF acceleration | 4-cell accelerating cavity | ✅ closed-form / algorithmic closure |
+| 🌊 Plasma wakefield | Laser-plasma wakefield (next-gen ultra-compact acceleration) | ✅ cold-linear closed form + 1-D PIC parity (FBPIC Δ = 3.56%) |
+| 🎯 Beam optics | FODO lattice twiss (beam focusing) | ✅ cross-checked against Xsuite, rel. err 2.7e-14 |
+| 🛑 Stopping power | Bethe-Bloch (slowing inside matter) | 🟢 corrected solution (density effect + shell + Bloch + Barkas), mean Δ 6.25% → 4.39% |
 
-> 🎯 핵심: **차세대 "플라스마 항적장 가속"을 노트북에서 재현** — 표준 코드(FBPIC)와 3.56% 일치.
-> 게다가 2-D 비선형 blowout 전이까지 **무료 CPU $0**로 재현(a0 커지면 E_z 1.70→405 GV/m).
+> 🎯 The core result: **next-generation "plasma wakefield acceleration" reproduced on a laptop** — agreeing
+> with the standard code (FBPIC) to 3.56%. On top of that, the 2-D nonlinear blowout transition was
+> reproduced too, at **$0 on free CPU** (as a0 grows, E_z goes 1.70 → 405 GV/m).
 
 ---
 
-## 핵심 발견 (정직하게)
+## Core findings (honestly)
 
 ```
-hexa-native로 닫음              외부 의존으로 분리(정직)
-─────────────                 ─────────────
- ✅ RF 4-cell 닫힌식            ⛔ LHC급 measured-ring(라이선스)
- ✅ wakefield 1-D PIC parity    ⛔ design-grade GPU 수렴 sweep
- ✅ FODO twiss(2.7e-14)         ⛔ Stage6 저에너지 보정(ICRU-49)
- 🟢 Bethe-Bloch 보정(30% closure)
+Closed hexa-native              Separated as externally dependent (honest)
+─────────────                  ─────────────
+ ✅ RF 4-cell closed form       ⛔ LHC-class measured ring (licensing)
+ ✅ wakefield 1-D PIC parity    ⛔ design-grade GPU convergence sweep
+ ✅ FODO twiss (2.7e-14)        ⛔ Stage-6 low-energy correction (ICRU-49)
+ 🟢 Bethe-Bloch correction (30% closure)
 ```
 
-- **테이블탑 기준 완전 구동**: RF·wakefield·빔광학을 닫힌식+1-D PIC로 닫음.
-- **정직 분리**: LHC급(Geant4 measured-ring)·GPU-heavy 비선형은 "도메인 미완성이 아니라" 외부데이터/장비 의존이라 downstream으로 명시.
-- **무료 우선**: 2-D blowout sweep을 비용 0으로 당겨 완료.
+- **Fully running at tabletop level**: RF, wakefield and beam optics closed with closed-form equations plus 1-D PIC.
+- **Honest separation**: LHC-class (Geant4 measured ring) and GPU-heavy nonlinear work is marked downstream because it depends on external data and hardware — *not* because the domain is unfinished.
+- **Free first**: the 2-D blowout sweep was pulled forward and completed at zero cost.
 
 ---
 
-## vs 기존 접근
+## vs the existing approach
 
-| 축 | 기존 가속기 검증 | CERN 캠페인 |
+| Axis | Conventional accelerator verification | CERN campaign |
 |---|---|---|
-| 장비 | 수 km 링·거대 MC | 노트북 닫힌식+1-D PIC |
-| 표준대조 | 내부 | FBPIC/Xsuite parity |
-| 정직성 | — | 테이블탑 닫음 vs LHC급 분리 명시 |
+| Hardware | km-scale ring, huge Monte Carlo | Laptop closed form + 1-D PIC |
+| Cross-check | Internal | FBPIC / Xsuite parity |
+| Honesty | — | Explicit: tabletop closed vs LHC-class separated |
 
 ---
 
-## 정직한 한계
+## Honest limits
 
-- **LHC급 실측·design-grade GPU 수렴은 범위 밖**(라이선스·장비 의존, downstream 분리).
-- 닫은 것은 **테이블탑 기준 물리**(닫힌식 + 1-D linear PIC parity)까지.
-- Bethe-Bloch는 30% closure(중간평탄 91-98% 닫힘)로 진행 중인 보정.
+- **LHC-class measurements and design-grade GPU convergence are out of scope** (licence- and hardware-dependent, separated downstream).
+- What is closed is the physics **up to tabletop level** (closed form + 1-D linear PIC parity).
+- Bethe-Bloch is an in-progress correction at 30% closure (91–98% closed on the mid plateau).
 
 ---
 
-*출처: demiurge `domains/cern/` (RF·wakefield·FODO·Bethe-Bloch · PR#1296/#243).*
+*Source: demiurge `domains/cern/` (RF · wakefield · FODO · Bethe-Bloch · PR #1296 / #243).*

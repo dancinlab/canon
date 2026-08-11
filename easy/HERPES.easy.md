@@ -1,86 +1,89 @@
-# 🦠 HERPES — "숨은 바이러스 본거지까지 없애는 완치 설계"
+# 🦠 HERPES — "a cure design that clears the virus down to its hidden reservoir"
 
-> 쉽게 읽는 한 장 요약 (easy 버전). SSOT: `domains/HERPES/` (M1~ · V1/V4 등급 ledger 248건).
-> 모든 수치는 계산·문헌 기반 in-silico 설계이며, 9건은 반드시 실험 확인이 필요합니다(정직).
-
----
-
-## 한 줄로
-
-- **하는 일**: 입술(HSV-1)·성기(HSV-2) 물집을 **재발까지 끊는 완치(sterilizing cure)** 설계 — 증상만 누르는 게 아니라 **신경에 숨은 바이러스 본거지**를 제거.
-- **별칭**: "숨은 본거지 제거 완치 설계"
-- **비유**: 잡초를 잎만 자르면(기존 약) 또 올라옵니다. **뿌리(신경절 잠복 바이러스)를 캐내고**, 다시 싹트는 길까지 막는 것.
-
-```
-기존 항바이러스제              HERPES 완치 설계
-─────────────                ─────────────
- 잎만 자름(증상 억제)     →     뿌리 제거(잠복 게놈 파괴)
- 약 끊으면 재발          →     재활성화 경로 차단
- 평생 반복               →     본거지 reservoir 제거
-```
+> One-page plain-language summary (easy version). SSOT: `domains/HERPES/` (M1– · V1/V4 graded ledger, 248 claims).
+> Every number is in-silico design grounded in calculation and literature, and 9 items must be confirmed experimentally (honesty).
 
 ---
 
-## 왜 중요한가 — 헤르페스는 "못 고치는 병"으로 알려져 있다
+## In one line
 
-헤르페스 바이러스는 한 번 감염되면 **신경절(신경 다발)에 숨어 평생 잠복**합니다. 면역이 떨어지면
-다시 깨어나 물집이 재발하죠. 기존 약(아시클로버 등)은 **깨어난 바이러스만** 억제할 뿐, **숨은 본거지**는
-못 건드립니다. 그래서 "관리"는 되지만 "완치"는 안 됩니다. 전 세계 수십억 명이 보유한 흔한 감염입니다.
+- **What it does**: a design for a **sterilizing cure** of oral (HSV-1) and genital (HSV-2) blisters — one that stops recurrence, not just symptoms, by clearing **the virus's hiding place in the nerves**.
+- **Nickname**: "the clear-the-reservoir cure design"
+- **Analogy**: cutting only the leaves off a weed (today's drugs) and it grows back. This **digs out the root** (the latent virus in the nerve ganglia) and blocks the path by which it sprouts again.
+
+```
+Existing antivirals             HERPES cure design
+─────────────                  ─────────────
+ cuts leaves (suppresses    →   removes the root (destroys the latent genome)
+   symptoms)
+ relapses when you stop     →   blocks the reactivation pathway
+ lifelong repetition        →   the reservoir itself is cleared
+```
 
 ---
 
-## 어떤 치료가 가능한가 — 본거지를 직접 끊는 2갈래
+## Why it matters — herpes is known as "the disease you cannot cure"
+
+Once you are infected, the herpes virus **hides in the nerve ganglia and stays latent for life**. When
+immunity dips it wakes up and the blisters return. Existing drugs (aciclovir and the like) suppress
+**only the virus that has woken up**; they cannot touch **the hiding place**. So the disease is
+manageable but not curable. Billions of people worldwide carry it.
+
+---
+
+## What treatment becomes possible — two strands that cut the reservoir directly
 
 ```
-            [ HERPES 완치 설계 ]
+            [ HERPES cure design ]
         ┌──────────────┬──────────────┐
-   ① 잠복 게놈 파괴      ② 재활성화 차단
-   (CRISPR 유전자 가위)   (깨어나는 스위치 잠금)
+   ① destroy latent genome   ② block reactivation
+   (CRISPR gene scissors)     (lock the wake-up switch)
         └──────────────┴──────────────┘
-                 → reservoir 제거 = sterilizing cure
+                 → reservoir cleared = sterilizing cure
 ```
 
-| 갈래 | 무엇을 하나 | 핵심 |
+| Strand | What it does | Core |
 |---|---|---|
-| ✂️ 잠복 게놈 파괴 | CRISPR 유전자 가위로 신경에 숨은 바이러스 DNA를 잘라 무력화 | **UL30 표적 이중 가위(dual-guide)** 권고 🟢 |
-| 🔒 재활성화 차단 | 바이러스가 깨어나는 분자 스위치(잠복↔활성)를 잠금 | 잠복 유지·재발 빈도↓ |
+| ✂️ Destroy the latent genome | CRISPR gene scissors cut and disable the viral DNA hidden in the nerves | **UL30-targeting dual-guide scissors** recommended 🟢 |
+| 🔒 Block reactivation | Lock the molecular switch (latent ↔ active) the virus uses to wake up | Keeps latency, lowers recurrence frequency |
 
-> 🎯 안전성 체크 통과: CRISPR 가위 5종을 검사해 **사람 DNA 오작동(off-target) 0건**(MM≤2). 즉
-> "바이러스만 자르고 사람 유전자는 안 건드린다"가 계산상 확인됨. (단일 가위 g4는 재설계 권고 🔴 — 정직)
-
----
-
-## 핵심 발견 (정직하게)
-
-```
-근거 등급(V1/V4 ledger · 248개 주장)
-🔵 닫힌수식/증명 25 · 🟢 모델검증 44 · 🟡 인용근거 144 · 🟠 미결 35 · 🔴 닫힌음성 0 (+⚪ 5)
-→ 강한 근거(🔵+🟢) 69개 · compute로 올릴 수 있는 것 26 · 반드시 실험 필요 9
-```
-
-- **재발 수학 모델(🔵)**: 재발 횟수를 닫힌 수식 `R = N·exp(μ+σ²/2)·(1−εφ)` 으로 도출, 몬테카를로와 0.084% 일치.
-- **CRISPR 안전(🟢)**: UL30 이중 가위가 사람 게놈 오작동 0 → 권고.
-- **정직한 falsify(🔴/🟠)**: 일부 단일 가위·proxy는 효과 없음으로 솔직히 표시 — 헛된 길 배제.
+> 🎯 Safety check passed: five CRISPR guides were screened and **zero off-target hits on human DNA**
+> (MM ≤ 2). That is, "cuts only the virus, never human genes" is confirmed in calculation. (The single
+> guide g4 is flagged for redesign 🔴 — honestly.)
 
 ---
 
-## vs 기존 치료
+## Core findings (honestly)
 
-| 축 | 기존 항바이러스제 | HERPES 완치 설계 |
+```
+Evidence grades (V1/V4 ledger · 248 claims)
+🔵 closed form / proof 25 · 🟢 model-verified 44 · 🟡 citation-backed 144 · 🟠 open 35 · 🔴 closed-negative 0 (+⚪ 5)
+→ strong evidence (🔵+🟢) 69 · liftable by compute 26 · experiment mandatory 9
+```
+
+- **Recurrence model (🔵)**: recurrence count derived in the closed form `R = N·exp(μ+σ²/2)·(1−εφ)`, agreeing with Monte Carlo to 0.084%.
+- **CRISPR safety (🟢)**: the UL30 dual guide has zero off-target hits on the human genome → recommended.
+- **Honest falsification (🔴/🟠)**: some single guides and proxies are marked plainly as ineffective — ruling out dead ends.
+
+---
+
+## vs existing treatment
+
+| Axis | Existing antivirals | HERPES cure design |
 |---|---|---|
-| 목표 | 증상 억제(관리) | 완치(본거지 제거) |
-| 숨은 바이러스 | 못 건드림 | CRISPR로 직접 파괴 |
-| 재발 | 약 끊으면 반복 | 재활성화 경로 차단 |
-| 단계 | 시판 약 | in-silico 설계(실험 검증 전) |
+| Goal | Suppress symptoms (management) | Cure (clear the reservoir) |
+| Hidden virus | Cannot touch it | Destroyed directly by CRISPR |
+| Recurrence | Returns when you stop the drug | Reactivation pathway blocked |
+| Stage | Marketed drug | In-silico design (before experimental verification) |
 
 ---
 
-## 정직한 한계
+## Honest limits
 
-- **아직 설계 단계** — 248개 주장 중 강한 자체근거(🔵+🟢)는 69개, **9건은 반드시 wet-lab 실험**으로 확인해야 합니다.
-- CRISPR 신경절 **전달(delivery)**·생체 내 효율은 실험으로 증명할 핵심 관문.
-- "완치"는 목표·설계이며, 임상 확인은 다음 단계입니다.
+- **Still at design stage** — of 248 claims, 69 carry strong internal evidence (🔵+🟢), and **9 must be confirmed by wet-lab experiment**.
+- **Delivery** of CRISPR to the ganglia, and its in-vivo efficiency, is the key gate that experiment must prove.
+- "Cure" is the goal and the design; clinical confirmation is the next step.
 
 ---
 
-*출처: demiurge `domains/HERPES/` (M1 게놈잠복 · M2 reservoir · M3 크로마틴 · V1/V4 등급 ledger).*
+*Source: demiurge `domains/HERPES/` (M1 genome latency · M2 reservoir · M3 chromatin · V1/V4 graded ledger).*

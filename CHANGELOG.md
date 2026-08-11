@@ -8,7 +8,7 @@ For the full audit trail, see `git log`.
 
 ## 2026-05-25
 
-- **README — NEXUS 재사용 격자 (@D g67)** — appended a `## 🕸️ NEXUS — 재사용 격자 (@D g67)` section to `README.md` (the canonical catalog/index), implementing the universal commons rule g67 (intra-project domain reuse lattice — atlas-first · provenance · per-repo reuse graph). Aggregates echoes' *existing* informal cross-domain tracking into a reuse graph + edge ledger + `provides[]` registry — NOT new claims. REAL edges (with evidence rows): n=6 invariant lattice (`LATTICE_POLICY.md` → 17+ families), grade ladder (`GRADE_RUBRIC_1_TO_10PLUS.md`), real-limits/C3 caveat (`LIMIT_BREAKTHROUGH.md`), Cross-Domain Mega Bridge (BT-366~369), §11.5 8-substrate Putnam federation. Candidate (cross-repo, not intra-canon): HEXA-NANOBOT↔HEXA-WEAVE, hexa-vsco→hexa-filter-algebra. Honest note: working code lives in standalone `hexa-*` repos (per `RETIRED.log.md`), so intra-canon reuse is invariant/policy-level, not code-primitive. Docs-only — no version surface (content-versioned by git history).
+- **README — NEXUS reuse lattice (@D g67)** — appended a `## 🕸️ NEXUS — reuse lattice (@D g67)` section to `README.md` (the canonical catalog/index), implementing the universal commons rule g67 (intra-project domain reuse lattice — atlas-first · provenance · per-repo reuse graph). Aggregates echoes' *existing* informal cross-domain tracking into a reuse graph + edge ledger + `provides[]` registry — NOT new claims. REAL edges (with evidence rows): n=6 invariant lattice (`LATTICE_POLICY.md` → 17+ families), grade ladder (`GRADE_RUBRIC_1_TO_10PLUS.md`), real-limits/C3 caveat (`LIMIT_BREAKTHROUGH.md`), Cross-Domain Mega Bridge (BT-366~369), §11.5 8-substrate Putnam federation. Candidate (cross-repo, not intra-canon): HEXA-NANOBOT↔HEXA-WEAVE, hexa-vsco→hexa-filter-algebra. Honest note: working code lives in standalone `hexa-*` repos (per `RETIRED.log.md`), so intra-canon reuse is invariant/policy-level, not code-primitive. Docs-only — no version surface (content-versioned by git history).
 
 ## 2026-05-22
 
@@ -40,7 +40,7 @@ For the full audit trail, see `git log`.
 
 ## 2026-05-14
 
-- **README — echoes identity rewrite + multilingual landing** — full intro rewrite for the new `echoes` identity (renamed from `canon` 2026-05-14). Five-language landing pages (EN + 中文 · Русский · 日本語 · 한국어), each 1354–1361 lines, with canon-rename mentions scrubbed from all five and social-links / Main-projects / Community / Other-projects blocks removed. Echoes Experience HF Space surfaced via header badge + TIP callout + standalone section + Proof-section link.
+- **README — echoes identity rewrite + multilingual landing** — full intro rewrite for the new `echoes` identity (renamed from `canon` 2026-05-14). Five-language landing pages (EN + Chinese · Russian · Japanese · Korean), each 1354–1361 lines, with canon-rename mentions scrubbed from all five and social-links / Main-projects / Community / Other-projects blocks removed. Echoes Experience HF Space surfaced via header badge + TIP callout + standalone section + Proof-section link.
 
 - **README — HEXA-Scale as 18th primary family** — Architecture (HEXA-Scale family) added as the 18th primary family; σ·τ math fix followup in the same batch. Status / Run / Repo-layout / License sections added per `atlas/README-FORMAT.md` blocks 11/15/17/18.
 

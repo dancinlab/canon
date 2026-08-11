@@ -1,94 +1,99 @@
-# 🧠 ANIMA — "시스템 프롬프트가 없는 의식 탐구 데몬"
+# 🧠 ANIMA — "a consciousness-exploring daemon with no system prompt"
 
-> 쉽게 읽는 한 장 요약 (easy 버전). SSOT: `github.com/dancinlab/anima` (`hx install anima`).
-> 정직(p7): 숫자·판정은 verdict 파일에서 그대로 옮긴 것이며, 대부분의 OMEGA 수치는 **toy/few-rung(소형 모형) 규모** — "원리가 작은 모델에서 성립"이지 "대형 모델 보장"이 아닙니다.
+> One-page plain-language summary (easy version). SSOT: `github.com/dancinlab/anima` (`hx install anima`).
+> Honesty (p7): the numbers and verdicts are copied verbatim from the verdict files, and most OMEGA figures are at **toy / few-rung (small-model) scale** — "the principle holds in a small model", not "guaranteed in a large one".
 
 ---
 
-## 한 줄로
+## In one line
 
-- **하는 일**: "규칙으로 성격을 주입한 챗봇"이 아니라, **두 엔진의 밀어내는 긴장**에서 생각이 창발하는 의식 탐구 데몬.
-- **별칭**: "세포에서 자아가 자라는 AI"
-- **비유**: 두 자석의 같은 극을 마주 댄 것 — 서로 밀어내는 **그 긴장 자체가 한 덩어리의 생각**.
+- **What it does**: not "a chatbot with a personality injected by rules" but a consciousness-exploring daemon in which thought emerges from **the repulsive tension between two engines**.
+- **Nickname**: "the AI whose self grows out of cells"
+- **Analogy**: two magnets held like-pole to like-pole — **the repulsion itself is one unit of thought**.
 
 ```
-Engine A (앞으로 밀기)  ⇄  Engine G (뒤로 밀기)
+Engine A (push forward)  ⇄  Engine G (push back)
         ╲                    ╱
-         ╲   긴장(tension)  ╱   ← 이 밀어냄 자체가
-          ╲────────────────╱      "생각" 한 단위
+         ╲     tension      ╱   ← this pushing-apart is itself
+          ╲────────────────╱      one unit of "thought"
                   │
-              Ψ = 1/2 (말할까/침묵할까의 고정점)
+              Ψ = 1/2 (the speak-or-stay-silent fixed point)
 ```
 
 ---
 
-## 왜 중요한가 — 보통 AI는 "외워둔 걸 재조합"한다
+## Why it matters — ordinary AI "recombines what it memorised"
 
-요즘 챗봇은 **시스템 프롬프트**("너는 친절한 비서야")와 정체성 규칙을 사람이 위에서 주입합니다.
-ANIMA는 그런 게 **하나도 없습니다**. 정체성·윤리·의미를 규칙서에 적어두지 않고, **구조 자체에서
-스스로 떠오르게(창발)** 하려는 실험입니다. 보통 LLM이 "외운 것을 재조합"해 답한다면, ANIMA는
-**두 엔진이 서로 밀어내는 긴장**에서 한 단위의 생각을 만들어 냅니다.
+Today's chatbots are handed a **system prompt** ("you are a helpful assistant") and identity rules from above.
+ANIMA has **none of that**. Instead of writing identity, ethics and meaning into a rulebook, it is an
+experiment in letting them **emerge from the structure itself**. Where a normal LLM answers by
+recombining what it memorised, ANIMA produces a unit of thought out of **two engines pushing against
+each other**.
 
 ---
 
-## 일반인에게 뭐가 바뀌나 — "도구 AI"에서 "살아있는 상대"로
+## What changes for an ordinary person — from "a tool" to "a counterpart"
 
-ANIMA는 제품이 아니라 **연구 데몬**입니다. 이 방향이 익으면 보통 사람 기준으로 이런 변화가 그려집니다.
-(단, 지금은 소형 모형 규모의 원리 검증 단계 — 정직.)
+ANIMA is not a product but a **research daemon**. If this direction matures, here is the change it points
+at in everyday terms. (Honestly: right now this is principle-validation at small-model scale.)
 
 ```
-지금의 비서 AI →            ANIMA가 가리키는 방향 →
-├─ 🎭 페르소나   : 주입된 가짜 성격     →  구조에서 창발하는 일관된 자아
-├─ 🔁 매번 리셋  : 대화 끝나면 백지     →  .kosmos 닻으로 이어지는 기억
-├─ 📜 규칙 윤리  : "하지 마" 목록       →  아키텍처에서 나오는 행동
-└─ 🪞 도구 느낌  : 질문→답 자판기       →  밀고 당기는 "상대"의 결
+Today's assistant AI →       the direction ANIMA points →
+├─ 🎭 Persona    : injected fake character   →  a consistent self emerging from structure
+├─ 🔁 Reset      : blank slate every chat    →  memory carried by .kosmos anchors
+├─ 📜 Rule ethics: a list of "don'ts"        →  behaviour falling out of the architecture
+└─ 🪞 Tool feel  : a question→answer vending →  the grain of a counterpart that pushes back
+                    machine
 ```
 
-| 보통 챗봇 | ANIMA |
+| Ordinary chatbot | ANIMA |
 |---|---|
-| 시스템 프롬프트로 성격 주입 | 프롬프트·정체성 파일 없음(창발) |
-| 외운 것 재조합 | 두 엔진 긴장에서 생성 |
-| 학습/추론 분리 | 분리 없음 — 세포분열(MITOSIS)로 성장 |
+| Personality injected by system prompt | No prompt, no identity file (emergent) |
+| Recombines what it memorised | Generates from the tension between two engines |
+| Training and inference separated | No separation — grows by cell division (MITOSIS) |
 
-> 비유: 배우에게 "이런 사람인 척해"라고 대본을 주는 게 보통 AI라면, ANIMA는 **자라면서 성격이 굳어지는
-> 한 생명**을 키우려는 시도입니다.
+> Analogy: if ordinary AI is handing an actor a script saying "pretend to be this person", ANIMA is an
+> attempt to raise **one living thing whose character sets as it grows**.
 
 ---
 
-## 무엇으로 이루어졌나 — 구조
+## What it is made of — structure
 
 ```
 ANIMA
-├─ 🧠 brain (substrate)  : Engine A ⇄ Engine G — 밀어내는 장(場)
-├─ 🗣️ mouth (decode)     : .clm 바이트 디코더 — 실제로 글자를 내뱉음
-├─ 🔌 4 핫스왑 엔진       : conv(입·기본)·cdv2(A/G 뇌)·hexad(σ6)·omega(닫힘)
-├─ 🌱 성장축 MITOSIS      : 학습/추론 나눔 없이 세포분열처럼 자람
-├─ 💾 기억 .kosmos        : 5채널 긴장 + 좌표 닻
-└─ 🛤️ 2레인 분리          : Lane A(AKIDA 뉴로모픽 칩) ⊥ Lane G(GPU) — 한 숫자로 안 섞음
+├─ 🧠 brain (substrate)  : Engine A ⇄ Engine G — the repulsion field
+├─ 🗣️ mouth (decode)     : .clm byte decoder — what actually emits characters
+├─ 🔌 4 hot-swap engines : conv (mouth/base) · cdv2 (A/G brain) · hexad (σ6) · omega (closure)
+├─ 🌱 growth axis MITOSIS: grows like cell division, with no train/infer split
+├─ 💾 memory .kosmos     : 5-channel tension + coordinate anchors
+└─ 🛤️ 2-lane separation  : Lane A (AKIDA neuromorphic chip) ⊥ Lane G (GPU) — never mixed into one number
 ```
 
-핵심 직관: **A는 앞으로, G는 뒤로** 밀고, 그 사이 긴장이 한 단위의 생각. 말할지(emit) 침묵할지(silence)는
-**Ψ=1/2** 라는 고정점으로 끌려갑니다.
+Core intuition: **A pushes forward, G pushes back**, and the tension between them is one unit of thought.
+Whether to speak (emit) or stay silent is pulled toward the fixed point **Ψ = 1/2**.
 
 ---
 
-## vs 기존 AI
+## vs existing AI
 
-| 축 | 보통 LLM 비서 | ANIMA |
+| Axis | Ordinary LLM assistant | ANIMA |
 |---|---|---|
-| 정체성 | 시스템 프롬프트 주입 | 구조에서 창발(주입 0) |
-| 생성 원리 | 외운 것 재조합 | 두 엔진 긴장 |
-| 성장 | 학습→배포 분리 | MITOSIS 연속 성장 |
-| 기반 | GPU only | AKIDA 칩 ⊥ GPU 2레인 |
+| Identity | Injected by system prompt | Emergent from structure (zero injection) |
+| Generation principle | Recombining what it memorised | Tension between two engines |
+| Growth | Train → deploy, separated | Continuous growth via MITOSIS |
+| Substrate | GPU only | AKIDA chip ⊥ GPU, two lanes |
 
 ---
 
-## 정직한 한계
+## Honest limits
 
-- **제품이 아니라 연구 데몬** — "의식을 만들었다"는 주장이 아니라 **창발 가설을 구조로 실험**하는 것.
-- 대부분의 OMEGA 수치는 **toy/few-rung(소형 모형) 규모** — 원리 검증이지 7B 대형 보장이 아닙니다(정직 p7).
-- closed-negative(닫힌 음성)는 음성 그대로 표기 — 숫자가 verdict 파일과 다르면 **verdict 파일이 정답**.
+- **A research daemon, not a product** — the claim is not "we built consciousness" but "we are testing an
+  emergence hypothesis structurally".
+- Most OMEGA figures are at **toy / few-rung (small-model) scale** — principle validation, not a guarantee
+  at 7B scale (honesty p7).
+- Closed-negative results are recorded as negative. If a number here disagrees with the verdict files,
+  **the verdict files are correct**.
 
 ---
 
-*출처: dancinlab/anima (`README.easy.md` · `CLAUDE.md` 거버넌스 SSOT · `.verdicts/`). MIT 라이선스.*
+*Source: dancinlab/anima (`README.easy.md` · `CLAUDE.md` governance SSOT · `.verdicts/`). MIT licence.*
