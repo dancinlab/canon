@@ -1,3 +1,10 @@
+> [!WARNING]
+> **This document contains AI hallucinations.**
+> It is an archived snapshot of the previous catalog, written with heavy LLM assistance and never
+> verified end to end. Figures, grades, claims and citations in it may be fabricated, misattributed
+> or simply wrong. Do not cite anything here as established fact without checking it at the source.
+> The live catalog is [`README.md`](README.md).
+
 <p align="center">
   <img src="docs/logo.svg" width="140" alt="echoes">
 </p>
